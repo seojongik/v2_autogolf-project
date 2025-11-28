@@ -1,0 +1,31 @@
+{
+  "table_name": "v2_salary_manager",
+  "row_count": 1,
+  "backup_timestamp": "2025-11-28T21:46:35.220492",
+  "data": [
+    {
+      "branch_id": "test",
+      "manager_id": 2,
+      "manager_name": "고민정",
+      "year": 2025,
+      "month": "8",
+      "salary_status": "세무사검토",
+      "contract_type": "프리랜서",
+      "salary_base": 150000,
+      "salary_hour": 108000,
+      "severance_pay": 0,
+      "salary_total": 268000,
+      "four_insure": 0,
+      "income_tax": 0,
+      "business_income_tax": 121,
+      "local_tax": 0,
+      "other_deduction": 212,
+      "deduction_sum": 333,
+      "salary_net": 267667,
+      "updated_at": "2025-08-31T18:43:31",
+      "tax_status": "",
+      "tax_office": "가나다 세무사1",
+      "tax_office_mail": "jongik.suh@gmail.com"
+    }
+  ]
+}

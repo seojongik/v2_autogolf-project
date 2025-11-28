@@ -1,0 +1,119 @@
+{
+  "table_name": "Locker_status",
+  "columns": [
+    {
+      "Field": "locker_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": "auto_increment"
+    },
+    {
+      "Field": "locker_zone",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "locker_type",
+      "Type": "varchar(10)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "locker_price",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "locker_discount_condition_min",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "locker_discount_ratio",
+      "Type": "decimal(10,2)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "registered_at",
+      "Type": "timestamp",
+      "Null": "YES",
+      "Key": "",
+      "Default": "current_timestamp()",
+      "Extra": "on update current_timestamp()"
+    },
+    {
+      "Field": "locker_start_date",
+      "Type": "date",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "locker_remark",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "staff_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `Locker_status` (\n  `locker_id` int(11) NOT NULL AUTO_INCREMENT,\n  `locker_zone` varchar(20) DEFAULT NULL,\n  `locker_type` varchar(10) NOT NULL,\n  `locker_price` int(11) DEFAULT NULL,\n  `member_id` int(11) DEFAULT NULL,\n  `locker_discount_condition_min` int(11) DEFAULT NULL,\n  `locker_discount_ratio` decimal(10,2) DEFAULT NULL,\n  `registered_at` timestamp NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),\n  `locker_start_date` date DEFAULT NULL,\n  `locker_remark` varchar(100) DEFAULT NULL,\n  `staff_id` int(11) DEFAULT NULL,\n  `branch_id` varchar(20) DEFAULT NULL,\n  PRIMARY KEY (`locker_id`)\n) ENGINE=InnoDB AUTO_INCREMENT=157 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [
+    {
+      "Table": "Locker_status",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "locker_id",
+      "Collation": "A",
+      "Cardinality": 156,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-27T21:08:14.780409"
+}

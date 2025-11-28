@@ -1,0 +1,157 @@
+{
+  "table_name": "LS_orders",
+  "columns": [
+    {
+      "Field": "LS_order_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": "auto_increment"
+    },
+    {
+      "Field": "LS_order_type",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "staff_nickname",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "LS_id",
+      "Type": "varchar(30)",
+      "Null": "NO",
+      "Key": "UNI",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "LS_date",
+      "Type": "date",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "LS_order_source",
+      "Type": "varchar(15)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "LS_start_time",
+      "Type": "time",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "LS_end_time",
+      "Type": "time",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "LS_duration",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "junior_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "LS_category",
+      "Type": "varchar(20)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "LS_order_qty",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "updated_at",
+      "Type": "timestamp",
+      "Null": "NO",
+      "Key": "",
+      "Default": "current_timestamp()",
+      "Extra": "on update current_timestamp()"
+    },
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `LS_orders` (\n  `LS_order_id` int(11) NOT NULL AUTO_INCREMENT,\n  `LS_order_type` varchar(20) DEFAULT NULL,\n  `staff_nickname` varchar(10) DEFAULT NULL,\n  `LS_id` varchar(30) NOT NULL,\n  `LS_date` date NOT NULL,\n  `LS_order_source` varchar(15) NOT NULL,\n  `LS_start_time` time NOT NULL,\n  `LS_end_time` time NOT NULL,\n  `LS_duration` int(11) NOT NULL,\n  `member_id` int(11) DEFAULT NULL,\n  `junior_id` int(11) DEFAULT NULL,\n  `LS_category` varchar(20) NOT NULL,\n  `LS_order_qty` int(11) NOT NULL,\n  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),\n  `branch_id` varchar(20) DEFAULT NULL,\n  PRIMARY KEY (`LS_order_id`),\n  UNIQUE KEY `LS_id` (`LS_id`)\n) ENGINE=InnoDB AUTO_INCREMENT=15342 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [
+    {
+      "Table": "LS_orders",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "LS_order_id",
+      "Collation": "A",
+      "Cardinality": 12780,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    },
+    {
+      "Table": "LS_orders",
+      "Non_unique": 0,
+      "Key_name": "LS_id",
+      "Seq_in_index": 1,
+      "Column_name": "LS_id",
+      "Collation": "A",
+      "Cardinality": 12780,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-27T21:08:14.081996"
+}

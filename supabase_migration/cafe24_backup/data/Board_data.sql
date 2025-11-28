@@ -1,0 +1,6943 @@
+-- Table: Board
+-- Backup Date: 2025-11-27T21:08:10.524451
+-- Row Count: 1845
+
+SET FOREIGN_KEY_CHECKS=0;
+
+TRUNCATE TABLE `Board`;
+
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (12, '25-03-16 상담기록', '구분 : 방문상담
+고객명 : 박태준
+전화번호 : 010-4068-4491
+특기사항 : 손유경(0906) 회원지인소개 등록, 일단 15만 크레딧으로 시작해보고 추후 더 큰금액으로 결제예정/소개크레딧 15,000c씩 적립해드림', 5, '2025-03-16T07:56:15', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (13, 'FMS인증처리 필요', '25.03.20 톡스토어 구매 레슨권 FMS인증 및 회원권 지급처리 필요', 1, '2025-03-20T15:42:20', '2025-06-14T19:35:01', '회원요청', 582, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (14, '25.04.11 유료필드레슨-이재윤 프로', '25.04.11 금요일 06;07 티오프
+클럽72
+참석자 ; 권정수, 이병주, 정연미
+
+레슨비 20만원', 2, '2025-03-30T15:48:59', '2025-06-14T19:35:01', '이벤트기획', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (23, '4월 18일 이재윤프로 유료필드레슨', '4월 18일 이재윤프로 유료필드레슨 (클럽 726시 티오프)
+
+김현주님, 이고운님, 김세정님 입금처리 확인필요
+
+레슨비: 20만원 ', 2, '2025-04-07T14:15:20', '2025-06-14T19:35:01', '이벤트기획', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (24, '전달사항 이전', '손태호님 주차 때문에 재등록 고민이셔서 대표님께서 다음 이용하시면 락커 무료 이용하시게끔 안내해 주시라고 하셔서 말씀드려 재등록 하셨습니다. 유효기간 무기한, 락커 상부장(111번) 무료 이용 안내해 드렸습니다.
+
+그리고 손태호님께서 탁상달력 필요하시면 말씀해 달라고 하십니다~', 12, '2023-12-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 128, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (25, '전달사항 이전', '조은별회원(안규현주니어) 레슨 보강, 타석할인등에 있어서 이슈가 있었습니다. 채널로 내용확인 한번 부탁드리며, 목동맘할인같이 요청해야 해드리는 할인은 요청시에만 할인 부탁드립니다. 배려해서 해드려도 다음에 똑같지 받지못하면 컴플레인으로 돌아오니 할인,서비스등에 대한 것은 매장 규정대로 동일하게 부탁드립니다. 잔여3회 3주동안 소진 또는 크레딧 환불로 가능하다고 안내드렸고 답변이 오면 처리 부탁드립니다. ', 2, '2024-03-26T09:00:00', '2025-06-14T19:35:01', '회원요청', 214, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (26, '전달사항 이전', '임종범님 건강문제로 당분간 못오신다 하시고 라커도 미이용하신다 합니다.(현재 비어있음 47번) 임종범님 비타민 라커 미이용으로 변경하였고, 와이프분 박정화회원님 크레딧으로 7월분 미결제 11800 차감하였습니다. 박정화님 전화오셨는데, 라커 월단위 차감이라고 잘 안내드렸습니다. ', 2, '2024-07-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 207, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (27, '전달사항 이전', '어제 김영대님께서 7번 타석에서 이용하시는데(자녀분이 이용) 고무티 안에 개인 나무티(쇼케이스 위에 있습니다)를 이용하셔서 대표님과 현우실장님께서 힘들게 고치셨다고 하십니다. 다음 방문하실 때 타석 고장났어서 개인 티 이용 절대 불가하고 같은 문제 반복 시 매장 이용이 어려울 수 있다고 강력하게 말씀 전달해 달라고 하십니다!
+
+***전달 완료된 내용은 메모와 함께 완료처리 부탁드립니다!', 12, '2024-07-14T09:00:00', '2025-06-14T19:35:01', '회원요청', 299, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (28, '전달사항 이전', '김영대님 나무티 사용하시는 장면 김현우 카톡 보시면 있습니다.', 3, '2024-08-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 299, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (29, '전달사항 이전', '김주리님 환불 관련 사항
+
+1) 매장 기준대로 환불 2) 법적 판단을 구해서 환불 3) 레슨 유효기간 무제한
+
+중 선택으로 안내 하였습니다.
+
+안내는 하였으나 김주리님께서 전화나 방문하시면 사전안내 하지 말고 서면으로 보내 달라고 요청해주시고 모든 사항은 대표님께서 직접 채널를 통해 안내해 드릴 예정입니다.', 3, '2024-09-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 433, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (30, '전달사항 이전', '배준영(376) 010-7142-7898 환불금액 계산해서 카톡으로 보내달라고 하셔서 확인해보고 연락드린다고 했습니다.', 5, '2024-10-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 376, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (31, '전달사항 이전', '김린아 주니어레슨 잔여 5회 환불 요청하셨는데, 크레딧 환불 가능하고 1회분 65,000크레딧으로 5회사용분 차감하여 환불가능하다고 안내는 드렸으나, 현금 환불 요청하셔서 대표님 논의한다고 시간을 끈 상황입니다. 다시 연락오면 현금은 안되고 크레딧환불만 가능하다고 안내드리고 컴플레인 강하게 하시면 대표님 의논 부탁드립니다. 유효기간이 없어서 천천히 쓰시면 된다고 안내 부탁드립니다. 크레딧 환불 괜찮다하시면 레슨북 5회 빼고, 비타민에서 225,000 적립(내용: 주니어환불)로 부탁드립니다. ', 2, '2024-10-23T09:00:00', '2025-06-14T19:35:01', '회원요청', 426, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (32, '전달사항 이전', '송성균님 금일까지 재등록 안하셔서 락커 정리 도와드렸습니다. 락커 번호 11번이고 송성균님 메모에도 적어두었습니다.
+락커에 있는 짐은 마땅히 넣어둘 곳이 없어 창고 안 의자 밑에 두었습니다. ', 12, '2024-10-27T09:00:00', '2025-06-14T19:35:01', '회원요청', 269, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (33, '전달사항 이전', '595이현우님(여자분) 엘보,팔통증으로 환불요청. 패키지 2번 사용하심.사용후 환불불가, 양도권유, 유효기간 무기한 해드린다 설명했으나 환불만 고집하셨는데 논의해봐야한다하고 돌려보냈습니다. 월요일쯤 다시 연락올것 같은데 환불은 규정상 불가하고 당근같은 곳에서 양도자분 찾는것이 가장 빠를것 같다고 안내 부탁드리고, 정식 환불요청은 채널로 남겨달라고 요청 부탁드립니다. ', 2, '2024-11-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 595, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (34, '전달사항 이전', '고마루 주니어 하늘색 나이키 점퍼 두고가서 다음 주에 찾으러 오신다고 하여 분실물 창고에 넣어두었습니다.', 12, '2024-11-03T09:00:00', '2025-06-14T19:35:01', '회원요청', 517, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (35, '전달사항 이전', '김종화님 미션이벤트 시작하셨는데 박은희님이 대신 20,30미터 성공 사진 보내주셨는데 양식에는 안맞지만 인정해드리기로 했습니다. (평소에 컴플레인 많으신 분입니다) 앞으로는 양식에 맞게 본인이 보내달라고 안내문 보내드렸습니다. 김종화님 이벤트지 다 했다고 전달 주시면 20,30 두개는 인정으로 부탁드립니다. 이벤트지 해당칸에  \'박은희님 채널\'이라고 적어두었습니다. ', 2, '2024-11-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 232, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (36, '전달사항 이전', '214. 조은별님 환불 요청하셨습니다. 작년 12월 환불 가능 상품으로 구매하시긴 하셨는데 이용 전이실 때만 전액 환불 가능이고 이용 후는 환불 수수료 10% 와 프로모션으로 받으신 20만 크레딧, 이벤트로 받으신 7만5천 크레딧도 제외하고 환불 가능하셔서 양도로 하시는 게 유리하시다고 안내해 드렸습니다. 조은별님께서 프로모션 금액 제외는 알겠다고 하셨는데 환불 수수료는 너무 과하시다고 등록하실 때 전액 환불 가능하다고 하셔서 등록한 거였고 중요한 내용이였으면 약관에 기재되어있어도 등록 때 전달해 주셨어야 하는 거 아니냐는 입장이십니다. 양도도 알아보신다고 하였으나 환불 수수료에 대해서 다시 한 번 논의해 달라고 하십니다. 원칙적으로 대응하였고 대표님께도 전달드렸습니다. 
+
+조은별님 연락오시면 대표님과 카톡 내용도 참고 부탁드립니다. 상담 등록 신청서도 쇼케이스 위에 올려두었습니다. ', 12, '2024-11-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 214, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (37, '전달사항 이전', '537. 유민영님 이용하시는 146번 하부장 락커 고장으로 인해 수리 될 때까지 9번 상부장으로 이용하셔야 하셔서 이번 달 락커 추가 50% 할인으로 적립 7,500 도와드리고 수리되는대로 바로 이동 도와드리겠다고 안내 도와드렸습니다.(락커 비밀번호는 전화번호 뒷자리로 잠궈놓았습니다.)
+
+*고장내용 - 번호 설정 후 잠그면 소리만 나고 문은 계속된 삐삐빅 소리와 함께 닫히지 않고 열림. 예진몰 가구에 고장 내용 전달 완료.
+ 
+락커 수리는 바로는 못오시고 2-3일내로 방문하셔서 수리해 주신다고 하십니다. (예진몰 가구 010 7154 0203)', 12, '2024-12-11T09:00:00', '2025-06-14T19:35:01', '기기문제', 537, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (38, '전달사항 이전', '김태윤 프로님 요청사항입니다.
+체험 시 특별한 사유가 없을 경우에는 월요일로 체험 예약 부탁드립니다.
+
+이금숙님 체험 레슨 노쇼입니다.', 3, '2024-12-13T09:00:00', '2025-06-14T19:35:01', '회원요청', 222, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (39, '전달사항 이전', '228.박종규 회원님 산부인과 의사신데 급히 분만하러 가신다고 예약1시간 전 취소 요청. 오늘 오전 7시에도 방문하셨고 재방문 이신거라 처리 도와 드렸습니다. 3시간전 무료 취소 안내(인지하고 계심)하고, 추후에는 취소 불가 할 수 있다는것 안내 드렸습니다. ', 4, '2024-12-25T09:00:00', '2025-06-14T19:35:01', '회원요청', 228, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (40, '전달사항 이전', '혜원매니져님, 김지희님 지갑 안들고 오셔서 재등록 못하시고, 26일 예약해두었다고 오셔서 현금결제 하신다 했습니다. 13시대 오시니 재등록 해드리고, 25일 이용분(13:50~14:40) 15,500크레딧 수동차감도 부탁드립니다.', 2, '2024-12-25T09:00:00', '2025-06-14T19:35:01', '회원요청', 601, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (41, '전달사항 이전', '이금숙님 타석 재등록 하시면서 김태윤 프로님께 레슨 체험 요청하셨습니다.
+김태윤 프로님과 스타일이 맞으면 바로 레슨 등록 하신다고 하십니다.
+이번주 금요일(27일)에 휴가라서 체험을 원하시는데 김태윤 프로님께 가능한지 확인 부탁드리며 가능하시면 이금숙님께 안내 부탁드립니다. ', 3, '2024-12-25T09:00:00', '2025-06-14T19:35:01', '회원요청', 222, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (42, '전달사항 이전', '204 김기훈님 224 강석명님의 잔여 레슨권 15회 양도 받으시기로 하셨습니다. 
+무기한 이벤트 12/31 종료 안내 해 드려 레슨권 재등록도 예정이십니다.
+12/31 방문 예정이며, 몇시에 오실지 몰라 양도신청서는 출력해서 프린터기 위에 올려두었습니다.', 4, '2024-12-30T09:00:00', '2025-06-14T19:35:01', '회원요청', 204, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (43, '전달사항 이전', '김태윤 프로님한테 받던 최수아님 시간관계상 프로 변경 요청하셨습니다. 다음주에 새로 레슨권 등록하고 이재윤프로님으로 변경한다고 합니다. 등록하면 이재윤 프로님으로 지정 부탁드립니다. ', 2, '2025-01-17T09:00:00', '2025-06-14T19:35:01', '회원요청', 308, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (44, '전달사항 이전', '서랍에 441.이해영님 휴대폰 있습니다.', 3, '2025-01-25T09:00:00', '2025-06-14T19:35:01', '회원요청', 441, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (45, '전달사항 이전', '배준우 회원님 회원권 등록후 리뷰 작성시 동영상 업로드가 안되어 사진 리뷰로 일단 하셨는데 댁에 가셔서 동영상 업로드 재시도 예정이십니다. 사진 리뷰 1만 크레딧은 적립 하였습니다.', 4, '2025-01-25T09:00:00', '2025-06-14T19:35:01', '회원요청', 405, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (46, '전달사항 이전', '27일 15시에 이용하신 김경남님께서 타석 이용에 불편함으로 인해 단독 타석 쿠폰 보내드렸습니다.
+혹시 이용 후 차감이 되는지 확인 부탁드리며 차감이 되면 재적립 부탁드립니다.', 3, '2025-01-27T09:00:00', '2025-06-14T19:35:01', '회원요청', 336, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (47, '전달사항 이전', '양형환(1806) 웰빙클럽 토요일 무인시간대 키오스크 오류로 타석이용불가 매장에서 장시간대기로 인해 추후에 토요일 오전 무인시간대에 이용을 원하실 경우 전날에 채널로 문의주면 예약 해드리는 걸로 대표님이 진행하자고 하셨습니다! 회원님한테도 전달 완료입니다. ', 5, '2025-02-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 399, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (48, '전달사항 이전', '이제욱님 톡스토어로 프렌즈10 구매하셔서 오시면 인증 부탁드립니다. 기존 유효기간 만료된 레슨권 4회 2월 말까지로 해두어서 예약은 가능하십니다. 오시면 인증+잔여레슨권 합치는것까지 부탁드립니다. ', 2, '2025-02-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 322, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (49, '전달사항 이전', '라커 재등록 후 차감 대상
+590.홍인숙님 20,000c', 3, '2025-02-08T09:00:00', '2025-06-14T19:35:01', '회원요청', 590, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (50, '전달사항 이전', '라커 재등록 후 차감 대상
+71. 이승아님 30,000c
+71.이승아님은 최근 1년간 연습 이용이 없습니다.(오픈 때 등록 하셔서 유효기간 만료)
+ 사물함에는 아무것도 없습니다.
+ 하부장 대기 회원이 없는 관계로 다음주에 채널로 부족 안내 후에 그 다음주에는 이용 해지 안내하겠습니다.', 3, '2025-02-08T09:00:00', '2025-06-14T19:35:01', '회원요청', 71, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (51, '전달사항 이전', '620.석지민 회원님 레슨 예약 잡아드리고 오셔서 레슨 진행-레슨권 등록 완료 하셨습니다. Fms회원인증을 안해서 빨간색으로 남아 횟수 수동차감 1회 하였고, 비타민에도 메모 남겨두었습니다. 프로님 레슨 프로그램에서 확인 선택이 안되어 프로님께도 내용 전달 드렸습니다.', 4, '2025-02-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 620, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (52, '전달사항 이전', '우원근 회원님 레슨 예약 힘든것에 컴플레인 하셨습니다. 일단 3월은 목 1시15분에 데스크에서 예약을 다 잡아두었고 회원님이 못오시면 미리 연락주신다 하셨습니다. 혜원매니져님 이용전 fms인증 부탁드립니다. ', 2, '2025-02-21T09:00:00', '2025-06-14T19:35:01', '회원요청', 177, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (53, '전달사항 이전', '김원석님(7427) 머플러 분실물 창고 왼쪽 분실물 두는 곳에 두겠습니다. 오시면 전달 부탁드립니다. ', 2, '2025-02-23T09:00:00', '2025-06-14T19:35:01', '회원요청', 665, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (54, '전달사항 이전', '450.최광욱 회원님 디스크와 이사 문제로 환불 가능여부 문의 하셔서 약관 기준으로 환불 불가와 양도수수료에 대한 안내 해드렸습니다. 
+(이사후 이용 가능하시다면 유효기간 무기한으로 충분한 치료 후 이용 or 가족양도 불가시 양도 처리시 양수인과 서류 정리 필요함 안내)', 4, '2025-02-24T09:00:00', '2025-06-14T19:35:01', '회원요청', 450, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (55, '전달사항 이전', '61.박윤정 회원님 오전 6시 두타석 동시 로그인이 안되어 한타석밖에 이용 못하셨다고 하십니다. (타석 차감 내역 확인하고 재적립 해드리기로 함.)
+- 무인시간대 두 타석 동시 로그인 불가한 상황을 대비하여 박윤정 회원님 두타석 이용 원하실 때 채널로 예약 받기로 하였습니다. 연락 오시면 타석 두개 예약 해 주시고, 수동 차감 하는걸로 하신다고 합니다.', 4, '2025-02-25T09:00:00', '2025-06-14T19:35:01', '회원요청', 61, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (56, '전달사항 이전', '배준영 회원님 무인시간대(오전 6시반) 타석 2개 예약으로 잘못 되어 채널로 취소 요청 하셨었습니다. 타석 차감 내역 확인하고 재적립 해드리기로 하였습니다. 차감내용 확인해서 두타석의 조조적용 여부, 차감금액 확인이 필요합니다.', 4, '2025-02-26T09:00:00', '2025-06-14T19:35:01', '회원요청', 376, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (57, '전달사항 이전', '현우실장님, 임상혁님께서 임승현주니어용 라커 요청하셨는데 사무실이 포화라 보관이 힘들어서 상부장 여유가 있을때까지 100프로 할인으로 적용해드리기로 했습니다. (부모님이 할인조건 충족시) 61번으로 배정하고 비타민에 메모 남겨두었습니다. ', 2, '2025-03-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 629, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (58, '전달사항 이전', '박영선 회원님 락커 94 -> 143으로 변경 (네임택이 너무 안빠짐..) 과금조정 부탁요', 10, '2025-03-03T09:00:00', '2025-06-14T19:35:01', '회원요청', 26, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (59, '전달사항 이전', '이성빈 주니어 유선요청으로 레슨북 예약진행 완료, 결제는 3/4 방문시 할아버지가 한다고 하심. 톡스토어도 안내는 함', 10, '2025-03-03T09:00:00', '2025-06-14T19:35:01', '회원요청', 648, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (60, '전달사항 이전', '3월 7일 금요일 이재윤프로님 정춘화회원님 모시고 필드에서 매장 오시면 이지수,김라윤 부모님께서 프로님께 직접 여쭤봤을때 수5시 수업이 가능하다고 하셨던거 같다고 문의주셔서…이프로님께 한번 물어봐주시고 이해영님께 유선안내 부탁드립니다. 학원스케줄이 바뀌어 기존 하던 화요일 저녁이 힘들다고 합니다.', 2, '2025-03-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 441, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (61, '전달사항 이전', '555.오은영 회원님(조조기간제) 수술로 유효기간은 연장한 이력이 있으신데 비타민에 조조 날짜 적용이 되어있지 않았습니다. 메모 상으로는 6주+1개월+1개월 총 3개월2주 연장으로 이해되는데, fms는 2개월 2주 연장되어 5/16 만료, 비타민에는 기존만료날짜 3/2로 되어있어 조조적용을 위해 비타민 조조 날짜를 5/16로 수정해 두었습니다. 잔여크레딧은 96인것으로 확인됩니다. 혹시 유효기간 연장 수정 하셨던 분 계시면 날짜 한번만 더 체크해 봐주시길 부탁 드립니다. ', 4, '2025-03-12T09:00:00', '2025-06-14T19:35:01', '회원요청', 555, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (62, '전달사항 이전', '혜원매니져님, 우원근님 내일 오시면 이번달 레슨 잡아둔것(목 1:15) fms인증 전부 부탁드립니다', 2, '2025-03-12T09:00:00', '2025-06-14T19:35:01', '회원요청', 177, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (63, '전달사항 이전', '61.박윤정 회원님 오전 무인시간대에 락커문제 있었다고 하십니다. 백 꺼내러 오셨는데 락커가잠겨 안열렸다고 하십니다.
+7번락커 배터리문제로 보여 새 배터리로 교체 했는데도, 배터리로 충전 해보아도 비밀번호 입력이 안되고 계속 빨간 불 들어옵니다. 락커 문제인지 제가잘못한건지 ㅜ ㅜ 확인 부탁 드립니다. 해결 되시면 어떻게 하셨는지 알려주시면 감사하겠습니다!
+비밀번호 휴대폰 뒷번호로 설정해달라고 하셨습니다.', 4, '2025-03-14T09:00:00', '2025-06-14T19:35:01', '회원요청', 61, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (64, '전달사항 이전', '674.손유경 회원님 차감 알림상 크레딧 차액 오류가 있어 안내드렸는데(단독 이용 추가 5천 크레딧 차감후 채널 안내에 미적용 되었음) 혹시 문의 주시면 차감 내역 프린트 해 놓았으니 보시고 설명 부탁 드립니다.(채널 대화 참고)', 4, '2025-03-14T09:00:00', '2025-06-14T19:35:01', '회원요청', 674, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (65, '전달사항 이전', '오은영(555) 조조이용권에서 종일이용권으로 변경시 차액확인요청->대표님 계산해서 알려주시면 채널로 안내 부탁드립니다~!', 5, '2025-03-16T09:00:00', '2025-06-14T19:35:01', '회원요청', 555, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (66, '전달사항 이전', '손유경(674) 네이버리뷰 동영상으로 등록하셨는데, 현재 확인이되지 않아 추후 리뷰 확인되면 크레딧 적립부탁드립니다!', 5, '2025-03-16T09:00:00', '2025-06-14T19:35:01', '회원요청', 674, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (67, '전달사항 이전', '김효동님 16일 9번타석 이용하시는데 소리가 전혀 아나서 불편 호소하셨습니다. 미차감으로 이용 안내드렸으니 17일 오전 차감되면 재적립 부탁드리고 차감채널 나갔으면 재적립 안내도 부탁드립니다. 
+현우실장님, 9번타석 소리 안나오는거 설정 한번 봐주세요~ ', 2, '2025-03-16T09:00:00', '2025-06-14T19:35:01', '회원요청', 477, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (68, '전달사항 이전', '18일 박민주님 주차관리자때문에 늦고 컴플레인 하셔서 20분 연장해드렸습니다. 20일에 15,000이상 차감되는분에 대해서 재적립필요.채널 안내도 부탁드립니다. ', 2, '2025-03-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 597, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (69, '전달사항 이전', '685.김남주님 회원 등록 시 우선은 계좌이체 하고 내일에 카드 결제로 변경 하실 예정입니다. 해당 내용 대표님께 전달 완료하였습니다.', 3, '2025-03-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 685, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (70, '전달사항 이전', '여성 장갑 19호 분실물이 있으면 670.이나현님께 확인 요청 부탁드립니다.', 3, '2025-03-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 670, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (71, '전달사항 이전', '285.이창규님께서 레슨 예약 하시고 타석 예약이 없을 경우에는 배우자이신 20.김이선님께서 레슨 받으실 예정입니다.(주로 평일 오전이나 낮시간대 정도로 말씀하셨습니다.)
+해당 내용 프로님께도 전달하였습니다.', 3, '2025-03-21T09:00:00', '2025-06-14T19:35:01', '회원요청', 285, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (72, '전달사항 이전', '586.김석준님 내일 16시 예약이 확인됩니다. 21일에 스토어 구매하신 패키지 10타 줄이기  FMS 인증 부탁드립니다.', 3, '2025-03-22T09:00:00', '2025-06-14T19:35:01', '회원요청', 586, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (73, '전달사항 이전', '이지수주니어 16시 피겨수업때문에 시간이 애매해서 프로님 가능여부 확인 후 일단 4/5일, 4/12일 14:45/15:15 시 퐁당수업으로 예약했습니다.
+현재 4월 레슨오픈이 안되어 있어 타석만 미리 잡아놨습니다!', 5, '2025-03-23T09:00:00', '2025-06-14T19:35:01', '회원요청', 441, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (74, '전달사항 이전', '이재승님 재등록하시면서 김주순프로님 체험 요청하시는데 26일 연락주시기로 했습니다. 연락오면 예약 부탁드리고 이용후 프로 지정 원하시면 지정 부탁드립니다. (기존 유효기간 지났던 레슨권 8회 합산하여 총 26회로 맞춰둠. )', 2, '2025-03-25T09:00:00', '2025-06-14T19:35:01', '회원요청', 42, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (75, '전달사항 이전', '김한울님은 레슨권은 없으신데 같이 체험 원하시고 마음에 들면 등록하신다해서 예약 부탁드립니다. ', 2, '2025-03-25T09:00:00', '2025-06-14T19:35:01', '회원요청', 42, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (76, '전달사항 이전', '25일 저녁 레슨 현황 일시적 오류나서 확인체크 안했습니다. 26일 수 오전에 25일 김주순프로 못한 타임 체크 부탁드립니다. ', 2, '2025-03-25T09:00:00', '2025-06-14T19:35:01', '회원요청', 41, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (77, '전달사항 이전', '63.박태환님 26일 타석 이용 내역 적립 부탁드립니다. (6번 타석 고무티 문제로 타석 이동이 가능할 타석이 없어서 당일 무료)', 3, '2025-03-26T09:00:00', '2025-06-14T19:35:01', '회원요청', 63, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (78, '전달사항 이전', '694.이성호님 신규 회원님이시며 비타민에는 등록 하였으나 새 프로그램에 저장 오류로 등록을 못했습니다.
+대표님께 내용 전달은 하였으며 새 프로그램에 미등록일 경우 등록 부탁드립니다.', 3, '2025-03-29T09:00:00', '2025-06-14T19:35:01', '회원요청', 694, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (79, '전달사항 이전', '4월 2일 오전에 이세원님(해외 발령) 와이프분 오셔서 양도 예정입니다.', 2, '2025-04-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 651, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (80, '전달사항 이전', '2일 오전 김지현님(669,조조)라커 결제 오신다 했습니다. ', 2, '2025-04-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 669, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (81, '전달사항 이전', '2일 오전 정나겸님 라커 결제 오신다 했습니다. ', 2, '2025-04-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 315, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (82, '비타민 메모 이전', '손목부상으로 10월 6일 처음 내방하심. 괜찮은줄알았는데 아직 상태가 안좋으셔서 유효기간 연장을 원하심. 증빙서류 보내주시기로 함.
+
+12/9 타석 이용을 하셨으나 아직 손목 부상으로 인해 정상적인 연습이 안되셔서 12월 재등록 시 유효기간 무제한으로 안내 했습니다.', 1, '2023-09-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (83, '비타민 메모 이전', '프렌즈9 유효기간 23.11.11 만료 (9회중 1회사용)
+재등록으로 유효기간 함께 연장조치 함 (둘다 24.3.11로)
+
+재등록 건이나 유효기간 연장을 위한 것이므로 재등록 레슨x', 1, '2023-09-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 2, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (84, '비타민 메모 이전', '김지훈 회원님과 커플', 1, '2023-09-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 2, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (85, '비타민 메모 이전', '12/28 김지훈님께서 타석 15 등록 하셔서 유효기간 무제한 이벤트 적용해 드렸습니다.
+나중에 오시면 FMS에서 회원 인증 부탁드립니다.', 1, '2023-12-28T09:00:00', '2025-06-14T19:35:01', '회원요청', 2, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (86, '비타민 메모 이전', '프렌즈9 유효기간 23.11.11 만료 (9회중 1회사용)
+재등록으로 유효기간 함께 연장조치 함 (둘다 24.3.11로)
+
+재등록 건이나 유효기간 연장을 위한 것이므로 재등록 레슨x', 1, '2023-11-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 3, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (87, '비타민 메모 이전', '김지선 회원님과 커플', 1, '2023-09-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 3, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (88, '비타민 메모 이전', '12/28 김지선 회원님 임신중이셔서 이용을 못하심 양도 관련해 문의 주셔서 안내해 드렸습니다.
+재등록 유효기간 무제한 이벤트 적용
+김지선 회원님과 같이 선불 타석 15 결제 하셔서 나중에 오시면 인증 해야 합니다.', 1, '2023-12-28T09:00:00', '2025-06-14T19:35:01', '회원요청', 3, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (89, '비타민 메모 이전', '서예원 실장님 배우자분', 1, '2023-09-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 5, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (90, '비타민 메모 이전', '재등록 x (정각 단위 예약이 많이 불편)
+
+유선 연락드려 기간권과 정각단위가 아닌 오시면 이용하시게끔 열어드린다고 안내해 드렸고 운동 다시 하신다고 추후 방문하신다고 하십니다.', 1, '2023-09-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 6, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (91, '비타민 메모 이전', '레슨권 유효기간 한 달 연장 요청하심.(기존 레슨권 유효기간 9/2)', 1, '2023-09-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 7, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (92, '비타민 메모 이전', '250304 레슨권 10회 재구매. 신규레슨권 예약분 1회제외 9회+ 기존 잔여레슨권 1회 합산해서 10회로 맞춰드림 ', 1, '2025-03-04T09:00:00', '2025-06-14T19:35:01', '회원요청', 8, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (93, '비타민 메모 이전', '12/5 갑상선 수술로 회복까지 2개월 25년1월31일까지 홀드 요청. fms 홀드 처리 완료. 수술 관련 증빙 채널로 첨부 예정이심', 1, '2023-12-05T09:00:00', '2025-06-14T19:35:01', '회원요청', 8, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (94, '비타민 메모 이전', '24/09/19 잔여레슨권 20회 남으셨는데 유효기간 지나셔서 9회 재등록. 재등록 유효기간 무기한으로 처리. 기존 20회 추가하여 잔여 29회.', 1, '2024-09-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 9, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (95, '비타민 메모 이전', '4/11 기존 레슨권 유효기간 연장으로 인한 재등록
+기존 레슨권 남은 횟수 17회(~4/11)
+재등록 레슨권 6월 중순까지이신데 유효기간 연장 재등록으로 8월 말까지 연장 도와드림.', 1, '2024-04-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 9, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (96, '비타민 메모 이전', '11월부터 이용. (유효기간 연장 처리 완료)
+
+9/28 이용 시작 하심', 1, '2023-09-03T09:00:00', '2025-06-14T19:35:01', '회원요청', 11, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (97, '비타민 메모 이전', '24/10/21 손바닥 부상으로 이용을 못하셨는데 오픈초기에 등록 하신 회원님이시라 유효기간 무제한이 아니셔서 유효기간 관련해서 문의 하셨음
+나중에 원하시면 유효기간 연장 및 재등록 시 유효기간 무제한 안내 함', 1, '2023-09-03T09:00:00', '2025-06-14T19:35:01', '회원요청', 12, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (98, '비타민 메모 이전', '* 9월 24일
+  2개월 유효기간 연장 24.01.11 로 변경', 1, '2023-09-24T09:00:00', '2025-06-14T19:35:01', '회원요청', 13, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (99, '비타민 메모 이전', '* 9월28일
+  락커 자녀분 이미송님 명의로 변경
+
+레슨권 딸에게 양도 예정.', 1, '2023-09-28T09:00:00', '2025-06-14T19:35:01', '회원요청', 13, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (100, '비타민 메모 이전', '12/2 락커 취소 요청(8번)', 1, '2023-12-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 14, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (101, '비타민 메모 이전', '10/10 ~ 11/24일 까지 장기 출장가셔서
+레슨권, 타석권 12/1일까지는 무조건 다 소진하신다고 하여 유효기간 연장해드림.
+
+해외발령으로 유효기간 12/2까지 연장.', 1, '2023-10-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 16, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (102, '비타민 메모 이전', '11/26
+자녀분 입시로 인해 당분간 이용을 못하셔서 입시가 마무리 된후에 재등록 하시면 만료된 회원권과 같이 유효기간 연장 도와 드린다고 말씀드렸습니다.
+이은혜님 락커는 안태영님으로 변경 요청하셨습니다.', 1, '2023-11-26T09:00:00', '2025-06-14T19:35:01', '회원요청', 18, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (103, '비타민 메모 이전', '유효기간 10개월 추가(총20개월)', 1, '2023-09-04T09:00:00', '2025-06-14T19:35:01', '회원요청', 20, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (104, '비타민 메모 이전', '지인 이벤트 (황희정님) 추가 6만 크레딧', 1, '2023-09-04T09:00:00', '2025-06-14T19:35:01', '회원요청', 20, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (105, '비타민 메모 이전', '1/19 이창규님께 양도 (~25/5/2, 남은 크레딧 595,000c)', 1, '2024-01-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 20, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (106, '비타민 메모 이전', '2/3 김지현 주니어 1:1 추가, 크레딧 부족으로 차감 못함.', 1, '2024-02-03T09:00:00', '2025-06-14T19:35:01', '회원요청', 21, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (107, '비타민 메모 이전', '사물함변경 함 6번에서 66번으로
+12/1 락커 취소 요청 하심', 1, '2024-12-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 21, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (108, '비타민 메모 이전', '주니어 2:1 레슨 (주 1회) -> 1월 13일부터 시작.', 1, '2024-01-13T09:00:00', '2025-06-14T19:35:01', '회원요청', 21, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (109, '비타민 메모 이전', '락커 6월 달까지 이용 원하심.', 1, '2023-09-05T09:00:00', '2025-06-14T19:35:01', '회원요청', 22, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (110, '비타민 메모 이전', '4/16 16:00시 레슨 시간 착오로 변경 원하셨는데 QR인증 못받고 가버리셔서 1회 수기 차감.', 1, '2024-04-16T09:00:00', '2025-06-14T19:35:01', '회원요청', 22, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (111, '비타민 메모 이전', '기존 레슨권 남은 횟수 11회, 유효기간 (~3/11)
+레슨권 유효기간 연장을 위해 재등록(유효기간 2달 연장) - 재등록x', 1, '2024-03-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 22, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (112, '비타민 메모 이전', '11/28 99만원 패키지 추가 결제 기존 레슨1회 합쳐드림', 1, '2023-09-05T09:00:00', '2025-06-14T19:35:01', '회원요청', 24, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (113, '비타민 메모 이전', '3/9
+레슨 2회 추가 되었음
+사유는 23/10/13 드라이버 커버 대신 레슨 2회 추가로 결정', 1, '2023-09-05T09:00:00', '2025-06-14T19:35:01', '회원요청', 24, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (114, '비타민 메모 이전', '2/27 레슨권 유효기간 한 달 연장 도와드림.(기존 레슨권 ~4/2)
+
+9/8 19:00 오경배 프로님 레슨 (지정프로님 이재윤 프로님이신데 저녁때 오셔서 오프로님 첫 레슨이라 무료로 레슨)', 1, '2023-09-05T09:00:00', '2025-06-14T19:35:01', '회원요청', 25, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (115, '비타민 메모 이전', '25/3/3 94번에서 143번으로 변경
+
+11/4 프렌즈36구매 기존2회 합쳐드림
+
+4/1 락커 69번 94번으로 변경
+
+조조이용권 유효기간 ~4/2 (fms 종료일 변경해 놓음, 조조 끝나시고 예약 안된다고 연락오시면 조조 이용권 종료되셨다고 안내해 드리고 하시는 회원권에 따라 유효기간 늘려드리기)
+
+1/24-31 일주일간 단독타석 혜택(저희 사정으로 레슨취소되셔서 대표님협의후 결정)
+
+레슨권 추가 구매 완료 (10/10)
+
+패키지상품 재등록 11/14
+
+2024-1 3개월 조조이용권 구입 프렌즈36 구입 완료', 1, '2023-09-05T09:00:00', '2025-06-14T19:35:01', '회원요청', 26, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (116, '비타민 메모 이전', '25/1/8 레슨권 재등록 하면서 미리 1개월 연장 도와 드림(5/7 까지)
+
+24/12/27 레슨권 유효기간 1주일 연장 도와드림 (25/1/5 까지)
+프로 스케줄로 인해서 예약이 어렵다고 하심
+
+24/10/1구매하신 레슨권 유효기간 한달 연장 도와드림. (12/29까지)
+
+8/3 레슨권 유효기간 한 달 연장 도와드림.
+
+9월 8일 3개월 락커 무상 제공
+
+12/2 스크린 이벤트 1등 상품 \'프렌즈 9\' 상품 증정 완료.', 1, '2023-09-08T09:00:00', '2025-06-14T19:35:01', '회원요청', 27, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (117, '비타민 메모 이전', '9/8 19:00 오경배 프로님 레슨 (지정프로님 이재윤 프로님이신데 저녁때 오셔서 오프로님 첫 레슨이라 무료로 레슨)
+
+11/29 프렌즈9 재등록하셔서 23일, 28일 원포인트 레슨 재적립 도와드리고 수기로 횟수 차감.
+
+12/18 타구 사고로 인해 한달동안 1월 18일까지 단독 타석 업그레이드권 증정
+
+1/1 락커 취소 요청
+
+1/16 타석 구매 안하시고 이용금액만 현금결제 하심. 16일 이용 12천+미결제7천=19000원 계좌이체하심. 
+오실때마다 회원가 이용료 결제는 어려워서 다음 방문때에는 7% 크레딧 추가권 1월내에 사용으로 안내하고 추가 결제 유도 요망.
+
+1/23일 타석20만원 등록하심. 7%크레딧 적립해드림.', 1, '2023-09-05T09:00:00', '2025-06-14T19:35:01', '회원요청', 28, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (118, '비타민 메모 이전', '24-09-07 재등록시 양도해드리기로 한 지세근님 잔여 레슨 4회 양도완료. 
+
+1/6 20:30 하프백 대여
+
+지세근님 지인 이벤트 적용', 1, '2023-09-05T09:00:00', '2025-06-14T19:35:01', '회원요청', 29, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (119, '비타민 메모 이전', '3/11 유효기간 만료료 3/8 재등록 
+(대표님이 패키지 재등록시 유효기간 2배 연장 제시)
+fms,비타민 모두레슨 유효기간 5개월->10개월로 연장.
+기존 만료될 레슨권도 동일한 날짜로 유효기간 변경완료.', 1, '2024-03-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 31, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (120, '비타민 메모 이전', '2/25 레슨권 유효기간 한 달 연장.
+오시면 타석은 비회원 이용 금액으로 결제.
+
+10월 중순부터 이용 - 10월부터 락커 차감', 1, '2023-09-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 32, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (121, '비타민 메모 이전', '23.12.08 재등록 완료, 유효기간 무제한', 1, '2023-09-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 33, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (122, '비타민 메모 이전', '3/14 회원권 만기되셨는데 해외에 계셨어서 전화를 계속 못받았다고 하심. 재등록 예정이시라 오시면 결제 후 레슨권, 타석권 (회원권 인증+유효기간 변경) 부탁드립니다.', 1, '2023-09-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 34, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (123, '비타민 메모 이전', '11/22일 22시 이용 시작 후에 23일 22시로 변경주셨고, 다음엔 노쇼처리 된다고 말씀드렸고 비타민은 22일로 차감처리했습니다.', 1, '2023-09-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 35, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (124, '비타민 메모 이전', '10/30 배우자 김진영님께 양도 받으심(양도 크레딧 1,152,750c, 유효기간 ~25.3.11)
+**만료된 잔여 크레딧 197,800 (추후 재등록 하시면 적립 도와드리기, 양도 받은 크레딧 적립해 드리면 합산되어 보여져 만료 크레딧을 미리 빼고 양도 크레딧만 사용하실 수 있게 적립 도와드렸습니다.
+
+회원권 한 달 연장 요청(기존 유효기간 ~9/4)
+
+배우자 김진영님 유효기간 2개월 연장, 총 12개월
+
+9/14, 22시 1번 이용, 어플서 예약을 하신 줄 아시고 오셨다가 22시 넘겨서 저희쪽에서 열어드렸습니다. CRM은 차감 완료입니다.', 1, '2023-09-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 36, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (125, '비타민 메모 이전', '배우자 이효석님', 1, '2023-09-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 37, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (126, '비타민 메모 이전', '유효기간 추가 16개월', 1, '2023-09-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 38, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (127, '비타민 메모 이전', 'MVP부동산 사장
+원포인트 레슨권 사용 (9/17)', 1, '2023-09-07T09:00:00', '2025-06-14T19:35:01', '회원요청', 39, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (128, '비타민 메모 이전', '23.12.07 재등록 완료, 유효기간 무제한', 1, '2023-09-07T09:00:00', '2025-06-14T19:35:01', '회원요청', 39, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (129, '비타민 메모 이전', '9월 7일 10월까지 락커 제공 (이재승님과 같이 등록)', 1, '2023-09-07T09:00:00', '2025-06-14T19:35:01', '회원요청', 41, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (130, '비타민 메모 이전', '25-03-25 패키지 재등록. 유효기간 지났던 잔여레슨권 8회 추가하여 총 26회 맞춰드림. 유효기간 대표 확인후 한달 3달처리. 
+
+9월 7일 10월까지 락커 제공 (김한울님과 같이 등록)', 1, '2023-09-07T09:00:00', '2025-06-14T19:35:01', '회원요청', 42, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (131, '비타민 메모 이전', '25/1/24 패키지 재등록 하셔서 미사용 레슨 6회 추가 (총24회) 및 유효기간 28/12/31으로 변경
+
+10/10 패키지 상품 추가로 구매하셨습니다.', 1, '2023-09-07T09:00:00', '2025-06-14T19:35:01', '회원요청', 43, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (133, '비타민 메모 이전', '무료원포인트레슨권 사용 완료', 1, '2023-09-08T09:00:00', '2025-06-14T19:35:01', '회원요청', 45, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (134, '비타민 메모 이전', '24/7/22 프렌즈9 레슨권 2개 등록 (이재윤 프로, 김은성 프로) 유효기간 5개월
+
+9월 20일
+휴대폰 번호 변경
+010-2094-0709 ㅡ> 010-5077-0620
+
+주니어 1:1 레슨 (주 1회)
+한채우 학생', 1, '2023-09-08T09:00:00', '2025-06-14T19:35:01', '회원요청', 46, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (135, '비타민 메모 이전', '25/4/2 레슨권 재등록 하셔서 미사용분(11회) 통합 후에 유효기간 연장 처리(9/28까지)
+
+
+10/4 락커 65번 추가 이용 원하심(할인 조건 안내 함)
+
+7.6 주니어 레슨등록(주니어 이로운님)
+
+4/17 레슨권 홀딩 요청하셨으나 레슨권만 따로 홀딩이 어려워 레슨권 유효기간 한 달 늘려드림.(~5/19)
+
+초등학교 4학년 딸(이로하)이 이용 함./아빠가 결제
+
+9/14 골프 샤프트 놓고가셔서 보관해놓음
+
+9/26 1번,9번 타석 예약 후 따님이 9번 타석에서 레슨 받으시고 이상진님이 1번 타석 (저희 쪽에서 열어드렸습니다) 게스트로 이용하였습니다. 비타민은 차감 완료입니다!
+
+11/7 재등록 레슨권(15회), 기존 레슨권(4회) 이상진님께 확인 후 하나로 보이시게끔 합쳐드렸습니다!', 1, '2023-09-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 49, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (136, '비타민 메모 이전', '교통사고로 유효기간 한 달 연장 도와드림.
+
+(이로하 자녀 아버님)이상진 고객님의 아내분./ 
+안과 치료로 9월16일 부터 이용가능.-> 9월15일부터 이용하심
+그래서 이용기간을 일주일 연장해드림.
+그전에 나올 경우 연락 하신다고 함.', 1, '2023-09-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 50, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (137, '비타민 메모 이전', '주말에만 이용 가능하시다고 하여 레슨권 결제하실 때 유효기간 넉넉히 드린다고 했다고 하심. 2월 말에 끝나는데 2달 추가 연장 도와드렸습니다.(유효기간 4월말까지 안내해 드렸음.)
+
+23.12.23 오경배 프로 원포인트 레슨 후 레슨권 결제
+당일 레슨 내용은 횟수차감 1회로 처리함', 1, '2023-09-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 52, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (138, '비타민 메모 이전', '2/24 차지예님께 양도. (유효기간 ~05.07 / 남은 크레딧 333,000c, 레슨 13회)
+
+９월９일 패키지 등록 유효기간 2개월 추가
+
+11월 락커 50% 할인 못받은 것으로 불만표시
+고지를 못받았고 함
+(다쳤다)', 1, '2023-09-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 53, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (139, '비타민 메모 이전', '25/1/13 사물함 이용 중지 요청(100번)
+
+5/31 출장으로 인해 레슨권 유효기간 2주 연장 도와드림(5/31 -> 6/14) 
+연장은 최대 1개월이며 특별히 1주 더 연장 도와 드리겠다고 안내
+
+4/24 출장으로 인해 레슨권 유효기간 3주 연장 도와드림(5/7 -> 5/31)
+
+2/24 김기영님께 양도 받음. (유효기간 ~24.05.07/ 남은 크레딧 333,000c, 레슨 13회)
+
+2/27 양도완료.(차지예님 회원권 레슨권 유효기간 ~04.05 4회 남으심)
+
+9월 9일 초보머리 올리기 결제 완료 (부모님께서)
+회원 인증 처리가 안되어 있으니 오시면 본인 인증 처리 진행 해야 합니다.
+--->> 10월 9일 인증 완료', 1, '2023-09-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 54, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (140, '비타민 메모 이전', '재등록 x', 1, '2023-09-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 55, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (141, '비타민 메모 이전', '9/15일 16시 30분 5번타석, 오경배 프로님 원포인트 레슨', 1, '2023-09-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 56, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (142, '비타민 메모 이전', '8/28 회원권 3월 만료되셨는데 대표님께서 9월 말까지로 연장해 드리라고 하셔서 연장 도와드림.
+
+9월 9일 김선형 님과 레슨 공유
+
+11/8 김선형님께 레슨 2회, 타석 600,000 남은 상태에서 양도받으심', 1, '2023-09-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 57, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (143, '비타민 메모 이전', '9월 9일 정소영님과 레슨 공유
+
+11/8 레슨 2회, 타석 600,000 남은 상태에서 정소영님께 양도하심', 1, '2023-09-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 58, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (144, '비타민 메모 이전', '한희숙님  남편분.
+등록은 한희숙님이 하셨는데 남편분이 이용하실거라 남편분꺼로 회원인증 후 재등록 완료, 상담신청서도 다시 작성하셨고 비타민은 한희숙님꺼에서 수정하였습니다~
+
+한희숙님 010-6715-5789', 1, '2023-09-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 59, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (145, '비타민 메모 이전', '24/09/28 연장을 위해 타석, 레슨권 둘다 구매하심. 기존 25회를 합해서 34회로 맞춰드리고 유효기간 무기한으로 변경
+
+바쁘셔서 한 동안 못오셔서 유효기간 일단 한 달 연장 도와드렸고 추후 재등록 하시면 타석은 무기한, 레슨권은 기존 유효기간의 2배로 넣어드린다고 안내해 드렸습니다.', 1, '2023-09-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 60, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (146, '비타민 메모 이전', '4/22 프렌즈9에서 프렌즈 18로 변경 하심(FMS 에서 레슨 예약이 프렌즈9로 나와서 확인 결과 앱에서 새로 고침을 하지 않고 진행하면 기존 데이터가 남아 있는걸로 보임)
+
+4/20 프렌즈9 등록 하실 때 다음주 화요일부터 사용을 원하심(4/23 부터 시작 유효기간 3일 연장 처리)
+
+락커 10월까지 무료
+
+원래는 9월 16일부터 시작하신댔는데, 9월 14일 오셔서 만료일은 2025년 9월12일.
+
+9/14, 결제 취소 후, 2만원 할인 후 재결제.
+9/14, 9번 단독룸 이용. 결제 취소 후 재결제 하신 것 때문에 미결제로 잡아두었는데 이용권 사용 안되서 수기로 작성, CRM은 차감 완료입니다.', 1, '2023-09-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 61, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (147, '비타민 메모 이전', '24.07.15 집중레슨 9회 등록(김태윤프로), 기존 잔여1회 김은성프로-->김태윤프로로 변경. 기존1회 신규레슨등록한것에 추가하여 총 19회 맞춰드림.
+
+5/8 옆 타석 공이 튀어서 공 맞으셔서 대표님께 말씀드리고 당일 타석 무료로 도와드렸습니다.(추가 1시간 더 주시라고 하셔서 총 120분으로 도와드렸습니다.)
+
+연습은 다른 연습장이용(이유:기간이 너무 많이 남아서). 
+목동점에서는 레슨만.
+이재윤 프로님과 레슨 진행.
+사물함9월달 무료이용
+10월달 부터차감.
+지인소개 해주신다고 하셨음.
+
+23.12.07 재등록 완료, 유효기간 무제한
+
+23.12.08 재등록 환불 요청(해외가심.)
+
+23.12.10 오경배 프로님으로 변경하셔서 이용해 보신다고 하심
+레슨권 2회 추가', 1, '2023-09-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 62, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (148, '비타민 메모 이전', '25-03-09 박정은님께 양도받으심 (676,250크레딧, 레슨권20회 모두 유효기간 만료로 타석크레딧 15, 체험레슨권 3회 재등록하셔서 레슨 23회로 양도-대표님확인완료)
+
+등록시 패키지 사은품 + 우산 증정
+친구분도 같이 등록하실지는 모름', 1, '2023-09-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 63, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (149, '비타민 메모 이전', '24-09-05 레슨권 타석 전환요청. 기존 레슨 사용 8회분 원포인트로 적용하여 남은 크레딧 29만 타석크레딧으로 전환. 레슨권(28회)은 유효기간 종료로 처리.
+
+7/26 레슨권 유효기간 1개월 연장
+
+3/19 락커 이번 달 말까지 사용.(94번)', 1, '2023-09-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 64, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (150, '비타민 메모 이전', '5/17 레슨 16회 타석 크레딧으로 전환
+391,111c (392,000c) 인데 대표님께서 40만 크레딧으로 결정하심
+
+유효기간 추가 3개월', 1, '2023-09-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 65, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (151, '비타민 메모 이전', '7/20 유효기간 한 달 연장 도와드림.
+
+6/15 따님 허민재님께 양도 받으심.
+
+오시면 본인 인증 다시 해야함.(9/12 처리완료)
+
+9/12 그릿 책 대여 9/15반납
+9/15 메리골드 마음세탁소 대여
+
+9/16 타석 이용 중, 기계 작동 오류로 다음에 오실 때 추가시간 드리기로 함.
+
+9/24 메리골드 마음세탁소 반납', 1, '2023-09-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 66, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (152, '비타민 메모 이전', '9월 10일 등록
+가입 절차 처음부터 진행 필요 (결제 완료) => 처리 완료
+
+하윤선 성함으로 되어 있으나 실제는 김현 고객님께서 이용
+
+타석권 25년12월31일로 변경
+레슨권도 유효기간 연장 도와드림.', 1, '2023-09-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 67, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (153, '비타민 메모 이전', '6/1 20시에 이용 하시고 22시에 예약 하셨음
+21시에도 이용을 원하셨으나 타석이 없어서 22시에 예약 하신듯
+1시간 대기가 안될것 같다고 22시 예약 취소 원하심
+취소 조건 안내 후에 취소 도와 드림
+
+5/26 이재윤 프로님 -> 김은성 프로님으로 변경.
+
+4/20 골프 카트 대여 서비스 신청(단기대여 5일 4/20~24일까지)
+-> 4/21에 반납완료
+
+9월 10일 다른 연습장 이용 중 (1월달까지) 9일 상담 시 기간 연장 추가
+-->> 5개월 추가연장 완료!!
+
+1/21 프로 변경 요청, 프로님 두 분께 레슨 다 받아보시고 잘 맞는 분이랑 꾸준히 받고 싶어하셔서 변경해 드렸습니다.', 1, '2023-09-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 69, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (154, '비타민 메모 이전', '6/17 레슨권 1주 연장 요청하심(기존 6월7일까지이며 21일로 연장 처리 되었으며 이번 1주 연장해서 28일)
+
+4/16 룰렛이벤트 1０만 크레딧 당첨
+
+3/25 룰렛이벤트 카카오 굿즈 파우치 당첨', 1, '2023-09-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 70, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (155, '비타민 메모 이전', '25/2/24 로커 미사용 처리(18번)
+
+출장으로 인해 유효기간 2주 연장.', 1, '2023-09-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 71, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (156, '비타민 메모 이전', '10월초부터 이용
+유효기간 10월부터 적용
+등록시 7개월로 약속 받으셨다하심(9월부터 7개월)
+
+3월25일-3월 22일 타석15 결제한 것 사용전 환불', 1, '2023-09-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 72, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (157, '비타민 메모 이전', '24/12/31 허리 부상으로 수술까지 하셔서 당분간 이용 못하셔서 레슨권 3개월 홀드처리.(24년 3월 31일까지)
+
+9/24 허리 부상으로 인해 채널로 진단서류 보내주셔서 6개월 기간 연장 도와드림.(대표님 확인 완료)
+
+8/27 이재윤 -> 김은성 프로님으로 변경 (낮에 시간이 아예 안되신다고 하심.)
+
+6/8 레슨권 유효기간 연장을 위한 재등록이셔서 2개월 추가 연장 도와드림.(총 4개월), 프로 변경 요청 (김은성 -> 이재윤)
+ㄴ이재윤 프로님 시간이랑 아예 안맞으셔서 다시 김은성 프로님으로 변경하시고 싶으시다 하심.
+
+3/14 
+손가락 부상으로 못나오신기간 유효기간 2달 연장(보험 청구하신 서류 보내주시려고 하셨는데 캡쳐가 안되서 레슨북 키는 아이패드로 찍어놓음.)
+기존 패키지 유효기간 (~4/7)
+
+9월 10일 1개월 추가
+11/27 전화주셔서 11월 총 4회 이용하셨는데 매장 이용중 손가락 부상으로 인해 11월 남은 일에 올수가 없다고 하셔서 락커 비용 50%할인으로 도와드린다고 안내하였습니다.', 1, '2023-09-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 73, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (158, '비타민 메모 이전', '250112 변상영회원에게 252,600 크레딧 양도함
+ㄴ 이승헌회원을 변상영회원으로 변경등록완료
+
+9월 10일 등록 남편분 성함으로 인증 하였으나 배우자분(김진영님)이 이용하심.', 1, '2023-09-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 75, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (159, '비타민 메모 이전', '* 9월 10일 등록시
+락커 3개월분 추가 지급 (4만5천 크레딧)
+등록 당시에 락커는 미지정 하심
+락커 등록시 잔여 락커가 없을 경우 등록이 불가하다라는 안내를 함
+
+락커 41번에서 63번으로 변경
+
+* 9월 24일 환불 처리
+  1,884,318원 => 환불
+    145,682원 => 이용금액
+  락커 63번 이용했음
+  1,554,600 크레딧 남았었음', 1, '2023-09-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 76, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (160, '비타민 메모 이전', '휴회로 인한 조조권 연장 적용 1/8->1/30 종료
+
+24.12.13-24.12.22 까지 휴회일정 변경 적용완료
+
+24.11.26-12.17 해외일정으로 이용권 홀드 요청 하심 (조조권 기간중 1개월 내 1회 가능 안내 필요)
+
+4/27 룰렛 원포인트 당첨
+
+24.01.08. 12개월 조조권 구입
+(fms 종료일 변경해 놓음, 조조 끝나시고 예약 안된다고 연락오시면 조조 이용권 종료되셨다고 안내해 드리고 하시는 회원권에 따라 유효기간 늘려드리기)
+
+9월 10일 2개월 유효기간 연장
+
+조조권 취소(12월에 한 번 취소하셨던 걸로 엑셀 내용 확인)', 1, '2023-09-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 77, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (161, '비타민 메모 이전', '가오픈기간에 방문하여 상담완료 하시고 결제만 오늘 하신 고객. 가오픈 특가로 크레딧 20 더 드려야합니다~', 1, '2023-09-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 78, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (162, '비타민 메모 이전', '7/1 락커 112번 미 사용
+
+아내분 둘째 출산으로 추후 패키지로 재등록 예정.
+
+타석크레딧 남으셨는데 패키지 구매하셔서 유효기간 15일 연장해드림', 1, '2023-09-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 79, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (163, '비타민 메모 이전', '24/12/29 99패카지 재등록. 유효기간 만료된 레슨권 6회 합산처리. 
+
+11/9 레슨권 유효기간 한 달 연장해드림.(기존 유효기간 11/19 -> 12/19로 변경 도와드림.)
+
+6/9 레슨권 유효기간 6/10 -> 6/11까지로 늘려드림.
+
+- 일주일간 타석 할인 20% : 1/17(수)~1/24(수)
+
+- 평일조조권 -> 12/1 조조권 취소
+- 평일 조조권 다시 구매하셨습니다!
+- 2024 1월에는 복직 예정이셔서 평일조조권 구매 안하심.
+
+- 24.01.10. 99만원 패키지 구매(추가크레딧 작년기준드리기로함)
+
+  이프로님 vip회원이시고, 작년12월에 재등록하시려다가 못하신 부분이 있어서 \'\'이번에만\'\' 작년도 보너스 크레딧으로 해드리기로 대표님과 상의 후 지급하였습니다.', 1, '2023-09-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 80, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (164, '비타민 메모 이전', '주니어 스쿨 (김예준 학생)
+주 1회 1:1 레슨 신청하셔서 11월분 3회 남으셔서 165,000원 카드 결제로 진행했습니다!
+
+11/29 15시 레슨 보강 신청 -> 날짜는 추후 말씀주시기로 하심.', 1, '2023-09-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 81, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (165, '비타민 메모 이전', '이재윤프로님 지인', 1, '2023-09-13T09:00:00', '2025-06-14T19:35:01', '회원요청', 83, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (166, '비타민 메모 이전', '9/13일 5시 좀 넘게 오셔서 결제 후 바로 이용 원하셔서 저희 쪽에서 열어드림, 뒤에 타임 타석 예약 없으셔서 미결제 예약으로 잡고 가실 때 이용권 결제', 1, '2023-09-13T09:00:00', '2025-06-14T19:35:01', '회원요청', 84, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (167, '비타민 메모 이전', '8/15 배우자님 레슨 예약을 위해 사용해지 요청하심
+배우자 안동원님께서 레슨을 하실 경우 채널로 보내 주실 예정
+
+6/13 손가락 부상으로 인해 9월30일까지 추가 홀딩 요청하심.(채널 진료 서류 보내주심.)
+
+4/25 손가락 부상으로 인해 한 달 홀딩 요청', 1, '2023-09-14T09:00:00', '2025-06-14T19:35:01', '회원요청', 85, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (168, '비타민 메모 이전', '25/2/15 주니어 레슨 유효기간 연장 처리 및 안내 (기존 24/12/18)
+
+6/16 레슨권 유효기간 만료되셨고 잔여 15회 크레딧으로 전환 요청하심.
+ㄴ주니어 레슨권 14회로 재등록 시 추가 6회 더 넣어드려 총 20회로 넣어드리기로 함.(+골프공 1세트 & 이벤트 레슨권 2회 추가)
+
+3/14 이훈교님 차가 너무 많이 막혀서 못오신다고 하여 타석은 취소해 드리고(처음 취소하심.) 레슨 예약은 시간이 지나 취소가 어려워서 이프로님께 말씀드리고 레슨 1회 수기로 다시 넣어드렸습니다.(14 -> 15회)
+
+배우자 신호선님
+010-6333-4665
+
+주니어스쿨 신청하심 １０／２８일부터 시작（주１회，토요일）
+
+이훈교님 자녀분(이선신 학생) 11/25 가족 여행으로 주니어 레슨이 어려워 이월 가능한지 문의 주셨는데, 대표님 허락 후 이번에만 다음 달로 이월해 드리기로 안내해 드렸습니다!', 1, '2023-09-14T09:00:00', '2025-06-14T19:35:01', '회원요청', 86, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (169, '비타민 메모 이전', '9/2 김은성프로님으로 변경 요청(프로님 근무 시간에 레슨 할 수 없어서)
+
+11/10 프렌즈 18 재결제
+지인 이벤트(장고은님) 추가 13만 크레딧.3
+
+12/12 199 패키지 재결제, 기존 프렌즈 18 -> 레슨 10회 남아있는 상태에서 재등록 후 합쳐달라하셔서 재등록 레슨권 횟수 46회로 변경.', 1, '2023-09-15T09:00:00', '2025-06-14T19:35:01', '회원요청', 87, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (170, '비타민 메모 이전', '타지역 이직으로 방문못하셔서 한달만 유효기간 연장 해드리기로 함.
+3/16에서 4/16로 유효기간 연장.
+비타민,fms모두 수정 완료
+
+이직 하셔서 양도 문의하심
+양도하실 경우 -> 마지막 사용 종료 후 남은 크레딧에서 12만 크레딧 회수 후 남은 금액 분할 양도(엄대동님, 전제빈님)', 1, '2023-09-16T09:00:00', '2025-06-14T19:35:01', '회원요청', 88, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (171, '비타민 메모 이전', '4/15 타석15만+ 프렌즈 9등록. 
+기존 레슨권 잔여 2회 유효기간 만료 되어 FMS 기존 횟수 0회 처리 후 프렌즈9+2회 횟수 조정 완료.
+
+3월업무 바쁜 관계로 자주 방문 못해서 레슨 유효기간 10일 연장해드림.
+
+타석 이용권에서 패키지 상품으로 재등록 후 여태까지 사용하신 것 차감 완료.', 1, '2023-09-16T09:00:00', '2025-06-14T19:35:01', '회원요청', 89, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (172, '비타민 메모 이전', '2/29 이성진님께 양도 받음.
+(남은 크레딧 570,200c - 보너스 크레딧 - 양도 수수료 46,000c 제외한 금액 414,200c / 남은 레슨권 16회) 
+타석권 유효기간 무기한, 레슨권 유효기간 ~ 6월 말까지(원래는 21일)
+
+타석 이용권에서 패키지 상품으로 재등록 후 여태까지 사용하신 것 차감 완료.
+
+3월업무 바쁜 관계로 자주 방문 못해서 레슨 유효기간 10일 연장해드림.', 1, '2023-09-16T09:00:00', '2025-06-14T19:35:01', '회원요청', 90, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (173, '비타민 메모 이전', '9/16 16:00 오경배 프로님 레슨 1회 차감
+(오셔서 바로 결제 후 바로 이용하셔서 수기로 횟수 차감.)', 1, '2023-09-16T09:00:00', '2025-06-14T19:35:01', '회원요청', 92, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (174, '비타민 메모 이전', '이사로 인해 유효기간 한 달 연장 도와드림.
+
+타석상품 추가 구매 하시고, 레슨권 4/30로 연장해드림.', 1, '2023-09-17T09:00:00', '2025-06-14T19:35:01', '회원요청', 93, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (175, '비타민 메모 이전', '배우자 분 패키지 관심大
+같이 오셔서 남편분만 일단 등록하고 가심', 1, '2023-09-17T09:00:00', '2025-06-14T19:35:01', '회원요청', 94, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (176, '비타민 메모 이전', '25/02/13 어깨치료중으로 레슨권 홀드 요청. 3월 1일까지. 
+
+25/2/4 레슨권 재등록 하시면서 예약이 어렵다고 하셔서 직접 말씀해주시면 매장에서 미리 예약 도와드린다고 안내
+
+9월 18일로 시작일 변경', 1, '2023-09-17T09:00:00', '2025-06-14T19:35:01', '회원요청', 95, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (177, '비타민 메모 이전', '이사로 인해 재등록 x
+
+레슨권 9회 추가 결제 하셨습니다~!
+
+11/24 타석권 재등록 (결제는 x)
+유효기간 안내 못드려서 일주일 드리고, 12월 초 출장으로 추가 1주일 더 연장해드렸습니다.
+
+재등록 예정이셔서 이사로 인해 기존 회원권 유효기간 말일까지 연장.
+ㄴ강남쪽으로 가셔서 재등록 못하신다고 하십니다..', 1, '2023-09-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 100, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (178, '비타민 메모 이전', '24/11달 락커 미사용(32번)', 1, '2023-09-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 101, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (179, '비타민 메모 이전', '25.01.30 오수님 --> 아버지 오재영님께 양도
+
+유효기간 연장 요청하셔서 한달 도와드림.(FMS 적용 완료 4/22까지)
+원포인트 레슨 쿠폰 가족분께서 사용 원하셔서 미리 주시고 가심.
+
+1/1 채널에 레슨권 1개월 연장 요청하셔서 fms에 적용해 드림', 1, '2023-09-22T09:00:00', '2025-06-14T19:35:01', '회원요청', 102, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (180, '비타민 메모 이전', '김형준님이 타석 이용하시고 자녀분(민겸이)이 레슨 이용
+배우자 장은지님', 1, '2023-09-22T09:00:00', '2025-06-14T19:35:01', '회원요청', 103, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (181, '비타민 메모 이전', '25-03-27 프렌즈10 재등록하셔서 유효기간 만료되었던 잔여 5회 합산하여 총 15회로 맞춰드리고 유효기간 2달 연장처리. 
+
+레슨권 유효기간 한달 1회 연장(24.11.20까지)
+
+유효기간 연장 쿠폰으로 (~11/17) 까지 연장
+
+11/15 재등록', 1, '2023-09-23T09:00:00', '2025-06-14T19:35:01', '회원요청', 104, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (182, '비타민 메모 이전', '4/1 락커 86번 이용 취소 요청 
+
+이현주 회원님 소개(지인이벤트)3만크레딧 추가 지급 완료', 1, '2023-09-23T09:00:00', '2025-06-14T19:35:01', '회원요청', 105, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (183, '비타민 메모 이전', '4/29 직접 오셔서 락커 102번 다음달 이용 취소 요청 하심
+
+골프백 배송 신청하실 때 항공커버도 대여해 가셔서 다음에 오실 때 반납 요청 드려야함.(3/9 항공커버 반납 완료)
+
+등록하실 때 프로님 한 분씩 받아보고 싶으시다 하여 이재윤 프로님한테도 1회 레슨 하셨습니다~
+
+오경배 프로님 5회, 이재윤 프로님 1회
+
+12/18
+직접 전화 주셔서 목디스크로 인해 2주 유효기간 연장 요청', 1, '2023-09-23T09:00:00', '2025-06-14T19:35:01', '회원요청', 106, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (184, '비타민 메모 이전', '9월27일 부터 이용하십니다.
+
+12/17 2주 연기 요청 하셨으며 추후에 재등록 시 남은 레슨 횟수 추가해드린다고 안내 했습니다.
+
+김수원 주니어 학부모님', 1, '2023-09-24T09:00:00', '2025-06-14T19:35:01', '회원요청', 107, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (185, '비타민 메모 이전', '방윤정님 소개로 등록하심.
+
+9/24 등록 후에 당일 이용 하신 후에 남편분 등록 하면 지인 이벤트가 있는지 확인 
+(지인 이벤트는 오픈 이벤트 끝나고 진행하는 이벤트로 진행할 예정)
+지인 이벤트가 아닌 가오픈가로 다시 말씀드려야 함
+
+12/23 재등록 이벤트(유효기간 무제한) 적용 + 레슨 연장 요청하셔서 2개월 추가 적용함', 1, '2023-09-24T09:00:00', '2025-06-14T19:35:01', '회원요청', 108, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (186, '비타민 메모 이전', '5/27 프렌즈 9 등록 시 출장이 많으시고 기간도 길어서 1개월 연장 및 31일부터 레슨권 사용을 원하셔서 연장 도와드림
+미사용 레슨 3회는 원포인트 레슨 쿠폰 3회로 안내해드림
+(5/27 기준 1회 사용 하심)
+
+할인권은 크레딧으로 추가로 선택했습니다. 추가해주세요. (오픈 전단지 할인권: 2만원)
+
+1/14 레슨 시간 때문에 오경배 프로님으로 변경 요청하심', 1, '2023-09-24T09:00:00', '2025-06-14T19:35:01', '회원요청', 109, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (187, '비타민 메모 이전', '11/18 이재윤 프로님(4회) -> 14회 남은 상태에서 오경배 프로님으로 변경 요청.
+프로 변경 1회 가능하며, 재변경은 불가하다고 안내드림.
+
+개포동쪽 이사로 환불 문의. 환불대신 레슨권 유효기간 3개월 연장도와드리고 주말에 가능하실때 최대한 이용해보시기로 함.', 1, '2023-09-24T09:00:00', '2025-06-14T19:35:01', '회원요청', 110, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (188, '비타민 메모 이전', '10/22  10월 출장으로 인한 1개월 연장 요청 
+
+12/3 인도네시아 출장으로 인해 유효히기간 1/31로 연장도와드리고, 1월에 재등록시 유효기간 무제한으로 안내해드렸습니다.', 1, '2023-09-25T09:00:00', '2025-06-14T19:35:01', '회원요청', 111, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (189, '비타민 메모 이전', '재등록x, 남은 크레딧 음료 구매하셨습니다.
+3/2 2일까지만 락커 사용을 원하셨습니다.
+
+오경배 프로님으로 지정하였는데 나중에는 오전 밖에 안되신다 하여 미리 연락 주시면 이재윤 프로님으로 변경해드린다고 하였습니다!', 1, '2023-09-26T09:00:00', '2025-06-14T19:35:01', '회원요청', 112, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (190, '비타민 메모 이전', '김주순님과 친구
+김주순님께 프렌즈 9 양도 받음', 1, '2023-09-27T09:00:00', '2025-06-14T19:35:01', '회원요청', 114, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (191, '비타민 메모 이전', '어머님께서 전단지 쿠폰 사용 원하셔서 추후에 카드 취소 후 재결제', 1, '2023-09-28T09:00:00', '2025-06-14T19:35:01', '회원요청', 115, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (192, '비타민 메모 이전', '24/12/30 김태윤프로 레슨 체험
+
+가오픈때 선물받으신 (30+6만원)회원권 등록. 
+가오픈 상품에 없어 2만원 적립해서 36만원 맞춰드림.', 1, '2023-09-29T09:00:00', '2025-06-14T19:35:01', '회원요청', 116, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (193, '비타민 메모 이전', '9/23 레슨권 유효기간 연장 요청
+9/24만기->10/24로 변경 완료
++9/29 까지 레슨권 재등록시 유효기간 무제한 혜택 제공
+(채널 참고)
+
+본인인증이 자꾸 오류나서 일단 결제 진행함', 1, '2023-09-30T09:00:00', '2025-06-14T19:35:01', '회원요청', 117, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (194, '비타민 메모 이전', '１１／８일 만료일 갈비뼈 부상으로 인해 못 오셔서 유효기간 ２０일 연장 도와드림．
+갈비뼈 실금 부상이라 유효기간 종료되서 오셔도 이용하실 수 있게 도와드리기로 하였습니다.
+갈비뼈는 괜찮아지셨고, 집이랑 거리가 너무 멀어서 고민. (안하실 가능성이 높아보입니다ㅜ)', 1, '2023-09-30T09:00:00', '2025-06-14T19:35:01', '회원요청', 118, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (195, '비타민 메모 이전', '11/27 지인이벤트, 박성혜님 크레딧 적립완료
+
+5/14 3시간 이내 취소하심. 추후 3시간 이내 차감은 크레딧 차감되신다고 안내해 드림. 레슨은 어플에서 직접 취소하셨다고 하셨는데 예약 30분전이라 현우실장님께 연락드림.
+
+현재 다른 곳 이용하시고 계셔서 레슨권만 사용 원하셔서 유효 기간 6개월 연장(~2024.09.25까지)', 1, '2023-09-30T09:00:00', '2025-06-14T19:35:01', '회원요청', 119, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (196, '비타민 메모 이전', '25/2/24 로커 미사용 요청(112번)
+
+5/31 6월 락커 미사용(98번)
+
+11/21 재등록 혜택으로 락커 1개월 이용해드리도록 함.
+전단지쿠폰 크레딧 2만 추가으로 선택/오픈행사 가격', 1, '2023-10-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 120, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (197, '비타민 메모 이전', '3/2 곧 시즌때라 실내연습장 이용 x, 겨울에 다시 오신다고 하심.
+
+부부가 같이오셔서 남편분만 등록하심
+등록 당일 타석이용 기본가 적용 요청하셔서 적용해드림
+
+10/14 이경희님께(배우자분) 양도 완료.
+이재혁님 10/1~10/14일까지 사용하시고 남은 크레딧 570,000원 이경희님께 옮겨드림.', 1, '2023-10-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 121, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (198, '비타민 메모 이전', '무릎 부상으로 유효기간 1개월 연장 (3/21까지)
+
+양평쪽에서 레슨 받고 계시는 중임
+비회원가로 이용하려다가 15만원권 등록
+해외 일정 많으셔서 유효기간 3개월 추가로 드리기로', 1, '2023-10-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 122, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (199, '비타민 메모 이전', '5/19 
+심정구님께 남은 크레딧 622,000 양도 완료(회원권 유효기간 ~6/30)
+대표님 확인 후 수수료 없이 양도 진행.
+
+3/31 심정구님께 레슨권 양도
+(유효기간 ~6/30, 남은 레슨 횟수 16회)
+신분증 개인정보 문제로 촬영 거부. 대표님 확인 후 여권 사진 확인 완료.
+
+3/24 유효기간 추가 연장 요청하셔서 이미 연장되어 있는 상태셔서 불가하다고 안내해 드렸고, 재등록 하시면 유효기간 무기한과 레슨권 또한 유효기간 넉넉하게 드린다고 안내해드림.
+
+FMS이름검색불가
+유효기간 1개월 연장요청 - 2개월로 추가해드림
+
+10/2 FMS 이름 조회 가능하도록 조치', 1, '2023-10-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 123, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (200, '비타민 메모 이전', '5/19 
+홍은정님께 남은 크레딧 622,000 양도 받으심.(회원권 유효기간 ~6/30)
+대표님 확인 후 수수료 없이 양도 진행.
+
+3/31 홍은정님께 레슨권 양도 받으심.
+(유효기간 ~6/30, 남은 레슨 횟수 16회)
+신분증 개인정보 문제로 촬영 거부. 대표님 확인 후 여권 사진 확인 완료.
+
+FMS이름검색불가
+
+10/2 FMS 이름 조회 가능하도록 조치', 1, '2023-10-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 124, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (201, '비타민 메모 이전', '(23.10.01 서종익)
+트라팰리스 거주
+남편분 골프침
+자녀 주니어스쿨 관심
+전단지 가져오셔서 3만원권 대신 볼 한타스 드림
+프로지정은 이용 시간대 고민해보고 나중에 하시겠다고 하심 (오경배 프로님 지정 완료)
+
+락커 45번(상부장) 사용하시다가 하부장 나오면 알려드리기로함.(완료)', 1, '2023-10-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 125, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (202, '비타민 메모 이전', '6/21 레슨을 원하시나 유효기간 때문에 재등록을 고민하셔서 재등록 하시면 유효기간 연장 도와드리겠다고 안내했습니다.
+
+10/14일 패키지 상품으로 재등록 완료.
+
+남은 크레딧(~10/14, 72,000) 재등록 한거에 합쳐 달라고 하셔서 도와드렸습니다.
+
+최주환님과 친구
+11월 스크린 이벤트 혜택
+프렌즈 9, 최주환님께 양도.', 1, '2023-10-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 126, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (203, '비타민 메모 이전', '24/12/03 레슨 10회 등록하시면서 기존 미사용 1회 추가 하여 총 11회
+
+6/12 장은지님 레슨권 유효기간 9일 홀딩 요청, 김민겸 주니어 유효기간 9일 연장 요청하심.
+
+5/29 김은성 -> 이재윤 프로 변경
+
+김민겸 주니어 해외여행으로 인해 유효기간 2주 연장 도와드림.
+목요일 가능하셔서 김은성 프로 -> 이재윤 프로로 변경 요청.
+
+4/2 타석 유효기간 한 달 연장 도와드림. (유효기간 무기한 안내해 드렸는데 일단 남은 크레딧 다 사용하시고 추후 재등록 하신다고 함.)
+
+10/2 자녀분 김민겸 주니어
+배우자 김형준님', 1, '2023-10-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 127, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (204, '비타민 메모 이전', '3/4 
+월 5회 이상 오셔야 락커 무료 이용 가능하다고 안내해 드림.
+월 5회 미만 오시면 락커 이용 요금 정상가로 차감.
+
+유효기간20일 연장
+
+주차 때문에 불편하셔서 재등록 고민(쉐르빌 거주), 다음에 오시면 상부장 락커 무료로 안내해 드리기. 
+-> 재등록 하셔서 상부장 락커 5회 이상 무료 이용 안내해 드리기', 1, '2023-10-03T09:00:00', '2025-06-14T19:35:01', '회원요청', 128, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (205, '비타민 메모 이전', '3/20 유효기간 한 달 연장 요청하심. 이후에는 재등록 하시면 유효기간 연장 가능하다고 안내.(기존 회원권 유효기간 ~24/4/3)', 1, '2023-10-03T09:00:00', '2025-06-14T19:35:01', '회원요청', 129, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (206, '비타민 메모 이전', '전단지 쿠폰 할인
+
+11/16 재등록.', 1, '2023-10-05T09:00:00', '2025-06-14T19:35:01', '회원요청', 131, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (207, '비타민 메모 이전', '10/5 카카오 스토어에서 프렌즈 18회 구매 완료.
+레슨권 유효기간 무기한 혜택 적용
+일단 기존 레슨권 유효기간을 무기한으로 연장 도와드렸으나 추후 오시면 레슨권 인증 후 횟수 합쳐드리기.(기존 레슨권 유효기간 10/5 16회 남아있었음.) - 완료.
+
+9/8 레슨권 유효기간 한 달 연장 도와드림. (기존 유효기간 ~9/6)
+
+추후에 자녀분이랑 레슨권 공유 원하셨습니다~
+
+드라이버 커버 증정
+
+24.03.30 10타줄이기 추가구매. 기존 레슨권 6회 남아서 합산하고 기존 레슨권 유효기간 일주일 남아있어서 새로 구매하신 레슨권 9월6일까지로 일주일 연장해드림.', 1, '2023-10-05T09:00:00', '2025-06-14T19:35:01', '회원요청', 132, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (208, '비타민 메모 이전', '10/29 유효기간 무기한을 위해 톡스토어에서 9회 구매하심. fms기존 잔여 레슨권 3회에 9회 더해 12회로 변경하고 유효기간 무기한 처리함.
+
+7/30 조나현님 레슨권 유효기간 9/9 까지이신데 이프로님 화수목 767으로 변경되셔서 평일은 아예 퇴근 시간이랑 안맞으시고 주말도 토요일만 가능하신데 토요일 주니어들 때문에 예약잡기가 힘들다고 하셨어서 대표님께 확인 후 유효기간 두 달 말씀 드렸는데 9/9 까지 열심히 사용해 보시고 유효기간 만료 전 다시 말씀주신다고 하심.
+ㄴ토요일 밖에 못오시고 10월에 휴가 등등 말씀주셔서 개인사정을 다 봐드릴 수 없고 유효기간 2달 연장도 회원님께만 도와드리는 거라고 안내해드림. 일단 두 달 연장 도와드렸고 추후 레슨권은 재등록하시면 기존 유효기간 만큼 드리는 방법과 김은성 프로님으로 변경하는 방법만 가능할 것 같다고 말씀드림.(김은성 프로님은 안맞는다고 일단은 알겠다고 가심.)
+
+6/8 프로 변경(김은성 -> 이재윤)
+
+5/28 김은성, 이재윤 프로님 체험해 보시고 레슨권 타석 크레딧으로 전환할 지 고민해 보신다고 하심.
+5/28 김은성 프로님 체험 완료.
+
+전단지 쿠폰 사용 하셨는데 할인말고 추가 2만 크레딧으로 원하셨습니다~
+
+10월말쯤부터 이용가능하시다고 하셔서 시작일로부터 6개월로 도와드리기로 했습니다!
+
+* 10/21일부터 이용하셔서 이 날부터 6개월로 유효기간 변경 도와드렸습니다!', 1, '2023-10-05T09:00:00', '2025-06-14T19:35:01', '회원요청', 133, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (209, '비타민 메모 이전', '10/28 유효기간 무기한을 위해 톡스토어에서 9회 구매하심. fms기존 잔여 레슨권 17회에 9회 더해 26회로 변경하고 유효기간 무기한 처리함. 
+
+7/30 유효기간을 위한 재등록이라 추가 2개월 더 드리고 재등록 레슨권 시작일은 9월부터로 원하셔서 시작일 변경이 안되서 유효기간을 한 달을 추가로 연장 도와드림.
+
+6/18 체험 레슨 후 프로 변경 요청(김은성 -> 이재윤)
+
+6/13 내일(6/14) 스케줄로 인해 11시15분 체험 레슨 취소요청
+ㄴ추후 말씀주신다고 하심. : 18일 화 13:45 재예약 완료
+
+6/3 내일(6/4) 스케줄로 인해 14시15분 체험 레슨 취소요청
+스케줄 확인 후 다시 체험 요청 하신다고 하심
+새로 오신 프로님으로 인해 체험기간이 5월까지이며 특별하게 이번만 도와 드린다고 안내함
+
+5/28 이재윤 프로님 체험 레슨해 보시고 99패키지로 변경 희망.
+
+5/18 재등록 하실려고 하셨는데 28일 김은성 프로님 체험해 보시고 패키지로 하실 지 타석권만 하실 지 고민하신다고 하여 레슨권은 유효기간 한 달 연장 도와드렸고 타석권은 28일까지로 변경해 놓았습니다.
+
+전단지 쿠폰 사용 하셨는데 할인말고 추가 2만 크레딧으로 원하셨습니다~
+
+프로님 지정 나중에 연락주신다고 하셨습니다!
+
+10월말 ~ 11월초쯤부터 이용가능하시다고 하셔서 시작일로부터 6개월로 도와드리기로 했습니다!', 1, '2023-10-05T09:00:00', '2025-06-14T19:35:01', '회원요청', 134, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (210, '비타민 메모 이전', '프로님 두 분께 레슨 받아보고 지정 원하셨습니다.
+
+상담 등록 신청서는 김지후님 어머님이 작성(노상순님)
+
+주니어 그룹 레슨 문의 주심.
+
+노성순님 010-4744-0028
+
+10/07 16시 오경배 프로님 레슨 1회', 1, '2023-10-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 135, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (211, '비타민 메모 이전', '오후 11시에만 오시는 분', 1, '2023-10-07T09:00:00', '2025-06-14T19:35:01', '회원요청', 137, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (212, '비타민 메모 이전', '락커이용 안 하신다고 주소를 안 적으셨습니다.
+
+레슨 고민하시다가 일단, 타석 이용 만 해보시고 나중에 레슨 이용해 보신다고 하셨습니다.', 1, '2023-10-08T09:00:00', '2025-06-14T19:35:01', '회원요청', 138, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (213, '비타민 메모 이전', '5/26 레슨권 유효기간 2주 연장 요청(기존 유효기간 ~6/13)
+
+5/8 오후 3시 45분에 이재윤 프로님 체험 예약
+
+레슨 프로 변경 요청하셨는데 대표님께서 직접 김태윤 프로님, 이재윤 프로님 두 분 다 받아보실 수 있게 안내해 드렸다고 하심.
+한 번은 타석&레슨 무료, 또 체험하실 경우 레슨은 무료, 타석은 크레딧 차감 하기로함.
+
+5/6 김태윤 프로님 체험 예약
+
+4/8 레슨권 재등록 시 시작을 1주일 뒤로 원하심(유효기간 1주일 연장 처리)', 1, '2023-10-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 139, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (214, '비타민 메모 이전', '총 3개월 유효기간', 1, '2023-10-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 140, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (215, '비타민 메모 이전', '25/1/13 사물함 이용 중지 요청(17번)
+
+8/19 레슨 유효기간 1개월 연장(기존 8/27)
+
+기존 레슨권 유효기간 ~4/9 (남은 레슨 횟수 4회)', 1, '2023-10-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 141, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (216, '비타민 메모 이전', '25/1/24 배우자 및 주니어 체험 쿠폰 발송(주니어는 3월달 예정)
+혹시 배우자님께서 2월1일 이후 방문 시 홍선애님 기간권 만료 되었다는 안내는 하지 말아달라고 부탁하심 
+
+조조 이용권이셔서 보통 오전에 이용하시는데 락커 2번이나 안열리셔서 다른 하부장으로 이동 요청하셨는데 하부장이 없어 양해드리고 초기화 시키고 다음에도 안되면 그 때 다시 안내해 드리겠다고 말씀드림.
+
+5/8 항공커버 반납 완료.
+
+fms 종료일 변경해 놓음, 조조 끝나시고 예약 안된다고 연락오시면 조조 이용권 종료되셨다고 안내해 드리고 하시는 회원권에 따라 유효기간 늘려드리기
+
+1/24 90만 타석권 구매 하심
+2월부터 99 조조 12개월 이용 원하심. (비타민 미차감)
+1년 락커비 최소36만원 안내 완료. 
+비타민fms 유효기간 연장 완료.
+
+24년3월 31일 프렌즈72 구매하심. 기존레슨권 8회잔여 합산해서 80으로 맞추고 기존 레슨권 잔여유효기간 있어서 프렌즈72 2주 연장해드림.', 1, '2023-10-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 142, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (217, '비타민 메모 이전', '9/11 홀딩 해제 요청하심.
+
+fms 종료일 변경해 놓음, 조조 끝나시고 예약 안된다고 연락오시면 조조 이용권 종료되셨다고 안내해 드리고 하시는 회원권에 따라 유효기간 늘려드리기
+
+1/24 90만 타석권 구매 하심
+2월부터 99 조조 12개월 이용 원하심. (비타민 미차감)
+1년 락커비 최소36만원 안내 완료. 
+비타민fms 유효기간 연장 완료. 
+
+타석 예약시 원하시면 원포인트 레슨 해드리기로 함
+
+우용준님(남편분) 등록하심. 지인 이벤트로 추가 6만 크레딧 적립도와드렸습니다.
+
+24년4월9일 무릎수술로 연장 요청하심. 조조이용권 6개월 연장해드림.', 1, '2023-10-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 143, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (218, '비타민 메모 이전', '지인 추천 이벤트(채서현님) - 추가 6만 크레딧', 1, '2023-10-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 144, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (219, '비타민 메모 이전', '지인 추천 이벤트(김성엽님 소개) 추가 6만 크레딧', 1, '2023-10-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 145, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (220, '비타민 메모 이전', '2/29 타석권 재등록하셔서 무기한으로 연장해 드렸는데, 타석권 재등록 하시면 레슨권도 늘려드리는 걸로 안내를 받았다고 하시면서 레슨권 유효기간도 연장 요청하셨습니다. 레슨권도 재등록 하시면 전체 레슨 횟수 다 사용하실 수 있게 유효기간 넉넉하게 늘려드린다고 했는데 재등록은 안하실 것 같습니다. 안내를 계속 그렇게 받으셨다고 기분 언짢아 하셔서 매장도 레슨권에 대한 건 프로님과의 계약 관계가 있어서 어렵다고 말씀드렸는데 프로님과 얘기하고 싶으시다고 일요일 오후 혹은 월요일 오후에 오신다고 하십니다. 오프로님 회원님이신데 오프로님께는 내용 전달하지 말아달라고 하셨는데 대표님께서 내용 전달하지 말라고 하신 것 까지 오프로님께 전달하라고 하셨습니다.
+대표님께서 레슨권은 재등록하지 않으면 유효기간 연장 불가능하다고 안내하라고 하십니다.
+
+24.01.30. 전화통화 후 유효기간 연장 한달 마지막으로 해드림. 원칙적 불가라고 말씀드림. (대표님 확인 완료)
+
+23.11.19 재등록 전화 상담주심
+
+11/21 15만 타석 재등록
+타석 기존 만료되것 새것 합쳐서 1개월 연장 1/31 만료 수정
+레슨 12/10만료 에서 1/10만료로 수정', 1, '2023-10-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 146, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (221, '비타민 메모 이전', '지인 이벤트 추가 6만 크레딧', 1, '2023-10-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 147, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (222, '비타민 메모 이전', '지인 이벤트 추가 6만 크레딧', 1, '2023-10-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 148, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (223, '비타민 메모 이전', '유효 기간 1개월 추가 (병원치료)', 1, '2023-10-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 149, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (224, '비타민 메모 이전', '다른 곳 이용 중이시라 유효기간 1개월 연장
+현금으로 300만원 결제하셔서 10만크레딧 추가혜택드리기로 하신 분
+
+지인 이벤트 - 임아란님 추가 6만 크레딧.', 1, '2023-10-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 150, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (225, '비타민 메모 이전', '아내분(이정민님)이랑 타석은 쉐어하시고 락커는 따로 따로 하셨습니다. 두 분 다 상부장이시고, 윤요한님(33),이정민님(31) 입니다.
+
+다른 곳(제니스) 다니고 계셔서 유효기간 2개월 연장 해드렸습니다!
+
+240105 이정민님이 미션이벤트 4개 성공 하시고 좋아하심 - 친구한테 자랑한다고 사진도 찍어가심', 1, '2023-10-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 151, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (226, '비타민 메모 이전', '락커 재선택
+유효기간 1개월 연장.
+
+10/15 락커 84번으로 선택
+
+2/20 하부장 락커 취소, 당분간 골프 쉬신다고 하십니다.', 1, '2023-10-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 152, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (227, '비타민 메모 이전', '7/23 이상진님 자녀분(이로운 주니어)과 동명이인으로 레슨 프로그램에 오류가 나서 임시조치로 주니어 정보 삭제해 놓았습니다.
+
+4/27 타석&레슨 노쇼 -> 당일 저녁으로 시간 변경
+
+4/13 주니어 1:1 골프 레슨 환불 요청하심(배우자 이동익님께서 잠시 쉬었다가 다시 등록하라고 하셨다고 하심.)
+
+4/2 2:1 레슨 10회 만료 후 1:1 레슨으로 변경.
+김시정님 레슨권은 유효기간 이번 달 말까지로 연장 원하심.
+
+김시정님 자녀분 주니어 1:1 레슨 원하셨는데 19시만 가능하다 하셔서 대표님께서 주니어 레슨 시간은 조정 불가능이라고 하셔서 김시정님만 패키지 상품으로 하시고 자녀분이랑 쉐어 하시기로 하셨습니다!
+
+김시정님(26)이랑 자녀분(28)이랑 락커 두 개 이용하셨습니다!
+락커이름은 김시정님꺼로 동일하게 넣어놨습니다~
+
+10/16 김시정님 어플로 예약 완료 끝까지 안누르셔서 예약이 안되었다고 프로님께서 말씀해주셨습니다. 레슨은 아드님 2회 김시정님 1회 해서 총 3회입니다~
+
+이로운 학생 부모님
+
+11/26 이로운 학생 주니어 레슨 보강 신청
+
+12/29 이동익님께 크레딧 & 레슨권 양도 받으심. (타석은 314,300, 레슨은 17회 ~24.04.12까지)
+
+1/16 이로운 학생 락커 이용 x', 1, '2023-10-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 153, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (228, '비타민 메모 이전', '타석 이용시 원하시면 1회 원포인트레슨 해드리기로 함
+10월 라커 무료 사용', 1, '2023-10-12T09:00:00', '2025-06-14T19:35:01', '회원요청', 154, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (229, '비타민 메모 이전', '4/29 5월 락커 이용 중단 요청 (21번)
+
+지인 이벤트 (김수미님 남편분)
+추가로 6만 크레딧 적립 도와드렸습니다.', 1, '2023-10-13T09:00:00', '2025-06-14T19:35:01', '회원요청', 155, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (230, '비타민 메모 이전', '락커 6월 달까지 이용 원하심.
+
+시스템 문제로 주소 검색이 안되어 등록을 못했습니다. 추후에 등록 해야합니다. (완료)
+
+11/25 12월달에 출장으로 인해 이용이 어려우셔서 유효기간 1개월 연장', 1, '2023-10-14T09:00:00', '2025-06-14T19:35:01', '회원요청', 156, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (231, '비타민 메모 이전', '부산에 사심/서울에 잠시 오셔서 이용 중/
+
+이제 지역 다시 옮기셔서 재등록 x.', 1, '2023-10-14T09:00:00', '2025-06-14T19:35:01', '회원요청', 157, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (232, '비타민 메모 이전', '3/2 이재혁님께서 마지막으로 이용 -> 곧 시즌때라 실내연습장 이용 x, 겨울에 다시 오신다고 하심.
+
+이재혁님 배우자분 양도 완료 (24/10/14 ~ 25/05/27)
+이재혁님 10/1~10/14일까지 사용하시고 남은 크레딧 570,000원 이경희님께 옮겨드림.
+
+11/21일 18시 레슨 및 타석 예약주셨는데 이용시간 이후에 연락주셔서 취소해주셔서 내일(22일)로 변경만 도와드리고 다음부터는 노쇼로 안내해드렸습니다.', 1, '2023-10-14T09:00:00', '2025-06-14T19:35:01', '회원요청', 158, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (233, '비타민 메모 이전', '손노을님 지인 이벤트 (3만 크레딧 적립)
+손노을님 환불로 3만크레딧 회수', 1, '2023-10-15T09:00:00', '2025-06-14T19:35:01', '회원요청', 159, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (234, '비타민 메모 이전', '11/15 크레딧 부족으로 12000c미차감
+
+유효기간 한 달 연장 요청주심.(기존 레슨권 유효기간 7/23)
+
+오픈이벤트 혜택: 타석상품구매하셔서 무료스윙점검 1회 10월 말 경 예정. 현재 제니스 회원.  
+10/31 99만 상품 추가 결제 완료', 1, '2023-10-16T09:00:00', '2025-06-14T19:35:01', '회원요청', 160, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (235, '비타민 메모 이전', '12/28 선불타석 크레딧 15하셨는데 결제만 취소 후 30으로 재결제 하셨는데 남편분이랑 각각 15씩 넣어달라고 하셨습니다. 
+이현주님은 인증 완료.
+김재봉님은 오시면 어플 인증 + 카카오 채널 받아야함.
+ㄴ 9/10 라커 차감 부족 크레딧으로 연락드렸는데 30만원 결제 건 각각 15씩 이용하신다고 하셔서 이현주님만 먼저 15만원권 넣어드렸고 남편분은 추후 매장 방문하신다고 하셨는데 방문도 안하시고 이용도 안하신다고 하셔서 남은 15만원 이현주님께 넣어달라고 요청하셔서 넣고 부족 크레딧 차감함.
+(12월 말 이현주님께서 결제를 30만원 하시고 회원권은 일단 15만원만 넣어달라고 부탁하셨음.나머지 15만원은 남편분께서 방문하시면 회원권 인증 부탁하였으나 그 이후로 두 분 다 오시지 않으심.)', 1, '2023-10-16T09:00:00', '2025-06-14T19:35:01', '회원요청', 161, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (236, '비타민 메모 이전', '외부적으로 김재봉(010-8223-7270)님 등록(회사)', 1, '2023-10-16T09:00:00', '2025-06-14T19:35:01', '회원요청', 161, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (237, '비타민 메모 이전', '김영숙 회원님 지인 소개 추가 3만 크레딧/1개월연장 완료', 1, '2023-10-16T09:00:00', '2025-06-14T19:35:01', '회원요청', 161, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (238, '비타민 메모 이전', '김시정님 남편분 두 분 다 6만 크레딧 적립.
+
+주니어스쿨 신청하심（주２회／화，일）
+１：１로 하시다 ２：１ 전환대기
+
+이로운 학생 부모님
+
+10/31일부터 시작 (당일건은 1회 금액으로 차감)
+
+11/26 이로운 학생 주니어 레슨 보강 신청 -> 12/1, 18시로 보강레슨
+
+12/10부터 2:1 전환 (최경복님 자녀분, 송유정 학생)
+
+12/19 레슨 1회 받으셨는데 QR인증 오류로 안찍혀서 수기로 차감.
+
+12/29 김시정님께 크레딧 & 레슨권 양도. (타석은 314,300, 레슨은 17회)', 1, '2023-10-16T09:00:00', '2025-06-14T19:35:01', '회원요청', 162, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (239, '비타민 메모 이전', '4/29 락커 124번 삭제 처리
+
+자율결제금액 20만원이상인데 10만원 결제해드림. 다음에 안된다고 안내드리고 20이상으로 결제 요청.', 1, '2023-10-17T09:00:00', '2025-06-14T19:35:01', '회원요청', 163, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (240, '비타민 메모 이전', '락커 6월 달까지 이용 원하심.
+
+3/11 골프백 배송 신청
+ㄴ배송 완료 후 3000크레딧 차감해야함', 1, '2023-10-18T09:00:00', '2025-06-14T19:35:01', '회원요청', 164, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (241, '비타민 메모 이전', '크레딧 11만 남으셔서 별표 처리!
+
+10/31일부터 이용.
+원포인트로 받아보시고 레슨권 구매 결정.
+
+추후 아드님도 오실 예정.', 1, '2023-10-18T09:00:00', '2025-06-14T19:35:01', '회원요청', 165, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (242, '비타민 메모 이전', '5/21 박서영님께 회원권 양도
+남은 크레딧 551,000c
+남은 레슨권 14회 (유효기간~7/21)
+아이패드에 여권사진 기록.
+
+전단 할인 2만원, 이달의 이벤트 5만 크레딧 추가적립
+(010-2250-1817)
+
+1/29 다시 동생분(김청은)에게 재양도 받으셨는데 회원님 휴대폰으로는 카톡 전송이 안됩니다.
+카톡 인증 국내 번호가 아닌 영국 번호로 되어 있는걸로 보입니다.', 1, '2023-10-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 166, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (243, '비타민 메모 이전', '3/14 락커 이번 달까지만 사용 원하심.(66번)
+
+12월 이벤트 안내를 못드려서 일단 쿠폰은 만들어서 12/7일자 도장 찍어두었습니다. 다음번 방문시 안내!!
+
+오픈이벤트때 전화로 문의주시고 시간이 안나서 못오시다가 오늘 오셔서 오픈가로 도와드렸습니다.
+
+다른 곳에서 레슨 받고 계셔서 3개월 유효기간 연장 도와드리고 추후에 레슨권도 생각중이십니다~', 1, '2023-10-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 167, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (244, '비타민 메모 이전', '11/16 정연손님께서 정민지님께(따님) 양도하심.
+
+5/31 6월 락커 사용 중지 요청(78번)
+
+허리가 안좋으셔서 하부장 원하셨는데 하부장이 없어 일단 상부장으로 안내 도와드렸습니다. 추후 오프로님 락커로 양해 부탁드리고 옮겨드릴 수 있으면 옮겨드리겠습니다~
+
+ㄴ63->78번으로 옮겨드렸습니다.
+
+11/23, 23시 예약하셨는데 40분쯤 오셔서 열어드린다고 했는데 차감 크레딧 다르다는 것을 나중에 말씀드려 금일은 할인 크레딧으로 도와드린다고 말씀드렸습니다!', 1, '2023-10-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 168, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (245, '비타민 메모 이전', '지인 이벤트 차명석님 (+15000 크레딧)
+
+11/18 재등록', 1, '2023-10-21T09:00:00', '2025-06-14T19:35:01', '회원요청', 169, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (246, '비타민 메모 이전', '지인 이벤트 한상홍님 (+15000 크레딧)
+12/9 회원 인증 완료', 1, '2023-10-21T09:00:00', '2025-06-14T19:35:01', '회원요청', 170, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (247, '비타민 메모 이전', '최재우님 지인이벤트 (15000 크레딧 적립)
+
+231024 환불요청
+- 지인이벤트 2인 (손노을/최재우) 모두 회수처리', 1, '2023-10-21T09:00:00', '2025-06-14T19:35:01', '회원요청', 171, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (248, '비타민 메모 이전', '8/4 오후 프로님 -> 오전 프로님으로 변경 요청.
+
+유효기간을 위한 재등록이라 프렌즈 18하셔서 총 10개월로 기존 유효기간 24.12.31 -> 25.05.31 로 변경 도와드림. (기존 잔여 레슨권 17회도 재등록 레슨권에 합쳐드림.)', 1, '2023-10-24T09:00:00', '2025-06-14T19:35:01', '회원요청', 173, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (249, '비타민 메모 이전', '10/4 레슨 유효기간 1개월 연장(기존 10/14)', 1, '2023-10-27T09:00:00', '2025-06-14T19:35:01', '회원요청', 174, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (250, '비타민 메모 이전', '7/31 유효기간 3주 연장 도와드림.
+
+하부장 대기원하심 
+등록후 일주일후부터 이용 원하셔서 유효기간 5일 연장해드림.
+(10/30일부터 이용)', 1, '2023-10-28T09:00:00', '2025-06-14T19:35:01', '회원요청', 175, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (251, '비타민 메모 이전', '3/30 레슨권 유효기간 연장 요청 4/2->5/15로 연장. 겨울방학동안 주니어들때문에 레슨 계속 못받으셔서 불편함 말씀하셔서 여유있게 연장 해드리고 추후에 필요하시면 추가 연장이나 레슨권 구매시 유효기간 여유있게 드리기로 함. 
+
+10/31 레슨2회 타석 1회 미차감 (차감완료)
+
+11/1 재방문 예정 - fms등록 완료
+
+10/31 레슨 2회 하신 것 QR 결제 안되어 있어서 저희 쪽에서 횟수 감소로 차감 도와드렸습니다.', 1, '2023-10-31T09:00:00', '2025-06-14T19:35:01', '회원요청', 177, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (252, '비타민 메모 이전', '10/24 레슨권 재구매 기존횟수 합쳐드림
+
+9/13 레슨권 유효기간 1달 연장 요청(기존 유효기간 ~9/25)
+
+6/20 프로 변경 요청(김은성 -> 이재윤)
+
+4/29 패키지 99 등록 하심 (기존 레슨 5회 남으셔서 회원님 확인 후 통합 처리)', 1, '2023-11-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 179, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (253, '비타민 메모 이전', '주 1회 정도 가끔 스윙 점검만 하시러 오신다 하셔서 유효기간 1개월 연장 도와드렸습니다!', 1, '2023-11-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 181, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (254, '비타민 메모 이전', '8/6 송유정, 송시후 주니어 20시 예약인데 21시로 착각하여 21시 방문.
+김은성 프로님 레슨 예약 없는 시간대에 레슨 봐주신다고 하여 대표님 확인 후에 노쇼가 아닌 레슨 진행으로 처리.
+
+
+24/7/31 2대1 주니어 레슨 등록 시 10회 약정할인 단가로 40만 크레딧
+차감 하고 각 주니어 레슨 5회 레슨 이용
+
+2:1 주니어 레슨 (송시후 초5, 송유정 중3 부모님)
+
+11/16 16시 레슨 1회 예약하셨는데 2타임 하셔서 이프로님께서서 1회 수기로 차감하셨다고 하십니다.
+
+12/10부터 2:1 전환 (김시정님 자녀분, 이로운 학생)', 1, '2023-11-04T09:00:00', '2025-06-14T19:35:01', '회원요청', 182, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (255, '비타민 메모 이전', '11/6 어머님연락,기간연장요청 저번 이프로님 예비군 취소건 있고 해서 1주일 연장해드림
+
+9/10 진하린 주니어 10회, 진홍준 주니어 10회 결제 -> 진하린 주니어 5회, 진홍준 주니어 15회로 원하셔서 대표님 확인 후 레슨북 횟수 조정해드림.
+
+6/29 잔여가 많이 남아서 연장 원하셔서 한달 연장했습니다.
+ㄴ기존 주니어 레슨권 유효기간 ~7/6 -> 연장 요청주셔서 ~8/4로 변경완료.
+
+1월25일 90만원 타석권 재등록/ 작년 이벤트가로 해드리기로 해서 크레딧 10만 추가적립해드림.
+
+1:1 주니어 레슨 (진하린 학생 부모님)
+어머님 이지안 010-2938-7175
+
+4/13 진하린 주니어 몸상태가 안 좋아서 2시간 전 취소하심(이번 한 번만 차감없이 취소 도와드린다고 안내함)', 1, '2023-11-04T09:00:00', '2025-06-14T19:35:01', '회원요청', 183, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (256, '비타민 메모 이전', '25.03.26 김태윤 프로 27일에 레슨을 원하셔서 2회 레슨권으로 전환(6만 차감)
+
+25.03.24 김태윤프로 잔여레슨권 4회 크레딧 전환(12만 크레딧) 잔여레슨권 fms 유효기간 만료처리.
+
+24.10.3 김태윤 프로님 무료체험1회 완료', 1, '2023-11-07T09:00:00', '2025-06-14T19:35:01', '회원요청', 184, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (257, '비타민 메모 이전', '07/25 21에 결제하신 타석권 인증 완료 해드림. 기존 타석권 기간 만료 처리함
+
+24/07/21 지난 미차감분 3000차감.
+
+24/07/14 13일 단독크레딧 수동차감. 미수금 3000 크레딧
+
+6/5 레슨 3시간내 취소 이력 있음.
+
+03/20 유희선님 등록으로 지인이벤트 12만c적립 완료', 1, '2023-11-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 185, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (258, '비타민 메모 이전', '아이코젠 회원님, 레슨권만 등록 (프렌즈 18)
+
+추후 아이코젠으로 타석 이용에 불편함이 있을 시 타석권 결제.
+
+11/19 오전 9시에 레슨 2타임 원하셨는데 주니어 때문에 8:45분 오셔서 레슨 횟수 수기로 차감', 1, '2023-11-12T09:00:00', '2025-06-14T19:35:01', '회원요청', 186, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (259, '비타민 메모 이전', '10/23 기존 레슨권 12회에 9회재등록(유효기간 무기한 이벤트 적용)
+총 21회 무기한처리
+
+7/24 유효기간 한 달 연장 도와드림.(9/19->10/16)
+
+3/24 21시 6번 타석 기계가 오픈이 안되어서 7번으로 옮겨드렸고, 50분 밖에 이용을 못하셔서 다음에 오시면 시간 미리 넣어드리기로 함.
+
+남편분, 주니어 오실예정으로 초보머리올리기상품 5만 크레딧 추가 적립해드렸습니다.', 1, '2023-11-12T09:00:00', '2025-06-14T19:35:01', '회원요청', 187, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (260, '비타민 메모 이전', '4/23 락커 4월까지만 이용 원하심. (8번)
+
+전단지 (할인 대신 추가 2만 크레딧)
+
+12/2 하부장으로 변경(41=>8)', 1, '2023-11-14T09:00:00', '2025-06-14T19:35:01', '회원요청', 190, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (261, '비타민 메모 이전', '지인이벤트 추가 6만 크레딧 (김이선님)
+
+지인이벤트 추가 9만 크레딧 (김재삼님)
+
+배우자 김재삼님', 1, '2023-11-14T09:00:00', '2025-06-14T19:35:01', '회원요청', 191, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (262, '비타민 메모 이전', '9/23 타석 유효기간 1개월 연장 (기존 24/9/8)
+
+지인 이벤트 추가 9만 크레딧 (황희정님)
+
+배우자 황희정님', 1, '2023-11-14T09:00:00', '2025-06-14T19:35:01', '회원요청', 192, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (263, '비타민 메모 이전', '5/18 잔여 레슨 3회 크레딧으로 전환 요청, 대표님 확인 후 9만 크레딧 돌려드리기로 함. -> 김은성 프로님 체험 후 결정하시기로 하심.
+6/2 체험안하신다고 크레딧 반환 요청하셔서 잔여3회 9만크레딧 적립완료. 
+
+재등록 하셔서 레슨권 유효기간 추가로 3주 연장 도와드렸고, 타석권은 기존 회원권이 아닌 선불타석20으로 재등록 하셨습니다.
+
+변경된 회원권 20 다음이 50인게 너무 크다고 하셔서 대표님께서 재등록 시 기존 회원권으로 도와드리라고 하여 안내해 드렸습니다. (재등록 여부는 모름)
+
+레슨권 만료
+ㄴ 타석권이랑 유효기간 맞춰드림.', 1, '2023-11-14T09:00:00', '2025-06-14T19:35:01', '회원요청', 193, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (264, '비타민 메모 이전', '25/03/26 김태윤프로 잔여레슨권 6회 크레딧 환불 (174,000크레딧)
+
+25/1/31 사물함 57번에서 92번으로 이동
+
+조은정님 지인분
+
+FMS 회원인증하였으나 이름이 뜨지 않습니다. 회원분께 어플에서 성함 확인 부탁드리겠습니다. (완료)', 1, '2023-11-15T09:00:00', '2025-06-14T19:35:01', '회원요청', 194, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (265, '비타민 메모 이전', '241110 오전레슨 희망으로 김은성프로님->이재윤프로님으로 변경
+
+이사예정으로 양도 문의주심. 양도 할분 구해오시기로 함. 
+
+이달의 이벤트 (추가 10만 크레딧)
+우산, 네임택 증정', 1, '2023-11-15T09:00:00', '2025-06-14T19:35:01', '회원요청', 195, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (266, '비타민 메모 이전', '3/7 이미경님께 레슨권만 양도
+양도 레슨권 유효기간 4/8, 남은 횟수 8회 (프렌즈9)
+
+전단지 2만원 추가 크레딧
+
+추후 레슨권 등록', 1, '2023-11-17T09:00:00', '2025-06-14T19:35:01', '회원요청', 196, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (267, '비타민 메모 이전', '9/26 락커 이용 중지 요청(락커 113)', 1, '2023-11-18T09:00:00', '2025-06-14T19:35:01', '회원요청', 198, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (268, '비타민 메모 이전', '6/4 재등록 레슨권 유효기간 추가 2개월 연장도와드림.
+
+레슨권 유효기간 한 달 연장 도와드림.(기존 레슨권 유효기간 ~5/8)', 1, '2023-11-18T09:00:00', '2025-06-14T19:35:01', '회원요청', 199, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (269, '비타민 메모 이전', '2/25 상부장 락커 95 서채원 주니어가 사용, 네임택 증정
+
+유효기간 6개월 추가
+
+주니어 스쿨 1:1, 주 3회 (서채원 학생 부모님)
+
+12/14.15.17 주니어 레슨 서채원 학생 손 깁스로 인해 다음 달로 횟수 이월.
+
+1/6 신세진님(010-3099-9147)에서 서종표님으로 양도
+
+2/3 레슨권 연장을 요청하셔서 재등록 연장 안내는 해드렸으며 우선은 2주 연장으로 도와 드렸습니다.
+
+2/23 레슨북 휴대폰 번호를 신세진님에서 서종표님으로 변경 요청하심', 1, '2023-11-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 200, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (270, '비타민 메모 이전', '2/29 5시 주니어 레슨 노쇼
+
+주니어 스쿨 1:1 (이예준 학생 부모님)
+
+11/30, 12월 달꺼까지 275,000원 결제하시고 가셨습니다.
+주1회로 한 달 해보고 주2회로 늘리실 예정이시고, 김보람님도 남편분과 상의 후에 타석권 등록하신다고 하셨습니다~
+
+11/30일 주니어 레슨 12/5일로 보강 신청 하셨습니다~', 1, '2023-11-21T09:00:00', '2025-06-14T19:35:01', '회원요청', 201, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (271, '비타민 메모 이전', '3/19 락커 이번 달까지 사용하신다고 하심.(122번)
+
+당일 등록유도차 5만크레딧 추가 적립', 1, '2023-11-22T09:00:00', '2025-06-14T19:35:01', '회원요청', 202, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (272, '비타민 메모 이전', '8/29 조혜리 주니어 레슨권 10회 등록
+화 목 5시 고정 원하시는데 자리가 없어서 10/10부터 10회 고정 잡아두었음. 
+
+3/7 조두희(배우자)님께 레슨권만 양도하심.
+양도 레슨권 유효기간 24년11월15일, 남은 횟수 28회
++락커 상부장 49번도 남편분께 양도.
+
+이달의 행사 130만+10만크레딧 추가하였음.
+
+주니어 레슨 1:1 주2회 조혜리 학생
+11월분 차감 완료.(24일, 28일)', 1, '2023-11-22T09:00:00', '2025-06-14T19:35:01', '회원요청', 203, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (273, '비타민 메모 이전', '12/31 무기한 레슨권 등록. 
+<1/7 지나 방문하셔서 강석명님 레슨권(잔여 15)회 양도 예정. 양도신청서 작성, 양도처리하여 무기한으로 횟수 합쳐드리기>
+
+김아론(주니어)학생 학부모님. 부부랑 아이 모두 골프하시고, 겨울에 인도어 추워서 실내로 오심. 13단지 사시고 늘 주차 이용하심.', 1, '2023-11-24T09:00:00', '2025-06-14T19:35:01', '회원요청', 204, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (274, '비타민 메모 이전', '250202 스토어로 35만크레딧 구매완료
+
+단독 타석 쿠폰 보내드렸는데 다시 오셔서 등록 원하셔서 첫 이용은 단무료 이용 쿠폰으로 이용하시기로 하셨습니다!
+
+12/10 재등록 하시면서 레슨도 관심 있으셨습니다. 제니스도 이용 중이라고 하십니다.', 1, '2023-11-24T09:00:00', '2025-06-14T19:35:01', '회원요청', 205, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (275, '비타민 메모 이전', '3/24  2시간 예약 후에 전화로 다른 시간대로 하려고 하니 취소 요청
+현우 실장님 확인 후 오늘은 그냥 넘어가기로 했습니다.
+
+11/25 비회원으로 이용을 원하시다가 회원등록
+현재 스포짐에서 이용중이신데 기간이 많이 남았다고 하심', 1, '2023-11-25T09:00:00', '2025-06-14T19:35:01', '회원요청', 206, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (276, '비타민 메모 이전', '배우자 분이랑 타석 쉐어(동반해서 오실 때만 가능하다고 말씀드림)
+아내분은 레슨 x, 임종범님은 추후 레슨도 원하심.
+
+배우자 박정화님 락커 (45번)
+박정화님 등록으로 라커 각각 배정', 1, '2023-11-25T09:00:00', '2025-06-14T19:35:01', '회원요청', 207, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (277, '비타민 메모 이전', '하이페리온 엘스퀘어 이용하시고 계심.', 1, '2023-11-26T09:00:00', '2025-06-14T19:35:01', '회원요청', 208, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (278, '비타민 메모 이전', '여러군데 다니시고 계셔서 등록 유도 카드로 유효기간 없는 걸로 말씀드렸습니다.', 1, '2023-11-28T09:00:00', '2025-06-14T19:35:01', '회원요청', 209, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (279, '비타민 메모 이전', '5/27 락커 비우심', 1, '2023-11-30T09:00:00', '2025-06-14T19:35:01', '회원요청', 210, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (280, '비타민 메모 이전', '25/2/17 레슨 재등록으로 기존 미사용 레슨 18회 통합하고 유효기간 6개월 추가 및 3월 4일부터 이용하신다고 하셔서 기간 조정함
+
+6/11 낙상사고로 인해 매장 방문하셔서 회원권 시작일 7/15일부터로 변경 요청하심. (FMS 6.11~7.14 회원권 휴회 추가)
+
+1월 2일부터 시작하신다고 하셨고, 프로님 지정도 시작하시기 전에 하신다고 하셨습니다.
+-> 시작하시는 날로부터 유효기간 변경 부탁드립니다!
+
+락커도 이용하시기 전 오셔서 선택하시기로 하셨습니다.
+
+수험표 혜택 추가 12만 크레딧.
+
+24/4/5 12월 등록후 미사용. 목동지점발령 1월로 예정되었으나 6월 중슨으로 딜레이. 6월 20일 첫 사용으로 변경요청.
+6월 19일 까지 사용 일시 정지 상태', 1, '2023-12-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 211, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (281, '비타민 메모 이전', '10/15 레슨권 유효기간 등록시 들은적 없다고 컴플레인. 무기한 이벤ㅇ트 안내. 유효기간 한달 연장 해서 10/17->11/20로 연장.
+
+9/2 김은성프로님으로 변경 요청(프로님 근무 시간에 레슨 할 수 없어서)
+
+5/3 이재윤프로님으로 변경 요청
+
+김혜정님 지인(추가 13만 크레딧 적립)', 1, '2023-12-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 212, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (282, '비타민 메모 이전', '3/23 김유민 주니어 레슨 종료 원하심.
+남은 횟수 3회인 줄 알고 통화 종료하였으나 8회 남으셔서 일단 안내해 드린대로 3회분만(165,000c) 크레딧 적립 도와드림.
+
+주니어 스쿨 1:1 (김유민 학생 어머님)
+
+12월 27일부터 시작 가능하시다고 하여 12월 2회분(27일., 29일) 109,000원 / 1월 436,000원 결제 도와드렸습니다
+
+1월 마지막 회차에 봄방학 끝나셔서 2주정도 못오시다고 하여 처음 보강때만 마지막 1회 2월 달로 이월시켜드린다고 말씀드렸습니다.
+
+12/18
+직접 오셔서 선불타석 크레딧90 으로 등록 하셨습니다.
+추가 결제 355,000원 결제 했습니다.', 1, '2023-12-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 213, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (283, '비타민 메모 이전', '25/2/8 환불 완료
+
+주니어 1:1 레슨 (안규현 학생) 주1회', 1, '2023-12-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 214, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (284, '비타민 메모 이전', '12/15 연습 시간 때문에 프로님 변경 요청하심', 1, '2023-12-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 215, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (285, '비타민 메모 이전', '8/18 레슨권 유효기간 9/8 까지로 변경 도와드림. (채널 3가지 방법 중 직접 선택하심.)
+
+24/07/12 조은우 주니어 레슨 5회분 크레딧으로 환불(65,000*5회 325,000크레딧 제외한 225,000크레딧으로 환불)
+레슨 9월 1일까지 추가 연장(재등록 안내 해드림)
+
+5/25 자전거 사고로 인해 조은우 주니어 유효기간 2달 연장 요청(채널 진료 영수증 첨부해주심)
+
+4/28 유효기간 한달 연장 요청하심(재등록 예정이신데 앞으로 주에 1회만 오실 수 있으실 것 같다하여 재등록하시면 나머지 횟수 이월 도와드린다고 안내)
+
+지인 이벤트 - 안도영님 추가 6만 크레딧, 남편분 추가 1.5만크레딧.
+
+조은우 주니어 학부모님', 1, '2023-12-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 216, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (286, '비타민 메모 이전', '지인 이벤트 - 임아란님(배우자) 추가 1.5만 크레딧.
+조은우 주니어학생 아버님
+
+1/19 임아란님께 양도 (남은 크레딧 94,600 c)', 1, '2023-12-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 217, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (287, '비타민 메모 이전', '5/31에 문의전화 : 
+
+5/8 타석권 구매 후 fms 회원권 qr 인증이 안되어있어 기존 회원권 유효기간 만료로 예약이 안되심.
+선불타석 50을 fms등록, qr인증 해드리고 유효기간 조정해 놓음.
+
+이프로님회원, 단독타석업그레이권 사용해보시고 만족도 매우 높았다고 하심. 집중도 잘되고 속도도 빨라졌다고 하심!', 1, '2023-12-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 218, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (288, '비타민 메모 이전', '아버님 번호: 010-3910-1415
+
+1/25 하프백 2개 반납완료
+
+등록 당시 24년 1월 미국으로 출국해서 필드 이용으로 자녀분들이 필드 적응 할 수 있도록 레슨 원하심 (경쟁심 독려 필요하다고 말씀하심) 다시 2월달에 주니어 레슨 예정
+
+이지안, 이조안 학부모님
+
+３월２５일 환불요청으로 내역 살펴보니 크레딧 ２０구매한 인증내역이 ＦＭＳ에는 없어서 기존 ９０유효기간을 ２８년１２월로 연장．', 1, '2023-12-03T09:00:00', '2025-06-14T19:35:01', '회원요청', 219, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (289, '비타민 메모 이전', '다른 곳 이용 중이셔서 고민하신다고 하셔서 당일 등록하시면 유효기간 무제한으로 말씀드렸고 락커는 12,1월달 무료 이용하시게끔 도와드렸습니다.
+
+1/7 우산 증정', 1, '2023-12-03T09:00:00', '2025-06-14T19:35:01', '회원요청', 220, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (290, '비타민 메모 이전', '주니어 1:1 레슨 (주 1회) 박도현 학생
+
+12/6일 시작예정이었으나 시간 확정이 안나 12/13일부터 시작하시는 걸로 변경하셨습니다.
+이번 달 월4회 기준 22만원 결제하셨으나 시작일을 미루셔서 횟수 맞춰 취소 후 재결제 하실 지, 이월하실지는 다음 주에 오셔서 말씀주신다고 하셨습니다. (다음 달로 1회 이월하심.)
+
+지인 이벤트(강나경님 소개) 추가 15만 c', 1, '2023-12-03T09:00:00', '2025-06-14T19:35:01', '회원요청', 221, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (291, '비타민 메모 이전', '5/20 레슨 17회 타석 크레딧으로 전환
+415.556 c 인데 대표님께서 42만 크레딧으로 결정하심
+
+4/12 패키지 99 등록 시 기존 레슨 유효기간을 추가 (50일)
+레슨권은 통합을 원하지 않으셔서 그대로 진행
+
+12월 락커 무료 하부장 대기', 1, '2023-12-04T09:00:00', '2025-06-14T19:35:01', '회원요청', 222, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (292, '비타민 메모 이전', '김아론 주니어 어머님(배우자님, 김기훈회원님)
+
+24.06.19 수술로 인해 12월 31일까지 홀드처리. (서류 채널로 보내주심)', 1, '2023-12-07T09:00:00', '2025-06-14T19:35:01', '회원요청', 224, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (293, '비타민 메모 이전', '25/03/30 레슨권 유효기간 1개월 연장 4/23->5/23로 fms 변경 완료
+
+24/10/22 안경진 회원님으로 레슨 14회 양도 받으심
+(총 25회 유효기간 +3개월 25/4/23)
+
+위주하, 위주원 남매 1:1 주니어 레슨권 5회씩 나눠서 사용하기로함.
+
+위주하, 위주원 학부모님', 1, '2023-12-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 225, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (294, '비타민 메모 이전', '홍민기 학부모님
+주니어 1:1 레슨 (주 2회)', 1, '2023-12-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 226, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (295, '비타민 메모 이전', '나중에 오시면 남은 2천 크레딧 + 회원가 기준 추가 결제
+재등록 안하신다고 하여 레슨권 남으셔서 크레딧 소진 후에는 타석은 비회원가로 적용.
+
+2/23 이재윤 프로님으로 변경 요청하심', 1, '2023-12-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 227, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (296, '비타민 메모 이전', '12/03  패키지권 기간 만료 금일까지나 토요일날 방문해서 타석권 더 끊고 무기한 연장 원하셔서 토요일까지 연장해드림
+
+6월 락커 사용 중지(41번)', 1, '2023-12-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 228, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (297, '비타민 메모 이전', '2/25 3월에 이벤트 혜택 받으시면 199패키지 상품 구매 예정.(재등록 완료+2월 이벤트 혜택)
+
+12월말부터 이용가능하다고 하셔서 유효기간 1달 연장해드림.
+
+24.6.12 조조이용권 구매(6월 13일부터 사용) 유효기간 9월 13일까지.', 1, '2023-12-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 229, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (298, '비타민 메모 이전', '12월 락커 무료이용.
+
+인도어 연습장 이용 중, 날씨 추워서 잠깐 실내연습장 이용.
+추후 프렌즈 9 이용원하심.
+
+12/18 락커 93번에서 120번 하부장으로 이동 완료
+
+12/26 원포인트 레슨 받고 레슨권 결제하셔서 크레딧 적립해 드리고 횟수로 차감.
+
+2/29 이용 후 하부장 및 타석 크레딧 정리 하셨습니다.', 1, '2023-12-12T09:00:00', '2025-06-14T19:35:01', '회원요청', 230, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (299, '비타민 메모 이전', '12/16 주니어 회원 등록 시 2:1 레슨 가능 할때 시작을 원하셨습니다.
+오프로님께도 상황 전달 하였습니다.
+성별이나 나이 상관 없다고 하시고 2:1 레슨 매칭이 되면 채널로 안내해드리겠다고 말씀드렸습니다.
+
+1/13 2:1 대기로 하시고 1:1로 시작. 대표님께서 주 3회 단가로 도와드리라고 하셔서 2:1 대기자 생길 때까지 주 3회 단가로 차감 도와드리면 됩니다.', 1, '2023-12-16T09:00:00', '2025-06-14T19:35:01', '회원요청', 231, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (300, '비타민 메모 이전', '주니어 1:1 레슨 김리나 학생 부모님(주 2회)
+12.17일부터 시작
+
+김리나 주니어 어머님 
+박은희(eunhee730) 010-8700-7533
+
+리나할머니 010-8813-9584', 1, '2023-12-16T09:00:00', '2025-06-14T19:35:01', '회원요청', 232, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (301, '비타민 메모 이전', '25/1/10 어머님 박서영님으로 부터 크레딧,레슨권 양도 받으심
+(130,350c, 7회)
+
+12/17 본인인증 완료.
+김효은님(누나)께 양도 받으심.
+출국하시기 전 레슨권은 다 사용한다 하셨고, 나가시기 전에 재등록 결제하신다고 하셨습니다. 재등록 하시면 유효기간 무기한으로 연장 도와드린다고 하였고, 추후 어머님도 등록하시러 오신다고 하십니다!
+
+박서영님 지인 이벤트 추가 6만 크레딧', 1, '2023-12-17T09:00:00', '2025-06-14T19:35:01', '회원요청', 233, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (302, '비타민 메모 이전', '6/13일 레슨권 결제하셨는데 6/15일부터 시작 원하셔서 시작일 변경이 어려워 유효기간을 2일 연장 도와드림.', 1, '2023-12-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 234, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (303, '비타민 메모 이전', '5/10 레슨 시작을 5/15 부터 원하셔서 기간 연장 도와 드림
+
+* 추후 골프백 배송 서비스 주소
+양천구 목동동로 189, 삼성 쉐르빌 A동 2005호', 1, '2023-12-20T09:00:00', '2025-06-14T19:35:01', '회원요청', 235, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (304, '비타민 메모 이전', '25/1/10 자녀분 김청은님께 크레딧,레슨권 양도
+(130,350c, 7회)
+
+8/12 재등록 시 레슨권 18회 + 유효기간 지난 레슨 9회
+ㄴ잔여 레슨권 합쳐드리고 유효기간 추가 2개월 연장 도와드렸습니다. (기존 유효기간 25/1/8 -> 25/3/3 까지)
+
+5/21 김효은님께 회원권 양도 받으심.
+남은 크레딧 551,000c
+남은 레슨권 14회 (유효기간~7/21)
+아이패드에 여권사진 기록.
+
+3/11 패키지 재등록 하실 때 추가 5만c 적립
+
+김청은님 어머님 (지인 이벤트 추가 6만 크레딧)', 1, '2023-12-22T09:00:00', '2025-06-14T19:35:01', '회원요청', 236, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (305, '비타민 메모 이전', '8/30 2달 출장으로 인해 락커비 할인 요청하셔서 대표님 확인 후 9월 락커비 차감은 할인된 금액으로 차감 도와드리기로 함.
+
+12월 락커 무료 이용.', 1, '2023-12-22T09:00:00', '2025-06-14T19:35:01', '회원요청', 237, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (306, '비타민 메모 이전', '25-03-23 프로변경(이재윤-->김주순), 레슨권 2개(6회,7회)있으셔서 하나로 합산해드림.
+
+24/12/21
+주니어 레슨 등록 당시에 처음 레슨 받을 때 부터 유효기간 3개월로 하기로 함(기존25/2/20 에서 25/3/20 으로 변경)
+
+9/21 박수주님께 크레딧 양도 받으심(142,410 c)
+
+주니어 1:1 이재이 주니어
+주 3회로 등록하셨는데 
+
+12월 26 ~ 30일 12시 
+1월 3일 15시 
+1월 4일 16시
+1월 5일 14시 
+
+12회 분으로 결제(주 3회 기준 63만원) 8회 먼저 지정 -> 나머지 4회는 해외 다녀오셔서 스케줄 변경원하심.', 1, '2023-12-22T09:00:00', '2025-06-14T19:35:01', '회원요청', 238, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (307, '비타민 메모 이전', '6/10 주니어 10회권 결제, 5/28 이용금 차액 6/10에 700c 차감 완료
+
+5/28 이선혜 주니어 금일 정진숙님 일반 타석 + 레슨권으로 이용 원하셨는데 크레딧 부족하셔서 다음 주쯤 주니어 추가 등록 결제하실 때 부족하신 크레딧까지 결제하신다고 하십니다. 평일 낮 시간에 원하셔서 김은성 -> 이재윤 프로 변경 요청.
+
+5/1, 3시간 전 전화로 취소 요청주심. 타석 50%, 레슨 노쇼 차감 안내 완료.( 5/2 수기로 차감 안되어 있음) 
+
+이선혜 학생의 학부모님
+
+주니어 1:1(1회), 2:1(1회) -> 주 2회 단가로 안내
+
+수요일 2시 1:1 -> 12월 27일
+토요일 12시 2:1 -> 1월 13일부터 시작.', 1, '2023-12-23T09:00:00', '2025-06-14T19:35:01', '회원요청', 239, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (308, '비타민 메모 이전', '등록한 휴대폰은 자녀분 임정모 학생 휴대폰으로 주니어 레슨이 아닌 따로 연습을 할 수 있어서 임정모 학생 휴대폰으로 등록
+아버님 임종석님 010-4937-6768
+어머님 송주영님', 1, '2023-12-23T09:00:00', '2025-06-14T19:35:01', '회원요청', 240, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (309, '비타민 메모 이전', '25/2/14 레슨 재등록 시 기존 2회 통합하여 총 42회
+
+1/21 휴회신청 해제 요청 하셔서 해제 후 만료일 8/22->8/21로 변경됨
+
+1/5~1/21 조조권 휴회 신청. 조조만료 8/6->8/22로 변경됨. fms 적용 완료. 비타민 날짜 수정 완료
+
+11/29 조재영님 지인이벤트 적립완료
+
+fms 종료일 변경해 놓음, 조조 끝나시고 예약 안된다고 연락오시면 조조 이용권 종료되셨다고 안내해 드리고 하시는 회원권에 따라 유효기간 늘려드리기
+
+상부장 25번 사용 원하셔서 등록했습니다.
+
+하부장 변경 144..
+
+7/13 룰렛 5천크레딧 당첨 및 적립 완료', 1, '2023-12-24T09:00:00', '2025-06-14T19:35:01', '회원요청', 242, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (310, '비타민 메모 이전', '12월 하부장 무료.', 1, '2023-12-24T09:00:00', '2025-06-14T19:35:01', '회원요청', 243, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (311, '비타민 메모 이전', '한달 뒤 이상예정/ 하페2 고객
+
+상부장 한달 무료.
+
+멀리 이사가시는 게 아니라서 이사 정리하시고 다시 재등록 예정.', 1, '2023-12-25T09:00:00', '2025-06-14T19:35:01', '회원요청', 244, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (312, '비타민 메모 이전', '부부 동반 이용 예정.
+13단지 거주
+제니스등 여기저기 다님', 1, '2023-12-25T09:00:00', '2025-06-14T19:35:01', '회원요청', 245, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (313, '비타민 메모 이전', '250210 소견서 첨부 1개월 휴회 요청하심 FMS 유효기간 250713->250813로 변경 완료
+
+241103 엘보로인한 한달휴회 (241103~241202까지)
+추후 기간이 더 필요할시 진단서 첨부 안내드림
+
+6/14 프렌즈 36 등록 하셨으나 프렌즈 18로 변경 원하심
+
+주니어 1:1 레슨, 주 3회
+변주원 학생 부모님.
+
+지인 이벤트(전은정님 소개) 추가 15만 c', 1, '2023-12-27T09:00:00', '2025-06-14T19:35:01', '회원요청', 246, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (314, '비타민 메모 이전', '주니어 2:1 레슨
+김동현, 김다현 어머님
+
+하부장 대기(1/2 하부장 배정 완료)
+
+2월레슨 2:1->다현1:1로 변경
+2:1 2월분 16만 크레딧 재적립 후 1:1 4회분 재차감 완료.', 1, '2023-12-28T09:00:00', '2025-06-14T19:35:01', '회원요청', 247, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (315, '비타민 메모 이전', '주니어 1:1 레슨, 김건희 주니어 부모님.
+
+주니어 레슨 1/9부터 시작.', 1, '2023-12-29T09:00:00', '2025-06-14T19:35:01', '회원요청', 248, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (316, '비타민 메모 이전', '비회원으로 이용하시려다 회원권 등록.
+유효기간 무기한', 1, '2023-12-31T09:00:00', '2025-06-14T19:35:01', '회원요청', 249, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (317, '비타민 메모 이전', '수험생 이벤트 (타석 크레딧 20% 추가) + 12c', 1, '2023-12-31T09:00:00', '2025-06-14T19:35:01', '회원요청', 250, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (318, '비타민 메모 이전', '6/29 문정원님께 양도받으심.
+남은 크레딧 54,300c, 레슨 잔여 2회 ~6/30 (문정원님 레슨권 연장 후 양도하시면 문병식님 유효기간과 동일하여 기간 연장 재등록 기준 안내해 드리고 기존 레슨권(9회) 있으셔서 회원권 인증은 도와드렸으나 레슨권 2개로 보이셔서 합쳐드리고 안내해 드렸습니다.)
+
+5/30 레슨권 유효기간 한 달 연장 도와드림.
+
+4/27 132번 하부장 4월 달까지 이용 원하심.
+
+4/18 저녁에만 레슨 가능하셔서 프로님 변경 요청
+(레슨 14회 남으신 상태에서 이재윤 프로님 -> 오경배 프로님) 
+
+타석 유효기간 무기한
+지인 이벤 추가 6만c
+
+문정원님 부모님
+부부 두 분이서 타석 및 레슨권 쉐어 원하심.
+
+락커 총 2개 95번, 97번
+
+라커 총3개 132, 134, 136', 1, '2023-12-31T09:00:00', '2025-06-14T19:35:01', '회원요청', 251, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (319, '비타민 메모 이전', '6/29 문병식님께 양도
+남은 크레딧 54,300c, 레슨 잔여 2회 ~6/30
+
+타석 유효기간 무기한
+지인 이벤트 추가 6만c
+
+문병식님 따님', 1, '2023-12-31T09:00:00', '2025-06-14T19:35:01', '회원요청', 252, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (320, '비타민 메모 이전', '비타민 회원권 유효기간은 2개월까지라 이미 만료된 회원권인데 
+fms 레슨권 유효기간(~5/1)으로 되어있음.
+ㄴ 정확한 내용 파악이 어려워 현재 회원권 유효기간대로 설정 -> 4월에 채널로 만기 안내하기.
+ㄴ 4/28 레슨권 유효기간 연장 먼저 요청하셔서 레슨권 재등록 시 잔여 횟수까지 사용하실 수 있게 넣어드린다고 안내함.(메뉴얼 응대)
+
+이준원 주니어 (16년생) 주1회 1:1
+
+고양시 덕양구 DMC자이 더리버 거주
+아버님 레슨병행 예정', 1, '2024-01-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 253, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (321, '비타민 메모 이전', '25/2/8 레슨 재등록으로 유효기간 6개월 추가 및 미사용 레슨 15회과 같이 총 25회 수정
+
+25/2/7 레슨권 유효기간 만료로 인해 레슨권 재등록 하시면 기존 레슨 유효기간에서 6개월 추가 안내해 드림(미사용 레슨 15회)
+
+2/28 이제욱님 2/25에 20 -> 99패키지로 변경하셔서 지인이벤트 추가 크레딧(2 -> 5.5 차액 적립, 전부 송유진님께 원하셔서 추가 7만c 적립)
+
+1/1 레슨 1개월 연장
+
+1/13 레슨 QR 인증 못 받아서 횟수 수기로 차감.
+
+배우자 이제욱님 등록으로 2만c *2추가 적립 완료', 1, '2024-01-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 254, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (322, '비타민 메모 이전', '처음 등록하실 때 99패키지 + 프렌즈 18 하셨는데 총 레슨권(36회) 유효기간은 5개월로 되어있어 추가 5개월 연장 도와드림.(요청하심)', 1, '2024-01-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 255, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (323, '비타민 메모 이전', '6/10 앱으로 하는 예약이 어렵다고 하셔서 6월 17,18일 예약을 미리 도와 드림 앞으로도 계속 요청하실듯
+
+권혁율님 배우자분, 
+
+레슨 17회 (~24.04.10), 크레딧 594,100 남아있는 상태에서 재양도.
+환불 요청하셨으나 유효기간 무기한으로 안내해 드렸고 레슨은 유효기간 내에 사용해야 한다고 말씀드림.', 1, '2024-01-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 256, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (324, '비타민 메모 이전', '3/7 오준혁님께 레슨권만 양도 받음.
+양도 레슨권 유효기간 4/8, 남은 횟수 8회 (프렌즈9)
+
+지인 이벤트 + 2만 c (오준혁님)', 1, '2024-01-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 258, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (325, '비타민 메모 이전', '홍주원, 홍희원 주니어 어머님
+지인 이벤트로 9만 적립(홍상영님 와이프분)', 1, '2024-01-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 259, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (326, '비타민 메모 이전', '6/5 잔여 레슨 1회 유효기간 만료가 김은성 프로님 휴무시라 사용 어려워 6/6->6/7로 하루 연장 해드림
+
+홍희원 홍주원 주니어 아버님. 
+
+주니어 차감 (2월 28일)
+
+7/13 8월 미국일정으로 인해 연장 요청하셔서 한달 연장해드렸고
+아이들이 현재 아픈상태인데 좀 나아지면 미국 가기 전에 소모 하고 재 결제 안내 드림', 1, '2024-01-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 260, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (327, '비타민 메모 이전', '4/10 이제윤님 다리 깁스로 인해서 어머님께서 채널로 진단서 보내주심. 유효기간 (5주 정도 늘려드림)
+
+어머니 김지영님, 추후 따로 방문주시면 이제윤님 크레딧으로 타석 & 원포인트 레슨 원하심.', 1, '2024-01-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 261, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (328, '비타민 메모 이전', '비회원으로 이용 원하셨다가 회원권 구매.
+레슨은 다른 곳에서 받고 계심', 1, '2024-01-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 262, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (329, '비타민 메모 이전', '강준호, 강민영님 부모님.
+
+1월달은 정해진 스케줄로 진행 하며 2월달에는 상황봐서 추가 횟수 및 등록 여부를 판단하신다고 하셔서 그때 다시 안내해 달라고 하셨습니다.', 1, '2024-01-07T09:00:00', '2025-06-14T19:35:01', '회원요청', 264, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (330, '비타민 메모 이전', '8/15 배우자님께서 연락오셔서 다음에 오셨을 때 프렌즈9 + 타석 15
+결제 예정임 (원칙상으로는 안되는데 이번에는 특별히 1주년 기념 이벤트로 골프공 R3 증정 해주시면 됨)
+
+6/21 오전 7시 노쇼 크레딧 차감 후 재적립(대표님 확인 완료)
+
+토 12시, 일 17시 고정 레슨 회원님.', 1, '2024-01-07T09:00:00', '2025-06-14T19:35:01', '회원요청', 265, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (331, '비타민 메모 이전', '수강 확인서 발급 요청 양식은 회사에서 가지고 오신다고 하셨음', 1, '2024-01-08T09:00:00', '2025-06-14T19:35:01', '회원요청', 266, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (332, '비타민 메모 이전', '25.01.21 잔여레슨권 3회 구매하신 패키지 합산하여 총 21회로 맞춰드림.
+
+박주원 주니어 어머님
+
+24/10/22 10타줄이기 프로젝트 재구매 레슨권2회 남아있는거에서 18회추가 , 기간 5개월 연장으로 해둠(FMS)
+
+403. 김세정님 지인 이벤트 15000c 추가 적립
+
+
+268.김현주님 지인 이벤트 적용
+
+199에서 다시 99 상품으로 변경. 이전 크레딧 회수후 99 회원권 등록.  그동안 사용분 차감완료.', 1, '2024-01-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 267, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (333, '비타민 메모 이전', '25-01-15 기존 잔여레슨권 1회 새로 구매하신 패키지에 합산하여 19회로 맞춰드림. 
+
+김희민 주니어 어머님.
+24-08-22 주니어레슨권 한달연장(~24.12.12까지로)  주1회 사용이고 공휴일등 빼다보니 3회 예약을 못해서 연장 요청.
+
+3/16 FMS, 비타민 레슨 횟수 1 차이 (24/1/11 차이)
+
+267.이수진님 지인 이벤트 적용
+
+24.01.16  199패키지로 변경(지인 추가 12만C지급)
+QR안읽혀서 FMS상품 변경 못함
+비타민 변경 아직 못함
+->19 금 방문 예정 변경 부탁드립니다.
+
+2024.03.01 10타줄이기 재등록. 3월 1일 잔여레슨 6회상태 재등록.
+(기존레슨권 유효기간이 3달남아서 재등록 유효기간 일단 2달연장해드림.그전에 쓰실것으로 생각됨)', 1, '2024-01-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 268, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (334, '비타민 메모 이전', '10/27 락커 차감 크레딧 x, 재등록도 안하셔서 이용 중이시던 락커 정리 (상부장 11번)
+
+5/29 레슨권 끝나신 줄 몰라 당장 부족하신 타석 크레딧만 결제 후 패키지나 레슨권이랑 높은 타석권 중 고민해 보시고 변경하신다고 하심.
+
+엄대동님 지인 (bmw 직원분)
+
+엄대동님께 넣어드리는 지인 이벤트 추가 크레딧도 송성균님께 넣어드리라고 하여 총 11만 크레딧 추가 적립 도와드림.', 1, '2024-01-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 269, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (335, '비타민 메모 이전', '레슨 시작일로부터 유효기간 변경 (자녀분들 방학이라 추후에 시작하실 예정.) - 완료 (24/3/18일부터 레슨 시작하심.)
+
+박영진님 배우자분
+추가 10만 크레딧 + 지인이벤트 추가 35만 크레딧
+
+24.01.13 1회 공개레슨 참여 (이재윤) 이후 등록
+- 배우자 : 박영진 (1/14 방문)
+- 어머니 : 김필순 (1/14 방문)
+- 아버지 : 성명미상 (1/14 방문)
+
+아버지 : 화성지역에 골프사업 준비중', 1, '2024-01-13T09:00:00', '2025-06-14T19:35:01', '회원요청', 270, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (336, '비타민 메모 이전', '4/27 미션 이벤트 완료 사진 전체 화면으로 안내 함
+
+육인혜님 배우자분
+
+추가 10만 크레딧 + 지인이벤트 추가 35만 크레딧', 1, '2024-01-13T09:00:00', '2025-06-14T19:35:01', '회원요청', 271, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (337, '비타민 메모 이전', '조조이용권 240413 만료.
+
+fms 종료일 변경해 놓음, 조조 끝나시고 예약 안된다고 연락오시면 조조 이용권 종료되셨다고 안내해 드리고 하시는 회원권에 따라 유효기간 늘려드리기', 1, '2024-01-13T09:00:00', '2025-06-14T19:35:01', '회원요청', 272, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (338, '비타민 메모 이전', '조조이용권 240504 만료.
+
+4/29 락커 정리해 주심 (27번)
+4/10 시험기간으로 유효기간 연장 요청(~5/4 까지)
+
+fms 종료일 변경해 놓음, 조조 끝나시고 예약 안된다고 연락오시면 조조 이용권 종료되셨다고 안내해 드리고 하시는 회원권에 따라 유효기간 늘려드리기
+
+3/9 손목 부상으로 유효기간 2주 연장 요청
+
+박관우님이 결제. 라커3개월이용요금도 같이 결제.', 1, '2024-01-13T09:00:00', '2025-06-14T19:35:01', '회원요청', 273, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (339, '비타민 메모 이전', '김우진님 기존 레슨권 유효기간 ~ 3/12
+잔여횟수 2회 남은 상태에서 재등록 (회원님과 확인 후 재등록 레슨권에 합쳐드림)', 1, '2024-01-13T09:00:00', '2025-06-14T19:35:01', '회원요청', 274, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (340, '비타민 메모 이전', '김예은 주니어 어머님', 1, '2024-01-14T09:00:00', '2025-06-14T19:35:01', '회원요청', 275, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (341, '비타민 메모 이전', '1/31(목)에 재등록 예정-등록완료
+
+주니어레슨 본인등록. 
+어머님 이재선님(010-6276-4208)', 1, '2024-01-14T09:00:00', '2025-06-14T19:35:01', '회원요청', 276, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (342, '비타민 메모 이전', '2/29 엄대동님께 양도
+(남은 크레딧 570,200c - 보너스 크레딧 - 양도 수수료 46,000c 제외한 금액 414,200c / 남은 레슨권 16회) 
+타석권 유효기간 무기한, 레슨권 유효기간 ~ 6월 말까지(원래는 21일)', 1, '2024-01-15T09:00:00', '2025-06-14T19:35:01', '회원요청', 277, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (343, '비타민 메모 이전', '송성균님 지인이벤트 추가크레딧55000적립
+송성균님이 받으실 추가크레딧55000도 금창훈님께 적립
+총 110000크레딧 추가 적립 해드림', 1, '2024-01-16T09:00:00', '2025-06-14T19:35:01', '회원요청', 279, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (344, '비타민 메모 이전', '3/29 패키지 결재 후에 김태윤 프로님으로 변경
+
+허연우 주니어 아버님
+
+<3/29 결제 내역 취소후 상품 변경 사항>
+3/29 결제한 399 패키지 취소 후 350(+50) 크레딧과 149 패키지로 크레딧 새로 등록해야함(크레딧 추가 알림 안 가도록 해주세요!)
+350크레딧에 7% 크레딧 추가에 해당하는 24만 5000원 크레딧도 넣어야 합니다.
+최종 크레딧이 5648480이 되도록 하면 됩니다.', 1, '2024-01-17T09:00:00', '2025-06-14T19:35:01', '회원요청', 280, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (345, '비타민 메모 이전', '24-09-12 손부상으로 한동안 못나오셨다고 하셔서 정형외과 서류 채널로 전송 받았고, 레슨권 두달 연장. 11월 30까지.
+
+4/29 락커 113번 삭제 처리
+
+황희정님 지인 크레딧 적립
+무료단독타석 이용권 사용 후 등록하심.
+상부장 114번 신청하셨는데 사용중이라고 나옵니다!ㅠ
+
+24/04/29 프렌즈18 구매하시며 유효기간내 다 사용못하실까봐 프로님께 말씀드려 조금 연장해주기로 했다고 말씀하심. 일단 5개월내 사용해보시고 다 못쓰시면 조금 연장해드린다고 함.', 1, '2024-01-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 282, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (346, '비타민 메모 이전', '실제이용 고객 조현규님(본인인증은 어머님 핸드폰 노연미님)
+ㄴ없는 번호라고 뜸.', 1, '2024-01-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 283, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (347, '비타민 메모 이전', '2/6 프렌즈10등록, 기존 레슨권 잔여 5회(1/26만료) 취합해서 FMS변경 완료.
+
+육인혜님 어머님
+락커 1월 무료 이용
+레슨 시작일로부터 유효기간 변경 (완료)
+
+보너스 10만 c + 지인 이벤트 추가 20만 c = 총 30만 c', 1, '2024-01-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 284, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (348, '비타민 메모 이전', '250403 레슨권 1회 수동차감(김이선님 현장요청) 잔여 8회
+
+250327 레슨권 1회 수동차감(김이선님 현장요청) 잔여 9회
+
+250323 레슨권 1회 수동차감(김이선님 현장요청) 잔여 10회
+
+24/12/29 이용은님 레슨 15회 양도 받으심(25/4/17일까지)
+
+10/20 410.이영은님께 잔여 473,000 크레딧 양도받으심.
+
+1/19 김이선님께 양도받으심. (~25/5/2, 595,000 c)', 1, '2024-01-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 285, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (349, '비타민 메모 이전', '박정미, 박성주, 김정은님 지인 이벤트 적립금 1/N
+
+7/30 프렌즈 9 레슨권 카드 환불 완료.
+
+7/12
+7월 4일에 레슨 등록 하셨는데 바쁘셔서 레슨을 받을 수가 없는 상황이라 레슨 시작 변경을 요청하심
+언제 시작 할지 몰라 회원님께서 예약 하신 레슨 시작 일부터 다시 2개월 유효기간 연장 및 추후에 레슨권 미소진 시 1개월 더 연장 요청하신다고 하심(기존 1개월 조건 없이 연장하는 내용임)', 1, '2024-01-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 286, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (350, '비타민 메모 이전', '2/4 14시에 타석 및 레슨 예약 하셨는데 감기 때문에 취소 도와 드림
+시간이 지나 연락이 되어서 FMS 에서는 차감 된 상태라 1회 넣어드렸습니다.', 1, '2024-01-20T09:00:00', '2025-06-14T19:35:01', '회원요청', 287, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (351, '비타민 메모 이전', '김기영, 차지예님 가족
+지인 이벤트 차지예님께 적용(추가 5.5만c)
+
+군대 훈련소 입소로 레슨권 3주 연장 요청하셔서 7월 9일까지로 연장해드림.', 1, '2024-01-21T09:00:00', '2025-06-14T19:35:01', '회원요청', 289, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (352, '비타민 메모 이전', '락커 6월 달까지 이용 원하심.
+
+락커 1월 달까지 무료.', 1, '2024-01-21T09:00:00', '2025-06-14T19:35:01', '회원요청', 290, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (353, '비타민 메모 이전', '4/25 전공의 당직으로 인해 한 달 홀딩 요청
+
+김나현님 배우자분
+지인 이벤트 추가 5.5만 c
+
+주로 화요일 7시,7시반에 레슨하시고 주말에 스케줄 보시고 레슨 이용.
+레슨 다 소진 못하시면 김나현님께서 사용하신다고 하심.', 1, '2024-01-21T09:00:00', '2025-06-14T19:35:01', '회원요청', 291, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (354, '비타민 메모 이전', '8/20 지인 공소라님 재등록 하시면 잔여 레슨 4회 공소라님께 양도 수수료 없이 넘겨드리기로 함.(대표님 카톡 내용 확인)
+
+6/20 기존 레슨권 유효기간 6/27에서 한 달 연장 도와드림.
+
+1/27 선불타석 20 -> 99패키지로 변경.', 1, '2024-01-22T09:00:00', '2025-06-14T19:35:01', '회원요청', 292, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (355, '비타민 메모 이전', '24.7.26 올해 말까지 회원권 홀드 요청 (서예원실장님 확인 완료)
+fms 24/12/31 홀드 완료, 비타민 10타줄이기(레슨권), 조조권 유효기간 연장 완료.
+
+
+24.06.25 늑골염 차도 없어서 진단서 채널로 보내주심. 홀드처리 한달 연장. 조조권도 9월 28일까지로 연장처리.
+
+늑골염으로 6월부터 이용이 불가능하셔서 조조권,레슨권 3주 연장. 한달이상 연장시 진단서 내시기로 함 (24.06.11)
+
+3/18 용정희님께서 황윤선님 회원권까지 같이 결제하심.
+
+3/19 fms 인증후 잔여 레슨 4회를 패키지 상품의 18회에 합산 함. 
+
+1월 라커비용 무료. 2월 1만크레딧차감.(2월 5회이상방문예정)', 1, '2024-01-23T09:00:00', '2025-06-14T19:35:01', '회원요청', 293, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (356, '비타민 메모 이전', '3/18 용정희님께서 황윤선님 회원권 함께 결제.
+
+1월 라커비용 무료. 2월 1만크레딧 차감(2월 5회이상방문예정)
+
+24.6.19. 취직으로 7월1일부터 부터 조조이용 못하는 상황. 기존 조조권이 8/7까지여서 7월7일까지로 변경후 한달치 13만 크레딧 적립해드렸음.
+
+7/7일부로 조조권 만료', 1, '2024-01-23T09:00:00', '2025-06-14T19:35:01', '회원요청', 294, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (357, '비타민 메모 이전', '지인 이벤트 (어머님이 김선영님과 같이 골프치심) 추가 5.5만 c
+어머님은 엘스퀘어 기간제로 다니시고 계심.', 1, '2024-01-24T09:00:00', '2025-06-14T19:35:01', '회원요청', 295, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (358, '비타민 메모 이전', '24/10/29 11월 락커 미사용으로 요청 하심(151번)
+
+주차 문제만 해결되면 거의 매일 나오신다고 하셔서 횟수에 상관없이 50% 할인으로 안내해 드렸으나 대표님께서 자주 나오신다는 전제하에 할인 혜택 적용해 드리는 것이라서 다른 분들과 동일한 혜택으로 적용해 드리라고 하십니다.
+
+6/3 레슨권 연장(24/9/23 -> 24/10/23)
+
+예원실장님 지인분.', 1, '2024-01-26T09:00:00', '2025-06-14T19:35:01', '회원요청', 296, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (359, '비타민 메모 이전', '1/9 최수아님께 121,400 양도
+
+10/29 김영규 회원님 지인이벤트 적용
+
+3/26 최수아님께 양도받으심.
+남은 크레딧 152,000, 남은 레슨 4회
+(레슨권 유효기간 4/1일까지이신데 2주 연장으로 4/14까지로 변경)
++ 주니어 레슨 잔여 2회 있으신데 아이들 시간이 안되어서 대표님 확인 후 크레딧으로 돌려드림.
+
+최민아 주니어 부모님', 1, '2024-01-27T09:00:00', '2025-06-14T19:35:01', '회원요청', 297, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (360, '비타민 메모 이전', '채널 연락은 배우자님께서 받으시겠다고 하셔서 채널은 배우자님께서 추가하셨고 이름은 조윤호님으로 설정해드렸습니다.', 1, '2024-01-27T09:00:00', '2025-06-14T19:35:01', '회원요청', 298, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (361, '비타민 메모 이전', '1/27 비회원으로 이용하셨는데 자주 오시는 분이라 회원권 안내해 드려서 회원권 구매하셨고, 결제하신 비회원 금액은 크레딧으로 적립해드리고 회원금액으로 차감시켜드렸습니다.', 1, '2024-01-27T09:00:00', '2025-06-14T19:35:01', '회원요청', 299, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (362, '비타민 메모 이전', '11/26 99회원권 등록으로 기존 레슨권 잔여 횟수 6회 합침. 
+타석+레슨 무기한(FMS유효기간 2028/12/31로 수정함.)
+
+7/15 10타줄이기 회원권 재등록. fms 상에 회원권이 중복 등록 되어 회원권 하나는 어플에서 보이지 않도록 유효기간 만료로 조정해둠. 
+
+7/1 락커91번에서 156번으로 변경
+
+6/17 35만 타석권 일시불 구매, 추후 카드 변경 원하심
+
+박도균 주니어 부모님.', 1, '2024-01-28T09:00:00', '2025-06-14T19:35:01', '회원요청', 300, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (363, '비타민 메모 이전', '신양현 주니어레슨 힘들어 해서 천천히 받으려고 6/1 만료에서 한달 연장.
+
+5/8 레슨권 유효기간 5/16까지인데 해외 일정으로 인해 5월 말일까지로 연장 도와드림.
+
+2:1 대기자 나올 때까지 52,500 단가로 적용, 주니어 레슨 횟수권은 그대로 진행하여 2:1 매칭될 때까지는 525,000 크레딧 차감입니다.
+
+신양현 주니어 부모님.', 1, '2024-01-28T09:00:00', '2025-06-14T19:35:01', '회원요청', 301, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (364, '비타민 메모 이전', '조조이용권 240506 만료.
+
+fms 종료일 변경해 놓음, 조조 끝나시고 예약 안된다고 연락오시면 조조 이용권 종료되셨다고 안내해 드리고 하시는 회원권에 따라 유효기간 늘려드리기', 1, '2024-01-28T09:00:00', '2025-06-14T19:35:01', '회원요청', 302, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (365, '비타민 메모 이전', '이수윤 주니어 부모님
+이지원님(배우자분) 01052790530 - 레슨북 등록 번호
+
+1/31 기존에 현금으로 63만원 주니어만 결제하셨는데, 상품을 90만원짜리 크레딧으로 바꾸어드림.(현금10만 + 카드결제17만)
+
+주니어 회원 - 2월 주3회 / 현금결제하심 / 어플 다은로드 및 회원인증 진행요함.
+
+3월 2:1 40만원 2/21 현금결제완료', 1, '2024-01-29T09:00:00', '2025-06-14T19:35:01', '회원요청', 303, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (366, '비타민 메모 이전', '1/29 등록 당시 회원님 스케줄 변경으로 인해 2월달은 오전에 3월에는 저녁이나 주말에 레슨이 가능해 2월달에는 이재윤 프로님으로 지정하셨으며 3월달에는 스케줄에 따라 프로님 변경 요청을 한다고 하셨습니다.', 1, '2024-01-29T09:00:00', '2025-06-14T19:35:01', '회원요청', 304, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (367, '비타민 메모 이전', '250125~250224 한달간 휴회요청/처리완료
+
+8/12 레슨 재등록 하셔서 미사용 레슨 9회 까지 추가 해서 총 27회로 수정 + 유효기간 2개월 추가', 1, '2024-01-30T09:00:00', '2025-06-14T19:35:01', '회원요청', 305, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (368, '비타민 메모 이전', '임현지, 임서연님 어머님
+임현지, 임서연님 지인 이벤트 어머님께 전액 적립 원하심', 1, '2024-01-30T09:00:00', '2025-06-14T19:35:01', '회원요청', 306, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (369, '비타민 메모 이전', '25-1-9 해외 출국으로 레슨권 2달 홀드처리(25.3.9까지)
+
+8/12 레슨 재등록 하셔서 미사용 레슨 8회 까지 추가 해서 총 26회로 수정 + 유효기간 2개월 추가', 1, '2024-01-30T09:00:00', '2025-06-14T19:35:01', '회원요청', 307, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (370, '비타민 메모 이전', '3/26 김연옥님께 양도
+남은 크레딧 152,000, 남은 레슨 4회
+(레슨권 유효기간 4/1일까지이신데 2주 연장으로 4/14까지로 변경)
+
+최수아님 연습장 이용이 어려워 
+최민아 주니어가 대신 이용하기로 함.(qr없이 타석 오픈 가능)
+방문시간이 오후 밖에 안돼서 이재윤프로님에서 오경배 프로님으로 변경', 1, '2024-02-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 308, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (371, '비타민 메모 이전', '9/21 이주희님께 잔여 크레딧 양도(142,410 c)
+
+이재이 주니어 어머님
+주니어로만 이용하시다가 남은 크레딧 이주희님께 양도.
+박수주님은 현대백화점에 회원권이 길게 남아있으심.', 1, '2024-02-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 309, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (372, '비타민 메모 이전', '24/12/26 허리가 계속 안좋으셔서 유효기간 연장을 위해 프렌즈 10회 재등록. 기존레슨권 19회 추가하여 29회로 맞춰둠. 기존 레슨권은 유효기간 만료로 처리. 
+
+12/17 레슨권 유효기간 연장 문의 하셔서 기존에 1개월 연장 완료로 추가 레슨권 구매시 유효기간 무기한 안내해드림. 1월에 레슨권 재구매 예정이심. 기존 레슨권 연장을 위한 재등록건이여서 재등록 회원권 한 달 연장 미리 도와드림.
+
+6/11 프로 변경 요청.(김태윤 프로님 -> 이재윤 프로님)
+
+장윤소 주니어 부모님', 1, '2024-02-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 310, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (373, '비타민 메모 이전', '이제윤님 어머님
+
+240630 이제윤님 레슨권 18회 양도받으심. fms이제윤님은 유효기간만료처리. 김지영님은 기존레슨권에 18회추가. 이제윤님 레슨권 유효기간 한달연장하여 9월 10일까지로 변경하여 양도처리.', 1, '2024-02-04T09:00:00', '2025-06-14T19:35:01', '회원요청', 313, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (374, '비타민 메모 이전', '24/09/12 박선우 주니어 여행등으로 레슨권 사용을 다 못하실것 같다고 연장 요청하셔서 한달 연장해드림 (10월 27일까지)
+
+락커 6월 달까지 이용 원하심.
+
+5/28 이수윤 주니어와 2:1 레슨 -> 1:1 레슨으로 변경.
+
+2월 주니어 7회 차감. 라커 4일분부터 차감.', 1, '2024-02-04T09:00:00', '2025-06-14T19:35:01', '회원요청', 314, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (375, '비타민 메모 이전', '김동윤 주니어 학부모님
+레슨북 번호 배우자 김덕수님(010-9070-7619)으로 등록 완료.
+
+남편분이 결제하시고 가심.
+추후 주니어도 등록 예정(원포인트로 받아보시고 결정)', 1, '2024-02-05T09:00:00', '2025-06-14T19:35:01', '회원요청', 315, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (376, '비타민 메모 이전', '3/20 락커 총 2개 이용 중이신데 67번 상부장 락커만 이번 달까지 이용하시고 주니어 골프백 창고 보관 요청하셨습니다.
+
+2월 상부장 무료 이용 (2월 중 하이페리온으로 이사 예정)
+3월 락커 50% (신규회원가 적용 가능한 줄 알고 안내해 드렸습니다ㅜ)
+
+락커 2개 이용 (67번-상부장, 84번)', 1, '2024-02-05T09:00:00', '2025-06-14T19:35:01', '회원요청', 315, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (377, '비타민 메모 이전', '25/1/31 사물함 이용 중지 요청(143번)
+
+6/22 주니어만 결제한다 하셔서 55만 자율금액으로 넣고 주니어 10회 구매처리 하였으나 회원님이 50만+2만 요청하셨음. 취소, 회원권 삭제등 처리가 번거로워서 대표님 확인후 기존 55만 자율금액+2만 보너스 넣어드림. 
+
+5/26 김태윤 프로님 -> 이재윤 프로님으로 변경
+
+3/24 아이코젠 곧 끝나셔서 타석권 결제하심.
+ㄴ락커 크레딧으로 차감시켜드리기로 함.
+ㄴ김태윤 프로님 일요일 레슨 가능한 지 여쭤보심.(대표님께서 다음 주애 상의해 보시고 말씀주시기로 하심.)
+
+3/22 김태윤 프로님으로 변경 요청
+
+3/10 보증금 15만원 계좌이체 완료. 
+락커 매달 결제(크레딧 적립 후 차감시켜드려 기록 남겨야함.)
+보증금 15 + 3월 락커 이용 요금 계좌이체 완료.
+
+아이코젠 회원님, 레슨권만 등록
+
+레슨권 유효기간 부상으로 한달 연장처리. 9월18일->10월 18일(늑골관련 진단서 패드에 찍어둠) 2024.05.15', 1, '2024-02-07T09:00:00', '2025-06-14T19:35:01', '회원요청', 317, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (378, '비타민 메모 이전', '9/27 조조 이용권 만료처리(240906)', 1, '2024-02-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 318, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (379, '비타민 메모 이전', '4/1 락커 97번에서 42번으로 이동', 1, '2024-02-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 320, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (380, '비타민 메모 이전', '25/02/13 프렌즈10 재등록. 유효기간 지났던 2회 합산하여 12회로 맞춰드림. 새로 구매하신건 2주 연장. 
+
+6/21 프렌즈18 등록, 기존 잔여 레슨권 1회 횟수 조정으로 합치고 기존레슨권 7/23 에서 만료처리함
+
+2/28 이제욱님 2/25에 20 -> 99패키지로 변경하셔서 지인이벤트 추가 크레딧(2 -> 5.5 차액 적립, 전부 송유진님께 원하셔서 추가 7만c 적립)
+
+2/25 20크레딧 -> 99패키지로 변경.
+
+송유진님 배우자분
+지인등록 이벤트 2만C*2 송유진님께 한번에 적립 요청하심. 
+송유진님 4만c적립완료', 1, '2024-02-21T09:00:00', '2025-06-14T19:35:01', '회원요청', 322, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (381, '비타민 메모 이전', '주니어레슨 방학중만 이용가능하여 유효기간 연장 해드림(서예원실장님 확인완료)', 1, '2024-02-23T09:00:00', '2025-06-14T19:35:01', '회원요청', 323, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (382, '비타민 메모 이전', '양동훈 주니어 아버님', 1, '2024-02-23T09:00:00', '2025-06-14T19:35:01', '회원요청', 323, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (383, '비타민 메모 이전', '6/8 윤재현 주니어 레슨 노쇼
+
+2/24 주니어 레슨만 이용 원하심', 1, '2024-02-24T09:00:00', '2025-06-14T19:35:01', '회원요청', 324, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (384, '비타민 메모 이전', 'fms상 성명은 kimdaviddaewoong, 채널이랑 안맞아 회원정보 한글로 수정해놓음.
+
+김대웅 회원님 채널 있으셔서 회원정보 입력 해놓음. 채널 연락 가능.
+
+등록은 김대웅님 본인, 이용은 따님(김예나 학생이 이용) 주니어 x, 일반 예약으로 이용
+
+김대웅님 카카오톡이 없으셔서 채널로 연락 x, 연락은 전화로만 가능.', 1, '2024-02-24T09:00:00', '2025-06-14T19:35:01', '회원요청', 326, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (385, '비타민 메모 이전', '12/28 12월 락커비 2만원 카드결제 및 락커 이용 중단 요청
+
+11/1 11월 락커비 2만원 카드결제,크레딧적립완료
+
+7/1 7월락커비 2만원 카드결제, 크레딧적립 완료
+
+5/31 6월락커비 2만원 카드 결제, 크레딧적립 완료
+
+4/26 5월락커비 2만원 카드 결제, 크레딧적립 완료
+
+2/25 보증금 15만원 계좌이체 완료. 락커 매달 결제(크레딧 적립 후 차감시켜드려 기록 남겨야함.)
+2월 25 ~ 29 + 3월 23,000원 결제 완료.', 1, '2024-02-25T09:00:00', '2025-06-14T19:35:01', '회원요청', 327, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (386, '비타민 메모 이전', '02/11 이재윤프로님 체험 후 프로님 변경 
+
+24/12/18 레슨권 추가 등록 하셔서 기존 미사용 5회 + 10회 총 15회
+
+5/8 타석&레슨 변경(비타민엔 레슨 노쇼로 넣음) 
+-> 5/12 FMS 레슨 QR인증하고 비타민 레슨 노쇼 보강으로 넣어야함.', 1, '2024-02-26T09:00:00', '2025-06-14T19:35:01', '회원요청', 328, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (387, '비타민 메모 이전', '8/23 크레딧 부족으로 당일 이용분 차감 x', 1, '2024-02-26T09:00:00', '2025-06-14T19:35:01', '회원요청', 329, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (388, '비타민 메모 이전', '6/27 정은주(0763)님 정종해(아버님)님께 양도하심
+잔여 레슨권 0회, 잔여 크레딧 224,000c', 1, '2024-02-27T09:00:00', '2025-06-14T19:35:01', '회원요청', 330, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (389, '비타민 메모 이전', '주니어 관심(현재 자녀분이 하키를 하고 있어서 하키 시간을 좀 줄이고 골프도 배우실 예정)', 1, '2024-02-27T09:00:00', '2025-06-14T19:35:01', '회원요청', 331, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (390, '비타민 메모 이전', '24/11/23 레슨권 기한 연장 (12월 7일까지)
+
+7/21 일요일 오전 07:30~08:30 크레딧부족으로 차감안된건 차감해야합니다.', 1, '2024-03-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 332, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (391, '비타민 메모 이전', '6/28 프렌즈18 재등록, 기존 레슨권 잔여 1회(~10/15) 새 레슨권으로 합쳐드림. (fms횟수조정완료)
+
+4/27 룰렛 원포인트 당첨', 1, '2024-03-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 333, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (392, '비타민 메모 이전', '주니어레슨 잔여 1회 스케줄 안맞아서 김은성프로님->이재윤프로님으로 변경하여 6/6에 받기로함
+
+김도환 주니어 레슨권6/1->8일로 일주일 연장', 1, '2024-03-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 334, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (393, '비타민 메모 이전', '25/3/7 일시정지 요청 (3월 8일 ~ 21일까지)
+
+24/12/16 평일 이용권 환불(770,000c) 하고 추가 결제 후에 전일 이용권 12개월 등록
+집중레슨10 + 기존 레슨 2회 = 22회로 통합
+
+10/15 유효기간 무기한 이벤트 요청, 대상자여서 무기한으로 연장(금방 쓴다해서 25/12/12로함)
+
+8/14 집중레슨9 재등록. 기존 1회 합쳐드림. 유효기간 컴플레인 고객이라 한달 연장해드림. 
+
+7/18 집중 레슨권 유효기간 만료 문의. 재등록시 2개월 유효기간을 못들으셨다 하셔서 1개월 유효기간 연장 해드림(7/24->8/24) 추후 변경시 필요 증빙 자료 요청 될 수 있다 안내해 드림.
+7/1 락커 52번에서 154번으로 변경
+
+6/10 평일 주간 이용권 등록 12개월 25/6/10 까지
+기존 조조 회원님과 동일하게 FMS 타석 예약 유효기간도 변경', 1, '2024-03-04T09:00:00', '2025-06-14T19:35:01', '회원요청', 336, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (394, '비타민 메모 이전', '락커 6월 달까지 이용 원하심.
+
+배우자 김은아님(지인이벤트 추가 2만 크레딧)
+
+3/7 김은아님께 레슨권만 양도받음.
+양도 레슨권 유효기간 24년11월15일, 남은 횟수 28회
++락커 상부장 49번도 남편분께 양도.', 1, '2024-03-07T09:00:00', '2025-06-14T19:35:01', '회원요청', 339, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (395, '비타민 메모 이전', '8/1 재등록 다시 고민해 보신다 하셔서 레슨권 유효기간 2주 연장 도와드림.(기존 레슨권 ~8/17)
+
+7/28 잔액 털고 집 근처로 옮기실 예정 (여기는 직장 근처임)
+
+5/13 락커 이동 완료 및 레슨 시간 때문에 프로 변경 고민 하심
+
+3월 17일부터 시작원하심.
+17일 오실 때 락커 상부장 등록 예정.(완료) / 하부장 대기
+3/27 오전 10시 예약하셨다가, 착각으로 인해 취소 처리해드림
+(다음에는 안된다고 말씀드림)', 1, '2024-03-07T09:00:00', '2025-06-14T19:35:01', '회원요청', 340, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (396, '비타민 메모 이전', '리프레쉬 회원님, 레슨권만 등록', 1, '2024-03-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 341, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (397, '비타민 메모 이전', '대표님 어머님의 친구분. 파크골프라 단독이용하셔야 해서 부탁으로 등록시 5만 추가로 적립했습니다.', 1, '2024-03-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 342, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (398, '비타민 메모 이전', '24/01/12 패키지 재등록 / 00000잔여레슨권 3회 포함 레슨권 무기한 혜택 제공
+
+24/12/7 주니어 레슨권 3회만 재등록 (기존 만료된 레슨권 3회 사용하실 수 있게해드림.) 총 6회 중 12/6, 12/7 레슨받아 잔여 4회 남았고 유효기간은 총 1개월로 ~25/1/7까지로 변경해드림.)
+
+24/12/6 일반 레슨권 유효기간 1개월 연장 처리
+
+10/27 강민성 주니어 레슨 유효기간 1달 연장처리
+
+9/15 주니어 레슨권 만료되셔서 유효기간 한 달 연장 도와드림.
+
+2407114 패키지99 등록. 기존 레슨권 1회 신규레슨권에 합산하여 19회로 맞춰드림 
+
+5/31 락커 이동(139번에서 78번)
+
+강민성주니어', 1, '2024-03-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 347, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (399, '비타민 메모 이전', '레슨권 연장요청 10/31~11/14 (대표님안내)
+
+레슨권 연장 요청하셔서 10/8->10/31 연장 처리완료
+
+5/12 10시 레슨 FMS QR 인증을 못해 수동 차감 완료.', 1, '2024-03-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 348, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (400, '비타민 메모 이전', '4/30 락커 정리하심. 보증금 15만원 돌려드려야함.
+
+3/20 오후에 시간이 안되신다고 하여 프로님 변경 요청
+
+3/11 보증금 15만원 + 3월 이용료 2만원 해서 이체 (대표님 확인함)
+매월 1일에 2만원 결제 안내 했습니다.
+락커 141번
+
+4/13 10:45분 레슨 예약해놓으셨는데 직전인 10:20분 경에 차가 막혀서 못 맞춰 오실 것 같다고 취소하심(이번 한번만 차감없이 도와드리겠다고 안내해드림) 추가적으로 원래 웰빙클럽이라서 타석 예약 안되시는데 같은 날 두시에 레슨 잡으셔서 두시 타석 예약 도와달라고 하셔서 타석예약 이번 한번만 해드리고 다음번부터는 와서 대기하셔야 한다고 말씀드림.', 1, '2024-03-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 349, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (401, '비타민 메모 이전', '5/20 주니어 레슨 남은 4회 크레딧 전환 요청 관련 안내
+
+레슨은 프로님과의 계약 관계로 인해
+
+1. 10회 약정이 55만원이며 기존 레슨비용은 6만 5천원
+크레딧으로 전환을 요청하시면
+65,000 * 6 = 390,000 이용하셨으며
+550,000 - 390,000 = 160,000c 적립이 가능
+
+2. 주니어 남은 레슨이 4회이니 학부모님 레슨 8회로 전환
+ (1회당 레슨비도 27,500원이라 프렌즈9 단가보다 저렴함)', 1, '2024-03-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 350, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (402, '비타민 메모 이전', '5/16 주니어 레슨 노쇼.
+ㄴ다시 연락오셔서 오시겠다고 하셨는데 김프로님 퇴근으로 인해 연습장 이용만 하신다고 하여 예원실장님 확인 후에 타석 이용하실 수 있도록 열어드림.', 1, '2024-03-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 350, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (403, '비타민 메모 이전', '1/2 3월31일까지 3개월 기간권 홀딩 요청. 250229->250509로 유효기간 변경 완료
+
+12/31 현재 기간권 만기 25.02.09
+통원치료로 연기 희망 (2월말까지 or 3개월?)
+
+11/17 교통사고 다리 깁스로 인해 12/31까지 홀딩 요청하심. 
+
+10/2 락커 비용 직접 카드로 결제 원하심
+
+9/18 교통사고로 인해 1개월 연장 처리 (기존 조조 :11/24, 레슨 : 10,4)
+
+24-09-07 라커 상부장 신청. 15000원 카드결제
+
+프렌즈 9으로 재등록 하셔서 유효기간 추가 2개월 총 4개월로 도와드림.
+
+5/14 레슨권 유효기간 추가 2주 더해드림. 추후 연장은 레슨권 재등록하시면 가능하다고 안내.
+
+4/29 직접 방문 하셔서 출장으로 인해 레슨을 많이 못해서 2주 연장 해드림(기존 5/9일까지)', 1, '2024-03-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 351, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (404, '비타민 메모 이전', '10/15 어머님 최이란님께 양도 예정
+
+8/3 등록하시고 이용 안하셔서 대표님 확인 후 어머님(최이란님) 등록하시면 어머님 레슨 종료일로 맞춰드린다고 안내.
+ㄴ 최이란님 등록하셔서 두 분 레슨권 종료일 맞춰드림.
+
+3/11 등록하셨으나 시작안하심. 
+5/10~ 로 시작일 변경 요청하셔서 변경 도와드림.(FMS는 시작일은 변경이 안되어 종료일만 변경해 놓았습니다.)', 1, '2024-03-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 352, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (405, '비타민 메모 이전', '4/8 패키지 99 등록 하시면서 여행으로 인해 3주 정도 유효기간 연장 도와 드림
+
+4/6 15시 9번 타석 예약하셨으나 직전 취소 원하셔서 차감 안내 후 차감 도와드림.', 1, '2024-03-12T09:00:00', '2025-06-14T19:35:01', '회원요청', 353, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (406, '비타민 메모 이전', '8/14 크레딧 부족으로 15000c 미차감 됨
+
+24년 8월 2일 레슨권 한달 연장(연장1회사용, 재등록시 참고)
+
+엄혜정님 지인으로 15,000크레딧 각각 적립', 1, '2024-03-13T09:00:00', '2025-06-14T19:35:01', '회원요청', 354, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (407, '비타민 메모 이전', '5/29 주니어 레슨 스케줄 확보로 인해 계좌이체 후 6월 카드로 결제 방법 변경하실 예정.(상담등록신청서 작성해야함.)
+
+3/16일 락커 이용 원하심 83번', 1, '2024-03-13T09:00:00', '2025-06-14T19:35:01', '회원요청', 355, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (408, '비타민 메모 이전', '7/2~7/24 여행으로 유효기간 연장 요청 하심 25일 이후 부터 사용 가능하셔서 유효기간 25일 추가 연장 해드림.
+
+3/22 김태윤 프로님으로 지정
+
+오프로님, 김프로님 두 분께 레슨 받아보시고 프로님 지정원하심.', 1, '2024-03-13T09:00:00', '2025-06-14T19:35:01', '회원요청', 356, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (409, '비타민 메모 이전', '240624 레슨권 환불 요청하셔서 대표님 확인후 크레딧으로 환불해드림.(6회 180,000크레딧) FMS레슨권은 종료시킴.
+
+5/12 레슨권 유효기간 16일까지이나 18일까지로 원하셔서 새로 오시는 프로님 안내해 드렸고, 오프로님께 받길 희망하시면 15일까지 예약 주셔야 한다고 안내 -> 15일까지 사용 못하신다고 하여 18일까지로 유효기간 변경해드림.
+
+4/27 최정우 주니어 유학으로 인해 레슨권 5회만 등록 원하심.(비타민에 65,000원 상품 없어 레슨북 회원권 먼저 등록 후 횟수 조정 완료.)
+
+배우자님 우상미 (01032514358)
+
+다음 주 최병준님 예약건은 어머님이 오신다고 하여 다음 주에만 열어드리기로하고 두 분 동반해서 오실 경우에 쉐어 가능하다고 안내해 드림.', 1, '2024-03-16T09:00:00', '2025-06-14T19:35:01', '회원요청', 358, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (410, '비타민 메모 이전', '250323 대상포진으로 약봉지 사진으로 확인  2주 연장 250415까지
+
+250215 진단서 사진찍음 한달연장반영완료 250401까지
+
+250126 진단서제출시 한달추가 연장 가능하다고 안내드림
+
+24/11/3 허리부상으로 못오고 있어서 레슨권 연장 문의주심. 1달 연장하여 3월 1일까지로 변경. 계속 안좋으시면 진단서 제출하고 추가연장하시라고 안내드림.', 1, '2024-03-17T09:00:00', '2025-06-14T19:35:01', '회원요청', 359, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (411, '비타민 메모 이전', '배우자 최승현님 010-4171-8225
+
+두 분이서 타연습장 이용 중이셔서 끝나시면 등록 예정
+주니어 골프백 사무실 보관.', 1, '2024-03-17T09:00:00', '2025-06-14T19:35:01', '회원요청', 360, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (412, '비타민 메모 이전', '24.11.25 레슨권 잔여4회 유효기간 연장을 위해 프렌즈10 재등록하심. 기존 4회 유효기간 만료로 처리하고 10회에 4회 추가해드림. 
+
+24/11/12 레슨권을 남편분과 쉐어하고 싶어 1회성 프로변경으로 이용해보고 싶다하셔서 메뉴얼대로 응대 했으나 아쉬운 반응이어서 대표님 재량으로 무료레슨권1회쿠폰 지급.
+
+24-08-29 일때문에 너무 바빠서 주말만 레슨 이용가능하셔서 레슨권을 구매하고싶은데 유효기간때문에 고민이시라 1개월 연장해드림. 프렌즈9 11월 27까지
+
+이창규님 지인(5만씩 적립)', 1, '2024-03-17T09:00:00', '2025-06-14T19:35:01', '회원요청', 363, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (413, '비타민 메모 이전', '25-02-27 199패키지 재등록으로 기존 잔여레슨권 1회 합산하여 37회로 맞춰드림 
+
+지인이벤트 (자녀분 통해 알게되신 분이라 지인분 자녀분 이름만 알고 있어 여쭤보고 채널로 성함 보내주시기로함.)
+ㄴ03/20 김정민님 소개로 등록 두분 지인이벤트 12만c각 적립 완료', 1, '2024-03-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 364, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (414, '비타민 메모 이전', '25/3/5 배우자 512.선우진님으로 로커 변경(122번)
+
+7/26 레슨권 배우자 선우진님께 양도 (레슨 12회 신분증은 채널로 보내기 싫어하셔서 확인만 함)
+
+4/5 레슨 예약을 늦게하셔서 레슨을 못받으셨음
+시간이 지나서 FMS 취소를 못해 횟수 추가로 1회 넣었음
+
+성함 왕에에님 -> 카카오톡이 남편분꺼로 되어있어서 FMS 선우진님으로 인증됨.
+왕에에님께서 선우진님 성함으로 FMS 등록하신거라 추후 남편분 등록하실 때 FMS 회원 인증 같은 카카오톡 계정인지 확인하고 인증해야함.', 1, '2024-03-21T09:00:00', '2025-06-14T19:35:01', '회원요청', 365, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (415, '비타민 메모 이전', '24-08-22 박종웅님 잔여크레딧 52,700 양도하심.', 1, '2024-03-22T09:00:00', '2025-06-14T19:35:01', '회원요청', 366, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (416, '비타민 메모 이전', '박정미님 지인. 35,000크레딧 각각 적립', 1, '2024-03-22T09:00:00', '2025-06-14T19:35:01', '회원요청', 367, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (417, '비타민 메모 이전', '24-08-27 김태윤프로가 많이 못나와서 레슨권을 다 못썼다고 연장 주장하셔서 대표님 컨펌후 9월 27일까지로 연장하고 한달내 소진하라고 안내드림.', 1, '2024-03-22T09:00:00', '2025-06-14T19:35:01', '회원요청', 368, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (418, '비타민 메모 이전', '8/28 석명봉님께 레슨권만 양도.(잔여 횟수 6회 유효기간 ~9/15까지) 
+
+7/23 레슨권 유효기간 한 달 연장 도와드림.(8/19 -> 9/15)
+
+지인 이벤트 (석명봉님)', 1, '2024-03-23T09:00:00', '2025-06-14T19:35:01', '회원요청', 369, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (419, '비타민 메모 이전', '8/28 신지원님께 레슨권만 양도 받음.(잔여 횟수 6회 유효기간 ~9/15까지) 
+기존 레슨권 2회 8/19로 만료되셨고 대표님 확인 후 한 달 연장 도와드리기로 했으나 양도 레슨권이랑 기간이 동일하여 하나로 합쳐드림.
+
+지인 이벤트 (신지원님)
+
+fms 종료일 변경해 놓음, 조조 끝나시고 예약 안된다고 연락오시면 조조 이용권 종료되셨다고 안내해 드리고 하시는 회원권에 따라 유효기간 늘려드리기', 1, '2024-03-23T09:00:00', '2025-06-14T19:35:01', '회원요청', 370, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (420, '비타민 메모 이전', '3월 24일등록.라커이용(상부장) 3월 일주일남아서 차감없이 이용해드리기로 함.', 1, '2024-03-24T09:00:00', '2025-06-14T19:35:01', '회원요청', 371, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (421, '비타민 메모 이전', '정시원 주니어 아버님', 1, '2024-03-24T09:00:00', '2025-06-14T19:35:01', '회원요청', 372, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (422, '비타민 메모 이전', '조조 이용원 240627 만료.
+
+6/28 락커 130번 6월달까지만 사용 요청', 1, '2024-03-27T09:00:00', '2025-06-14T19:35:01', '회원요청', 374, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (423, '비타민 메모 이전', '4/13 환불 완료', 1, '2024-03-30T09:00:00', '2025-06-14T19:35:01', '회원요청', 375, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (424, '비타민 메모 이전', '250302 부상으로인한 한달휴회요청, 반영완료(250523 종료)
+
+10월 23일 부터 6개월 조조 이용 원하셔서 회원권 등록 및 fms타석예약 조조권 유효기간 맞춰서 조정(25년4월23일 종료)
+
+10/20 - 만료일 미차감 프로그램 반영여부 불확실해서 일단 10/21로 조정하여 둠. (기간권 재등록시) 10/21부터 (기간권 재등록 안할시) 10/21 이후 10/20으로 다시 수정 
+
+10/18 배우자 하신혜님 크레딧(441,400c) 양도 받으심
+조조이용권 6개월 등록을 원하셨으며 시작일은 추후에 연락을 드린다고 하셨으니 요청 하실 때 등록 부탁드립니다.
+락커도 배준영님으로 변경
+
+10/12 5/18일 부상으로 요청하신 휴회가 적용이 안되어 기간수정 채널로 연락옴 (유효기간 241020) 조조권 10월 20일로 변경완료
+
+8/28 하신혜님께 레슨권 양도 받음. (잔여 레슨 횟수 18회, 유효기간 ~12/3까지)
+
+7/14 수족구로 일주일 홀딩. 조조권 10월 5일에서 일주일 연장처리.
+
+6/24 락커 67번 배우자 하신혜님으로 변경
+
+6/11 레슨권 유효기간 2주 연장 요청.
+
+5/27 홀딩 해지 요청하심
+
+5/18 부상으로 인해 10일 홀딩 요청 (5/20~5/29)
+
+5/3 5월 4일 부터 이용 원하심 사용정지 해지처리
+조조 이용권이 10월 5일로 변경(FMS 에서는 변경 없음)
+
+4월 락커비 결제 x (이미 한 달이 지난 후라 4월 락커비는 차감 없이 진행)
+
+4/28 부상으로 인해 10일 홀딩 요청 (4/29~5/8)
+
+4/1 부터 시작 원하심
+
+fms 종료일 변경해 놓음, 조조 끝나시고 예약 안된다고 연락오시면 조조 이용권 종료되셨다고 안내해 드리고 하시는 회원권에 따라 유효기간 늘려드리기', 1, '2024-03-30T09:00:00', '2025-06-14T19:35:01', '회원요청', 376, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (425, '비타민 메모 이전', '24-10-06 프렌즈18 재등록(기존 회원권 잔여1회 합쳐드림) 유효기간 무기한 처리. 
+
+지인 이벤트 (김종화님) 추가 5만c', 1, '2024-03-31T09:00:00', '2025-06-14T19:35:01', '회원요청', 377, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (426, '비타민 메모 이전', '25-03-25 이재윤프로로 변경(사유: 오전 출근전 이용 원하심)
+
+5/16 프렌즈72 등록하실 때 우선은 김은성 프로로 지정하며 18일 오전 9시에 이재윤 프로에게 체험 레슨 후에 프로님 최종 결정하심
+
+등록 당시 다른 연습장을 이용중이시며 아이가 잠든 후에 연습이 가능하여 주로 밤 10~11시에 이용이 가능하시며 레슨 또한 관심이 있으셔서 오프로님께 내용 전달했습니다.
+구력은 한 5년정도 되시며 골프에 진심인듯 합니다.', 1, '2024-04-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 378, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (427, '비타민 메모 이전', '락커 6월 달까지 이용 원하심.
+
+5/20 상부락커 35번 등록.
+비타민 차감 완료
+
+24-06-03 기존레슨권 1회 잔여(유효기간 ~8월29일) 에서 프렌즈9 재구매. 횟수 10회로 합치고 유효기간도 8월 29일까지로 변경', 1, '2024-04-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 379, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (428, '비타민 메모 이전', '8/1 프렌즈 18 재등록 하셨는데 27만원만 결제하여 차액 다음에 오실 때 결제해 주신다고 하심.
+ㄴ 8/6 차액 결제 완료.', 1, '2024-04-03T09:00:00', '2025-06-14T19:35:01', '회원요청', 380, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (429, '비타민 메모 이전', '24/11/3 미사용 프렌즈9 크레딧으로 환불
+２７만크레딧
+
+8/9 이재윤 프로님으로 체험 원하셔서 FMS에서 변경 도와 드림
+ㄴ 이재윤 프로님으로 프로 변경 요청.(채널, 비타민 변경 완료)', 1, '2024-04-03T09:00:00', '2025-06-14T19:35:01', '회원요청', 381, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (430, '비타민 메모 이전', '25-03-02 그동안 일이 있어서 못오셨다고 레슨권 연장 요청하셔서 1달 연장해드림. 4월 21일-->5월 21일. 추가 연장 원하시면 10회 재등록하시라 안내드림.', 1, '2024-04-05T09:00:00', '2025-06-14T19:35:01', '회원요청', 383, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (431, '비타민 메모 이전', '주차 + 타석, 레슨 지정 예약(토요일 2시) 어려운 점 때문에 등록 고민하셔서 대표님 컴펌 후 매장에서 미리 예약 잡아드리는 걸로 안내해 드렸으나 다음 주 토요일 예약만 잡고 가시고 이후는 직접 잡으신다고 하심.
+
+지인이벤트 5.5만 c (홍성균님)', 1, '2024-04-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 384, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (432, '비타민 메모 이전', '지인이벤트 5.5만 c (홍주혜님)', 1, '2024-04-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 385, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (433, '비타민 메모 이전', '6/1 21시30분에 레슨 예약 하셨는데 타석은 20시간대에 예약 하심
+시간대 착각으로 레슨 취소 요청 하셔서 취소 조건 안내 후 취소 도와 드림', 1, '2024-04-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 386, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (434, '비타민 메모 이전', '4/8 등록시 시작을 일주일 뒤로 연기 요청', 1, '2024-04-08T09:00:00', '2025-06-14T19:35:01', '회원요청', 388, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (435, '비타민 메모 이전', '4/8 등록시 시작을 일주일 뒤로 연기 요청
+
+10/27 무기한 레슨 이벤트로 이전에 남은 레슨6회권 합산해서 총 15회fms 등록', 1, '2024-04-08T09:00:00', '2025-06-14T19:35:01', '회원요청', 389, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (436, '비타민 메모 이전', '4/30 락커 대기 취소 요청하셔서 대기 명단에서 제외.', 1, '2024-04-08T09:00:00', '2025-06-14T19:35:01', '회원요청', 390, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (437, '비타민 메모 이전', '8/21 레슨권 유효기간 1달 연장 도와드림(기존 유효기간 12/8)', 1, '2024-04-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 391, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (438, '비타민 메모 이전', '주니어 체험은 이프로님으로 했는데 스케줄(금 17시) 때문에 김프로님께등록
+
+김로이주니어.', 1, '2024-04-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 392, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (439, '비타민 메모 이전', '2/4 잔여 레슨 1회 김은성 프로님에서 김태윤 프로님으로 변경요청 하심.
+
+25/1/4 레슨 1개월 유효기간 연장(25/1/6)
+
+4/12 락커 등록 하심 4월 5월분 총 4만원 결제', 1, '2024-04-12T09:00:00', '2025-06-14T19:35:01', '회원요청', 393, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (440, '비타민 메모 이전', '24.10.12 프로변경(김은성-->이재윤)
+
+레슨, 타석 예약 취소 2시간 전에 하셔서 이번 한 번만 차감없이 취소해드린다고 안내함
+
+강병수님 가족', 1, '2024-04-13T09:00:00', '2025-06-14T19:35:01', '회원요청', 394, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (441, '비타민 메모 이전', '레슨, 타석 예약 취소 2시간 전에 하셔서 이번 한 번만 차감없이 취소해드린다고 안내함
+
+서선화님 가족', 1, '2024-04-13T09:00:00', '2025-06-14T19:35:01', '회원요청', 395, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (442, '비타민 메모 이전', '250402 집중레슨과 프렌즈 36 합산해드리고 프렌즈 36 유효기간 만료처리(잔여3회) 집중레슨8회+잔여3회 총 19회
+
+집중 레슨 패키지와 프렌즈 36 각각 있으셔서 합쳐드리지는 않고 각각 다르게 예약하셔야 한다고 안내해드림.
+
+5/25 이병주님, 이지수 주니어 둘 다 이재윤 프로님으로 지정.
+
+배우자 이해영님 010-6508-3636
+이지수 주니어와 김라윤 주니어가 친구.
+(동시간대 옆 타석에서 오프로님 레슨 진행하고 싶어하심)
+
+프로님 변경건으로 인해 이재윤, 김은성 프로님 두 분 주니어 체험으로 받아보시고 결정하시기로 하심.
+
+2년 뒤 미국 다시 돌아갈 예정
+
+대표님한테 말씀드려서 주니어 레슨, 성인 레슨 둘다 유효기간 4개월로 변경함', 1, '2024-04-20T09:00:00', '2025-06-14T19:35:01', '회원요청', 398, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (443, '비타민 메모 이전', '5/12 타석 및 레슨 2회 취소 도와 드림
+
+4/25 타석 노쇼. 취소 해드리고 추후는 비타민 차감 됨 안내해드림(채널).', 1, '2024-04-21T09:00:00', '2025-06-14T19:35:01', '회원요청', 401, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (444, '비타민 메모 이전', '6/8일 기간 1주일 연장 도와드림.
+
+fms 타석예약 3개월 날짜 적용 하여 유효기간 24/07/25 로 수정 완료', 1, '2024-04-25T09:00:00', '2025-06-14T19:35:01', '회원요청', 402, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (445, '비타민 메모 이전', '5/1 프렌즈 9 -> 18회로 변경, 차액 결제 후 FMS 프렌즈 18인증 후 기존 프렌즈 9 레슨권 종료시킴(2회 이용하셨어서 18회에서 횟수 조정해드림.) 문정재님 회원권과 함께 결제
+
+267.이수진님 지인 소개 이벤트 15000c추가적립
+
+남편분과 레슨권 쉐어 및 등록 후 레슨권 변경 가능 물어보셔서 1주일내 변경 가능 안내.', 1, '2024-04-26T09:00:00', '2025-06-14T19:35:01', '회원요청', 403, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (446, '비타민 메모 이전', '9/6 하부장 라커 이용 중이셨으나 이사로 인해 라커 이용 x
+
+7/2 락커 93번 신규배정', 1, '2024-04-26T09:00:00', '2025-06-14T19:35:01', '회원요청', 404, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (447, '비타민 메모 이전', '250329 김라윤 주니어 기간 일주일 연장 미국갔다옴
+
+24/08/22 이프로 레슨잡기 힘들어서 다 못쓰셨다고 열흘정도 레슨권 연장 요청하심. (8월27에서 9월 7일까지로 변경)
+
+6/12 김라윤 주니어 레슨 x (이지수 주니어만 레슨)
+
+5/26 변가영님, 김라윤 주니어 둘다 
+      ㄴ김은성 프로님 -> 이재윤 프로님으로 변경
+
+프로님 변경건으로 인해 이재윤, 김은성 프로님 두 분 주니어 체험으로 받아보시고 결정하시기로 하심.
+
+이지수 주니어와 친구
+
+주말에 일정이 많으셔서 유효기간 4개월로 연장해줄 경우만 등록가능하다 하셔서 
+FMS,레슨북 변경.(24.04.28~08.28)', 1, '2024-04-28T09:00:00', '2025-06-14T19:35:01', '회원요청', 406, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (448, '비타민 메모 이전', '정나겸님 배우자분. 
+
+오프로님 원포인트 받으시고 9회 결제하셔서 등록후 1회 수동차감함.
+(24년 4월 28일)', 1, '2024-04-28T09:00:00', '2025-06-14T19:35:01', '회원요청', 407, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (449, '비타민 메모 이전', '24/10/15 기한 얼마 안남았고 김태윤 프로님이랑 시간이 안맞아서 이재윤 프로님으로 변경 요청하심
+
+24/08/16 김태윤프로님 감기로 레슨취소하면서 너무 휴무가 많고 유효기간 말씀하셔서 한달연장. 10월25일까지.', 1, '2024-04-29T09:00:00', '2025-06-14T19:35:01', '회원요청', 408, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (450, '비타민 메모 이전', '5/25 이선영 주니어 프로 변경 (김은성 프로->이재윤 프로)
+
+이선영(언니), 이서아(동생)
+
+5/7 어린이 날 뽑기 이벤트
+이선영 주니어 - 음료 당첨 (이프로)
+이서아 주니어 - 원포인트 레슨권 당첨', 1, '2024-04-30T09:00:00', '2025-06-14T19:35:01', '회원요청', 409, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (451, '비타민 메모 이전', '24.12.29 285. 이창규님께 레슨 24.04.30~24.04.17 15회 양도
+
+
+10/20 285.이창규님께 잔여 473,000 크레딧 양도하심.
+
+7/3 허리 디스크 언제 나으실지 몰라 이창규님께 양도 원하셨는데 레슨권도 크레딧으로 전환하여 양도 요청하셨고 대표님 확인 후 레슨권 크레딧 전환 대신 원하시는 날짜로 최대한 미뤄드린다고 안내
+-> 양도하실지 기간 늘리실 지 고민 후 연락주신다고 하심.
+
+지인 이벤트 (이창규님)
+
+24.06.12. 디스크판정 받으셔서 채널로 치료내역 보내주심. 
+12월까지 홀드 요청하셔서 레슨권 FMS로 휴회처리하였음. 
+기존 유효기간24년 9월 26 --->25년 4월 17일', 1, '2024-04-30T09:00:00', '2025-06-14T19:35:01', '회원요청', 410, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (452, '비타민 메모 이전', '5/8 조예진 주니어 노쇼인데 이프로님께서 첫 수업이라 괜찮다고 하여 노쇼가 아닌 레슨 취소로 도와드렸습니다.
+
+조예진주니어 부모님. 주니어레슨만 등록.', 1, '2024-05-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 411, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (453, '비타민 메모 이전', '지인 이벤트 (김세정님)
+5/1 김세정님 레슨권 9->18회로 변경 차액 + 35만원 + 초코에몽 같이 할부로 결제', 1, '2024-05-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 412, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (454, '비타민 메모 이전', '5/3 타석 취소를 원하셔서 취소 관련 안내 해드렸으며 처음 이용 하시는거라 취소 도와 드림', 1, '2024-05-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 413, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (455, '비타민 메모 이전', '250125 레슨권 1개월 연장반영
+
+24/11/23 이선녀님에게 양도 받음(레슨 12회, 234,350c)', 1, '2024-05-05T09:00:00', '2025-06-14T19:35:01', '회원요청', 417, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (456, '비타민 메모 이전', '타석은 웰빙으로 이용예정. 레슨권만 구매.', 1, '2024-05-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 418, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (457, '비타민 메모 이전', '10/11 프렌즈36구매 기존1회 합쳐드림
+
+8/20 상부락커 95번 신청. 잔여일 비타민 차감 완료. 
+하부장 대기신청.', 1, '2024-05-07T09:00:00', '2025-06-14T19:35:01', '회원요청', 419, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (458, '비타민 메모 이전', '01/02 스토어로 크레딧35 구매, 회원권 등록 완료
+
+24/08/17 양동훈 주니어 10회권 등록. 스케줄 문제로 토3시만 원하셔서 첫사용 10월 19일로 레슨북 유효기간 2달 연장.
+
+
+양한우님 와이프분. (양동훈 주니어 어머님)
+지인이벤트 35,000 적립(24.05.11)', 1, '2024-05-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 422, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (459, '비타민 메모 이전', '5/14 이 날만 윤소윤 18시, 윤채환 19시 이재윤 프로님께 레슨 받는 걸로 안내해 드렸으나 아버님께서 착각하셔서 김은성 프로님과 이재윤 프로님께 각각 레슨 받는 줄 알고 계셔서 오늘 주니어 레슨 모두 취소하시고 18일부터 레슨 시작하는 걸로 하심. 14일 레슨 취소한 건 다시 예약 추가로 잡음.
+
+윤소윤, 윤채환 주니어 아버님', 1, '2024-05-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 423, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (460, '비타민 메모 이전', '일이 늦게끝나셔서 11시타석, 레슨 원하시는데 김은성프로님 퇴근 문제로 10시 45분 레슨 예약하기로 함. 11시 타석하시면 10시 45분 타석 확보 필요.', 1, '2024-05-12T09:00:00', '2025-06-14T19:35:01', '회원요청', 424, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (461, '비타민 메모 이전', '10/7 레슨 기간 연장 한달 원하셔서 11월10일로 한달 연장.
+
+5/30 여자프로님 원하셔서 김태윤 프로님으로 지정하셨는데 아이 하교가 3시 이전인 날이 많아 프로님과 시간맞추기가 어려워 이재윤 프로님으로 변경 요청.  -fms 프로변경, 채널 라벨, 태그 모두 변경 완료', 1, '2024-05-14T09:00:00', '2025-06-14T19:35:01', '회원요청', 425, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (462, '비타민 메모 이전', '5/18 김은성 프로님 체험하였으나 오전 시간 이용을 원하셔서 등록은 이재윤 프로님 지정 요청.
+
+타석 오전 6:30~7:30분 이용 원하셔서 레슨 예약하시고 전날 채널로 말씀주시면 타석 6:30분부터 이용하실 수 있게 해드린다고 안내.', 1, '2024-05-18T09:00:00', '2025-06-14T19:35:01', '회원요청', 427, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (463, '비타민 메모 이전', '김태윤 프로님 제니스 회원.
+
+6:30 ~ 7:30 타석 이용 원하셔서 7시 타석 예약하시고 일찍 오시거나 미리 연락주시면 비어있는 타석 확인 후 열어드리기로 함. 
+타석이 없으면 6:30분 이용이 어려울 수 있는 점 안내해 드림.', 1, '2024-05-21T09:00:00', '2025-06-14T19:35:01', '회원요청', 429, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (464, '비타민 메모 이전', '10/31 레슨권 재등록 무기한 이벤트 참여(26.11월까지 연장해놓음)
+기존 남아있는 레슨권에 9회 합쳐드림 9+9=18회
+
+기간 연장 요청 10/17->11/17로 연장 완료
+
+상담 시 아이가 뽑기를 희망하여 등록하시면 뽑기 하실 수 있게 해드린다고 하여 등록하심.
+
+추후 주니어 체험 원하셔서 주니어 체험권 보내드림.', 1, '2024-05-21T09:00:00', '2025-06-14T19:35:01', '회원요청', 430, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (465, '비타민 메모 이전', '선불 크레딧 15 등록 후 체험 레슨 후 99패키지로 바로 변경원하심.
+남은 크레딧 직접 사용 차감 후 99패키지 회원권 재등록 후 이용하신 타석 재차감 도와드림.', 1, '2024-05-21T09:00:00', '2025-06-14T19:35:01', '회원요청', 431, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (466, '비타민 메모 이전', '134번 하부장 연락, 방문 없으셔서 사무실 보관.', 1, '2024-05-22T09:00:00', '2025-06-14T19:35:01', '회원요청', 432, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (467, '비타민 메모 이전', '25/1/4 127번 미사용 요청
+
+11/27 상부장 추가 이용 요청하셔서 1인 1라커 안내해드림. 상부장 요청자 나올 때까지만 추가 사용 원하셔서 대표님 확인 후 상부장 이용자 나올 때까지 도와드리기로함. (락커 할인 조건 충족 시 100% 할인) 127번
+
+6/1 99패키지 -> 199패키지로 변경하심(추가 100만원 결제)
+FMS - 레슨 18회로 추가 인증 후 기존 레슨 남은 횟수(14회) 와 새로 인증한 레슨권 합쳐서 32회로 변경 완료.
+비타민 - 현우실장님과 함께 새로 등록 완료.', 1, '2024-05-23T09:00:00', '2025-06-14T19:35:01', '회원요청', 433, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (468, '비타민 메모 이전', '7/20 갈비뼈, 손가락 통증으로 인해 3주 연장 도와드림. 
+다음 주부터 시작 원하셔서 레슨권 시작일 변경이 어려워 종료일을 일주일 연장으로 도와드림.', 1, '2024-05-23T09:00:00', '2025-06-14T19:35:01', '회원요청', 434, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (469, '비타민 메모 이전', '12/17 김수연(3119)회원님(언니) 지인 소개 적립
+
+8/15 우선 레슨권만 등록 하셨으며 다음에 오셨을 때 크레딧도 등록 및 카드 변경도 요청 할 수 있습니다. 1주년 증정품도 다음에 크레딧 결제 후 결정
+
+휴가등으로 레슨권 기간연장: 7월 23일-->8월 18일
+
+김방선님 - 이재윤 프로 / 이규리 주니어 - 김은성 프로로 지정
+
+프로 변경(김은성-->이재윤)', 1, '2024-05-25T09:00:00', '2025-06-14T19:35:01', '회원요청', 435, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (470, '비타민 메모 이전', '25/03/16 패키지 재등록하시며 레슨은 2주후에 시작하신다 해서 2주 연장
+
+25/2/8 레슨 유효기간 1개월 연장
+
+용정희님 지인이벤트. 각각 55,000크레딧 적립(24/05/26)', 1, '2024-05-26T09:00:00', '2025-06-14T19:35:01', '회원요청', 436, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (471, '비타민 메모 이전', '2024-12-7 한달 더 요청하셔서 1월 7일까지 홀드처리. (서류 채널로 보내주심)
+
+2024-09-28 수술로 당분간 사용 못하셔서 레슨권 홀드처리. (2달간)', 1, '2024-05-29T09:00:00', '2025-06-14T19:35:01', '회원요청', 438, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (472, '비타민 메모 이전', '24/8/5 레슨권 8월 1일까지이며 5일에 연락주셔서 (5일 기준) 1주일 연장 해드림
+
+6/1 카드 30, 현금 50만원 결제', 1, '2024-06-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 440, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (473, '비타민 메모 이전', '6/12 이지수 주니어 레슨 (김라윤 주니어 레슨 x)
+
+6/1 130 선불 크레딧 등록 후 200 선불 크레딧으로 바로 변경하심.
+지인 이벤트 (이병주님)
+
+수요일 레슨은 변가영 주니어와 각각 30분씩 레슨 원하셔서 이프로님 확인 후 가능하다 안내해드림. 주말은 따로 잡으시기로 하심.
+주말은 아이 레슨 시간에 이병주님과 함께 이용 원하셔서 레슨북은 이병주님 번호로 되어있음.', 1, '2024-06-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 441, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (474, '비타민 메모 이전', '8/8 레슨 시간이 안맞아 이재윤->김은성 프로로 변경', 1, '2024-06-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 442, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (475, '비타민 메모 이전', '241210 일시정지 해제 (39일 휴회)
+
+241102 갈비뼈 부상으로 인한 일시정지 요청 40일 정지
+(24.11.02~24.12.11 까지)
+
+240929 김주리님 -> 심진환님 양도 완료.
+(잔여 크레딧 307,300 / 잔여 레슨권 12회 - 유효기간 ~ 11/29까지. )
+
+24-09-05 이사로 환불 요청하셔서 레슨권 한달 연장 제시하여 받아들이셔서 연장. 24.10.29에서 11월29일까지로.
+
+24/8/6 저녁 레슨 위주로 가능하셔서 이재윤프로->김은성 프로로 변경. 프로변경 1회 안내 해드림.
+
+24/6/17 레슨권 이용전 김은성 프로님과 레슨 시간이 안맞아 이재윤 프로님으로 변경 요청 하셔서 변경해드림.
+
+
+24/6/14 21시 타석 및 레슨 예약 취소 요청하셔서 규정 안내 후 취소 도와 드림
+
+기존 전화번호 010-8207-2111', 1, '2024-06-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 443, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (476, '비타민 메모 이전', '주니어만 등록(전이찬)
+추후 부모님 타석권 등록 예정
+
+24.08.31 주니어 재등록. 9월 15일부터 사용 예정이시라 유효기간 2주 늘려드림. 11월 29-->12월 13일까지', 1, '2024-06-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 444, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (477, '비타민 메모 이전', '7/2 락커 91번 신규배정', 1, '2024-06-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 445, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (478, '비타민 메모 이전', '김영우, 김이한 어머님
+주니어만 등록(김은성 프로님), 부모님은 리조트 휘트니스 연습권이 있으셔서 추후 회원권 등록하신다고 하심.
+
+아버님 번호 : 010-2856-2398', 1, '2024-06-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 446, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (479, '비타민 메모 이전', '6/14 타석예약 노쇼
+
+크레딧35카드결제/프렌즈9현금결제', 1, '2024-06-05T09:00:00', '2025-06-14T19:35:01', '회원요청', 449, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (480, '비타민 메모 이전', '24/10/28 락커 사용종료 , 필드레슨 당첨건 사용포기하심', 1, '2024-06-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 450, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (481, '비타민 메모 이전', '24/10/7 환불처리(손 부상) 완료 및 15만 크레딧 재결제(계좌이체 확인완료), 15만 크레딧 추가 후 55만 차감. fms레슨권은 유효기간 만료로 처리완료.
+
+6/8 15만 타석크레딧 + 프렌즈 9 -> 99패키지로 변경.
+현우 실장님과 기존 회원권 삭제 후 변경하신 회원권 등록.', 1, '2024-06-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 451, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (482, '비타민 메모 이전', '7/2 락커 상부 149 신규 배정', 1, '2024-06-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 452, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (483, '비타민 메모 이전', '25/1/11 사용 못한 레슨 13회라서 레슨권 재등록 시 유효기간 추가 해드리기로 함(예전 대표님 공지 기준 대략 3개월 정도)', 1, '2024-06-08T09:00:00', '2025-06-14T19:35:01', '회원요청', 454, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (484, '비타민 메모 이전', '25/1/20 레슨 유효기간 2개월 연장', 1, '2024-06-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 455, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (485, '비타민 메모 이전', '6월9일 구매하신 15만크레딧프렌즈9를 99패키지로 변경.(6월 12일)
+남아있던 크레딧 전부 차감완료.
+신규 회원권 등록+지인이벤트(김민주회원님)55,000 재적립.
+기존사용분 타석2회 비타민 차감완료.
+기존 레슨권 사용분 2회 FMS수동차감완료.(기존레슨권은 유효기간 만료로 변경)', 1, '2024-06-12T09:00:00', '2025-06-14T19:35:01', '회원요청', 455, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (486, '비타민 메모 이전', '25/1/20 유효기간 2개월 연장
+
+김재현님 소개 이벤트 5만크레딧 적립
+
+10/30 락커 121>70번으로 교체
+
+이보열님 소개 이벤트 55000c추가적립', 1, '2024-06-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 457, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (487, '비타민 메모 이전', '이주경님이 어머님이심
+주니어 본인이 주니어 레슨 외에 따로 연습을 원해서 추가 등록', 1, '2024-06-14T09:00:00', '2025-06-14T19:35:01', '회원요청', 461, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (488, '비타민 메모 이전', '김지연님 (휴대폰 뒷번호3610) 남편분', 1, '2024-06-15T09:00:00', '2025-06-14T19:35:01', '회원요청', 462, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (489, '비타민 메모 이전', '12/10 레슨권 기간 추가 연장 요청, 1주일 추가 12/17로 연장(대표님 확인 완료)
+
+11/11 레슨권 기간 연장요청 , 한달 24/12/10까지 연장해드림
+
+8/10 이재윤 -> 김은성 프로 변경 요청.', 1, '2024-06-15T09:00:00', '2025-06-14T19:35:01', '회원요청', 463, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (490, '비타민 메모 이전', '24.11.30 잔여 레슨권 ６회에서１회수동차감（핸드폰안가져 오셨는데 현장에서 레슨진행 원하심）
+
+24.11.11. 잔여레슨권 9회 1달 유효기간 연장처리.(12.15까지)', 1, '2024-06-16T09:00:00', '2025-06-14T19:35:01', '회원요청', 464, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (491, '비타민 메모 이전', '10/7 유효기간은 8월 14일까지 (총 9회에서 7회 남아 있음)
+재등록 유효기간 무제한 이벤트 안내하였음', 1, '2024-06-16T09:00:00', '2025-06-14T19:35:01', '회원요청', 466, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (492, '비타민 메모 이전', '225/03/06 해외 체류로 20일 홀드 원하셔서 fms홀드처리. 기간권 20일 연장해둠.
+
+25/1/11 조조권 환불(732,328c) 후 전일 이용권 차액 결제(837,672원)
+
+10/3 조조 12개월 결제. 
+기존 조조 마감일 241007/ 새 조조권 241008부터 이용
+fms 타석권 기존것 종료 시키고 새 타석권 종료일 251008로 날짜 조정해놓음
+레슨권 잔여 2회 새 레슨권에 합침. 총 38회로 시작
+
+조조 등록하시면서 1년동안 해외 나가시게 되면 홀드 되냐고 물어보셔서 최대 1개월 가능 그 이후는 사유있을시 증빙 요청 된다고 안내.(서예원 실장님 확인 완료)
+
+24.07.31 조조이용권 해외여행으로 홀드처리(8월 23~9월 10일까지)
+조조 마감일자 fms에 맞춰 10월 7일로 변경', 1, '2024-06-18T09:00:00', '2025-06-14T19:35:01', '회원요청', 469, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (493, '비타민 메모 이전', '11/22 랜덤이벤트 도장1개권 사용완료', 1, '2024-06-18T09:00:00', '2025-06-14T19:35:01', '회원요청', 470, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (494, '비타민 메모 이전', '6/24 주니어 10회 등록(화9시 금10시, 6번타석 고정)
+
+미국 거주 중이시고 한 달뒤 출국 예정. 락커 사무실 보관해 드리기로 함.', 1, '2024-06-20T09:00:00', '2025-06-14T19:35:01', '회원요청', 473, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (495, '비타민 메모 이전', '10/30 락커 종료
+
+7/2 락커 35번 신규배정
+
+김민주님 소개 지인이벤트 55000c 추가적립
+등록시 99패키지 현금 백만원 결제, 차액 만원 크레딧으로 적립(대표님 확인 함.)', 1, '2024-06-21T09:00:00', '2025-06-14T19:35:01', '회원요청', 474, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (496, '비타민 메모 이전', '8/28 배준영님께 레슨권 양도(잔여 레슨 횟수 18회, 유효기간 ~12/3까지)
+
+8/5 레슨권 1주일 홀딩 처리
+
+7/14 수족구로 레슨권 1주일 홀딩처리.
+
+배준영님 지인이벤트 55,000씩 각각 적립이나 배준영님이 하신혜님께 적립 원하셔서 11만 적립.', 1, '2024-06-23T09:00:00', '2025-06-14T19:35:01', '회원요청', 475, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (497, '비타민 메모 이전', '24.11.23. 윤주호님께 레슨권 12회, 잔여크레딧 양도(엘보통증치료) 이선녀님 레슨권, 타석권은 fms에서 유효기간 만료처리.
+
+10/29 레슨권 유효기간 연장 요청. 유효기간11/21->12/21 한달 연장 해드림.', 1, '2024-06-25T09:00:00', '2025-06-14T19:35:01', '회원요청', 476, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (498, '비타민 메모 이전', '11/23 15만 크레딧 등록 조건으로 잔여 레슨권 12회 크레딧으로 전환  요청.
+
+10/13 잔여 레슨권 12회 크레딧으로 전환 요청 대표님 확인 후 
+1. 레슨권 유효기간 무기한
+2. 타석권 재등록 하시면 잔여 레슨권 크레딧으로 전환 
+두 가지 선택지로 안내해 드림. 
+고민해 보시고 다음 방문하실 때 말씀주신다고 하심.', 1, '2024-06-26T09:00:00', '2025-06-14T19:35:01', '회원요청', 479, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (499, '비타민 메모 이전', '연락 가능한 번호 : 010-6895-2344 
+
+외국거주로 채널등록 못함. 전화는 가능.
+주니어 10회등록.출국이 8월 17일이라 10회완료후 4회만 추가가능하셔서 4회도 55,000원에 해드리기로 함.', 1, '2024-06-28T09:00:00', '2025-06-14T19:35:01', '회원요청', 480, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (500, '비타민 메모 이전', '현금 100만원 결제, 1만원 크레딧으로 적립 도와드림.', 1, '2024-06-29T09:00:00', '2025-06-14T19:35:01', '회원요청', 481, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (501, '비타민 메모 이전', '9/18 락커 9월달까지 이용 요청 락커는 정리 하심(락커 153)
+
+481.김남연님 조카', 1, '2024-06-29T09:00:00', '2025-06-14T19:35:01', '회원요청', 482, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (502, '비타민 메모 이전', '주니어와 같이 5,6번 타석 이용 원하심
+크레딧 부족을 안내해드렸으며 배우자 장인봉님 크레딧 사용을 원하셔서 사용 조건 안내해 드림', 1, '2024-07-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 484, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (503, '비타민 메모 이전', '25/02/25 레슨권3회 구매, 이번주 레슨이 많이 차있어서 첫 레슨일 기준으로 유효기간 조정해 드리기로함. 레슨 예약 후 채널로 말씀해 주시면 유효기간 조정 필요.
+
+8/15 사용분 미차감. 총이용금액 21,800이며
+크레딧11200차감해야하며，재등록시
+차액 10,600크레딧 차감필요．미등록시 결제받아야함.
+ㄴ 10/9 재등록 하셔서 8/15 이용분 차감 후 안내 완료.', 1, '2024-07-03T09:00:00', '2025-06-14T19:35:01', '회원요청', 486, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (504, '비타민 메모 이전', '11/28 레슨권 연장 요청 하셔서 1개월 연장 24/12/1->25/1/1
+
+7/27 프로님 변경 요청(김은성 프로에서 김태윤 프로)
+김태윤 프로 레슨 예약 안내 함
+
+등록시 락커 3개월 무료 이용(9월달까지)', 1, '2024-07-05T09:00:00', '2025-06-14T19:35:01', '회원요청', 488, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (505, '비타민 메모 이전', '주니어 레슨 8/24부터 시작 원하셔서 유효기간 1주일 연장 도와드림.', 1, '2024-07-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 490, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (506, '비타민 메모 이전', '주니어만 등록 하심
+휴대폰이 정지은님 어머님 휴대폰 명의라 레슨북 인증이 되는지 확인 후 안되면 연락을 주신다고 하셨습니다.', 1, '2024-07-12T09:00:00', '2025-06-14T19:35:01', '회원요청', 494, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (507, '비타민 메모 이전', '25/2/19 눈 시술로 인해 1개월 동안 이용이 불가능 하여 레슨 유효기간 1개월 연장
+
+25/1/22 2월1일부터 레슨 시작으로 유효기간 연장 처리 (10일 추가)', 1, '2024-07-12T09:00:00', '2025-06-14T19:35:01', '회원요청', 495, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (508, '비타민 메모 이전', '레슨권 유효기간 연장 신청 하셔서 1개월 연장 9/10->10/10로 변경 해드림.', 1, '2024-07-13T09:00:00', '2025-06-14T19:35:01', '회원요청', 496, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (509, '비타민 메모 이전', '25/2/5 주니어 레슨 2월말일까지 연장처리', 1, '2024-07-13T09:00:00', '2025-06-14T19:35:01', '회원요청', 497, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (510, '비타민 메모 이전', '주니어 레슨 성인 레슨권으로 전환 요청.
+주니어 레슨 잔여 7회 -> 성인 레슨 14회로 안내해 드리고 크레딧 추가 결제하심. (FMS 프렌즈 18에서 14로 횟수 조정.)', 1, '2024-07-13T09:00:00', '2025-06-14T19:35:01', '회원요청', 498, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (511, '비타민 메모 이전', '25.1.7 레슨권 유효기간 연장 원하셔서 프렌즈10재등록. 기존 잔여 7회 합산후 합산기간 한달 늘려드림 (25.5.6까지)
+
+24.12.2 레슨권 잔여12회 유효기간 한달 연장(1.9까지)
+
+추가로 배우자 김지원님과 동반 등록 하셔서 장갑 증정', 1, '2024-07-13T09:00:00', '2025-06-14T19:35:01', '회원요청', 499, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (512, '비타민 메모 이전', '25.1.7 유효기간 연장 원하셔서 프렌즈10 재등록. 기존 5회 합산하여 15회로 맞춰드리고 기존 레슨권 유효기간 만료처리. 합산 기간 한달정도 연장하여 신규 레슨권 25.5.6으로 맞춰드림.
+
+24.12.2 레슨권 잔여10회 유효기간 한달 연장(1.9까지)
+
+500번 등록 이벤트 우산증정
+추가로 배우자 장국현님과 동반 등록 하셔서 장갑 증정', 1, '2024-07-13T09:00:00', '2025-06-14T19:35:01', '회원요청', 500, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (513, '비타민 메모 이전', '250220 이상건 주니어 잔여1회 성인레슨권 2회 전환으로 변경해드림. 
+
+12/6 레슨권 연장 요청하셔서 1개월 연장해드림
+
+용정희님 지인이벤트', 1, '2024-07-14T09:00:00', '2025-06-14T19:35:01', '회원요청', 501, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (514, '비타민 메모 이전', '24-08-01 타석이용료 차액 10,400 카드결제(주니어동반이용)
+
+7/24상부장 등록. 8월10일경 해외 출국 예정이시라 다음달은 사용 안하실 예정', 1, '2024-07-15T09:00:00', '2025-06-14T19:35:01', '회원요청', 502, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (515, '비타민 메모 이전', '장기해외출장으로 잔여 4회 레슨권 1달 유효기간 연장해드림. 25년 1월 11일까지.
+
+10/11 크레딧 부족(잔여 : 7,250c 당일 이용 : 9,300c 부족 크레딧 : 2,050c)으로 안내하였으며 다음에 오셔서 재등록 예정-재등록, 11일 이용분 차감완료.', 1, '2024-07-15T09:00:00', '2025-06-14T19:35:01', '회원요청', 504, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (516, '비타민 메모 이전', '10/29
+주니어 레슨권 연장 요청하셔서 11월7일로 변경해드림
+
+24.7.29 김태윤프로 지정
+
+프로 미지정, 레슨 시작일로부터 유효기간 변경하기', 1, '2024-07-20T09:00:00', '2025-06-14T19:35:01', '회원요청', 506, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (517, '비타민 메모 이전', '24/07/21 출장이 많은 직업이시라 등록시 레슨권 두달 연장처리.', 1, '2024-07-21T09:00:00', '2025-06-14T19:35:01', '회원요청', 508, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (518, '비타민 메모 이전', '하윤찬 주니어 레슨북(하연도님)
+하윤성 주니어 레슨북(어머님 010-2772-8371)', 1, '2024-07-21T09:00:00', '2025-06-14T19:35:01', '회원요청', 509, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (519, '비타민 메모 이전', '25/2/25 회원권 환불로 라커 미사용 처리 (47번)
+
+11/7 타석권 재등록 시 fms 조조 종료일로 날짜 조정함.
+
+24/7/24 시작으로 조조 12개월권 구매. FMS타석권 기간 조조에 맞춰 놓음', 1, '2024-07-23T09:00:00', '2025-06-14T19:35:01', '회원요청', 511, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (520, '비타민 메모 이전', '24-07-27 김소영님 남편분. 지인이벤트 35,000씩 각각적립', 1, '2024-07-27T09:00:00', '2025-06-14T19:35:01', '회원요청', 514, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (521, '비타민 메모 이전', '주니어만 등록.(홍서한주니어)', 1, '2024-07-28T09:00:00', '2025-06-14T19:35:01', '회원요청', 516, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (522, '비타민 메모 이전', '24/8/2
+등록 당시 화요일 오후 10시 고정 원하셔서 10회 고정 등록
+첫 수업 시 주니어 장갑 증정
+윤성희님（０１０－７１３４－２１２６）', 1, '2024-08-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 519, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (523, '비타민 메모 이전', '250401 팔꿈치 부상 회복 안되서 한달 재연장 (5월 5일까지)
+
+3/5 팔꿈치 부상 미회복으로 1개월 재연장(4/6 까지)
+
+2/4 처방전 첨부 유효기간 1개월 재연장(3/5까지)
+
+25/1/6 팔꿈치 부상으로 유효기간 1개월 연장(2/5까지)
+
+레슨 시작일을 일주일 뒤로 원하셔서 만료일을 일주일 후로 변경 도와드림.
+
+11/23 이은주님께 크레딧 양도', 1, '2024-08-04T09:00:00', '2025-06-14T19:35:01', '회원요청', 520, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (524, '비타민 메모 이전', '체험 후 바로 등록하셔서 성인, 주니어 체험비 결제 금액에서 제외해 드렸습니다.', 1, '2024-08-04T09:00:00', '2025-06-14T19:35:01', '회원요청', 523, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (525, '비타민 메모 이전', '25-02-27 패키지 재구매로 기존 잔여레슨권 2회 18회에 합산해서 20회로 맞춰드림. 
+
+24/10/24 자녀분 곽태경님에게 레슨, 크레딧 양수 받으심
+(레슨 16회+유효기간 1개월 연장, 크레딧 567,800c)', 1, '2024-08-04T09:00:00', '2025-06-14T19:35:01', '회원요청', 524, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (526, '비타민 메모 이전', '1/22 독감으로 레슨권 2주 연장 요청 2/1->2/15로 연장.
+
+24-12-1 레슨권 1달 연장처리(24.2.1까지)
+
+배우자 고태규님', 1, '2024-08-05T09:00:00', '2025-06-14T19:35:01', '회원요청', 525, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (527, '비타민 메모 이전', '1/22 독감으로 레슨권 2주 연장 요청 2/1->2/15로 연장.
+
+24-12-1 레슨권 1달 연장처리(24.2.1까지)
+
+배우자 이예지님', 1, '2024-08-05T09:00:00', '2025-06-14T19:35:01', '회원요청', 526, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (528, '비타민 메모 이전', '24/08/08 김지원님 아버님. 지인이벤트 35,000크레딧 적립', 1, '2024-08-08T09:00:00', '2025-06-14T19:35:01', '회원요청', 527, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (529, '비타민 메모 이전', '9월 초 출국 예정.
+임시로 받은 한국 번호라서 어플 인증은 되었으나 성함으로 검색 불가
+(닉네임으로 검색 가능)', 1, '2024-08-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 529, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (530, '비타민 메모 이전', '라커 102->101 변경. 라커비 2월 8일 차감으로 1만크레딧 환불해드림.', 1, '2024-08-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 530, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (531, '비타민 메모 이전', '25/1/1 락커 미사용 요청(133번)
+ㄴ 250112 151 상단으로 지정완료//', 1, '2024-08-14T09:00:00', '2025-06-14T19:35:01', '회원요청', 531, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (532, '비타민 메모 이전', '24/09/11 정혜리님 양도(남편분)
+
+정혜리님 01051692143', 1, '2024-08-15T09:00:00', '2025-06-14T19:35:01', '회원요청', 532, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (533, '비타민 메모 이전', '24.11.24. 함수현님께 잔여크레딧 189,500 양도. 백창우님 타석예약권은 fms에서 유효기간 만료처리.
+
+24/10/31 락카 종료(83번)', 1, '2024-08-17T09:00:00', '2025-06-14T19:35:01', '회원요청', 533, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (534, '비타민 메모 이전', 'FMS 회원인증, 채널 x', 1, '2024-08-18T09:00:00', '2025-06-14T19:35:01', '회원요청', 536, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (535, '비타민 메모 이전', '레슨권 유효기간 무기한 
+:기존 레슨권 잔여 12회 + 199패키지 레슨 36회 =48회로 fms횟수, 기간 조정 완료', 1, '2024-08-20T09:00:00', '2025-06-14T19:35:01', '회원요청', 537, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (536, '비타민 메모 이전', '24/12/11 이용하시는 146번 하부장 락커 고장으로 인해 수리 될 때까지 9번 상부장으로 이용하셔야 하셔서 이번 달 락커 추가 50% 할인으로 적립 7,500 도와드리고 수리되는대로 바로 이동 도와드리겠다고 안내 도와드렸습니다.(락커 비밀번호는 전화번호 뒷자리로 잠궈놓았습니다.)', 1, '2024-08-20T09:00:00', '2025-06-14T19:35:01', '회원요청', 537, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (537, '비타민 메모 이전', '1/15 스토어 크레딧35 구매', 1, '2024-08-21T09:00:00', '2025-06-14T19:35:01', '회원요청', 538, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (538, '비타민 메모 이전', '2024-08-22 당일 등록이나 일주일후부터 사용하실 예정이라 레슨권 1주일 연장해드림. (25년 1월 25일)', 1, '2024-08-22T09:00:00', '2025-06-14T19:35:01', '회원요청', 539, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (539, '비타민 메모 이전', '24/10/19 주니어 레슨 환불요청(사유:김은성프로 잦은 취소)
+1회5만원으로 6회씩 차감하여 사용분 30만*2명 60만원 제외한 20만 크레딧으로 환불. 
+10월 3일 구매하시고 미사용하신 선불타석 15도 환불 요청하셔서 환불(현금등록하셨어서 계좌환불)', 1, '2024-08-24T09:00:00', '2025-06-14T19:35:01', '회원요청', 540, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (540, '비타민 메모 이전', '박무권 주니어 아버님. 타석 이용차 등록하심.', 1, '2024-08-24T09:00:00', '2025-06-14T19:35:01', '회원요청', 541, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (541, '비타민 메모 이전', '전캘리 주니어 레슨 시간 변경으로 프로님과 스케줄 안맞아 유효기간 12/1->12/31로 변경', 1, '2024-08-25T09:00:00', '2025-06-14T19:35:01', '회원요청', 544, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (542, '비타민 메모 이전', '8/25 토요일만 이용 가능하여 유효기간 1개월 추가 요청하심.
+등록 시 주니어 뽑기 이벤트 도와드려 음료 쿠폰 당첨되셨는데 다음에 아이가 요청하면 드리기로 함.', 1, '2024-08-25T09:00:00', '2025-06-14T19:35:01', '회원요청', 545, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (543, '비타민 메모 이전', '24/10/23 레슨권 한달 연장 요청 , 24/11/23일까지', 1, '2024-08-25T09:00:00', '2025-06-14T19:35:01', '회원요청', 546, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (544, '비타민 메모 이전', '타석은 웰빙클럽으로 이용.', 1, '2024-08-25T09:00:00', '2025-06-14T19:35:01', '회원요청', 546, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (545, '비타민 메모 이전', '２４／１０／２２
+２２５．김묘정님께
+프렌즈１８（레슨권）중１４회
+양도', 1, '2024-08-28T09:00:00', '2025-06-14T19:35:01', '회원요청', 548, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (546, '비타민 메모 이전', '25/3/3 레슨 재동록 시 미사용 레슨 1회 추가(총 21회)
+
+25/1/10 레슨 유효기간 1개월 연장(2/6일 까지)', 1, '2024-08-31T09:00:00', '2025-06-14T19:35:01', '회원요청', 549, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (547, '비타민 메모 이전', '250111 레슨권 한달연장 반영해서 250228까지', 1, '2024-09-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 552, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (548, '비타민 메모 이전', '250111 레슨권 한달연장 250228까지
+
+9/2 21시에 예약 하셨는데 30분 늦게 도착 할 것 같아 문의 -처음 이용이라서 타석 취소 관련 안내 및 취소 도와 드렸으나 당일에 다시 예약 안하심', 1, '2024-09-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 553, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (549, '비타민 메모 이전', '25/2/12 진료영수증 가지고 오셔서 1개월 연장 안내
+
+25/2/10 아직 회복이 안되셔서 채널로 인증 첨부 후에 유효기간 추가 연장 안내 (우선은 1개월 연장)
+
+250113~250212 한달간 휴회 채널로 수술확인증 첨부완료
+
+241123 무릎수술로 인해 휴회 241126-250108까지 6주 fms적용완료 추후 채널로 진단서 첨부 해주시기로 함', 1, '2024-09-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 555, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (550, '비타민 메모 이전', '9/8 윤선은님 자녀분 주니어 등록하셨는데 (박지환 주니어) 토요일 2시만 가능하시고 10월 말까지는 다른 주니어 예약이 있어 김은성 프로님과 상의 후 처음 배우는 친구가 아니라서 겹쳐서 레슨 진행하기로 하셨습니다. 11월부터는 직접 2시로 잡으신다고 하셨고 21일 (토)부터 시작 원하셔서 유효기간 레슨 시작일로부터로 변경해 두었습니다.', 1, '2024-09-03T09:00:00', '2025-06-14T19:35:01', '회원요청', 556, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (551, '비타민 메모 이전', '웰빙클럽 회원님', 1, '2024-09-03T09:00:00', '2025-06-14T19:35:01', '회원요청', 557, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (552, '비타민 메모 이전', '회사 출장,일정이 많으셔서 레슨권 홀드 요청하심. 12/19~1/19까지.', 1, '2024-09-05T09:00:00', '2025-06-14T19:35:01', '회원요청', 558, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (553, '비타민 메모 이전', '25/3/5 기존 레슨권(잔여14회) 만료로, 새 레슨권 재등록 하시면서 1개월 연장 해드림. fms레슨횟수 합하여 24회로 조정.', 1, '2024-09-05T09:00:00', '2025-06-14T19:35:01', '회원요청', 558, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (554, '비타민 메모 이전', '9/8 주니어 레슨 시작일 9/22부터 요청하셔서 유효기간 변경 도와드림.', 1, '2024-09-08T09:00:00', '2025-06-14T19:35:01', '회원요청', 561, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (555, '비타민 메모 이전', '24/09/11 9월 25일부터 사용 원하셔서 24일까지 홀드처리.', 1, '2024-09-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 563, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (556, '비타민 메모 이전', '25-01-30 나는 싱글이 될거야 재등록. 기존 잔여레슨권 8회 합산해서 44회로 맞춰드림. ', 1, '2024-09-11T09:00:00', '2025-06-14T19:35:01', '회원요청', 563, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (557, '비타민 메모 이전', '25/1/22 오전에만 레슨이 가능하다고 하셔서 프로님 변경 요청 (주니어 포함)', 1, '2024-09-15T09:00:00', '2025-06-14T19:35:01', '회원요청', 568, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (558, '비타민 메모 이전', '24/11/28 프렌즈10 재등록 하셔서 기존 프렌즈9(잔여 2회)를 합산하여 총 12회', 1, '2024-09-15T09:00:00', '2025-06-14T19:35:01', '회원요청', 568, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (559, '비타민 메모 이전', '25/4/5 3월 30일에 등록하신 레슨권 사용을 4월 19~20일에 사용 할 수 있다고 하셔서 유효기간 변경(7/4에서 7/20) ', 1, '2024-09-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 570, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (560, '비타민 메모 이전', '24/12/20 12월 초에 수술을 받으셔서 연습이 어려워 우선 레슨 유효기간 1개월 연장 및 재등록 시 무기한 안내 해드림(기존 25/2/15에서 3/15로 변경)', 1, '2024-09-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 573, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (561, '비타민 메모 이전', '24/11/07 주니어 레슨 김은성프로>이재윤프로 변경요청', 1, '2024-09-20T09:00:00', '2025-06-14T19:35:01', '회원요청', 574, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (562, '비타민 메모 이전', '24-09-21 홍성식님 지인이벤트 35000크레딧 각각 적립.', 1, '2024-09-21T09:00:00', '2025-06-14T19:35:01', '회원요청', 576, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (563, '비타민 메모 이전', '24-09-21 이수진님 지인으로 35000씩 각각 넣어드림', 1, '2024-09-21T09:00:00', '2025-06-14T19:35:01', '회원요청', 577, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (564, '비타민 메모 이전', '박정미, 박성주, 김정은님 지인 이벤트 적립금 1/N', 1, '2024-09-23T09:00:00', '2025-06-14T19:35:01', '회원요청', 579, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (565, '비타민 메모 이전', '박정미, 박성주, 김정은님 지인 이벤트 적립금 1/N', 1, '2024-09-23T09:00:00', '2025-06-14T19:35:01', '회원요청', 580, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (566, '비타민 메모 이전', '25/03/20
+레슨 재등록하시면서 무기한 이벤트 적용함
+FMS 인증등록은 필요
+
+
+25/2/5 레슨 유효기간 1개월 연장
+이사 가셔서 레슨권 재등록 하시면 무기한 이벤트 적용 안내', 1, '2024-09-24T09:00:00', '2025-06-14T19:35:01', '회원요청', 582, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (567, '비타민 메모 이전', '12/12 프렌즈10등록, 11/26만료된 레슨권 잔여횟수 8회 새 레슨권에 취합하여 총 18회로 fms 수정 완료.', 1, '2024-09-26T09:00:00', '2025-06-14T19:35:01', '회원요청', 584, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (568, '비타민 메모 이전', '25-03-23 스토어구매하신 99패키지 레슨 유효기간 바빠서 너무 타이트하다 하셔서 한달 연장. (250819-->250919) 
+
+25-02-16 레슨 유효기간 한달연장.(2월 24-->3월24)', 1, '2024-09-28T09:00:00', '2025-06-14T19:35:01', '회원요청', 586, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (569, '비타민 메모 이전', '25.01.02 박현지님이 양도하심. (레슨잔여 14회, 457,000크레딧)', 1, '2024-09-28T09:00:00', '2025-06-14T19:35:01', '회원요청', 587, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (570, '비타민 메모 이전', '24/12/30 시험 기간 때문에 1주일 연장(25/1/16까지)
+
+송예림 학생 직접 레슨 예약 및 타석 이용', 1, '2024-10-10T09:00:00', '2025-06-14T19:35:01', '회원요청', 591, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (571, '비타민 메모 이전', '24/10/19 전제빈님께 잔여크레딧 양도받으심. 149,220 크레딧.', 1, '2024-10-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 594, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (572, '비타민 메모 이전', '11/11 환불요청건 유효기간 무제한으로 요청, 28년3월까지 변경함', 1, '2024-10-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 595, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (573, '비타민 메모 이전', '10/31 이재윤프로님 으로 지정
+
+24/10/28 레슨권 무기한이벤트로 해드림/레슨프로 지정은 체험해보고 결정한다고 하심', 1, '2024-10-28T09:00:00', '2025-06-14T19:35:01', '회원요청', 601, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (574, '비타민 메모 이전', '김연옥 회원님 지인
+이벤트
+적용', 1, '2024-10-29T09:00:00', '2025-06-14T19:35:01', '회원요청', 602, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (575, '비타민 메모 이전', '11/06 (11/07 목요일)레슨 체험1회 (김은성프로님)', 1, '2024-10-29T09:00:00', '2025-06-14T19:35:01', '회원요청', 604, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (576, '비타민 메모 이전', '25/3/31 레슨권 재등록 하셔서 기존 레슨권(9회)과 통합 후에 유효기간 3개월 추가
+
+한상민님 배우자분 한상민님이 쓰시던 라커배정．한상민님은 상부로 다시 배정(83)', 1, '2024-11-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 605, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (577, '비타민 메모 이전', '25/3/24 레슨 유효기간 1개월 연장 요청(기존 25/4/7일에서 5/7일까지)
+
+레슨권 24-11-11일부터 시작요청
+', 1, '2024-11-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 608, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (578, '비타민 메모 이전', '11/14 지인이벤트(최인애님)크레딧 적립 완료', 1, '2024-11-13T09:00:00', '2025-06-14T19:35:01', '회원요청', 611, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (579, '비타민 메모 이전', '12/31 레슨권재등록, 무기한 이벤트 적용. 잔여 레슨 5회 fms합쳐서 15회로 조정 완료.
+
+11/14 지인이벤트(장대근님)크레딧 적립 완료', 1, '2024-11-14T09:00:00', '2025-06-14T19:35:01', '회원요청', 612, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (580, '비타민 메모 이전', '조윤우 주니어 어머니', 1, '2024-11-14T09:00:00', '2025-06-14T19:35:01', '회원요청', 613, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (581, '비타민 메모 이전', '25/2/8 주니어 레슨 유효기간 1주일 연장', 1, '2024-11-16T09:00:00', '2025-06-14T19:35:01', '회원요청', 614, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (582, '비타민 메모 이전', '11/27 김민주님 아들분 지인이벤트5만크레딧 적립', 1, '2024-11-27T09:00:00', '2025-06-14T19:35:01', '회원요청', 617, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (583, '비타민 메모 이전', '11/27 장성옥님 지인 이벤트 크레딧 적립완료', 1, '2024-11-27T09:00:00', '2025-06-14T19:35:01', '회원요청', 618, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (584, '비타민 메모 이전', '11/29 정춘화님 지인이벤트 적립완료', 1, '2024-11-29T09:00:00', '2025-06-14T19:35:01', '회원요청', 619, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (585, '비타민 메모 이전', '2/11일 레슨 진행 후 등록, fms 미인증으로 수동차감함.', 1, '2024-12-06T09:00:00', '2025-06-14T19:35:01', '회원요청', 620, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (586, '비타민 메모 이전', '25-03-23 프렌즈20 구매후 미사용하신 회원권 크레딧 환불(53만 크레딧)
+
+25/1/13 상부장에서 하부장으로 이동(91 -> 100)
+
+25/01/01 프렌즈20재등록. 기존 레슨권 잔여3회 합해서 23회로 맞춰드림
+
+2024/12/25 전일권 12개월 등록
+FMS 타석예약 25/12/25로 변경 완료.', 1, '2024-12-14T09:00:00', '2025-06-14T19:35:01', '회원요청', 622, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (587, '비타민 메모 이전', '김방선님 언니', 1, '2024-12-17T09:00:00', '2025-06-14T19:35:01', '회원요청', 625, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (588, '비타민 메모 이전', '25/2/21 로커 이용 중지 요청(123번)
+
+12/26 락커 등록, 차감 완료', 1, '2024-12-21T09:00:00', '2025-06-14T19:35:01', '회원요청', 627, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (589, '비타민 메모 이전', '25-03-02 61번 라커 추가로 사용 원하심 (임승현주니어용) 대표님 확인으로 부모님이 할인요건 충족되시면 61번은 100프로 할인.', 1, '2024-12-22T09:00:00', '2025-06-14T19:35:01', '회원요청', 629, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (590, '비타민 메모 이전', '25/3/1 로커 취소 요청(9번)', 1, '2024-12-26T09:00:00', '2025-06-14T19:35:01', '회원요청', 631, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (591, '비타민 메모 이전', '어머님 번호 : 010-3379-0212', 1, '2024-12-29T09:00:00', '2025-06-14T19:35:01', '회원요청', 633, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (592, '비타민 메모 이전', '25-2-9 집중레슨10 재등록. 기존 잔여레슨권 1회 합산해서 21회로 맞춰드림.(25/2/13 레슨 취소로 2회를 집중레슨에 포함)', 1, '2025-01-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 639, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (593, '비타민 메모 이전', '1/14 주니어 레슨권 10회*2 한번에 등록, 대표님 확인후 유효기간 3개월->6개월로 20회 모두 연장 해 드림.', 1, '2025-01-14T09:00:00', '2025-06-14T19:35:01', '회원요청', 640, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (594, '비타민 메모 이전', '25/3/18 이프로님 교통사고로 레슨 취소후 유효기간 연장 요청하셔서 2주 연장. 임하준 주니어 레슨도 2주 연장.
+
+패키지 구매후 레슨권은 2월 9일부터 사용가능하셔서 2월 9일까지 홀드처리./250208 홀드해제', 1, '2025-01-18T09:00:00', '2025-06-14T19:35:01', '회원요청', 643, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (595, '비타민 메모 이전', '25/1/31 사물함 129에서 128번으로 이동', 1, '2025-01-18T09:00:00', '2025-06-14T19:35:01', '회원요청', 644, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (596, '비타민 메모 이전', '프로미지정. 지정후 스케줄 조정하고 주니어 레슨 시작일에 맞춰 주니어레슨과 성인 레슨 유효기간 조정 요청 하심.
+->2/3 주니어 레슨권 등록으로 유효기간 4/22에서 5/3일로 조정/ 성인레슨권 3/22에서 4/3으로 조정 완료', 1, '2025-01-22T09:00:00', '2025-06-14T19:35:01', '회원요청', 646, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (597, '비타민 메모 이전', '안수호주니어 보호자', 1, '2025-01-26T09:00:00', '2025-06-14T19:35:01', '회원요청', 649, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (598, '비타민 메모 이전', '250402 배우자분 오셔서 양도신청(가족관계증명서 제출). 이세원-->안지현님 
+
+3주간 이용후 인도네시아 발령
+배우자께 양도 예정
+주니어 추천했으나 갑작스런 발령으로 영어에 집중중
+양도 상담시 주니어 적극 추천
+(인도네시아 주니어 동반라운딩 추천)
+
+직불카드로 재결제 카드변경예정임', 1, '2025-01-30T09:00:00', '2025-06-14T19:35:01', '회원요청', 651, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (599, '비타민 메모 이전', '회원 등록 시 화,목 13시~30분까지 고정 레슨을 원하심
+회원님께서 예약 하시고 원하실 때는 레슨 예약 미리 도와드리기로 함', 1, '2025-02-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 652, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (600, '비타민 메모 이전', '250202 기간제3개월 전일권 구매', 1, '2025-02-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 655, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (601, '비타민 메모 이전', '250202 전일이용권 1년 구매완료', 1, '2025-02-02T09:00:00', '2025-06-14T19:35:01', '회원요청', 657, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (602, '비타민 메모 이전', '25/3/7 김주순 프로로 변경', 1, '2025-02-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 661, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (603, '비타민 메모 이전', '25/3/7 김주순 프로로 변경 요청
+
+25/3/3 91번에서 94번으로 변경
+
+25-02-23 등록시 3월 초부터 이용하신다고 해서 레슨권 1주일 연장. 라커 상부장 차감x.', 1, '2025-02-23T09:00:00', '2025-06-14T19:35:01', '회원요청', 666, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (604, '비타민 메모 이전', '25/02/27 조조권 구매하시며 라커 이용 원하셔서 3월분 2만원 별도 결제. 4,5월분은 결제필요', 1, '2025-02-27T09:00:00', '2025-06-14T19:35:01', '회원요청', 669, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (605, '비타민 메모 이전', '웰빙클럽 이용회원', 1, '2025-03-09T09:00:00', '2025-06-14T19:35:01', '회원요청', 674, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (606, '비타민 메모 이전', '674. 손유경 회원소개등록 ( 15,000c적립)', 1, '2025-03-15T09:00:00', '2025-06-14T19:35:01', '회원요청', 679, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (607, '비타민 메모 이전', '김연정회원님 배우자', 1, '2025-03-16T09:00:00', '2025-06-14T19:35:01', '회원요청', 681, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (608, '비타민 메모 이전', '25.3.19 등록이나 실제 이용은 3월 말~4월부터 가능하셔서 3월 라커비 차감 안했음. 4월 첫 차감시 할인 필요.', 1, '2025-03-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 683, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (609, '비타민 메모 이전', '25/3/26 현금 결제에서 카드 결제 변경 완료', 1, '2025-03-19T09:00:00', '2025-06-14T19:35:01', '회원요청', 685, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (610, '비타민 메모 이전', '25-04-01 레슨 4월 9일부터 시작 가능하셔서 체험레슨3 유효기간 9일 연장해드림.(25.05.10까지)', 1, '2025-04-01T09:00:00', '2025-06-14T19:35:01', '회원요청', 696, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (611, '전달사항 이전', '등록한 상품을 환불하고 재등록을 원하는 경우 \'내부\' 처리 기준
+- 작은 상품으로의 변경 : 불가
+- 큰 상품으로의 변경 : 이용 횟수가 2~3회 이내이거나 등록한지 일주일 이내인 경우에 한하여 가능
+
+상기 기준 등 내부기준은 절대로 고객에 설명하지 말고, 상황을 판단하고 결론을 내리는 기준으로만 사용', 10, '2023-10-10T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (612, '전달사항 이전', '주차권 안가지고 오시는 분들은 그냥 가시면 된다고 말씀하시면 된다십니다~
+주차권 안 끊어주시는 관리인분 계시다고 혹시라도 주차권 없이 저희 도장 그냥 찍어드릴 시에는 날짜랑 나가신 시간 (도장찍어주실 때) 적어주시래요! (1시 전에 골프채 들고 오셨는데 시간이 한참 지났는데 차 안빼신다고 내려오셨는데 근무자 바뀌셨을 때는 주차비 폭탄 맞으신다고 저희가 주차권 없이는 도장 찍어주시지 마시라고 하셨습니다.)', 12, '2023-10-14T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (613, '전달사항 이전', '* 양도 신청시 유의 사항입니다.
+  양도 신청서 작성 후 신분증 사본 혹은 직접 가지고 오시면 복사해서 양도 신청서와 같이 보관 해야 합니다.
+  (아마 미리 문의를 주실텐데 그때 필요한 신분증 사본 혹은 신분증 지참을 안내해 드리면 될 것 같습니다.)
+  양수인은 회원 신청서를 작성하시고 개인 정보 동의를 받고 양도 절차를 하시면 됩니다.
+
+* 아이코젠/웰빙 클럽 안내입니다.
+  아이코젠/월빙클럽 회원님들은 잠재적으로 저희 매장 등록을 위한 분이라 생각하시면 됩니다.
+  공지가 있기 전까지는 유선으로 미리 예약을 원하시는 분들에게는 예약이 가능합니다.
+  공지 후에는 직접 내방 하시고 빈 타석이 있으면 이용 하시는게 원칙입니다.
+  이용시간은 오픈 타석 1시간 기준 입니다.', 3, '2023-10-15T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (614, '전달사항 이전', '매장 바닥이 음료등 액체를 쏟았을시 매우 미끄럽고, 1차 닦아내면 더 미끄러워집니다. 완전히 습기를 제거할때까지 회원 및 직원들이 그 위로 지나가지 않도록 주의가 필요하며, 완전히 안미끄러워지기 전까지 닦고, 닦는중간에 현장을 이탈하지 않도록 부탁드립니다. (이탈시 모르고 지나다가 미끄럼가능) \'미끄럼주의\' 푯말을 주문하였으니 도착하면 활용하도록 부탁드립니다. ', 2, '2023-10-17T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (615, '전달사항 이전', '지인할인 이벤트의 경우, 지인으로 데려온 분 결제금액(나중에 등록하신분)의 10프로를 각각 적립해드리면 됩니다. 원래 회원 금액의 10프로가 아님에 주의부탁드립니다. 동시에 오셔서 지인적용 요청하실 경우, 순차적으로 등록하고 뒤에 등록하시는 금액의 10프로를 적립해드린다고 안내만 하면 됩니다. ', 2, '2023-10-23T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (616, '전달사항 이전', '하부장대기자 명단 시트 추가하였습니다. 지금 두분 계시니 하부장 나오면 처리 부탁드리고 내용 기입 부탁드립니다. ', 2, '2023-10-28T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (617, '전달사항 이전', '대표님 전달사항: 채널로 문의시 가격표를 통째로 노출하지 않도록 부탁드립니다. 기존 답변 활용하여 대략적인 가격안내하시고, 내방하도록 유도 부탁드립니다. ', 2, '2023-10-28T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (618, '전달사항 이전', '[공지 사항]
+ - 상담석 PC에는 결제 방법
+   흰색 카드 결제 단말기로 금액 입력 => 결제 => FMS(매장 관리 시스템) 접속 후 => 결제 하신 회원권 선택(금액 변경은 없습니다.)  => 회원인증 => 결제시 \'현금결제\' 선택 (현금영수증은 \'발급 안함\' 확인) => 결제 완료 처리
+ - 카카오 본사에서 제공하는 무이자 할부를 원하시면 인포PC에서 기존 결제 방식 그대로 하시면 됩니다.
+   FMS(매장 관리 시스템)에서 회원권을 선택 => 회원 인증 => 결제(무이자 할부 선택 후) => 결제 완료 처리
+ - 모든 절차 완료 후에 회원권이 회원님 휴대폰 앱에서 확인이 되는지 체크 부탁드립니다.
+ - 문의 사항이 있으시면 연락주세요.
+
+ - 추가 
+     > 현금 결제 하시면 상담석에서 현금영수증 발행 여부 확인 후 발행하시면 됩니다.
+     >결제 취소 및 카드변경
+       상담석PC 에서는 흰색 카드 단말기 \'취소\' 버튼 클릭 => 직전 취소(결제 후 바로 취소 할때) 혹은 2번 신용반품취소 선택 => 카드를 단말기에 넣어주시고 승인번호 체크 (회원님께서 영수증이 있으시면 해당 영수증으로 체크 아니면 가입 신청서에 있는 영수증으로 체크) 후 => 결제 취소 처리 (카드 변경 시 에서는 변경할 카드로 다시 결제)
+       인포PC는 기존과 동일합니다.
+   
+ - 지정 레슨 프로 변경은 1회에 한해서 가능합니다.
+ - 지정 후 프로 변경 요청시 재변경은 절대 불가함을 안내합니다.
+ - 단, 고객선택으로 레슨권 추가 구매해서 복수 프로의 레슨 받는 것은 가능합니다.
+ - 레슨권 사용 완료 후에 레슨권 재등록시 프로 변경 지정은 가능합니다.', 3, '2023-10-30T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (619, '전달사항 이전', '* 양도하실 때 * (신분증 지참 혹은 사본 사진 필수)
+
+1) 양도받으시는 회원님이 신규 고객님이 실 경우
+FMS에서 양도하시는 회원님이 이용하셨던 상품 선택 -> \'금액 설정 0원\' 회원 인증 (양수인 회원 인증) -> 양도하시는 회원님 유효기간 확인 후 신규 고객님(양수인) 유효기간 변경(시작일은 인증 날짜라서 기존 회원님 유효기간까지 만료일만 변경하시면 돼요!) -> 기존 회원님(양도인) 유효기간 양도 당일로 만료일 변경
+
+**타석권이 아닌 레슨권이나 패키지 상품 하실 경우에도 결제에서 동일한 상품 선택 후 금액 설정 0원 후 회원 인증해 주시면 되고, 남은 레슨 횟수 확인 후에 레슨 횟수만 변경해 주시면 됩니다!
+
+
+2) 양도받으시는 회원님이 기존 고객님이실 경우
+동일 상품 이용 중이 실 경우 -> 타석 이용권 유효기간 동일한지 확인 후 변경 / 레슨권은 양도하시는 회원님 남은 레슨 횟수 확인 후 횟수 추가로 변경
+
+**다른 상품일 경우
+타석권은 유효기간 변경(유효기간이 더 긴 걸로 변경(양도하시는 회원님 유효기간이 더 적을 수도 있으므로), FMS에 보이는 시간은 상관 x) / 레슨권은 결제 -> 양도인이 이용 중인 레슨권 선택 후 \'금액 0원\' 설정 -> 양수인 회원 인증 후 양도하시는 회원님 남은 레슨 횟수에 맞게 조정
+
+* 비타민 변경 * (비타민은 헷갈리시면 제가 와서 도와드리겠습니다!)
+1) 신규 회원님 등록 후 양도 하시는 회원님 남은 크레딧 & 유효기간 옮겨드리고 양도하시는 회원님 크레딧 0원, 유효기간 종료시키기
+
+2) 동일하게 유효기간 & 남은 크레딧 확인 후 옮겨드리고 양도하시는 회원님 크레딧 0원, 유효기간 종료시키기', 12, '2023-11-03T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (620, '전달사항 이전', '기존 회원권 유효기간 연장에 대한 문의가 올 경우. 
+
+12월 재등록 이벤트 하면서 기존 회원권 유효기간을 연장해달라는 내용의 문의가 좀 있었습니다. 오전에 한 분, 한 달 연장 도와드렸는데 그 부분 이미 해드리기로 해서 어쩔 수 없이 넘어가고 다른 회원님들은 똑같이 원칙적으로는 안되고 재등록을 유도해 주세요! 
+
+소액이라도 재등록 해두시면 기존 회원권도 유효기간없이 이용 가능하시니 더 이득이시라도 안내해주세요! 
+그간 유효기간 문제로 이슈가 되는 회원님들이 몇분 계셨어서 이런 이벤트 진행하는 것도 있어요! 
+그리고 레슨권은 연장 아닙니다. 이건 프로님과 계약문제여서 안되고 타석만이에요~! 
+(추가) 이번 재등록 이벤트는 12월 이벤트이며 다시 할지 여부는 불분명하다고 말씀드리시면 됩니다. ^^
+
+혹시 회원분들 중 유효기간 관련 특이사항이나 있으면 대표님께 메세지 주세요.', 13, '2023-12-01T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (621, '전달사항 이전', '창고 상자가 너무 많아 물건을 정리하였습니다. 제가 자주 오지 않는데 임의로 정리해서 물건 못찾을실까봐 대략 규칙적으로 해놓았어요.
+# 창고 하부 맨 왼쪽칸 : 청소용품 및 각종 세제, 비닐류 /가운데칸 : 휴지류 
+  + 카운터에 있던 수험생쿠폰과 핫팻은 오른쪽 전단지들과 같이 두었어요./ 새로온 방학특강 전단지는 정리함 앞에 두었습니다.
+ + QUASH 걸레포 자리 모자라서 상부장에 2박스 올려놨습니다.
+# 커피장 하부 왼쪽 : 종이컵 및 음료 / 오른쪽 : 간식류와 커피(종이컵이 너무 많아 정리를 위해 자리 옮겼습니다)
+현재 음료 재고 : 콜라1박스, 탐스6캔, 비타500 1박스 외에는 냉장고에 있는 음료가 전부 입니다.', 4, '2023-12-06T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (622, '전달사항 이전', '환불 가능 회원권 없어져 상담 등록 신청서도 새로 뽑아놓았습니다~ ', 12, '2023-12-17T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (623, '전달사항 이전', '주니어 레슨북안내: 마감자가 다음주 해당요일(ex: 당일 월->다음주 월) 비어있는 시간 막기. 
+오픈자가 당일 레슨, fms타석 레슨 예약 체크.
+취소가 들어왔을시: 7일 이전취소일 경우 레슨북막기, FMS타석레슨 빼기. 7일이후 취소변경건은 신경안쓰셔도 됩니다. ', 2, '2024-02-05T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (624, '전달사항 이전', '락커 마스터키로도 안열릴 경우 배터리가 없는 거라서 저희 데스크 서랍 오른쪽에 9v 배터리로 락커 번호치는 쪽 아래에 5초 정도 연결시켜놓으면 열립니다!
+(마스터키가 복사본인지 안열려서 9V 배터리랑 같이 넣어져 있는 마스터키로 빼시면 됩니다!', 12, '2024-02-06T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (625, '전달사항 이전', '대표님이 레슨북 7일 안닫혀 있다고 마감하시는 분이 꼭 7일치 닫아놓으라고 하셨습니다. ', 4, '2024-02-07T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (626, '전달사항 이전', '무료타석이용&프로 무료체험건: 무료체험은 1회에 한해서 가능. 만약 다른 프로님께 체험 원할 경우 등록하여 타석,레슨권 소진하에 가능. 레슨권 소진으로 체험후 프로변경 원할시 변경가능입니다. ', 2, '2024-03-24T09:00:00', '2025-06-14T19:35:01', '회원요청', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (627, '전달사항 이전', '조은별회원(안규현주니어) 레슨 보강, 타석할인등에 있어서 이슈가 있었습니다. 채널로 내용확인 한번 부탁드리며, 목동맘할인같이 요청해야 해드리는 할인은 요청시에만 할인 부탁드립니다. 배려해서 해드려도 다음에 똑같지 받지못하면 컴플레인으로 돌아오니 할인,서비스등에 대한 것은 매장 규정대로 동일하게 부탁드립니다. 잔여3회 3주동안 소진 또는 크레딧 환불로 가능하다고 안내드렸고 답변이 오면 처리 부탁드립니다. ', 2, '2024-03-26T09:00:00', '2025-06-14T19:35:01', '회원요청', 214, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (628, '전달사항 이전', '재등록시에도 항상 신청서 받아서 함께 철해둡시다.', 10, '2024-03-30T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (629, '전달사항 이전', '상담인센티브는 전화상담, 방문상담 지분까지 따지기엔 어려움이 있어 방문상담자에게 드리려합니다. 상담기록 채팅창에 전화상담기록이 있더라도 방문상담기록을 남겨주시길 부탁드립니다. 
+전화상담의 경우 기록을 위해 남겨주시고 채널상담은 안남겨주셔도 됩니다! ', 2, '2024-04-01T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (630, '전달사항 이전', '기업 복지를 통해 이용하시는 분들께서 어느분은 예약이 되는데 어느분은 예약이 왜 안되냐 라며 말씀을 주셨습니다.
+대표님께서 헛걸음 안하시게 10~15분전에 연락을 주시면 타석 여부 확인 후 예약을 도와 드리는걸로 매뉴얼을 정하셔서 모든 근무자분들께서 동일하게 적용을 부탁드립니다.
+
+재등록 회원에 대한 재등록 혜택 기본은 없습니다.
+다만 현장 판단으로 어쩔수 없는 상황에는 90만원 이상 결제 시(레슨권 상품 제외) 룰렛 한번 입니다. 정확하게 한번이며 음료가 나와도 축하 부탁드립니다.
+재등록이 완료 되었으면 대표님께 해당 내용 메시지 남겨주시면 고맙겠습니다.
+
+신규 등록 시 등록을 주저 하시는분 당일 등록 시 룰렛 한번 적용 가능합니다.
+(다만 다음에 오셨을 때 룰렛에 대해 말씀 주셔서 등록 하시면 현장 판단에 따라 결정 하시면 됩니다.)
+
+애완동물 동반출입 금지 안내
+알레르기가 있는 회원분들이 계시니 동반 출입은 금지입니다.
+다만 동반 했을 때 바로 안내 하기보다는 이용 후나 동반이 아닐 때 안내를 하면 이해를 하실 듯 하니 현장 판단으로 안내 부탁드립니다. ', 3, '2024-04-04T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (631, '전달사항 이전', '주차 문제으로 인해 주차권을 가지고 오시는 회원님에게 지속적으로 하페2 및 이마트 주차를 안내 부탁드립니다.', 3, '2024-04-11T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (632, '전달사항 이전', '[공지 사항]
+아이코젠 ,웰빙클럽 회원님 중 락커를 사용하시는 회원님께서는 매달 1일에 락커 비용(할인 없음) 결제 후 비타민에서 정산 처리를 하였습니다.
+매달 25일에 다음달 결제 안내를 후에 다음에 오셨을 때 결제 요청 부탁드립니다.
+
+락커 등록 기간은 2일 입니다.
+채널 혹은 전화로 등록을 요청 하시면 바로 등록 후에 락커 차감 부탁드립니다.
+
+2. 유효기간 연장은 재등록 전까지는 총 1개월안에는 증빙 없이 가능하며 1개월 이상이면 증빙이 필요합니다.
+( 예를 들어 A회원님이 처음에 2주 연장 요청 시 증빙 없이 처리 그 후에 3주 연장 요청 시에는 총 1개월 이상이므로 증빙이 필요합니다.)', 3, '2024-04-12T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (633, '전달사항 이전', '[공지 사항]
+
+\'김캐디\' 라는 예약 시스템을 도입 했습니다.
+아이코젠, 웰빙, 리프레쉬 하고 비슷하면서도 조금 다른 시스템입니다.
+비타민에는 기업복지멤버십에 같이 있습니다.
+
+-김태디를 이용 하시는 회원님이 직접 김캐디 앱에서 이용권 구매 후에 방문 및 전화로 문의 하시면 타석 여부 및 구매하신 타석 확인(오픈, 단독 따로 있음) 확인 후 예약해 주시면 됩니다. 다른 기업복지멤버십과 다르게 \'사용 처리\' 된 이용권은 타석 예약해 주셔도 됩니다.
+
+-김캐디 사장님 홈페이지를 통해 내역 확인 및 변경이 가능합니다. (아이디 : 01062507373 / 비번 : 1234)
+ 
+ 왼쪽 메뉴 중 정산관리 관련 메뉴가 주로 사용 될 것으로 보입니다.
+ 미사용 이용권 메뉴에는 사용처리. 결제 취소 버튼이 있습니다.
+   사용처리는 혹시나 회원님께서 직접 사용처리를 해주셔야 하는데 안하셨으면 근무자가 사용처리를 해주시면 됩니다.
+   혹시나 취소를 해야하는 상황이 생기면 결제취소 버튼을 클릭하시면 환불 처리 됩니다.', 3, '2024-04-19T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (634, '전달사항 이전', '[공지 사항]
+
+1. 기간제 일시 정지 관련해서 부상이나 아프신 상황 외에 개인 사정(예: 시험 기간 등등) 으로 인한 일시 정지는 안되는걸로 참고 부탁드립니다.
+2. 회원 등록 시 조조 및 자율 금액으로 크레딧 여유 없이 결제 하시면서 락커 이용을 원하시면 보증금 15만원 있습니다.
+3. 상담 및 체험도 주차 안내는 하2 주차로 안내 부탁드립니다.', 3, '2024-04-26T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (635, '전달사항 이전', '[공지 사항]
+
+1. 회원님께서 보내신 거리 미션 화면은 전체 화면 기준으로 다시 한번 안내 부탁드립니다.
+    \'매장에서 시간도 같이 기록을 하기 때문에 전체 화면으로 보내주셔야지만 인정이 된다\' 라는 식으로 안내 부탁드립니다.
+
+2. 영수증 인증이 안된 리뷰는 네이버에 노출이 안되어서 그냥 작성 하신 분의 일기라고 생각하시면 됩니다.
+   룰렛 전이든 리뷰 작성 후에 모아둔 영수증으로 작성 하신 리뷰에 영수증 인증을 부탁해서 리뷰가 노출 되도록 요청 부탁드립니다.
+   영수증은 잘 모아 주세요
+   작성 후 영수증 리뷰 방법 숙지를 위해 모든 직원 분들은 리뷰 작성 후 영수증 인증 후 대표님께 인증 해주시면 고맙겠습니다.
+
+3. 18h 게임 날짜는 기입 부탁드립니다.
+   여러장 하신 회원님들은 기록으로 중복 확인이 어려울 수도 있습니다.
+
+3. 룰렛 한 시간도 대략적으로 기록 부탁드립니다.', 3, '2024-04-27T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (636, '전달사항 이전', '비거리 마스터 미션 관련 기준 안내
+\'남성 :190m 이상, 여성 160m 이상\' 미션에서 비거리 채널로 인증 및 스템프 날인 하였으면 \'장타기록도전!\' 미션의 거리는 인증 했던 거리보다 더 멀리 보내야 합니다.
+(예 A 남성 회원이 190.0m 인증 해서 스템프 날인 장타기록 도전! 에는 190.1m 인증 하시면 기록은 인정 됩니다.
+비거리 기록은 누적이며 하나의 쿠폰을 완성하시고 다음 쿠폰 도전 시에도 초기화가 아닌 인증한 비거리 기록이 적용 됩니다.
+(예 B 여성 회원이 장타기록 도전 미션에서 165.0m 기록하고 인증 후 다른 미션 완성 하시고 다음 쿠폰 도전 시 장타 기록 도전 미션은 165.0m 이상 해야 인정 됩니다.) ', 3, '2024-05-09T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (637, '전달사항 이전', '룰렛이벤트관련, 미션지 완성하신 것 받으시면 확인 시간이 필요하여 다음번 방문시 룰렛 돌린다고 안내 부탁드립니다!! 그리고 네이버 리뷰는 영수증 인증을 해야합니다. 아무 영수증하나 드리고 인증까지 완료하셔야 룰렛 돌리기가 가능합니다!!그리고 리뷰 캡쳐후 채널로 보내달라고 부탁드려야 합니다! ', 2, '2024-05-11T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (638, '전달사항 이전', '[공지 사항]
+
+- 주니어 레슨권 이용 후 크레딧 전환 및 환불 요청 시
+
+  10회 약정 할인으로 등록 하신 주니어 레슨은 약정 할인으로 1회 단가가 5만5천원입니다.
+
+  그리고 담당 프로님과의 계약 관계로 인해 이용 후에는 금액 환불 불가 및 2가지 방안으로 대응해주시면 됩니다.
+
+ 1. 크레딧으로 전환만 요청 시 
+   6만 5천원 X 진행한 레슨 횟수 = 사용하신 크레딧
+   10회 기준으로 550,000 - 사용하신 크레딧 = 전환 가능한 크레딧
+   (예 : 65,000 X 6 = 390,000 크레딧 사용
+         550,000 - 390,000 = 160,000 크레딧 적립 가능 )
+   혹시 사용하신 크레딧이 결제한 금액보다 높을 경우는 크레딧 전환이 불가함 
+
+2. 일반 레슨권으로 전환 가능
+   주니어 레슨 1회에 일반 레슨 2회로 전환
+   (예 : 주니어 남은 레슨이 4회이면 학부모님 레슨 8회로 전환
+         1회당 레슨비도 27,500원이라 프렌즈9 단가보다 저렴함 타석 크레딧은 별도)', 3, '2024-05-23T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (639, '전달사항 이전', '골프백 배송 시 항공 커버 반납 기간은 3일이라 골프백 배송 신청 명단 확인하여 기간이 지난 분들께는 반납 안내도 해드려야 할 것 같습니다!', 12, '2024-06-29T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (640, '전달사항 이전', '타석운영이 정각단위운영에서 자율로 변경될 예정입니다. 변경후에는 자율로 내가 연습할 시간을 예약 가능하기때문에 추가시간을 없앨 예정입니다. 추가시간 없어지는 것 적응을 위해 매장에서 10분만 드리고, 만약 타석이 너무 여유가있는경우 최대 15분까지만 부탁드립니다. ', 2, '2024-06-30T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (641, '전달사항 이전', '[공지 사항]
+
+7월 8일 월요일 부터 자유 시간제로 변경 됨에 따라 변경 되는 시스템에 대해 숙지 부탁드립니다.
+당분간 계속 공지가 생길 수 있으니 내용 확인 부탁드립니다.
+
+7월 5일 금요일부터 추가 시간은 유료로 전환 되었습니다. (대표님께서 자동 차감 시작할때 연락을 주신다고 하셨습니다. 적용 시점 말씀해 주실 예정)
+추가 시간을 요청하시는 회원님께 추가 과금이 있다고 고지를 해주시고 얼마나 추가 과금이 되는지 문의 하시는 회원님께는 " 이용하신 시간에 비례해서 과금됩니다. " 라고 안내 부탁드립니다. 
+분당 얼마인지 보다는 원하시면 전체 이용 하셨을때 차감 되는 크레딧이 얼마인지는 안내해주시면 됩니다.
+(차감금액 계산 엑셀 파일 이용 하시면 됩니다. 이용 방법은 셋팅 항목을 입력 해주시면 자동으로 계산 됩니다.)
+
+조조권, 평일 주간 이용권 으로 이용하시는 회원님들은 해당 시간대에서 1시간은 차감 없이 이용이 가능하며 해당 시간이 지나 이용 하시면 이용하신 시간에 비례해서 차감 됩니다. ', 3, '2024-07-04T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (642, '전달사항 이전', '마감시 제빙기 물통 한번 채워주시고 퇴근 부탁드립니다. 오전부터 아이스커피를 많이 드셔서 출근시 얼음과 물이 거의 없는 경우가 있습니다. ', 2, '2024-07-05T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (643, '전달사항 이전', '[공지 사항]
+
+프로그램이 자동 차감 후 적립은 매장의 귀책으로 불편함을 겪었을 때만 가능합니다.
+예를 들면 시스템 오류, 타석 이용에 문제가 발생하였을때
+그 외에는 회원님께서 예약 하신 시간대로 과금 됩니다.(프로그램이 예약 내용대로 과금해서 어쩔수 없다는 취지로 안내 부탁드립니다.)
+예를 들어 A 회원님이 10시~11시 예약
+회원님께서 9시 30분에 연락 오셔서 10시 이용이 어렵다고 말씀하시면서 10시 30분에 시작 할 수 있는지 문의
+또한 10시 30분에 시작하니 11시 30분까지 이용 원하심
+그러면 (예약이 가능하면) \'뒤에 추가로 예약 도와드릴까요?\' 라고 안내 뒤 원하시면 예약
+총 이용 시간은 10시부터 11시 30분까지 입니다. 해당 이용 하신 시간에 비례해서 크레딧 차감 됩니다.
+
+대표님께서 프로그램이 자동 차감 되는 시점을 말씀해 주시기 전에는 근무자가 차감 하면 됩니다.
+프로그램이 자동 차감 되더라도 레슨은 근무자가 직접 정산 해야 합니다.(주니어 레슨 포함)
+
+기업 복지 이용하시는 회원님들은 월요일 자유 시간제 도입 후 최대한 비어 있는 시간에 있는 타석으로 배정 부탁드립니다.
+( 예를 들어 1번 타석에 40분 이용 가능 후 3번 타석에 20분 이용 가능 하면 안내 후 타석 배정)
+
+타석 예약 시 기존과 동일하게 1시간 기본으로 설정 되어 있으며 회원님께서 직접 이용 시간을 설정 하시면 됩니다.', 3, '2024-07-05T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (644, '전달사항 이전', '주니어레슨 환불건에 대해서 안내드립니다. 기존과 같이 1. 크레딧으로 환불(단, 1회 65,000크레딧으로 계산하여 차액만 환불), 2. 성인레슨 2회로 변경(크레딧 가지고 있으신 경우, 타석은 본인 크레딧 차감)
+
+총 2가지 옵션이며 현장에서 바로 응대하여 처리하고 결과만 공유 부탁드립니다.', 2, '2024-07-10T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (645, '전달사항 이전', '2.4번 지속적인 센서 오류로 a/s 신청하였습니다. 주말은 방문하시기 어려우시고 화요일 방문 가능하다고 하시고 오전에 연락주시고 방문해 주신다고 하십니다.', 12, '2024-07-13T09:00:00', '2025-06-14T19:35:01', '기기문제', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (646, '전달사항 이전', '대표님께서 재등록 시에도 회원님 채널에 재등록 신청서 찍어서 약관과 같이 보내달라고 요청하셨습니다.
+약관을 안내해야 추후에 생길 수 있는 분쟁 시 대응 할 수 있어서 회원님에게도 전달을 해야 한다고 합니다.', 3, '2024-07-15T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (647, '전달사항 이전', '<주차관련안내> 건물앞 주차가 가장 비쌉니다! 다른데 들렀다가 주차를 길게하시는 경우 우리쪽에서 주차비를 더 내는 경우가있어서 매장용 주차권 (70분,40분)주문을 하였고, 주차권 도착하면 대표님 관리실 연락 확인후 이용시간만큼만 그 주차권으로 지급 부탁드립니다. 이마트의 경우 연습시간+10분 크레딧 지급으로 가능합니다. 하이페리온2 주차도 비용을 주고 사오고있으나 현재로서는 가장 저렴하니 하페2로 유도 부탁드립니다.  하페2 주차권도 1시간반권은 없어지고 1시간권,30분권으로 바뀌었고 이용시간+여유10분정도로 지급 부탁드립니다. 대표님과 상의후 따로 공지는 안하기로 했으니 문의하시는 분들 안내 부탁드립니다. ', 2, '2024-07-22T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (648, '전달사항 이전', '[공지 사항]
+
+필드레슨권 양도 가능합니다.
+단, 조건은 필드레슨을 가는 프로님의 레슨 회원님만 가능합니다.
+유효기간 만료 혹은 레슨 횟수가 0인 회원님은 제외 대상이며 정상적으로 레슨이 남은 회원님만 가능합니다.
+그리고 필드레슨 참석 여부에 대해 답변 날짜 혹은 시간을 정해 놓고 회원님께 안내 부탁드립니다.', 3, '2024-08-05T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (649, '전달사항 이전', '주차도장이 바뀌었습니다. 70분, 40분짜리가 있으며 연습시간에 맞추어 찍어드리면 됩니다. 앞에 안내문구 해두었는데…회원이 어디 들렀다 가실경우 여유있게 막 찍을 경우가 있을것 같아 왠만하면 우리가 찍어드리는 것으로 하고 무인일때만 회원이 찍도록 부탁드립니다. ', 2, '2024-08-09T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (650, '전달사항 이전', '[주요 공지 사항]
+
+레슨권 유효기간 추가 연장
+
+1. 매장을 계속 이용을 원하는 회원님께는 최대한 이용이 가능 하도록 도와 드리고 추가 등록 없이 매장 이용을 마무리 하시려는 회원님이 연장만을 원하시면 최대 1개월입니다.
+최대 1개월이지 무조건 1개월은 아닙니다.
+원칙상으로는 연장은 안된다라는걸 안내 후에 연장을 도와드리면 됩니다.
+신규 혹은 재등록 시 당시 근무자가 상황 판단 후에 유효기간 추가 및 연장을 한 후에 대표님께 내용 전달 부탁드립니다.
+
+2. 레슨권 재등록 시 미사용 레슨 횟수와 비슷한 레슨권 유효기간을 추가 해드릴 수 있습니다.
+
+ 예를 들면
+  2-1.  A회원이 유효기간 만료 되었으나  레슨 7회 남은 상태
+      추가 등록 시 재등록한 레슨권 유효기간 + 2개월 (만료된 레슨 횟수가 프렌즈 9과 비슷하기 때문에 2개월 추가)
+  2.-2. A회원이 유효기간 만료 되었으나  레슨 20회 남은 상태
+      추가 등록 시 재등록한 레슨권 유효기간  + 5개월 (만료된 레슨 횟수가 프렌즈 18 유효기간)
+
+3. 레슨 전부 소진 후 재등록 또는 신규 회원 등록
+      등록한 회원권 유효기간 + (유효기간을 민감하게 생각 하는 회원님 또는 컴플레인을 하시는 회원님일 경우 근무자 재량으로 최대1개월) 
+
+추가적으로 궁금하신 사항이 있으시면 말씀해 주세요.', 3, '2024-08-12T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (651, '전달사항 이전', '필드레슨 선정 방식이 변경 되었으며 순위도 12일 부터 공개 하였습니다.
+해당 모니터에 자동으로 새벽 6시에 켜지고 밤 12시에 꺼지는 걸로 설정 했으며 정상적으로 동작을 안할 경우 말씀해 주세요.', 3, '2024-08-12T09:00:00', '2025-06-14T19:35:01', '이벤트기획', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (652, '전달사항 이전', '등록/재등록회원 발송 이미지 : (1) 상담신청서 (2) 약관 (3) 지인이벤트 (4) 타석이용료 할인 (5) 영수증 리뷰 이벤트', 10, '2024-08-17T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (653, '전달사항 이전', '하페2 주차권 소진이 너무 빨라서 주차권지급명단 탭 만들어두었습니다. 주차권을 계속 살수있는것이 아니라 한달에 살수있는 수량이 한정되어있어 아껴서 사용 부탁드립니다. ㅜㅜ 지급시 기록 부탁드립니다. ', 2, '2024-08-17T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (654, '전달사항 이전', '기업복지 회원님들도 타석 이동 불가합니다. (1시간 이용 가능한 타석이 없을 경우 포함)
+
+1시간 이용불가능한 경우 선택지
+(1번) 키오스크대로 이용하시거나
+(2번) 이후 시간대로 예약 도와드리거나
+(3번) 오늘은 이용이 어려우시다고 양해를 구하는 방식으로 응대 바랍니다.
+
+타석이동은 \'타석장애\' 발생시에 한정합니다.', 10, '2024-08-24T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (655, '전달사항 이전', '이마트주차비에 대한 타석 적립은 안하기로 하였습니다. (9000원 적립 요청건발생) 하이페리온2 상가나 매장위 주차로 유도 부탁드립니다. ', 2, '2024-09-05T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (656, '전달사항 이전', '<10월 1일 오전7시30분 체험 예약건>
+체험은 체험 자체가 목적이 아니고, 체험 후 상담이 목적입니다. 따라서 상담직원이 없는 시간대에 체험을 잡는 것은 안됩니다.
+상담 희망 회원이 원하는 시간대로 잡지 말고, 원하는 시간대 중 "상담직원이 있는 시간대"로 잡아주시기 바랍니다.
+불가피하게 예약을 이미 잡았다면, 근무자 배정하거나 프로님 시간대를 비워서라도 응대를 해야 합니다.', 10, '2024-10-01T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (657, '전달사항 이전', '대표님이 당분간 타석, 레슨 체험 모두 9월처럼 무료이벤트 하자고해서 참고 부탁드립니다.(일시적) 상담 요청하시는 분들 체험 무료로 예약 부탁드립니다. 주니어도 포함입니다. ', 2, '2024-10-12T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (658, '전달사항 이전', '원칙적으로 회원이 예약후 비회원이 혼자 오셔서 이용할때 타석 열어주는것은 안됩니다. 동반이나 휴대폰 소지시에만 가능하니 앞으로는 그렇게 안내부탁드립니다. (한두번 해드리면 다른 직원이 원칙에따라 안해드린다고 하면 더 큰 문제가 생깁니다.)', 2, '2024-10-14T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (659, '전달사항 이전', '큰 키오스크 가장 하단에 기업회원 타석 배정 있습니다. 작은 키오스크에서 기능을 추가해서 타석이 사용중이라도 가능한 시간대 선택 예약기능이 있습니다. 아직 초반이라 오류가능성이 있어서 고객 없는 시간대에 테스트 부탁드리고, 키오스크 타석 예약을 했는데 fms에 반영이 안된경우 대표님께 연락부탁드립니다. ', 2, '2024-10-21T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (660, '전달사항 이전', '저희 회원님이 아닌 현경에서 식사 하시는분(여성분)이 화장실을 이용하셨는데 화장실 위치를 바로 가시는거 보니 처음이 아닌 걸로 보입니다.
+안내는 하였으며 같은 상황이 발생하였을 때 저희 회원님들에게 피해가 없도록 건물 화장실 이용을 안내 부탁드립니다.', 3, '2024-10-29T09:00:00', '2025-06-14T19:35:01', '일반', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (661, '전달사항 이전', '네이버톡톡파트너스센터 로그인이 안되어있으면 채팅이와도 알람이 안오니까 로그인 부탁드립니다. 모니터 아래 핑크색 포스트잇에 아이디, 비번 있습니다. ', 2, '2024-11-08T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (662, '전달사항 이전', '셀프커피바 종종 점검 부탁드립니다. 티스푼 담긴 물이랑 티스푼이 더러운 경우가 많았던 것 같습니다. 조금이라도 불투명한 경우 닦고 물 정수로 교체 부탁드립니다. ', 2, '2024-11-08T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (663, '전달사항 이전', '네이버체험 예약이나 상담,전화상담으로 성인,주니어 체험 잡아드릴때, 등록후 주로 이용하실 수 있는 시간대를 여쭤보고
+고객 니즈에 맞는 프로 체험 배정 바랍니다. (주니어같은 경우 오실 수 있는 시간, 프로님이 스케줄상 가능한지 레슨북 대조 확인필요)
+체험 원하시는 날짜 시간에 해당프로 스케줄이 안된다면 프로님 스케줄 가능한때로 고객/프로님과 조율하여 배정 부탁드립니다.
+
+일요일 체험자분 오전에만 이용가능하신데 김은성프로 체험이 들어가있었습니다.
+이런 경우 프로님들이 무료체험만 해주고 다른 프로님께 등록하는 일이 일어나고, 프로님들간 예민한 부분이라 신경써 주시기 바랍니다. ', 2, '2024-12-01T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (664, '전달사항 이전', '주니어는 레슨과 연습시 1~4번 사용 안하도록 부탁드립니다. 주니어동반 5,6번 이용하시는 분들 하루전 5번 확인후 예약 없거나 타회원 예약시 주니어 단독타석으로 이동한다고 안내 연락드릴 예정입니다. 주니어 체크시 전날 오전에 5번타석 부모님예약 안들어와있으면 주니어는 단독으로 재예약 부탁드립니다.', 2, '2024-12-11T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (665, '전달사항 이전', '리뷰 등록시 혜택은 리뷰 한개당 리뷰이벤트나 미션이벤트 둘중에 하나만 선택해서 적용하는걸로 하겠습니다. (두개 등록시에는 두개 적용가능)
+기간제 회원이 미션이벤트로 룰렛하면서 네이버리뷰 포인트도 받고 중복이 심한 것 같아서요. 기간회원이 마음만 먹으면 다음 기간권 공짜 구매 가능…
+회원님들께는 기분안나쁘게 잘 설명 부탁드립니다.', 10, '2024-12-26T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (666, '전달사항 이전', '대표님께서 네이버 예약 신청 시 빠른 처리를 위해 전화로 스케줄 확인 및 예약 확정을 요청 하셨습니다.
+
+네이버 예약 시 아이패드 혹은 PC로 알람이 오는지 확인 부탁드립니다.
+검은색 아이패드는 알람 테스트 후에 다시 가지고 오겠습니다.', 3, '2024-12-28T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (667, '전달사항 이전', '회원 반응이 좋아 연말까지 연장적용했던 레슨권 유효기간 무기한 이벤트 종료합니다. (프렌즈 40만 정규 상품에 유효기간 무기한 적용)
+"프렌즈 20"의 경우 현장재량으로 무기한 혜택 제공 가능합니다. (단, 단순 호의성 혜택은 지양하시고 판매전략적 혜택으로 활용 바람)
+(현장재량 예시)  프렌즈 10 구매희망하시는 고객에게 프렌즈 20을 권유하면서 무기한 제안
+                    원래 프렌즈20 구매희망 회원께는 프렌즈 40가 \'유효기간 무기한\'이라고 강조하면서 큰 걸로 유도하는 것이 바람직', 10, '2025-01-01T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (668, '전달사항 이전', '[네이버 예약]
+예약 들어오면 추가소통 최소화하면서 가능한 바로 확정할 수 있게
+프로선택해서 신청 가능하도록 변경했습니다. (프로별 근무시간 반영 完)', 10, '2025-01-01T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (669, '전달사항 이전', '사물함 146번 A/S가 진행이 되었는지 아시는 분은 대표님께 내용 전달 부탁드리며 안되었으면 12월11일에 기록한 내용 보시면 전화번호 있으니 연락 부탁드립니다.', 3, '2025-01-03T09:00:00', '2025-06-14T19:35:01', '기기문제', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (670, '전달사항 이전', '한상원님 숏게임 레슨 선정 관련해서 문의 하신 부분이 있습니다. 
+완료 미션지가 작년 포함인지 아니면 25년 1월에 시작한 미션지만 해당 되는지 확인 문의 하셨는데
+대표님 카톡 내용 확인 하시고 답변 부탁드립니다.
+모든 레슨 이벤트는 선정 당시 해당 프로님에 대해서 유효한 레슨권이 있어야지만 선정이 됩니다. ', 3, '2025-01-15T09:00:00', '2025-06-14T19:35:01', '이벤트기획', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (671, '전달사항 이전', '현우실장님 월(20일) 저녁8시에 타석이용 상담 네이버 예약 있습니다~상담만 원하시는지 타석체험 원하시는지 모르겠어서 타석도 예약은 해두었습니다. 
++조혜원 : 실장님 동시간대 타석이용 및 상담 예약 있습니다. 상담+체험/체험+상담 교차로 진행 하시는 걸로 대표님이 말씀하셨습니다. ', 2, '2025-01-18T09:00:00', '2025-06-14T19:35:01', '일반', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (672, '전달사항 이전', '[공지사항]
+무기한 레슨권 보유 하신 회원님께서 현재 레슨권 재등록 시 레슨권 통합이 아닌 무기한 레슨권과 유효기간이 있는 레슨권으로 분리해서 등록 및 이용 안내 부탁드립니다.', 3, '2025-01-24T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (673, '전달사항 이전', '김영린 매니저님
+오늘 24일 9번 타석 A/S를 받았으나 동일한 현상이 계속 발생하니 내일 오전에 다시 A/S 신청을 부탁드립니다.
+이용중 PC가 재부팅 된다고 말씀해주세요.', 3, '2025-01-24T09:00:00', '2025-06-14T19:35:01', '기기문제', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (674, '전달사항 이전', '9번 타석 오늘 A/S 받았으나 해결이 안되어서 2월 3일까지 막은 상태입니다.
+증상은 대기 상태 및 QR 인증 후 처음 화면 상태에서는 재부팅이 안되나 연습 할 때만 재부팅 되는 현상입니다.', 3, '2025-01-25T09:00:00', '2025-06-14T19:35:01', '기기문제', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (675, '전달사항 이전', '매니저님 출근 하신 후에 9번 타석 연습 모드로 들어가서 재부팅이 되는지 안되는지 확인 부탁드립니다.', 3, '2025-01-27T09:00:00', '2025-06-14T19:35:01', '일반', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (676, '전달사항 이전', '영린매니져님 2월 1일 11시 45분 네이버 체험(이재윤프로) 있습니다. 네이버상은 12시이나 이프로님 스케줄상 11시 40분 정도로 방문 요청 드렸습니다. 체험하고 상담 부탁드립니다. 
+교대시간인 2시에도 체험 있습니다. 구력 있으신 분이라 타석은 2~3시, 체험레슨(이재윤프로)는 2시반으로 예약 해두었습니다. 영린매니져님이 타석등 안내부탁드리고(일찍 오시면 상담까지), 끝나면 현우실장님 상담 부탁드립니다! ', 2, '2025-01-30T09:00:00', '2025-06-14T19:35:01', '일반', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (677, '전달사항 이전', '3번타석 센서인식이 아예안되서 간헐적으로 한번씩 껏다키면 잘되긴하는데 9번타석 점검올때 같이 한번 봐달라고 하십니다!!~', 5, '2025-02-02T09:00:00', '2025-06-14T19:35:01', '기기문제', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (678, '전달사항 이전', '4일 혹은 5일에 9번 타석 대체 PC 가지고 오신다고 3일에 연락을 주셨습니다.
+테스트 후에 막은 예약 해지 부탁드립니다.', 3, '2025-02-03T09:00:00', '2025-06-14T19:35:01', '기기문제', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (679, '전달사항 이전', '프로님께 주니어 레슨 시 
+\'주니어\' 라고 라벨 표시 된 채만 사용 부탁드린다고 내용 전달 부탁드립니다.
+참고로 5일 13시 이성빈 주니어가 사용한 채는 이승민 주니어 채로 확인 되었습니다.
+해당 내용 이재윤 프로님께 전달 부탁드립니다. ', 3, '2025-02-05T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (680, '전달사항 이전', '9번타석 PC교체 완료. 3번 타석 프로그램상 오류들 정상화 해주고 가셨습니다. 3번타석은 아마도 그게 원인일것 같다고 하시는데 문제가 발생되면 센서 체크위해 AS신청 다시 해야합니다. AS신청후 추가로 점검이 필요한 사항들은 방문 전 미리 기사님께 말씀드리면 장비 챙겨오신다고, 현장접수가 아닌 미리 접수 해달라고 요청하셨습니다. 오늘 현장에서 3번 타석 추가로 요청 드렸더니 센서 체크하는 장비가 없어서 추가 점검 꺼려하셨습니다.', 4, '2025-02-06T09:00:00', '2025-06-14T19:35:01', '기기문제', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (681, '전달사항 이전', '라커103번 누구인지 아는분 계실까요? 이용가능한 라커들 확인하고 정리하다보니 103번이 이름표는 없는데 잠겨있어서요~ ', 2, '2025-02-06T09:00:00', '2025-06-14T19:35:01', '일반', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (682, '전달사항 이전', '학부모님과 주니어가 같이 와서 단독이 아닌 1개의 타석으로 이용하실 때
+주니어의 안전을 위해 주니어랑 같이 이용을 하실 때는 5,6번 타석을 동시 예약하시거나 단독을 예약하셔야 한다는 것을 안내 부탁드립니다.
+다른 타석에 있는 회원님께서 많이 불편해 하십니다.', 3, '2025-02-07T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (683, '전달사항 이전', '라커를 처음 사용하시는 회원님께 할인 조건에 대해 다시 한번 안내 부탁드립니다.
+5시간이라고 하면 많아보이니 5회, 5시간이라고 안내바랍니다.', 10, '2025-02-07T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (684, '전달사항 이전', '김영린 매니저님 날씨가 추워서 화장실에 물을 조금 틀어 놓았습니다. 출근 하셔서 확인 후 잠가 놓으면 됩니다.', 3, '2025-02-08T09:00:00', '2025-06-14T19:35:01', '일반', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (685, '전달사항 이전', '이벤트레슨  fms 등록시 연락처란에  회원번호로 적어주세요. 그래야 전산에 인식이 된다고 합니다~!!', 5, '2025-02-09T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (686, '전달사항 이전', '무료 원포인트 레슨 체험 1회권이 발급해 드린 회원님께서 체험 예약 시
+레슨 메모에 \'체험\' 이라고 기입해주시면 고맙겠습니다.', 3, '2025-02-10T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (687, '전달사항 이전', '2월 27일 김은성프로님 개인일정으로 임시휴무입니다. 주니어 받지 말아주세요~ 있던 주니어는 정리했습니다. ', 2, '2025-02-13T09:00:00', '2025-06-14T19:35:01', '일반', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (688, '전달사항 이전', '룰렛 상품 변경 예정입니다. 변경 될 때까지 잠시 보류 부탁드립니다.
+카카오 굿즈 상품은 대표님께서 우산을 말씀하셨습니다.
+사무실에 박스로 포장된 새 상품이 있습니다.
+굿즈 증정 대상  : 오세나님, 한상원님', 3, '2025-02-15T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (689, '전달사항 이전', '주니어 필드 16일에 모집하였으나 일단 이재윤프로 한팀 마감되었고, 신청하시는 분 계시면 2번째 팀이라 인원이 다 안차면 진행이 안될수도 있다고 안내하고 받아주시길 부탁드립니다. 김은성프로 주니어도 인원이 안차면 진행안될수 있음 안내하고 받아주세요~ ', 2, '2025-02-16T09:00:00', '2025-06-14T19:35:01', '이벤트기획', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (690, '전달사항 이전', 'FMS 으로 회원권 결제 후 영수증 출력 시 결제는 정상적으로 처리 되나
+영수증 출력이 안됩니다.
+\'영수증 출력에 실패했습니다.
+장비 상태를 확인해주세요.
+0
+\' 으로 메시지가 나오면서 영수증 출력이 안되어 A/S 에 문의 하니 답변이 FMS 문제는 아닌것 같으며 해당 PC와 단말기 문제인듯하다며 슈퍼바이저에게 내용 전달하면 빠른 처리가 된다고 합니다.
+해당 내용 대표님께 전달 하였으며 주말 지나고 월요일에 대표님 카톡에 슈퍼바이저 정보 있으니 내용 전달 후 조치 부탁드립니다.', 3, '2025-02-22T09:00:00', '2025-06-14T19:35:01', '기기문제', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (691, '전달사항 이전', '김주순 프로님 프로필 사진이 나와서 프로필이 완성이 되면 카카오톡 채널에서 자동응답 메시지에 추가 부탁드립니다.', 3, '2025-03-03T09:00:00', '2025-06-14T19:35:01', '일반', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (692, '전달사항 이전', '영린매니져님 15일(토) 11시 네이버 체험 상담 예약 있습니다~ ', 2, '2025-03-09T09:00:00', '2025-06-14T19:35:01', '일반', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (693, '전달사항 이전', '혜원매니져님 10일(월)나무들 물 부탁드려요. 그리고 수 오전에 수4시반 주니어체험 오시는지 확인 부탁드려요~(김주순프로 체험 노쇼 있어서요)', 2, '2025-03-09T09:00:00', '2025-06-14T19:35:01', '일반', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (694, '전달사항 이전', '김은성프로 3월 17일, 31일, 4월14일(월) 임시휴무입니다. 주니어 받지 말아주세요~ ', 2, '2025-03-12T09:00:00', '2025-06-14T19:35:01', '일반', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (695, '전달사항 이전', '김태윤프로님이 개인사정상 3월 말일까지만 근무하시게 되었습니다. 잔여레슨권 있는 분들 중 이현우님(등록후 환불요청 후 안나오시는중) 제외하고 나머지 4분(김경남, 권지영, 김보영, 이동은님)께 채널 안내드렸으니 내용 확인해보신 후 회원님 연락오면 원하시는대로 처리 부탁드립니다. ', 2, '2025-03-13T09:00:00', '2025-06-14T19:35:01', '일반', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (696, '전달사항 이전', '기업복지 회원님 단독 타석 이용 시 추가 결제 금액이 7,000원으로 안내 및 결제 하였으나 대표님께서 5,000원으로 통일 하자고 하셔서 혹시나 다음에 이용 하셨을 때 항의가 있을 수 있으니 안내 잘 부탁드립니다.', 3, '2025-03-15T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (697, '전달사항 이전', '오늘 상담하신 지해인님이 회원 등록을 결정하시면 연락을 주신다고 하셨습니다. 회원 등록 후에 FMS 인증 부탁드립니다.', 3, '2025-03-19T09:00:00', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (698, '전달사항 이전', '분실물>7번아이언 커버 음료수 쇼케이스 위에 올려두었습니다.', 5, '2025-03-22T09:00:00', '2025-06-14T19:35:01', '일반', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (699, '전달사항 이전', '정수기 얼음이 안나오는걸로 보입니다. 지속 될 경우 월요일에  A/S 신청이 부탁드립니다.', 3, '2025-03-22T09:00:00', '2025-06-14T19:35:01', '기기문제', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (700, '전달사항 이전', '주차권 분실이 너무 많고 자주 살 수 있는 것이 아니라 관리 방법 변경합니다. 개인당 60분,30분 10매씩 지급하며 주차권 지급시 지급자 기록 부탁드립니다. 3장 미만으로 남아있을 경우 엑셀과 이용자 확인후 다시 10장 맞춰두겠습니다. 하페2주차권 서랍에 개인별로 묶어둘테니 본인 할당량에서 지급 부탁드립니다. 프로님들 요청시 60분 1장, 30분 2장 최대지급으로 부탁드리고 양해 구해주세요~~ ', 2, '2025-03-24T09:00:00', '2025-06-14T19:35:01', '일반', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (701, '전달사항 이전', '9번타석 매트 배송중이라 타석 막아두었습니다. 오늘까지 준비안될시 현우실장님 마감때 내일 전체 막아주세요~ ', 2, '2025-03-24T09:00:00', '2025-06-14T19:35:01', '기기문제', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (702, '전달사항 이전', '신규 체험은 근무 시간표 확인하시고 무인시간대 아닌 직원 근무시간으로 예약 잡아주세요.', 4, '2025-03-25T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (703, '전달사항 이전', '다음주에 새로 구매한 볼 매트 작업을 위해 A/S 기사분께서 오전에 미리 연락주시고 방문 예정입니다. 
+가로 세로 길이가 조금 안맞아서 재단과 타공 작업 예정이며 총 6개 모두 작업을 요청하였습니다.', 3, '2025-03-29T09:00:00', '2025-06-14T19:35:01', '기기문제', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (704, '전달사항 이전', '현장 확인 필요사항 : 
+(1) 크레딧이 순서대로 잘 차감되는지 
+(2) 레슨 횟수 맞는지 
+(3) 기타 사용중 에러사항 
+(4) 락커 배정 번호랑 이벤트 횟수 이상 체크
+위 사항들 체크 및 이상 발생시 대표님께 바로 전달 부탁 드립니다.
+
+*새프로그램과 fms만 운용(비타민 제외)', 4, '2025-03-30T09:00:00', '2025-06-14T19:35:01', '업무메뉴얼', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (705, '전달사항 이전', '3월 29일에 시행되었어야 했을 숏게임 필드레슨용 추첨은 4월 김은성프로 진행 예정이었는데 레슨권 유효회원이 없어서 이번엔 미진행으로 안내 부탁드립니다. 이재윤프로는 10월 진행예정입니다. ', 2, '2025-04-01T09:00:00', '2025-06-14T19:35:01', '이벤트기획', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (706, '카트대여', '151.윤요한님 골프 카드 2개 대여 하셨습니다. 
+보증금(각 15만) 총 30만 크레딧 차감 하였으며 반납 후에 대여 기간 확인 후에 다시 적립 부탁드립니다.', 3, '2025-04-07T23:24:55', '2025-06-14T19:35:01', '회원요청', 151, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (707, '타석불편', '622.박경은님 4/5일 6번 타석 이용하셨는데 5번 타석에 박민주,박성욱님이 같이 이용해 많이 불편하다고 말씀주셨습니다.
+해당 내용 대표님께 전달하였고 다음에 방문 하셨을 때 음료수 증정을 부탁드립니다.', 3, '2025-04-07T23:25:28', '2025-06-14T19:35:01', '회원요청', 622, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (708, '레슨권 재등록', '레슨권 재등록, 유효기간 지난 잔여레슨권 13회 합산하여 총 23회 맞춰드림. 유효기간 3개월 추가.', 2, '2025-04-08T19:14:11', '2025-06-14T19:35:01', '회원요청', 454, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (710, '13일 일요일 주니어등록후 바로이용', '체험했던 최다인주니어 13일 10시에 방문해서 등록후 바로 이용할 예정입니다. 시간관계상 이재윤프로님 배정이며 13일 10시, 27일 9시 원하셔서 FMS는 잡아두었고, 등록하시면 레슨북에도 해당날짜 넣어주시고, 5월에 일요일 오전중 이용 원하셔서 예약방법 안내 부탁드립니다. ', 2, '2025-04-08T19:36:19', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (711, '조조기간제 ', '조조 기간제 1~2명만 더 받고 대기로 전환예정입니다. 조조기간제 등록시 9시대는 예약이 힘들 수 있다고 안내 부탁드립니다. 
+', 2, '2025-04-09T14:07:01', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (712, '김캐디 콜라보 행사안내', '1. 김캐디 최저가 특별전(기간 : 25.04.15~25.06.30)으로 아래와 같은 임시상품이 등록될 예정입니다.
+   - 100일의 기적 패키지 (전일권 100일 + 레슨10회)
+   - 50일 전일 이용권
+   - 우리가족 골프라이프의 시작 (주니어 레슨 8회)
+
+2. 결제는 김캐디 통해서 하고 오게 될 것이고 회원 등록처리만 현장에서 진행해주시면 됩니다.
+   (결제 확인 방법은 아직 모르겠음. 결제사례 생기면 알게 될텐데 공유 부탁합니다.)
+
+3. 김캐디에서 제공하는 사은품(골프백) 5개 
+   - 김캐디에서 수량 알고 있으므로 김캐디 통한 회원에게만 제대로 지급해야 함
+   - 수량 부족 즈음에 다시 보내준다고 함', 1, '2025-04-10T20:22:38', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (713, '495.방은영님 크레딧 적립 요청', '12일에 11일 이용 내역 채널로 발송 후
+09~10시 이용하신 크레딧 13,000c 적립 및 채널로 안내 부탁드립니다.
+09~10시 예약은 시간대를 잘못 입력 하셔서 21~22시로 이용하셨습니다.', 3, '2025-04-11T21:16:55', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (714, '레슨 유효기간 연장', '25/4/11 레슨 유효기간 2주 연장(4/26까지)', 3, '2025-04-11T21:52:32', '2025-06-14T19:35:01', '회원요청', 470, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (715, '레슨 유효기간 연장', '350만 크레딧 결제하시면서 레슨 유효기간 연장 요청하셔서 도와드림(2개월 연장)', 3, '2025-04-12T15:16:55', '2025-06-14T19:35:01', '회원요청', 398, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (716, '25-04-12 상담기록', '구분 : 방문상담 및 체험
+고객명 : 노일환
+전화번호 : 010-9962-0712
+특기사항 : 주로 GDR 및 인도어만 이용하셨으며 
+5년정도 구력과 회사 부서별 대회에 출전하신다고 하심
+주로 저녁 시간에만 이용이 가능하여 김주순 프로로 체험 레슨 완료
+회원권 확인 후에 등록 여부 결정', 3, '2025-04-12T18:19:08', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (717, '25-04-12 상담기록', '구분 : 방문상담
+고객명 : 유영혁
+전화번호 : 010-3896-2315
+특기사항 : 
+골프는 처음이시며 2~3개월 뒤에 필드를 갈 수도 있는 상황
+레슨권 횟수 높은 회원권 및 체험 레슨 추천
+13일 17시 30분에 김주순 프로 체험 레슨 예약', 3, '2025-04-12T18:19:52', '2025-06-14T19:35:01', '상담기록', 709, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (718, '62.한상민 골프채 보관 및 577.김재혁님 이용금액 50% 할인', '12일 17시 6번 타석 이용하신 한상민님 골프채 사무실에 보관하고 있습니다.
+채널을 통해 안내는 하였습니다.
+
+김재혁님은 긴급할인 메뉴를 활용하여 6,000c 할인 적용하였습니다.
+내일 채널로 안내 시 확인 부탁드립니다.', 3, '2025-04-12T19:18:31', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (719, '레슨 유효기간 문의', '김이선님께서 레슨 유효기간 연장을 문의 주셨으나 24/4/30 등록 하신 레슨권이며 유효기간이 총 12개월로 도와드려서 더 이상은 어려우며 재등록 하셔야지만 가능하다고 안내하였으나 재등록은 어렵다고 하셨습니다.
+참고 부탁드립니다.', 3, '2025-04-12T20:07:25', '2025-06-14T19:35:01', '회원요청', 285, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (720, '127.장은지 회원님 클럽 ', '오전8시에  6번타석에 56도 클럽 분실물 없었냐고 연락와서 보관중이라고 안내드렸고 오늘 중으로 방문예정입니다!', 5, '2025-04-13T08:58:01', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (721, '이선아', '구분 : 방문
+고객명 : 이선아
+전화번호 : 010-3314-0197
+특기사항 : 초보자여서 레슨 필요한 상태. 김주순 프로 체험, 상담 완료. 주차가 불편하다고 하셔서 하페2주차 안내드림. 체험 후 곧 연락주신다고 하고 가심. ', 2, '2025-04-13T18:34:14', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (722, '육두수', '구분 : 방문상담
+고객명 : 육두수
+전화번호 : 010-8541-9447
+특기사항 : 이윤미님 남편분으로 타석 한번 이용해보고 등록한다 하셔서 타석 체험 잡아드렸으나, 체험전 매장 보시고 상담후 바로 등록. 타석만 이용하실 예정. ', 2, '2025-04-13T20:47:29', '2025-06-14T19:35:01', '상담기록', 710, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (723, '심재인', '구분 : 방문상담
+고객명 : 심재인
+전화번호 : 010-2186-3521
+특기사항 : 이지영님 남편분, 동반방문. 지인이 김주순프로 레슨 받은 후 추천했다고 하심. 14일 김주순프로 체험 예약', 2, '2025-04-13T20:48:28', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (724, '이지영', '구분 : 방문상담
+고객명 : 이지영
+전화번호 : 010-3943-5388
+특기사항 : 3월에 상담하시고 두번째 방문. 14일 김주순프로 체험 예약. ', 2, '2025-04-13T20:49:26', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (725, '락커이동', '락커 상부-> 하부 이동 처리 시 추가 차감 된 2833c 수동 적립 함', 4, '2025-04-14T10:52:14', '2025-06-14T19:35:01', '회원요청', 683, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (726, '전화 상담(여성분)', '구분 : 전화상담
+고객명 : 
+전화번호 : 010-3332-8123
+특기사항 : 여성분이시며 골프 연습장을 많이 다니셨는지
+회원권 및 이용 방법에 대해 자세하게 문의 하셨음
+대부분 이해를 하셨으며 주로 저녁 늦게 9시 정도에 이용이 가능하여 김주순 프로 무료 체험 권유하였고
+스케줄 확인 후에 다시 연락을 주시기로 하셨음
+체험 후에 등록 가능성 있음', 3, '2025-04-14T19:03:29', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (727, '조조권 등록 희망', '곧 조조권 등록 위해서 크레딧 미리 추가해 놓으심. 오전 9시대 예약 어려움 안내드림', 4, '2025-04-15T11:25:47', '2025-06-14T19:35:01', '회원요청', 672, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (728, '조조권 기간제', '이부현님 조조권 기간제 원하셔서 크레딧 결제해 두고 가셨습니다. 조조권 실행일 때문에 이용전에 미리 말씀해주시고 조조권 등록 하기로 하였습니다. 
+1~2분만 더 받으신다고 하여 기록 남깁니다. ', 4, '2025-04-15T11:32:12', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (729, '프로변경', '김태윤--> 이재윤', 2, '2025-04-15T14:54:14', '2025-06-14T19:35:01', '회원요청', 595, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (731, '5월 주니어레슨 fms 예약시 유의!! ', '이지수주니어 5월 3일 토요일 레슨 2시45분, 3시15분, 타석 2시35~3시30분으로 넣어주시길 부탁드립니다. (5월 fms안열려서 못넣었습니다. ) 
+김동민 주니어 5월 1일 2시에 예약된 스케줄 2시30분~3시 25분 (2시반, 3시레슨)으로 넣어주시길 부탁드립니다. ', 2, '2025-04-15T18:27:28', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (732, '김민아님 ', '김민아님 4월 13일 일요일 8시 시작 레슨 QR인증이 안되어있습니다. 오시면 인증 부탁드립니다. ', 2, '2025-04-15T18:52:55', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (733, '레슨횟수 조정', '레슨 예약 후 미실시로 레슨권 +1
+미실시 사유 : 놓침', 2, '2025-04-15T22:06:36', '2025-06-14T19:35:01', '회원요청', 185, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (734, '레슨권 합산 및 유효기간 추가 연장', '프렌즈 10 재등록으로 미사용 3회와 통합 및 유효기간 1개월 추가 연장 처리', 3, '2025-04-16T20:13:20', '2025-06-14T19:35:01', '회원요청', 376, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (735, '376.배준영님 레슨권 FMS 인증', '스토어에서 결제하셨는데 프렌즈10 레슨권 FMS에 인증 부탁드리며 횟수 합산과 유효기간 1개월 추가 연장하여 25/8/13 일로 변경 부탁드립니다.
+조조 회원님이라 직원이 없는 시간대만 이용하시다보니 우선은 이재윤 프로님께 인증 요청 하였습니다.', 3, '2025-04-16T20:16:55', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (737, '4월18~28 홀드처리', '해외여행으로 조조권 4월 18~28일 홀드처리. ', 2, '2025-04-17T15:26:16', '2025-06-14T19:35:01', '회원요청', 539, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (738, '25-04-17', '타석 차액 2700 카드결제-이사로 차액만 결제원하심.', 2, '2025-04-17T19:53:50', '2025-06-14T19:35:01', '회원요청', 609, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (739, '문지현,박성철', '구분 : 방문상담
+고객명 : 문지현, 박성철
+전화번호 : 010-9985-2260
+특기사항 : 
+골프는 한달정도 배우셨으며 주변에서 골프를 권유하여 방문 상담하심
+20일 16시에 김주순 프로 체험 예약
+남편분은 PT를 하고 있어서 가입은 안하실듯하나 배우자님께는 등록을 추천하여
+배우자님은 등록 하실 듯', 3, '2025-04-18T20:45:19', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (740, '윤재원 (565) 락커서비스', '오늘 주차관리인 분이랑 트러블이 생겨서 연습장 못다니겠다고 하심
+4/19일 타석이용크레딧 100% 재적립 , 락커  할인율100%로 이용하게 해주겠다 하이페리온 주차 이용하시라 안내, 현재는 상부장밖에 없으나 추후 하부장 나오면 변경 가능하다고 하니 생각해보겠다고 하심
+백배송 서비스도 안내완료 / 백 하루만 보관해달라고 해서 창고에 보관중입니다!', 5, '2025-04-19T12:39:00', '2025-06-14T19:35:01', '회원요청', 565, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (741, '** 프로레슨완료건', '이제부터 레슨완료는 프로님이 직접하실거고 
+피드백 메세지 나갈 예정이니,  데스크에서 하면 안된다고 합니다.', 5, '2025-04-19T13:13:13', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (742, '레슨 유효기간 1주 추가 연장', '레슨 유효기간 1주 추가 연장 도와드림', 3, '2025-04-19T16:38:14', '2025-06-14T19:35:01', '회원요청', 27, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (743, '5월 로커 이용 중지', '5월달 로커 이용 중지 요청', 3, '2025-04-19T18:10:44', '2025-06-14T19:35:01', '회원요청', 151, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (744, '매장 연습용 퍼터 분실 문의', '최근에 매장 연습용 퍼터가 안 보이는데 내용 아시면 말씀해주세요', 3, '2025-04-19T21:44:58', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (745, '스토어 회원권 결제 후 등록', '19일 타석 이용료 부족으로 안내하였으며 스토어에서 결제하신다고 하셔서 구매 후 말씀해 주시면 등록 부탁드립니다.', 3, '2025-04-19T21:47:26', '2025-06-14T19:35:01', '회원요청', 571, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (746, '전캘리주니어 레슨권', '오늘 주니어레슨권 모두 소진, 추후 스케줄 확인 후 먼저 레슨예약하고
+방문하는 날 결제한다고 하심', 5, '2025-04-20T13:12:12', '2025-06-14T19:35:01', '회원요청', 544, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (747, '주재현', '구분 : 방문상담
+고객명 : 주재현
+전화번호 : 010-7133-1826
+특기사항 : 구력은 좀 되시나 꾸준히 다니는데는 없으심. 집근처라둘러보러 오심. 체험 권유하여 당일 4시반 김은성프로 체험 예정. ', 2, '2025-04-20T16:18:54', '2025-06-14T19:35:01', '상담기록', 711, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (748, '레슨권재등록', '레슨권 재등록, 유효기간 지났던 5회 합산하여 15회 맞춰드림. 프로 김주순프로로 변경.', 2, '2025-04-20T20:14:50', '2025-06-14T19:35:01', '회원요청', 394, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (749, '라커 없음', '라커 상부장, 하부장 모두 사용중이라 상부장도 원하실 경우 대기 부탁드립니다. 77번 사용가능으로 나오는데 이재윤프로님이 사용중입니다. ', 2, '2025-04-21T11:39:06', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (750, '레슨유효기간', '주말에만 오실수있고 레슨 유효기간때문에 망설이셔서 등록시 한달 연장처리해드림. 9월20일-->10월 20일', 2, '2025-04-21T14:07:30', '2025-06-14T19:35:01', '회원요청', 711, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (751, '5월달 로커 이용료 차감 회원 변경', '5월달부터 로커 이용료 차감을 배우자이신 438.김광숙님으로 변경 요청 하셨습니다.(149번)', 3, '2025-04-21T22:31:17', '2025-06-14T19:35:01', '회원요청', 452, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (752, '레슨권재등록', '프렌즈10 레슨권 재등록하면서 유효기간 만료되었던 7회 합산해서 17회로 맞춰드림. 유효기간 2달 연장. 프로 김주순프로로 변경', 2, '2025-04-22T16:06:32', '2025-06-14T19:35:01', '회원요청', 562, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (753, '21일 레슨 관련', '21일 22시 45분 레슨 진행을 못하여 다음 레슨 예약 시 취소 후에 미결제 상태로 다시 예약 부탁드립니다.', 3, '2025-04-22T22:04:13', '2025-06-14T19:35:01', '회원요청', 362, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (754, '박준흠', '구분 : 방문상담
+고객명 : 박준흠
+전화번호 : 010-9481-6881
+특기사항 : 김캐디 이용자분. 한시간 더 이용 원하셔서 상품 설명드림. 상담후 바로 등록. ', 2, '2025-04-23T16:39:13', '2025-06-14T19:35:01', '상담기록', 712, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (755, '유재국회원님', '유효기간 지난 잔여레슨권 11회 있으셔서 4/26일 (토) 방문시 프렌즈10 재등록후 바로 이용예정. 2시30분부터 2타임 요청하셔서 예약해드림. 재등록후 fms인증, 합산, 당일 레슨권 인증필요합니다. 현우실장님 부탁드립니다. ', 2, '2025-04-24T17:06:38', '2025-06-14T19:35:01', '회원요청', 567, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (756, '조조이용권 만료일변경', '25/3/17 휴회 해지 요청(250509 종료)
+
+250302 부상으로인한 한달휴회요청, 반영완료(250523 종료)', 2, '2025-04-25T10:35:25', '2025-06-14T19:35:01', '회원요청', 376, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (757, '[유효기간 추가] 레슨', '레슨 재등록 후에 유효기간 2개월 추가 도와드림', 3, '2025-04-26T15:14:21', '2025-06-14T19:35:01', '회원요청', 567, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (758, '[주니어] 일시 정지', '이규리 주니어 발레 콩쿠르 및 개인 일정으로 7월달까지 일시 정지 요청하셔서 대표님 확인 후에 도와드리기로 안내하였습니다.
+요청 시 레슨북에 휴회 기능을 사용해서 일시 정지 부탁드립니다.', 3, '2025-04-26T18:30:39', '2025-06-14T19:35:01', '회원요청', 435, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (759, '김소현', '구분 : 네이버 체험
+고객명 : 김소현
+전화번호 : 010-5300-3601
+특기사항 : 
+주로 평일 오후 8시 이후 이용이 가능하다고 하여 김주순 프로로 체험 예약
+자세한 상담 필요', 3, '2025-04-26T19:52:20', '2025-06-14T19:35:01', '상담기록', 729, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (761, '직원 중요 공지', '1.
+상담인센티브는 본 프로그램 상담기록 기반으로 계산될 예정입니다.
+공유사항 상담기록 및 등록회원 기록을 정확히 해주시기 바랍니다.
+25년 4월분은 카카오톡 내용을 기반으로 업데이트 하여 두었으나
+누락분이 있는지 검토 후 추가등록 진행 부탁합니다. (4/30까지)
+
+2.
+상단 인사관리 메뉴에 각 개인별로 근무일정과 월별 급여정보가 계산되어 제공됩니다.
+확인 후 이상 있는 경우 즉시 알려주시기 바랍니다.', 10, '2025-04-27T15:40:36', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (762, '김소현', '구분 : 방문상담(네이버체험)
+고객명 : 김소현
+전화번호 : 	
+010-5300-3601
+특기사항 : 이사오셔서 체험 예약해서 오심. 구력은 6개월, 주1~2회정도 이용예정. 김주순프로 체험 완료. 언제부터 시작할지 결정을 못해서 오시는날 연락주시고 등록한다 하심. ', 2, '2025-04-27T16:04:08', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (764, '한현철', '구분 : 방문상담
+고객명 : 한현철
+전화번호 : 010-3795-8724
+특기사항 : 집근처라 들어와보셨다가 상담후 바로등록. 레슨 관심없고 타석만 이용하실 예정. ', 2, '2025-04-27T18:50:41', '2025-06-14T19:35:01', '상담기록', 714, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (765, '이경배', '상담자 : 서예원
+구분 : 방문상담
+고객명 : 이경배
+전화번호 : 010-6322-3472
+특기사항:  예전에 좀 치다가 한동안 쉬다 다시 시작하려 하심. 무척 까다로우셔서 일단 15만, 체험레슨3 해보시고 맘에들면 연장하시기로함. 고민하셔서 체험 레슨도 1회 넣어드림.(4일 금) ', 2, '2025-04-01T00:00:00', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (766, '권오범', '상담자 : 서예원
+구분 : 방문상담
+고객명 : 권오범
+전화번호 : 010-6258-1326
+특기사항:  다니시던 연습장이 종료되어 알아보러 오심. 레슨은 관심없고 타석만 이용하실 예정. 상담 후 바로 등록. 와이프도 곧 종료된다하셔서 지인이벤트, 56번타석 장점등등 설명드림. 와이프분은 레슨도 이용하실 예정. ', 2, '2025-04-01T00:00:00', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (767, '안영미', '상담자 : 서예원
+구분 : 방문상담
+고객명 : 안영미 
+전화번호 : 010-2849-9428
+특기사항:  네이버 체험 예약자분. 골프 처음 시작해보려고 알아보다 방문주심. 체험 상담후 바로등록. ', 2, '2025-04-02T00:00:00', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (768, '김광', '상담자 : 서예원
+구분 : 방문상담
+고객명 : 김광
+전화번호 : 010-8427-0428
+특기사항:  네이버 체험 예약자분. 골프 처음 시작해보려고 알아보다 방문주심. 체험 상담후 바로 등록', 2, '2025-04-02T00:00:00', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (769, '소현정, 유민주', '상담자 : 서예원
+구분 : 전화상담
+고객명 : 소현정, 유민주
+전화번호 : 010-3733-8565
+특기사항:  네이버 체험 예약자분. 전화상담후 내일 이재윤프로 가능시간으로 체험, 상담 예약해드림. ', 2, '2025-04-03T00:00:00', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (770, '유민주', '상담자 : 서예원
+구분 : 방문상담
+고객명 : 유민주
+전화번호 : 010-3314-6714
+특기사항:  네이버 체험 예약자분 친구분. 상담, 체험후 바로등록. 최근에 눈 수술 하셨는데 재수술 가능성 있어서 일단 작은 상품으로 등록. 병원 소견듣고 패키지로 변경하실 수 있음. ', 2, '2025-04-03T00:00:00', '2025-06-14T19:35:01', '상담기록', 700, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (771, '소현정', '상담자 : 서예원
+구분 : 방문상담
+고객명 : 소현정
+전화번호 : 010-3733-8565
+특기사항:  네이버 체험 예약자분. 상담, 체험후 바로등록. 휴직중인데 7월에 복직 예정이셔서 시간 있으실때 하시라고 패키지 권유. 남편분은 다른데서 시작하신지 얼마 안되셨는데 이쪽으로 권유해본다 하심. ', 2, '2025-04-03T00:00:00', '2025-06-14T19:35:01', '상담기록', 701, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (772, '서혜연', '상담자 : 서예원
+구분 : 방문상담
+고객명 : 서혜연, 배우자분
+전화번호 : 010-9601-0633
+특기사항: 10년전 1년 배웠다가 안치시는 중 다시 시작해볼까 들러보심. 남편분은 밀리언골프 1년 회원권 끊어서 타석만 이용중. 체험 권유하였으나 집에가서 생각해보고 연락주신다고 함. ', 2, '2025-04-03T00:00:00', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (773, '미상', '상담자 : 김현우
+구분 : 전화상담
+고객명 : 남성분
+전화번호 : 010-5378-3423
+특기사항: 패키지 상품 문의 하셨으며 주로 출근 전 이용을 원하셔서
+내일 5일 이재윤 프로 체험을 권유 하였으나 스케줄 확인 후에 다시 연락 주신다고 하셨음', 3, '2025-04-04T00:00:00', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (774, '박승현', '상담자 : 김현우
+구분 : 방문상담
+고객명 : 박승현
+전화번호 :  010-9798-4861
+특기사항: 
+531.강호석님 지인분
+골프는 완전 초보는 아니고 배우신 적은 있다고 하심
+5일 토요일 16시30분에 이재윤 프로 체험 예약
+지인을 만날까봐 걱정을 하셔서 단독 타석을 이용하시면 된다고 안내해 드림
+회원권에 대해 만족 하셨으면 등록 가능성 있음', 3, '2025-03-31T00:00:00', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (775, '최다인', '상담자 : 김현우
+구분 : 주니어 체험 및 상담
+고객명 : 최다인
+전화번호 :  010-3647-0918
+특기사항: 
+4/5 16시에 주니어 체험은 완료 하였으며 같이 오신 아버님께 회원권 안내
+아버님께서 자녀와 같이 필드를 가고 싶어 체험 신청
+주니어가 중학생이라 본인이 배우고 싶어 하는지에 따라 등록 여부 결정
+체험 후 아버님께서 자녀와 대화하고 결정하겠다고 하심 ', 3, '2025-04-05T00:00:00', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (776, '황현오', '상담자 : 김영린
+구분 : 방문상담
+고객명 : 황현오
+전화번호 : 010-4694-1374
+특기사항: 지나가다가 들르셔서 회원권 설명듣고 등록하심', 5, '2025-04-06T00:00:00', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (777, '김민아', '상담자 : 서예원
+구분 : 방문상담
+고객명 : 김민아
+전화번호 : 010-9705-8815
+특기사항: 구력 1년이고 지금 이용하시는 곳은 없어서 알아보러 다니는 중. 레슨도 필요하신 상태고, 주말에만 이용 가능하셔서 주말에 체험 권유하였으나 가능한 시간대 확인후 연락주시기로 함. ', 2, '2025-04-08T00:00:00', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (778, '권상미', '상담자 : 김현우
+구분 : 방문 상딤
+고객명 : 권상미
+전화번호 :  010-6293-0537
+특기사항: 
+해외에서 골프를 시작하셨는데 스윙 폼이 안좋아서 거의 모든 채 비거리가 비슷해 레슨으로 다시 배우고 싶어 하심
+가족 및 골프채는 해외에 있는 상황이며
+주로 오전에만 이용이 가능하고
+배우자께서 한국에서 레슨을 받았을 때 성의가 없는 프로 때문에 한국에서는 레슨을
+못하겠다고 하셔서 프로에 대해 의문이 있어 이재윤 프로 체험을 적극 권유하여
+22일 오후 5시 45분에 체험 예약', 3, '2025-04-09T00:00:00', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (779, '박희담', '상담자 : 조혜원
+구분 : 전화상담
+고객명 : 박희담(초1)외 1명
+전화번호 : 010-2739-9897
+특기사항: 초1 남아 주니어 2:1 문의. 친구와 2:1 레슨 원하며 오후시간에 방문 및 레슨 가능하여 오후 프로님으로 배정 안내드림. 무료 체험 문의 하셔서 친구와 스케줄 맞춰 체험 예약 하기로 하심. ', 4, '2025-04-11T00:00:00', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (780, '최길웅', '상담자 : 조혜원
+구분 : 방문상담
+고객명 : 최길웅
+전화번호 : 010-9266-7835
+특기사항: 워크인 상담. 주로 오전 6~7시대 이용 가능하셔서 조조권 원하시며, 시간상 이재윤 프로님 레슨 원하심. 타석+레슨 체험으로 권유 드렸으나 바로 체험을 원하셔서 타석 이용. 비치되어있는 클럽이 아쉽다고 하심. 등록시 레슨 체험 말씀 드렸고 주말동안 고민해 보시고 월요일에 오셔서 등록 하신다고 하심.', 4, '2025-04-11T00:00:00', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (781, '이서현', '상담자 : 김현우
+구분 : 방문상담 및 네이버 체험
+고객명 : 이서현
+전화번호 :  010-2961-4278
+특기사항: 
+급하게 필드를 가셔야 하는 상황은 아니고 천천히 배우려고 하셔서
+레슨 횟수 높은 상품을 추천해드림
+김주순 프로 체험 끝나고  회원 등록', 3, '2025-04-11T00:00:00', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (782, '박봉구', '상담자 : 김영린
+구분 : 방문상담
+고객명 : 박봉구
+전화번호 :  010--9475-1901
+특기사항: 처음시작하는 입문자이고 아내분이랑 같이 할려고 했는데 본인이 먼저 시작해보고 등록한다고 함 아내분 등록시 추천크레딧 10%씩 드린다고 안내 아내분 체험래슨 받아보라고 권유했음 ', 5, '2025-04-12T00:00:00', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (783, '노일환', '상담자 : 김현우
+구분 : 방문상담 및 체험
+고객명 : 노일환
+전화번호 :  010-9962-0712
+특기사항: 
+주로 GDR 및 인도어만 이용하셨으며 
+5년정도 구력과 회사 부서별 대회에 출전하신다고 하심
+주로 저녁 시간에만 이용이 가능하여 김주순 프로로 체험 레슨 완료
+회원권 확인 후에 등록 여부 결정', 3, '2025-04-12T00:00:00', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (784, '심재인', '상담자 : 서예원
+구분 : 방문상담
+고객명 : 심재인
+전화번호 :  010-2186-3521
+특기사항: 이지영님 남편분, 동반방문. 지인이 김주순프로 레슨 받은 후 추천했다고 하심.', 2, '2025-04-13T00:00:00', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (785, '김연희', '상담자 : 조혜원
+구분 : 방문상담 및 네이버체험
+고객명 : 김연희
+전화번호 :  010-9460-7596
+특기사항: 주로 오전 이용 예정. 타석 체험 하시고 다른데 등록했다가 자주 못가시는 경우가 있으셔서 크레딧 제 마음에 들어하심. 레슨도 관심 있으심. 타석권 구매후 추가 서비스를 원하셔서 보너스 크레딧 설명 드림. 고민해보시고 내일 다시 방문하신다 하심', 4, '2025-04-14T00:00:00', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (786, '복소연', '상담자 : 서예원
+구분 : 전화상담
+고객명 : 복소연
+전화번호 : 010-2993-9106
+특기사항 :  전화로 타석상품 문의. 레슨은 안하고 타석만 이용 원하심. 오늘 9~10시 타석체험예약. 8시 45분정도 오셔서 먼저 상담하기로 함. 이용해본 후 등록하실 가능성 높아보임. ', 2, '2025-04-25T00:00:00', '2025-06-14T19:35:01', '상담기록', 715, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (800, '박준흠', '구분 : 방문상담
+고객명 : 박준흠
+전화번호 : 010-9481-6881
+특기사항 : 김캐디 이용자분. 한시간 더 이용 원하셔서 상품 설명드림. 상담후 바로 등록. ', 2, '2025-04-23T16:39:13', '2025-06-14T19:35:01', '회원요청', 712, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (802, '레슨권 유효기간 연장', '레슨권 유효기간 25/05/06->25/06/06 으로 1개월 연장
+
+프렌즈 20이상 구매하시면 유효기간 무기한 연장으로 변경. (채널 참고)', 4, '2025-04-28T09:43:44', '2025-06-14T19:35:01', '회원요청', 284, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (803, '조조권 3개월등록', '대기제 전환 가능성, 단독타석 추가금, 평일 오전9시와 주말 예약 어려울 수 있음 안내 완료.
+대표님 확인 후 조조권 등록 완료 ', 4, '2025-04-28T10:23:21', '2025-06-14T19:35:01', '회원요청', 701, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (804, '문혜진', '구분 : 방문상담
+고객명 : 문혜진
+전화번호 : 010-3563-8379
+특기사항 : 유희선 회원님 지인. 완전 초보. 유희선님 추천으로 배워보고 싶어 방문하셨고, 전반적인 상품 안내및 상담 진행 완료. 체험 문의 주셔서 예약 안내드렸고, 전화로 체험 예약 예정이심. (유희선님과 동반 원하심) 남편분도 주말에 이용 원하셔서 크레딧 무기한으로 등록 안내 유도. 패키지에도 관심 있으심', 4, '2025-04-28T12:13:06', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (805, '유효기간 추가 ', '레슨 재등록으로 미사용 횟수(10회) 통합 및 유효기간 3개월 추가', 3, '2025-04-28T19:56:35', '2025-06-14T19:35:01', '회원요청', 551, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (806, '레슨권', '25/3/23 프렌즈 20을 크레딧으로 전환 하였는데 다시 프렌즈 20으로 등록을 원하셔서 대표님 확인 후 특별히 이번만 도와 드림', 3, '2025-04-28T21:09:10', '2025-06-14T19:35:01', '회원요청', 622, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (807, '기간제 환불', '12개월 기간제 6개월로 변경. 41만 크레딧으로 환불. (26년 1월 19일-->25년 7월 19일)', 2, '2025-04-29T21:41:03', '2025-06-14T19:35:01', '회원요청', 618, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (808, '5번 타석 기계 오류', '5번 타석 기계 오류가 발생하였으나 이동 할 타석이 없어서 이용료 적립 해드림(7,800c)', 3, '2025-04-30T19:36:57', '2025-06-14T19:35:01', '회원요청', 152, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (809, '잔여레슨+ 새 레슨 횟수 조정', '4/30 10타 줄이기 상품 구매로 기존 잔여레슨 2회 새 레슨권에 취합하여 20회로 조정', 4, '2025-05-01T09:30:49', '2025-06-14T19:35:01', '회원요청', 78, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (810, '남성 7번 채 파손', '박봉구 회원님이 이용 하시다가 바닥은 치시지 않았는데 공 치시다가 빠졌다고 하심.', 4, '2025-05-01T10:47:24', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (811, '타석 이상으로 이용 불편', '5/1 10시 5번타석 공 올라오는것 문제로 타석 이용 제대로 못하심. 긴급할인 적용해드림. 11시 3번 타석은 추가로 예약 하셔서 정상 이용 하심', 4, '2025-05-01T10:59:29', '2025-06-14T19:35:01', '회원요청', 501, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (812, '전달사항 이전', '5번 타석. 공 주입 문제 A/S 완료 했습니다.
+기계 하단에 이물질 끼임으로 수평이 안맞아서 공이 안들어 간 문제였다고 합니다. 먼지, 쇳조각, 나사 끼임 있었습니다. 
+', 16, '2025-05-01T18:42:45', '2025-06-14T19:35:01', '기기문제', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (813, '이재영', '구분 : 방문상담
+고객명 : 이재영
+전화번호 : 010-5255-4244
+특기사항 : 부부방문. 여성분은 조조 기간권 (주 이용시간 08:30시작) 남성분은 무기한 이용 가능한 타석크레딧 상품 관심. 재방문 하실 수 있도록 네이버 체험 안내드렸습니다.', 16, '2025-05-01T19:02:58', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (814, '레슨권 유효기간 조정', '대표님 확인 하에 프렌즈 20 이상 구매시 기존 레슨권과 취합하여 유효기간 무기한으로 조정. 
+기존 잔여레슨 10+ 새 레슨20 합하여 30 회로 조정. 레슨기간 무기한(28/12/31) 조정 완료.', 4, '2025-05-02T10:15:35', '2025-06-14T19:35:01', '회원요청', 284, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (815, '아이코젠 미이용', '5/1 무인시간 방문 하셔서 아이코젠 인증후 키오스크 오류로 타석 미이용
+다음번 방문하실때 연락 주시면 인증없이 타석 2시간 이용하실 수 있도록 함.
+연락 오시면 타석 2시간 예약 잡아주시고 인증없이 이용하실 수 있도록 해주세요.
+채널 참고', 4, '2025-05-02T12:46:33', '2025-06-14T19:35:01', '회원요청', 393, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (816, '9번 타석 카메라', '카메라가 안나와서 A/S 신청 하였습니다.
+빠르면 내일 5월 3일 방문 예정입니다.
+해당 내용 대표님께 전달 하였습니다.', 3, '2025-05-02T18:01:25', '2025-06-14T19:35:01', '기기문제', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (817, '양도', '유보영님(010-9092-5860)이 김용호님에게 양도(345,500c)
+결제 수수료 10%(34,550원 카드 결제)', 3, '2025-05-02T19:50:03', '2025-06-14T19:35:01', '회원요청', 33, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (818, '홍지택', '구분 : 신규
+고객명 : 홍지택
+전화번호 : 010-8886-1969
+특기사항 : 워크인으로 오셔서 조조이용권, 35크레딧 등록하고 바로 이용하고 가심, 주말8~9시대는 이용이 힘든부분도 안내완료~', 5, '2025-05-03T13:28:33', '2025-06-14T19:35:01', '상담기록', 716, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (819, '라커 비용 입금 확인', '5월달 라커 이용료 입금 확인(2만원)', 3, '2025-05-03T20:20:12', '2025-06-14T19:35:01', '회원요청', 689, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (820, '4번타석 탄도', '4번 타석. 탄도가 너무 낮게 나온다고 합니다. 고객님 지적 사항으로 접수 되면 바로 A/S신청 부탁드립니다.', 16, '2025-05-04T17:47:08', '2025-06-14T19:35:01', '기기문제', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (821, '하프백, 신발주머니 임시 보관', '하프백, 신발주머니 사무실에 임시 보관 요청하셨습니다. 5월 5일~6일 사이 찾아가신다고 합니다.', 16, '2025-05-04T17:50:01', '2025-06-14T19:35:01', '회원요청', 615, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (822, '지민정', '구분 : 방문상담
+고객명 : 지민정
+전화번호 : 010-3570-0078
+특기사항 : 구력 1년 정도
+남편분이랑 같이 내방하심 (남편분은 리조트 휘트니스 다니시는중)
+하이페리온1거주
+이재윤 프로 이름 듣고 방문하셨다고 함 / 지인이벤트 설명완료
+오전+이른 오후 레슨 희망', 1, '2025-05-04T21:36:47', '2025-06-14T19:35:01', '상담기록', 717, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (823, '크레딧 부족 충전 예정', '조조 기간제 만료 5/9 에 연장 및 크레딧 충전 예정이심(영린매니저님 확인)
+충전후 마이너스 체크
+', 4, '2025-05-06T10:52:55', '2025-06-14T19:35:01', '회원요청', 351, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (824, '신규가입 인증 필요', '변가영님 어머님으로 변가영님이 우선 결제- fms인증 등록처리 필요
+구매한 크레딧으로 김라윤 주니어레슨권 20회 구매', 16, '2025-05-06T15:18:32', '2025-06-14T19:35:01', '회원요청', 718, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (825, '양수인', '구분 : 방문상담
+고객명 : 양수인
+전화번호 : 010-5755-5400(부)
+특기사항 : 부모님께서 방문해서 자녀(대학원생-완전 초보) 등록 상담하셨습니다. 
+                타석 및 레슨 예약제 시스템에 많이 만족하셔서 이용 결정했다고 합니다.
+                완전 초보여서 패키지 10타 줄이기로 선택 / 토요일 어머니와 당사자 회원 방문해서 가입 예정입니다.
+                프로님은 좀 더 고민해보고 경정해서 방문 하시기로 했습니다.', 16, '2025-05-06T18:24:18', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (826, '송다영', '구분 : 방문상담
+고객명 : 송다영
+전화번호 : 010-3948-8139
+특기사항 :부부 방문, 연습장 1일 이용 문의해 보려 방문. 
+               크레딧 제도 설명 듣고 매우 만족 , 부부 두분 다 연습장 이용 필요, 
+              부담없이 한분이 15만 크레딧 구매해서 같이 이용 하시는 방법 생각중 
+              레슨도 필요. 체험레슨3 관심.', 16, '2025-05-06T19:36:02', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (827, '이경산', '구분 : 신규
+고객명 : 이경산
+전화번호 : 010-9082-7514
+특기사항 : 김주순 프로님 소개
+                체험 레슨 하시고 바로 등록. 인도어 연습장 이용 중이셔서 
+               레슨 때 위주로 이용하기 위해 15만 크레딧, 프렌즈10 구매.', 16, '2025-05-06T19:58:45', '2025-06-14T19:35:01', '상담기록', 719, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (828, '기업 복지 이용 ', '키오스크예약 안되어서 기업복지 회원들 타석 직접 예약 잡으실 때 
+예약자명: 기업복지명/ 전화번호 : 회원전화번호/ 메모: 이용회원 성함 으로 기록 해주세요.', 4, '2025-05-07T09:45:39', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (829, '지인이벤트 적용', '신규 회원 지인 이벤트 적용 시 누구 지인이신지 같이 메모 해주세요
+ex) 수동적립 - 000c적립 - 지인이벤트 적용(***님) 
+신규 회원에는 기존 회원 성함 기록, 소개해준 기존 회원께는 신규 회원 성함 기록 으로 해주세요.', 4, '2025-05-07T09:52:13', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (830, '레슨권 재등록 예정', '기존 레슨권 5/7로 기간 만료
+곧 오셔서 새 레슨권 등록 예정.
+새 레슨권 등록 하시면 기존 잔여 레슨 17회 합쳐서 fms 횟수 조정 해주시고, 기존 레슨권 기간 만료 처리 해주세요. ', 4, '2025-05-07T11:07:42', '2025-06-14T19:35:01', '회원요청', 608, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (832, '전화상담(여성)', '구분 :  전화상담
+고객명 : (여성)
+전화번호 : 010-9903-7879
+특기사항 : 완전 초보, 6월 14일 라운딩 계획. 
+                레슨은 오전 첫타임 원하고, 자유로운 방문 횟수와 연습 필요 / 35만 크레딧 + 프렌즈10 추천드림', 16, '2025-05-07T18:50:26', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (833, '락커대기', '락커대기 회원님들은 하부장, 상부장 구분하여 대기 리스트에 작성해주세요. 하부장은 대기가 오래 걸릴 수 있으니 안내 해주시길 바랍니다. 상부장 대기하시다가 하부장으로 대기 옮기시거나 변경 원하시는 분들은 누락 되지 않도록 하부장 대기에 회원이름 다시 꼭 작성 해주세요. ', 4, '2025-05-08T10:00:00', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (835, '결제 관련 ', '-재등록, 회사 이전 가능성 있어서 일단 15만 크레딧 구매하고 추후 가능하면 패키지 상품으로 추가결제 및 이용권 변경 계획입니다.
+-락커 상단 대기중이며 사무실에 임시로 골프백 보관합니다. (초록색 브리지스톤)', 16, '2025-05-08T16:21:27', '2025-06-14T19:35:01', '회원요청', 269, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (836, '주니어 기간연장', '임하준 주니어 1개월 기간 연장 처리 완료 / 종료일 5월 21일 -> 6월 21일 로 변경 (잔여 레슨 1회)
+남은 기간동안 프로님과 주니어 스케줄이 안맞아서 기간 연장 요청 ', 16, '2025-05-08T17:36:53', '2025-06-14T19:35:01', '회원요청', 643, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (837, '환불문의', '출산과 이사 이유로 방문이 어려워서 크레딧으로 물품 구매하려고 방문하였으나 원하는 상품 매칭 실패
+
+가입하신 시기의 이용 약관에 따라 환불이 불가.  양도양수 방법 안내 드림
+
+크레딧 무기한 이용 가능하므로 일단 보류', 16, '2025-05-08T17:45:53', '2025-06-14T19:35:01', '회원요청', 420, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (838, '레슨 유효기간 연장', '무릎 부상으로 3주 연장 요청. 처리 완료 (기존 유효기간  25/08/15 변경 후 25/09/05)
+추가 연장 필요한 경우 간단한 증빙 확인 후 연장 가능함 안내드렸습니다. ', 16, '2025-05-08T19:45:51', '2025-06-14T19:35:01', '회원요청', 683, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (839, '5/8 락커비 결제 완료', '5/1~8까지 8일분 = 5400원 6000원 결제하여 600 크레딧은 적립으로 도와드림', 1, '2025-05-08T22:30:35', '2025-06-14T19:35:01', '회원요청', 351, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (840, '셀프 바 옆 디스플레이 켜는 방법(모니터 2개)', '1. 프린터기 옆 노트북 바탕화면 "이벤트 디스플레이"클릭
+2. 검정색 작은 삼성 리모콘으로 세로 모니터에 "홈 버튼-이전 버튼" 누르면 이벤트 디스플레이 실행 됨
+-> 이렇게 되면 가로 모니터에 화면이 사라짐
+3. 가로 모니터 오른쪽 하단 뒷부분 동그란 버튼 누르기 - 버튼 오른쪽으로 클릭 -외부입력- usb선택- 사진 선택 하면 미션 이벤트 화면 실행 됨
+4. 1의 노트북 닫기 
+
+오픈 하시는 분들은 위의 방법으로 화면 켜주시면 됩니다. ', 4, '2025-05-09T09:44:15', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (841, '주차권 관리', '하이페리온 2 주차권이 재고 관리가 안되어  직원별로 60분10장, 30분10장씩 소분하여 교부했습니다.
+대표님 확인 하에 각자 보관(락커, 소지 상관없음) 으로 변경 하였습니다. 
+엑셀에 잊지 마시고 지급 후 수량 기재 해주시고, 주차권 모두 소진 시 내역 확인 후 추가 주차권을 교부 하도록 하겠습니다. ', 4, '2025-05-09T13:55:20', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (842, '레슨 유효기간 1개월 연장', '레슨권 크레딧 전환 요청하셨는데 대표님 확인 후에 유효기간 1개월 연장으로 안내(기존 5/11)', 3, '2025-05-09T20:14:57', '2025-06-14T19:35:01', '회원요청', 63, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (843, '2번 타석', '21시에 2번 타석 공이 걸리는 현상이 있어 이용 시간 20분 추가 하였습니다.
+
+확인 당시에는 고무티 찢어진 부분이 안보였는데 내일 운영 시 동일한 문제가 발생하면 다시 한번 확인 부탁드립니다.', 3, '2025-05-09T21:56:47', '2025-06-14T19:35:01', '기기문제', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (844, '배준영회원 조조이용권 추후채널로 연락 후 등록예정', '오늘 70만크레딧 결제 했고, 조조재등록 예정이나 개인사정으로 인해 바로 이용불가하여 시작할 수 있을때
+매장으로 연락주기로함 그때 크레딧차감으로 등록해주시면 되겠습니다!', 5, '2025-05-10T13:38:46', '2025-06-14T19:35:01', '회원요청', 376, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (845, '곽민선', '구분 : 네이버 체험 및 전화 상담
+고객명 : 곽민선
+전화번호 : 010-7312-6400
+특기사항 : 
+곽민선님은 5년 정도 배우자님은 완전 초보
+간단한 회원권 안내 하였으며 11일 16시에 김은성 프로 체험 예약
+주로 평일 저녁 시간대 이용
+매장 방문 후에 자세한 회원권 안내가 필요하며 곽민선님의 판단에 따라 등록 가능성은 있음', 3, '2025-05-10T20:06:18', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (846, '10일 스토어 결제 처리', '10일 주니어 골프 스쿨(2인_10회)가 결제 되었습니다.
+현재 진행하고 있는 주니어 레슨 중 2대1 레슨이 없습니다.
+
+안지현(010-7465-0229) 님으로 확인이 되어 회원 검색하니 회원 명단에 없습니다.(651.안지현님 아님)
+
+해당 연락처로 연락을 하였으나 통화가 안되었습니다.
+
+혹시 연락이 오면 처리 부탁드립니다.', 3, '2025-05-10T21:14:06', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (847, '조조이용권 재등록 홀드', '기존 이용권이 5월 14일 종료 , 오늘 조조이용권 재등록 했는데 등록일 기준으로 시작일 지정이 되는이슈로인해 
+5월 11일 ~ 5월 14일 까지 홀딩처리 해두었습니다! ', 5, '2025-05-11T10:45:28', '2025-06-14T19:35:01', '회원요청', 539, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (848, '정보 수정 요청', '5월 10일 톡스토어 결제
+2:1레슨 받을 주니어 꾸려서 6월말~7월초 시작 예정입니다.
+시작시점에서 담당 프로, 레슨 기간 수정 , 레슨권 부여, 체널연결 필요합니다.', 16, '2025-05-11T18:07:27', '2025-06-14T19:35:01', '회원요청', 724, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (849, '예약 취소 요청', '최초 취소 요청. 페널티 없이 취소 처리 해드림. 추후 취소 불가.', 16, '2025-05-11T18:52:38', '2025-06-14T19:35:01', '회원요청', 332, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (851, '레슨권 사용 유지 및 기간연장', '김태윤프로님 레슨 종료 후 프로 변경 전 레슨권을 크레딧으로 전환 요청하셔서
+무료체험레슨 + 충분한 기간 연장 제안드림. 
+5월 말경 프로님 두분 체험 레슨 후 레슨권 이용 하기로 함. 레슨권기간 - 8월 말까지 조정 
+체험레슨 첫회 타석&레슨무료  /  체험레슨 두번째 타석회원님예약&레슨무료 로 진행
+
+', 16, '2025-05-12T14:32:24', '2025-06-14T19:35:01', '회원요청', 139, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (852, '회원권 재등록', '12일 결제 하셨는데 다음에 오셨을 때 다른 회원권으로 변경 예정입니다.', 19, '2025-05-12T17:29:38', '2025-06-14T19:35:01', '회원요청', 294, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (853, '김주원', '구분 : 전화 상담
+고객명 : 김주원님 자녀 주니어 레슨
+전화번호 : 010-9255-0254
+특기사항 : 
+주니어 2대1 레슨을 생각하심
+16세 여자 학생 2명이며 완전 초보
+주로 주말에 레슨을 받을 수 있다고 하심
+주니어 레슨에 대해 자세히 안내를 하였으나 
+현재 해외에 있어 6월 중순(약 20일 정도)에 매장 방문이 가능하여 방문 하셨을 때 다시 안내를 해야 함
+귀국 후에 무료 체험 이벤트를 도와드리기로 했으며 미리 연락을 주신다고 하심
+', 3, '2025-05-12T19:16:05', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (854, '김캐디 사은품 증정', '5/12 증정 완료', 3, '2025-05-12T22:01:04', '2025-06-14T19:35:01', '회원요청', 721, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (855, '허리 부상으로 조조권 휴회 신청', '30일 휴회 신청으로 6/7 기간 만료', 4, '2025-05-13T09:50:39', '2025-06-14T19:35:01', '회원요청', 77, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (856, '전화상담(여성)', '구분 : 전화상담
+고객명 : 여성분
+전화번호 : 010-2046-8428
+특기사항 : 연습장 알아보고 계심. 타석+레슨 필요. 부부가 동반시 혜택문의 크레딧 금액, 상품 간단히 안내. 무료체험 내방 상담을 권유 드려 남편 분과 상의 후 무료체험 예약 연락 주시기로 함', 4, '2025-05-13T12:28:59', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (857, '레슨 기간 연장 요청', '강지연 회원. 이주원 주니어 레슨 1주 연기', 16, '2025-05-13T19:03:46', '2025-06-14T19:35:01', '회원요청', 637, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (858, '신규', '구분 : 신규등록
+고객명 : 유준호
+전화번호 : 010-319-22821
+특기사항 : 지난주에 상담 받으셨다고 하는데 기록 없음. 오셔서 10타줄이기 패키지 등록. 
+예약, 취소, 환불 규정 등 추가 설명 드림
+현금 계좌이체(이체증 채널에 기록)', 4, '2025-05-14T12:10:11', '2025-06-14T19:35:01', '상담기록', 725, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (859, '기간 조정', '임수철 회원님 레슨 시작일 5월 29일 이용기한 3개월 설정
+임하준 주니어 이용권 시작일 6월 7일 설정', 16, '2025-05-14T16:59:47', '2025-06-14T19:35:01', '회원요청', 726, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (860, '타석예약 노쇼', '불가피한 사정이라 하셔서 취소처리 함. 추후 타석예약 취소는 불가함 고지. ', 16, '2025-05-14T17:28:40', '2025-06-14T19:35:01', '회원요청', 524, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (861, '고숙경', '구분 : 방문상담
+고객명 : 고숙경
+전화번호 : 010-5278-8353
+특기사항 : 하이페리온 커뮤니티(?) 이용중. 다니시는 시설이 너무 낙후되어 우리 매장 방문
+                크레딧 구매하여 부부 같이 이용 계획중 . 추후 레슨도 관심있습니다.', 16, '2025-05-14T20:55:19', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (863, '16일 김소현님 등록 예정(락커43번) ', '4/27 체험 후 락커 대기중이신  김소현님 010-5300-3601 16일 저녁 8시경 방문하셔서 등록 예정 이십니다. 락커 상부 43번 배정 해주세요. 김주순 프로님 체험, 상담 진행 했었습니다. ', 4, '2025-05-15T11:06:20', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (865, '레슨권 양도 양수', '가족간 레슨권 무료 양도양수
+
+양도인 마정연
+
+방문시 마정연님 레슨권 소진- 윤준상님 fms 레슨권 등록 부탁드립니다. 
+레슨권 등록시 마정연님 레슨권과 동일하게 유효기간 설정 해주세요.
+양도인 신분증 확인 완료.', 16, '2025-05-15T21:50:56', '2025-06-14T19:35:01', '회원요청', 727, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (866, '추후 처리 서류 파일', '추후 처리가 필요한 서류를 모을 파일을 따로 만들었습니다.
+벽면에 붙일 자리가 많지 않아 파일에 모아주시고 전달사항에 내용 공유해주시면 다른 직원들도 함께 확인하고 처리 해주세요. 
+추후 처리가 필요하지 않는 서류는 이전처럼 프린터기위에 그냥 놓아주세요.', 4, '2025-05-16T10:23:08', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (867, '김지현', '구분 : 방문상담(워크인)
+고객명 : 김지현
+전화번호 : 010-8558-3751
+특기사항 : 이고운님 지인. 오셔서 바로 타석 이용 원하셔서 회원등록후 이용 하심. 시간이 많이 없으셔서 간단한 필수 사항만 안내(노쇼, 3시간전 취소, 예약 방법, qr 소지 등) 이전에 방문하셔서 설명 드린 적 있음. ', 4, '2025-05-16T10:32:05', '2025-06-14T19:35:01', '상담기록', 728, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (868, '무인시간 이용 예약 오류 차감 회수', '5/15 저녁 타석 이용시 예약 오류로 타석이 두개 예약 되었는데 무인이라 처리를 못하시고 다음날 연락 오심. 이용하시지 않은 5번 타석의 차감된 크레딧은 다시 회수해 드림. 21:30 이후 무인 안내드리고 문제발생 시 유선전화 주시라 안내 드림.', 4, '2025-05-16T10:39:09', '2025-06-14T19:35:01', '회원요청', 346, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (869, '오석희', '구분 : 방문 상담
+고객명 : 오석희
+전화번호 : 010-6415-0409
+특기사항 : 
+김은성 프로님 지인분으로 회원권 상담 후 바로 등록
+김은성 프로님 지인이벤트 적용', 3, '2025-05-16T21:10:43', '2025-06-14T19:35:01', '상담기록', 730, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (870, '크레딧 부족', '5/16 이용료 부족으로 안내해드렸더니 스토어에서 결제 하신다고 하셨습니다.
+결제 후 채널이나 유선으로 말씀해주시면 회원권 등록 도와드린다고 안내하였습니다.
+연락오면 등록 부탁드립니다.', 3, '2025-05-16T21:15:44', '2025-06-14T19:35:01', '회원요청', 581, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (871, '주니어 레슨 추가', '이성빈 주니어가 6월달에 미국으로 출국하여 5/31 레슨 1회만 추가 요청하셔서 1회 비용(6만5천원) 결제 후 예약 도와드림', 3, '2025-05-17T14:07:55', '2025-06-14T19:35:01', '회원요청', 648, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (872, '[공지] 주니어 동반 타석 이용 시', '요즘 주니어와 같이 오시는 회원님께서 같은 타석에서 이용 하려는 경우가 발생하고 있습니다.
+
+주니어와 동반하여 타석 이용 시
+
+1. 5,6번 타석 동시에 예약한 경우
+2. 단독 타석 예약한 경우
+
+위 2개 경우 외에는 주니어 안전으로 이용이 불가함을 학부모님께 안내해주세요.', 3, '2025-05-17T16:28:33', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (873, '구재인 주니어', '구재인 주니어 레슨 유효기간 만료(5/8) 되었는데 1회 미사용을 다음 주니어 재등록 시 추가 부탁드립니다. ', 3, '2025-05-17T17:19:27', '2025-06-14T19:35:01', '회원요청', 503, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (874, '여성분', '구분 : 방문상담
+고객명 : 여성분
+전화번호 : 
+특기사항 : 
+오픈 초기에 방문 하셨으나 현재 스포짐 이용 중
+7월에 재등록 기간이나 헬스와 골프를 동시에 이용하는게 비용과 시간 문제로
+골프 연습장은 변경을 생각하셔서 방문
+회원권 상담 후 크레딧 회원권에 만족하셔서 6월달에 등록 예정
+회원 등록 가능성 매우 높음', 3, '2025-05-17T21:36:19', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (875, '김민재', '구분 : 방문상담
+고객명 : 김민재
+전화번호 : 010-5068-7596
+특기사항 : 
+워크인으로 방문
+하이페리온 2 거주 - 지하 연습장 이용중이나 대기 문제로 불만
+레슨은 인도어에서 받고 있는데 레슨 관심 있음
+5월 23일 레슨체험 (김주순 프로) 잡았음
+주차 문제로 정신없이 일어나셔서 체험 당일 유선 연락 필요', 1, '2025-05-18T16:27:46', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (876, '임주연, 박준영', '구분 : 전화 상담
+고객명 : 임주연, 박준영 부부
+전화번호 : 임주연 010-5088-7355/ 박준영 010-5079-6468
+특기사항 : 용정희 회원님 지인 소개로 전화주심
+5월24일 토 16:15, 16:45 레슨체험 잡음 (이재윤 프로님 완강요구)
+여자분은 6개월 초보, 남편분은 좀 치신다 함', 19, '2025-05-18T19:27:44', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (877, '정은주', '구분 : 전화 상담
+고객명 : 정은주
+전화번호 : 010-6409-3793
+특기사항 : 2년전 6개월 레슨, 필드 몇번 나가심
+직장인이라 평일 퇴근시간 19:30 정도 레슨 원하심
+5월20일 19:30 김주순 프로님 체험 예약 잡아드림', 19, '2025-05-18T19:31:22', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (878, '레슨권 1개월 연장', '레슨권 1개월 연장', 19, '2025-05-18T21:20:34', '2025-06-14T19:35:01', '회원요청', 598, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (879, '김진규', '구분 : 방문상담
+고객명 : 김진규(아버님), 김시윤(아들)
+전화번호 : 010-8881-9346
+특기사항 : 아들 초6 주니어 레슨 원하셔서
+5월 25일 13:15 김은성 프로님 체험 예약 잡아드림.
+아버님 158000크레딧 남으셔서 패키지 상품 골드패밀리 149만원 상품 안내해 드렸습니다.', 19, '2025-05-19T13:46:45', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (880, '홀드요청', '눈 수술로 한달 운동 못하셔서 한달 홀드처리 하였습니다.', 16, '2025-05-19T14:24:18', '2025-06-14T19:35:01', '회원요청', 701, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (888, '양도양수', '임아란(아내)님 181800 크레딧을 이완 받고 싶다는 요청 (센터로 전화옴)
+기존에 1번 양도양수 하심
+임아란님 총4회 구매내역 있으심
+1회 구매당 1회 양도양수 가능하냐는 회원님 질문에
+대표님 오케이 하심
+양도 신청서 작성완료 fms작성완료
+임아란님 신분중 지참 확인함', 19, '2025-05-19T21:26:44', '2025-06-14T19:35:01', '회원요청', 217, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (889, '잔여레슨 fms 횟수조정', '5/18 프렌즈 20 구매하셔서 기존 잔여 레슨 7회 횟수 조정으로 합쳐드림.
+유효기간 1개월 연장도 요청하셔서 11/18-> 12/18로 연장 완료.', 4, '2025-05-20T10:21:18', '2025-06-14T19:35:01', '회원요청', 383, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (890, '추후처리 필수 파일', '회원권 등록 당시 서류 작성이 미흡했거나 추후에 추가 처리가 필요한 서류를 모아두었습니다.
+출근하시면 확인해 보시고 근무시간에 방문하시는 회원님들 필요시 처리 부탁 드립니다
+(ex: 서명란 미기재, 동의합니다 미기재, fms qr미인증 등 간단한 서류 처리 마무리 필요)
+
+회원 등록 시점에서 꼭 동의합니다. 서명, fms인증 잊지마시고 처리 부탁 드릴게요~
+타석권만 추가 구매하시는 경우 (레슨권은 제외) qr인증 필수로 하지 않으셔도 괜찮습니다. ', 4, '2025-05-20T10:34:37', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (891, '남성분', '구분 : 전화상담
+고객명 : 남성분
+전화번호 : 010-4543-2339
+특기사항 : 1일 이용 문의 하셔서 3만원 안내 드리고 
+크레딧으로 이용하는 방법 설명드렸습니다. 네이버 타석 무료체험도 안내 드렸습니다.
+집이 가까워서 꼭 한번 방문하신답니다.', 16, '2025-05-20T21:13:38', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (892, '잔여 레슨 6회', '크레딧으로 원포인트 레슨 결제. 
+FMS에 ㅇ체험레슨 3회로 등록->1회로 횟수 조정 -> 사용처리 되었으나 CRM에 레슨회수 오류로 표시 됩니다. 유효기간 지간 레슨횟수 6회가 맞습니다.', 16, '2025-05-21T18:27:49', '2025-06-14T19:35:01', '회원요청', 448, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (893, '잔여레슨권+새레슨권 횟수 조정', '5/22 잔여레슨 1회 새레슨권에 합쳐서 횟수 조정 완료.
+조조권 추가 구매로 5/27 기존 조조권 종료일 맞춰 5/28로 등록 해놓음. 
+fms 타석예약은 새 조조권 맞춰 5/28로 조정해 놓음', 4, '2025-05-22T10:28:27', '2025-06-14T19:35:01', '회원요청', 669, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (894, '지인이벤트 적립', '아내분 전효순 회원님 등록으로 지인이벤트 5만크레딧 적립을 유영규님이 모두 받으셔서 총10만c적립 되심', 4, '2025-05-22T10:31:16', '2025-06-14T19:35:01', '회원요청', 215, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (895, '유영규님 아내분', '유영규님이 회원권 등록 신청, 결제 완료 하심. 
+지인이벤트 5만크레딧 유영규님이 추가로 받으심
+fms등록, 채널등록, 회원정보 수정 필요.', 4, '2025-05-22T10:33:35', '2025-06-14T19:35:01', '회원요청', 735, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (896, '마감근무자 ', '마감근무자 퇴근시 음료 냉장고 전원 꼭 끄셔야 합니다. 
+잠금버튼 길게- 전원버튼 길게- 조명버튼 길게
+누르셔서 모든 버튼의 불, 조명 꺼진것 확인해주세요
+', 4, '2025-05-22T10:43:03', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (897, '교통사고로 휴회 신청', '기존 1개월 연장+ 진단서 첨부 2주 연장 요청
+총 6주 연장 되셔서 6/6까지 휴회 신청 하심
+레슨권 유효기간 조정해 놓음
+중간에 휴회 철회 원하시면 fms휴회 철회 및 레슨권 유효기간 조정 필요', 4, '2025-05-22T12:00:56', '2025-06-14T19:35:01', '회원요청', 670, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (898, '상담신청서 작성시!!', '상담 신청서 작성시 신규, 재등록 모두 포함
+성함, 연락처 상품체크 , 영수증 철
+꼭!!! 동의합니다 체크 및 서명 받아서 신청서사진, 약관, 그외 3가지 혜택 이미지 사진 꼭 발송 해주세요~
+
+
+그리고 신규 회원 등록시 fms 회원정보 기반으로 crm 등록시 전화번호 닉네임 적어주시고, 채널키워드는 회원님 성함(전화번호 뒷자리)로 입려해주세요.
+신규회원은 채널 친구등록후 이름을 회원번호.이름(전번뒷번호)로 수정합니다.', 4, '2025-05-22T12:30:04', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (899, '김지현', '중복 타석 예약 오류로 인한 취소 - 크레딧 복구 원하십니다
+3번 타석 250원 5번 타석 750원 총1000원 추가 결제 되어있습니다 ', 18, '2025-05-22T14:05:57', '2025-06-14T19:35:01', '회원요청', 728, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (900, '여성분', '구분 : 방문상담
+고객명 : 
+전화번호 : 
+특기사항 : 바쁘신중에 지나가다가 들르신거라 주니어 레슨 가격 설명만 듣고자 하셔서 안내드렸습니다', 18, '2025-05-22T15:51:25', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (901, '이정미', '주니어 레슨을 위해 자율크레딧 550000원 결제
+앞으로 매주 목요일 오후 04시 30분 레슨 희망하신다고 합니다
+', 18, '2025-05-22T17:05:51', '2025-06-14T19:35:01', '회원요청', 613, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (902, '앱 예약 오류 관련', '앱으로 타석예약시 예약실패 메시지가 뜨는데
+실제로는 예약이 되는 문제가 있습니다.
+
+5/23 오전 테스트 후 콜센터에 확인 부탁합니다.', 1, '2025-05-22T20:06:23', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (903, '전효순', '구분 : 방문상담
+고객명 : 전효순
+전화번호 : 010-3383-1850
+특기사항 : 유영규 회원님 아내분. 유영규님 권유로 10타줄이기 등록. 프로님 두분 마음에 들어하셔서 중간 변경도 문의하셔서 1회 가능 안내드림.', 4, '2025-05-23T09:57:37', '2025-06-14T19:35:01', '상담기록', 735, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (904, '예약 중복 확인 필요', '앱으로 회원님들이 예약시 예약 실패 라고 뜨지만 실제로는 정상적으로 예약 완료 카톡이 발송 되며, fms에도 예약이 잡히고 있습니다. 이로 인해 예약 실패로 간주하고 중복되는 타석 예약이 있을 수 있어 as개발팀에서 연락 오기전까지는 타석 중복예약 없는지 확인 해주세요', 4, '2025-05-23T11:20:09', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (905, '레슨권 유효기간 연장 요청', '8/8->9/8 로 1개월 연장 해드림
+추후 추가 연장 요청시 필요하다면 증빙서류 요청 하거나 새 레슨권 구매후 취합 연장 가능.', 4, '2025-05-23T11:48:56', '2025-06-14T19:35:01', '회원요청', 27, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (906, '김주아 주니어 어머니', '구분 : 카카오톡 상담
+고객명 : 김주아 주니어 어머니
+전화번호 : 
+특기사항 : 김주순 프로님 레슨 원하심
+다음주 수요일(5월 28일) 등록 후 바로 레슨 원하심
+', 18, '2025-05-23T15:32:15', '2025-06-14T19:35:01', '상담기록', 738, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (907, '이경호', '구분 : 워크인 상담
+고객명 : 이경호
+전화번호 : 010-3488-8473
+특기사항 : 타석권 이용 원하심 가격적인 부분 궁금해하셔서 사진 찍어가심', 18, '2025-05-23T16:16:08', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (909, '카카오톡 채널 메시지 발송 요청 필요', '카카오 채널 추가는 완료했고
+메시지 발송 요청했는데 그냥 가심', 1, '2025-05-23T20:31:11', '2025-06-14T19:35:01', '회원요청', 736, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (910, '유효기간 연장요청', '25.06.30 까지(최초요청)', 18, '2025-05-24T18:22:02', '2025-06-14T19:35:01', '회원요청', 503, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (911, '홍채은 주니어', '7월 레슨북 예약은 잡혀있으나  fms 7월분은 열리지 않아 등록하지 못했습니다 추후 fms 등록 필요', 18, '2025-05-24T21:11:59', '2025-06-14T19:35:01', '회원요청', 384, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (912, '고보은', '구분 : 워크인
+고객명 : 고보은
+전화번호 : 010-3996-6942
+특기사항 : 주재원으로 사우디 아라비아로 가시기전 오민우 주니어의 골프 레슨을 위해 주니어 레슨 10회권 둥록하셨습니다', 18, '2025-05-24T21:15:19', '2025-06-14T19:35:01', '상담기록', 737, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (913, '홍주혜(홍채은 주니어)', '구분 : 워크인
+고객명 : 홍주혜(홍채은 주니어)
+전화번호 : 010-4608-9670
+특기사항 : 회원분께서 본인 자녀 주니어 레슨 원하셔서 10회 레슨권 등록해드렸습니다', 18, '2025-05-24T21:17:39', '2025-06-14T19:35:01', '상담기록', 384, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (914, '유효기간 연장 1개월', '25.05.09에서 25.06.09로 연장해드림 (레슨권)', 1, '2025-05-25T16:33:52', '2025-06-14T19:35:01', '회원요청', 639, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (915, '새 레슨권 등록으로 레슨권 횟수 조정', '5/25 새 레슨권 등록으로 기존 잔여 레슨권 횟수 합쳐서 21회로 조정. 기존레슨권 기간권 만료 시킴.', 4, '2025-05-26T10:55:33', '2025-06-14T19:35:01', '회원요청', 672, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (916, '새레슨권 등록으로 잔여레슨 횟수조정', '새 레슨권 등록으로 잔여 레슨권 1회 횟수 조정하고 기존 레슨권 유효기간 만료 처리', 4, '2025-05-26T11:05:11', '2025-06-14T19:35:01', '회원요청', 24, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (917, '새 레슨권 등록으로 기존 레슨권 횟수 조정', '새레슨권 등록으로 기존 잔여 레슨 1회 횟수 조정 후 기존 레슨권 기간 만료', 4, '2025-05-26T11:18:24', '2025-06-14T19:35:01', '회원요청', 651, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (918, '새 레슨권 등록으로 레슨권 연장', '5월25일 새 레슨권 구매로 지난 레슨 8회 남은 것 2개월 연장 도와드림', 19, '2025-05-26T13:22:23', '2025-06-14T19:35:01', '회원요청', 594, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (919, '레슨권 재등록 시작일 변경', '5월25일 재등록 하심
+레슨권 본인 강지연, 이주원(주니어) 모두 2주 뒤 시작으로 적용해드림
+6월8일부터 9월8일 까지 3개월 사용가능 ', 19, '2025-05-26T13:29:46', '2025-06-14T19:35:01', '회원요청', 637, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (921, '상담 신청서 동의란 중복 체크 오류', '강지연 회원님 재등록 신청서 동의란 체크 오류 (중복 체크) 로
+채널로 연락 드림
+2주 뒤 6월 8일 이후 레슨 받을 때 오셔서 수정 해 주시기로 함', 19, '2025-05-26T13:42:48', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (922, '강종숙', '구분 : 전화 상담
+고객명 : 강종숙
+전화번호 : 
+특기사항 : 구력은 오래 되셨고 타석 조조 이용권 물러보심.
+간단히 금액 알려드림. 조망간 방문예정', 19, '2025-05-26T14:01:07', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (924, '만료된 레슨권', '2025년 5월 25일 매장 방문하셔서 
+기존 만료된 레슨권 14회를 다시 살려 달라시는 상황
+
+이미 5개월 1번 연장해 드렸고 이후 입원과 관련하여 상담주신 내역이 없는 관계로 협의 안내 문자 발송함
+1. 남은 타석 이용은 유효기간 무기한으로 자유롭게 이용 가능
+2. 레슨권은 아래사유로 연장 어려움
+-기한이 있는 회원권은 최대1개월까지 도와드리나 이미 5개월 연장을 사용하셨다
+-권혁율님 남편분으로 부터 양도양수시 레슨권 유효기간 내 사용 당부드림
+-프로님 포함 3자간 계약관계이기 때문에 만료된 유효기간 조정 어려움
+3. 대안 방안 제안 제시
+-최소 레슨권 프렌즈 10 (29만원) 구매
+-보유 레슨권 전체 (24회) 에 대해 유효기간 \'무기한\' 혜택 적용
+-유효기간 무기한 처리된 레슨권은 프로 퇴사를 포함하여 어떠한 경우에고 환불 불가함
+
+', 19, '2025-05-26T15:36:17', '2025-06-14T19:35:01', '회원요청', 256, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (926, '강범석', '구분 : 워크인
+고객명 : 강범석
+전화번호 : 
+특기사항 : 구력 20년 정도 (레슨 필요 없으심)
+하이페리온 2차 지하 연습장 기간 만료와 노후 된 시설로
+타석 이용 알아 보러 오심. 전반적인 상담과 크레딧 상품 안내해 드렸습니다. ', 19, '2025-05-26T16:16:10', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (927, '추후 처리 필요', '5월 25일 한종교 회원님 재등록 결제하셨는데
+FMS 바코드 인증을 못하였습니다.
+오시면 바코드 인증 하시고 레슨기한 연장 2025년 12월25일까지 변경 부탁드립니다.
+CRM은 등록했습니다.', 19, '2025-05-26T16:25:01', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (928, '최은경', '구분 : 전화 상담
+고객명 : 최은경
+전화번호 : 010-7102-9698
+특기사항 : 7세 쌍둥이 남자, 아이들이 힘이 약하고 작아서 골프 시작 할 수 있는지 여부 물러보셔서 일단 체험 추천해드리고 2:1 레슨비 안내해드림, 남편과 상의하고 체험 잡겠다하심', 19, '2025-05-26T16:44:16', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (930, '김민재', '구분 : 체험 후기
+고객명 : 김민재
+전화번호 : 010-5068-7596
+특기사항 : 구력1년, 영종도에 기존 레슨 5회 쓰고 등록하겠다 하심.
+하이페리온2차 거주하시고 아들과 아내와 같이 등록도 생각하고 계심.
+', 19, '2025-05-26T17:07:56', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (931, '여자 화장실 막힘', '화장실 1곳이 막혀서 뚫어 봤는데 안됩니다. 일단 사용금지는 붙여 놓았습니다.', 19, '2025-05-26T17:21:33', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (932, '복구 완료', '예약 실패 오류 해결되었다고 합니다.', 19, '2025-05-26T20:04:58', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (933, '락커 처리 미결 ', '박정화 회원님 오늘부로 락커 이용 종료하신다 하십니다. ', 19, '2025-05-26T20:53:51', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (934, '신규회원 등록시', 'fms 에서 qr인증할때 회원님이 먼저 어플상에서 본인인증 진행 해 주시고 qr인증해야 합니다.
+qr인증시 본인인증이 완료된 경우 회원님 성함이 뜨고
+인증이 안된경우는 전화 번호만 뜹니다. 
+등록시 꼭 확인해서 본인인증절차 완료 되게 해주세요. ', 4, '2025-05-27T10:16:48', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (935, '조주연', '구분 : 네이버체험 및 방문상담
+고객명 : 조주연
+전화번호 : 010-6368-6314
+특기사항 : 네이버체험 하시고 상담 후 바로 등록, 송민수 회원님 지인', 4, '2025-05-27T11:29:15', '2025-06-14T19:35:01', '상담기록', 740, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (936, '레슨권 기간 조정 요청', '레슨 체험하시고 바로 패키지 상품 등록했는데 허리 통증이 너무 심하다고 하십니다.
+레슨권은 유효기간 있기 때문에 <첫 레슨 시작하는 날부터 5개월>로 기간 설정 요청하셨습니다.
+회원님 방문하셔서 말씀 해주시면 기간 수정 부탁드립니다.', 16, '2025-05-27T17:40:04', '2025-06-14T19:35:01', '회원요청', 740, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (938, '양수', '(남편)주정택님의 잔여 크래딧 양수', 16, '2025-05-27T21:02:28', '2025-06-14T19:35:01', '회원요청', 469, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (939, '양도', '(아내)정은영님께 잔여 크레딧 양도', 16, '2025-05-27T21:04:07', '2025-06-14T19:35:01', '회원요청', 657, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (941, '최병욱', '구분 : 네이버 체험
+고객명 : 최병욱
+전화번호 : 01037657588
+특기사항 : 네이버 레슨 체험 13:15~13:30 
+근처 회사라 점심시간 이용으로 레슨만 받으심
+레슨전 ppt상담 진행
+골프 첫입문 으로 집중레슨 10, 15만 타석 상품 관심 있으심
+체험 레슨 후 결정 예정 이심, 
+네이버 체험 확정 눌러주시면 감사합니다', 19, '2025-05-28T12:58:10', '2025-06-14T19:35:01', '상담기록', 745, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (942, '박성은', '구분 : 방문, 타석체험
+고객명 : 박성은
+전화번호 : 010-5817-7359
+특기사항 : 주니어(초등생) 연습장 필요해서 찾는중 - 레슨은 고민중
+                부모님도 연습장 필요. 무기한 사용 가능한 크레딧, 주니어 골프스쿨, 골프페밀리 안내 했습니다.', 16, '2025-05-28T19:10:49', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (943, '크레딧 적립', '전일 크레딧 양도 과정에서 기간권 차감용 크레딧까지 잘못 양도 되어 해당액 수동 적립 하였습니다.
+
+참고. 전일 양도양수는 잘못된 처리이며, 기간권 이용 고객님은 크래딧만 양도는 불가 합니다. 
+         기간권+잔여크레딧 모두 양도 할때 가능합니다.', 16, '2025-05-28T20:31:23', '2025-06-14T19:35:01', '회원요청', 657, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (944, '기존회원  체험 예약시', '기존회원님의 체험 예약요청시
+타서은 회원님께서 직접 예약 하시고, 레슨만 매장에서 예약 도와주세요.', 4, '2025-05-29T10:26:32', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (945, '레슨 횟수 조정', '5월 28일 담당프로김은성 프로->김주순 프로로 변경하여 2회 레슨 완료.
+FMS에서 qr인증 안되어 횟수 차감 안된 것 수동 차감 완료
+수동차감으로 기존 10회-> 8회로 횟수 조정 됨.
+
+김은성 프로로 재 설정 완료. qr인증 추가로 필요 없음.', 4, '2025-05-29T10:28:38', '2025-06-14T19:35:01', '회원요청', 104, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (946, '김주순 프로님 무료 체험', '김태윤 프로님 퇴사로 프로 변경건으로 체험 예약
+6/2 월 김주순 프로 무료 체험+ 타석 무료 이용 예약 완료', 4, '2025-05-29T11:25:17', '2025-06-14T19:35:01', '회원요청', 139, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (947, '김현재', '구분 : 워크인
+고객명 : 김현재
+전화번호 : 010-2746-0163
+특기사항 : 김현재 고객님과 고객님 어머니께서 방문
+두분 다 골프는 처음이며 레슨에 관심 있으십니다
+근처에 거주하시며 10타줄이기 프로젝트 관심있으셨습니다', 18, '2025-05-29T16:25:46', '2025-06-14T19:35:01', '상담기록', 747, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (949, '김예지', '구분 : 워크인
+고객명 : 김예지
+전화번호 : 010-9258-7241
+특기사항 : 워크인으로 방문. 근처에 거주하심  
+골프 초보라 레슨에 관심 있으십니다', 18, '2025-05-29T20:17:53', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (950, '레슨프로 변경', '이재윤 프로님 예약이 어려워 김주순 프로님으로 변경', 4, '2025-05-30T14:12:31', '2025-06-14T19:35:01', '회원요청', 594, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (951, '김영훈', '타석 90분 이용하셨는데 주차권을 한번에 두장 이상 쓸 수 없다며 60분만 받아가시며 피드백 요청하심', 18, '2025-05-30T20:34:18', '2025-06-14T19:35:01', '회원요청', 684, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (952, '레슨 기간 연장', '골프패밀리 - 성인 레슨기간에 대한 인지 부족하셔서 레슨기간 끝남, 기간 연장 해드리고 추가 연장은 어렵다고 안내드렸습니다. ', 16, '2025-05-31T11:28:38', '2025-06-14T19:35:01', '회원요청', 688, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (953, '홍원기', '구분 : 워크인 
+고객명 : 홍원기
+전화번호 : 010-2355-0133
+특기사항 : 근처 거주하시며 지나가다 들르셔서 등록하심
+주니어 상품도 관심있으십니다', 18, '2025-05-31T15:40:42', '2025-06-14T19:35:01', '상담기록', 741, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (954, '이현주', '구분 : 네이버 상담예약
+고객명 : 이현주
+전화번호 : 010-4788-1974
+특기사항 : 프로님 레슨 체험 아니고, 방문 상담 예약 입니다.', 16, '2025-06-01T13:15:31', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (955, '방문상담', '구분 : 방문상담
+고객명 : 학부모, 주니어
+전화번호 : 
+특기사항 : 학부모 레슨,타석이용, 주니어 골프스쿨 문의
+     ', 16, '2025-06-01T13:16:50', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (957, '최중구', '구분 : 워크인 
+고객명 : 최중구
+전화번호 : 010-2929-1838
+특기사항 : 근처 거주
+부부같이 방문하셨고 골프치심 (아내는 레슨예정)
+전반적인 매장 이용 안내해 드렸습니다.', 19, '2025-06-01T14:14:30', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (958, '주니어 레슨권 오류 등록', '박승혜 어머님 주니어 예약관리 010-5114-2057 
+레슨권 박승혜님께 등록함', 19, '2025-06-01T17:44:06', '2025-06-14T19:35:01', '회원요청', 530, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (959, '이준섭', '구분 : 방문상담 및 결제
+고객명 : 이준섭
+전화번호 : 010-7477-0008
+특기사항 : 똑딱이 초보, 체험 레슨3회+15만 크레딧 결제
+ 레슨 받아보고 프로님하고 맞으면 재등록 가능 높음', 19, '2025-06-01T19:26:47', '2025-06-14T19:35:01', '상담기록', 743, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (960, '이효진', '구분 : 방문 상담
+고객명 : 이효진
+전화번호 : 010-4706-1888
+특기사항 : 주니어 레슨 상담
+6학년 이다연 골프 입문,
+이효진(아버지 이름), 아버지만 골프 치시는데 가입 의사는 없으시고 딸아이만 레슨 시키고 싶으시다고 함.
+55만원 상품 관심 있으시고 아이가 손바닥 다쳤는데 나으면 등록하러 오시겠다고 함', 19, '2025-06-01T19:36:13', '2025-07-21T09:49:25', '상담기록', 773, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (961, '4번 타석', 'AS 요청합니다
+볼 나오는 안쪽 쇠부딪치는 소리남', 19, '2025-06-01T21:20:12', '2025-06-14T19:35:01', '기기문제', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (962, '유효기간 연장 요청', '7/1->8/1로 1개월 연장 처리
+추후 유효기간 연장 요청시 사유에 대한 증빙 서류 요청이나, 추가 레슨권 구매로만 연장 가능함 안내 드림', 4, '2025-06-02T09:55:26', '2025-06-14T19:35:01', '회원요청', 702, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (963, '상담 기록 작성시', '구분에는 방문상담 전화상담으로 구분해주시고 
+워크인 상담이더라도 방문상담(워크인) 혹은 그냥 방문 상담으로만 적어주셔도 될 것 같습니다. 
+네이버 체험의 경우 체험 후 상담 시 방문상담(네이버 체험) 으로 기록해 주시면 신규 등록 구분이 더욱 편리할 것 같습니다.
+
+
+기간제 회원권 등록시 (김캐디 기간제 포함) 1일 1시간 이용 오픈타석 기준임을 꼭 안내드리고 1시간 이상 이용 및 단독 타석 이용시 추가금 발생 안내 꼭 부탁드립니다.', 4, '2025-06-02T11:48:27', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (965, '양수', '아들 김재현님 잔액 338133c, 레슨권 9회 양수 받음
+레슨권 기간 연장 원하셔서 한달반 연장해드렸습니다. 2025.7.14일까지', 19, '2025-06-02T17:12:49', '2025-06-14T19:35:01', '회원요청', 457, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (966, '양도', '아들 김재현님 잔액 338133c, 레슨권 9회 어머님 김민주회원님께 양도함
+
+', 19, '2025-06-02T17:28:55', '2025-06-14T19:35:01', '회원요청', 617, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (967, '구재인 주니어 만료된 레슨권 잔여 1회 횟수 조정', '기존 만료된 잔여 횟수 1회 새 레슨권 6/2  재 등록 시 레슨북에 횟수 조정하여 10회->11회 로 횟수 추가 하여 조정 함
+(5/17 메모 사항 처리 완료 됨.)', 19, '2025-06-03T09:48:06', '2025-06-14T19:35:01', '회원요청', 503, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (969, '추승민', '구분 : 방문상담(워크인)
+고객명 : 추승민
+전화번호 : 010-8984-1937
+특기사항 : 장성화님 남편분. 동반 이용 하시다가 qr코드 소지 인증 등 불편함 설명드리고 타석권 구매 하시고 바로 이용 하심', 4, '2025-06-03T10:33:34', '2025-06-14T19:35:01', '상담기록', 744, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (970, '새레슨권 횟수조정', '새 레슨권에 기존 잔여 레슨 2회 추가 하여 22회로 fms 횟수 조정 완료', 4, '2025-06-03T12:44:37', '2025-06-14T19:35:01', '회원요청', 492, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (971, '사무실 주니어 크록스', '월요일 출근하니 성빈이 크록스라고 분실물이 있었는데 성빈이것 아니라고 합니다. 크록스는 스태프룸 골프채 랙 제일 아래칸에 두었습니다. 습득 하셨던 매니저님은 주말 주니어 레슨때 확인 부탁 드립니다.', 4, '2025-06-03T13:28:04', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (972, '충전기 2개 안됨', '7번 타석, 안내데스크 핸드폰 충전기 고장', 19, '2025-06-04T12:21:46', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (973, 'QR로그인 문제', '몇몇 회원님께서 QR로그인 화면이 정상적으로 작동하지 않았습니다. (카메라로 안 나오고 까많게 만 나옴.)
+A/S센터 답변
+1. 설정-앱-프렌즈 아카데미-카메라 사용 권한 설정 확인해 보시고
+설정이 카메라 사용으로 잘 되어있어도 같은 증상일 경우
+2. 앱을 삭제하고 다시 설치.
+이 방법으로 해결 되는거 확인하시면 답글 부탁드립니다.', 16, '2025-06-04T15:02:36', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (974, '양도양수 문의에 대한 안내 내용', '양도인 김지선 (아내)
+#김지선님께서 임신, 출산의 이유로 못오신 부분이셔서
+레슨 재등록 하시면 레슨 기간을 무기한으로 설정 해드리겠습니다.
+
+#유효기간 만료 회원권은 양도 대상이 아니지만,  
+김지훈님께서 김지선님의 레슨+크레딧 양도 받으시려면
+김지선님 레슨 재등록 하시고 김지훈님께 양도하시면 되겠습니다.
+(양도 후 김지선님께 받으신 레슨 17회의 사용 기간은 6개월 입니다.)
+(김지훈님의 남은 레슨6회는 추가로 레슨 재등록 하시면 합산하여 사용 가능합니다.) 
+
+레슨 재등록시 체험 3회는 연장 적용 상품 아닙니다!', 16, '2025-06-04T17:07:33', '2025-06-14T19:35:01', '회원요청', 3, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (975, '2025/6/9 무료 필드레슨', '이재윤 프로님 무료 필드레슨
+고양 컨트리 클럽 7:03 (30분전 집결)
+회원 본인분 현장결제 
+
+이유라 회원님, 정춘화 회원님, 김묘정 회원님', 4, '2025-06-05T09:49:13', '2025-06-14T19:35:01', '이벤트기획', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (976, '마감자 퇴근하실때', '해야할일 리스트 체크 해주시고, 꼭 제빙기 물 채워주세요. 날이 더워 오전 무인때 얼음이 부족합니다.
+
+pc밑에 업무 체크사항 추가된 내용이 있어 한번씩 더 확인 해주시고 숙지 부탁 드립니다. ', 4, '2025-06-05T12:05:22', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (977, '김학준', '구분 : 워크인
+고객명 : 김학준
+전화번호 : 010-8806-8044
+특기사항 : 지효은 회원님 지인
+5개월전 김은성 프로님 체험 레슨 경험 있으심
+체험 레슨 3회 원하셔서 다른 상품 추천 드렸으나 우선은 체험 레슨 먼저 원하심.', 18, '2025-06-05T19:04:46', '2025-06-14T19:35:01', '상담기록', 746, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (978, '조혜리 주니어', '조혜리 주니어 어머니께서 오셔서 스태프룸에 보관중이던 조혜리 주니어 골프채 가져가심', 18, '2025-06-05T20:05:53', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (979, '골프 카트 대여', '729.김소현님 6월 5일 골프 카트 대여 하셨습니다. 
+보증금 15만 크레딧 수동차감 하였으며 반납 후에 대여 기간 확인 후에 다시 적립 부탁드립니다.', 18, '2025-06-05T21:14:45', '2025-06-14T19:35:01', '회원요청', 729, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (981, '레슨권 유효기간 연장', '레슨권 유효기간 연장 원하셔서 1달 연장 도와드림
+작년 8/12 재등록 시점에 잔여 횟수 고려해서 2개월 더 길게 드림+홀드2개월까지 모두 이용하심', 18, '2025-06-06T16:44:47', '2025-06-14T19:35:01', '회원요청', 307, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (982, '전화상담', '구분 : 전화상담
+고객명 : 여성분
+전화번호 : 010-7509-7973
+특기사항 : 7월부터 아이코젠 회원 이용 예정이신데 6월부터 우리 매장 이용 원하신다고 하셔서 안내해드림.
+매장 한번 들르라고 안내드렸습니다.', 18, '2025-06-06T18:31:09', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (984, '김준영', '구분 : 전화상담 
+고객명 : 김준영
+전화번호 : 010-3917-0317
+특기사항 : 와이프분은 레슨 본인은 타석 이용 원하심
+와이프분 체험 레슨 추천 드렸고 와이프와 상의해서 시간 정한 후 연락주신다고 함', 18, '2025-06-06T19:25:08', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (985, '이은진', '구분 : 워크인 방문 상담
+고객명 : 이은진
+전화번호 : 010-7447-1348
+특기사항 : 근처 거주중이시며 지나가다가 들르심 남편분과 같이 방문
+두분 다 레슨 및 타석 이용에 관심 보이셨고 가격,상품 사진 찍어 가심', 18, '2025-06-06T19:28:07', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (986, '김지훈님께 모두 양도', '유효기간 만료 회원권은 양도 대상이 아니지만,
+김지선님께서 임신, 출산의 이유로 못오신 부분이셔서
+김지선님 레슨 재등록 하시고 김지훈님께 잔여 크레딧 및 레슨권 양도 해드렸습니다. ', 16, '2025-06-07T10:28:34', '2025-06-14T19:35:01', '회원요청', 2, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (987, '양도 양수 내용안내', '김지수님(아내) 잔여 481,000C, 레슨 27회 모두 양수함
+양도받은 레슨권은 27회 fms 등록 하였고, crm에 회원권 등록 하지 않았습니다.
+ crm에서 레슨값 불일치 입니다. 
+[김지훈님의 만료된 남은 레슨권은 11회 이며] 레슨27회 모두 소진 후 레슨권 재등록 하여 
+만료된 레슨권 11회 이월 하실 예정입니다. ', 16, '2025-06-07T10:56:39', '2025-06-14T19:35:01', '회원요청', 3, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (988, '회원님 본인 예약 실수로 인한 긴급할인', '2025-06-07 14:00~15:00 예약 실수 하셔서 15:00~16:00 타석 이용하시며(레슨 15:15~15:30) 14:00 예약 취소 원하심
+긴급할인등록 해드림', 18, '2025-06-07T15:15:20', '2025-06-14T19:35:01', '회원요청', 735, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (989, '이용권 정지 연장 ', '허리 통증으로 인해 6월 21일까지 이용권 정지 연장', 18, '2025-06-07T17:25:35', '2025-06-14T19:35:01', '회원요청', 77, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (990, '3번타석 충전기 잘안됨', '회원님이 한시간 충전하셨는데 10% 충전됐다고 하십니다', 18, '2025-06-07T20:10:44', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (991, '테스트 게시글', '이것은 API 테스트용 게시글입니다.', 1, '2024-01-15T10:30:00', '2025-06-14T19:35:01', '상담기록', 1, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (992, '남성', '구분 : 전화상담
+고객명 : 남성
+전화번호 : 010-9908-0924
+특기사항 : 1일 타석 이용만 문의하셔서 안내 드리면서 무기한 사용할 수 있는 크레딧 안내 드렸습니다. ', 16, '2025-06-08T10:43:49', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (993, '가족 ', '어머님 유주연님 회원', 19, '2025-06-08T16:25:00', '2025-06-14T19:35:01', '회원요청', 748, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (994, '가족', '딸 김현재 회원', 19, '2025-06-08T16:28:03', '2025-06-14T19:35:01', '회원요청', 747, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (995, '김진수', '구분 : 방문상담
+고객명 : 김진수
+전화번호 : 010-9650-1558
+특기사항 : 근처 사시는 부부님 방문, 골프 치시는데 필드 나가시기전 게임 원하심, 타석 이용시 전화 주신다고 명함 가져심', 19, '2025-06-08T19:43:43', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (997, '지인 이벤트', '안신희 회원님 소개로 오셔서 각각 5만 크레딧 적립해 드림. 또한 유주연님 딸 김현재님을 소개해 줘서 5남 크레딧 적립해 드림 =총 10만 크레딧 적립 해드림', 19, '2025-06-08T21:07:25', '2025-06-14T19:35:01', '회원요청', 747, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (998, '지인 이벤트 적용', '어머님 유주연님 소개로 등록하여 5만 크레딧 적립해 드림', 19, '2025-06-08T21:09:29', '2025-06-14T19:35:01', '회원요청', 748, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (999, '지인 이벤트 적립', '유주연님 소개함, 5만크레딧 적립완료', 19, '2025-06-08T21:10:52', '2025-06-14T19:35:01', '회원요청', 391, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1000, '5/26 결제건 취소요청', '갈비뼈 부상으로 결제 취소 요청
+
+최초이용전으로
+1. 카드 취소로 환불 가능/ 기존 잔여레슨은 유효기간 유지(8/5까지)
+2. 잔여레슨 3회+ 등록하신 프렌즈 10 =총 13회 유효기간 무기한 연장 가능
+두가지 방법중에 선택 가능 하셔서 확인하시고 연락 주시기로 하심.
+선택 방법에 따라 카드 취소 혹은 레슨권 취합하여 fms/crm유효기간 변경 필요
+카드 취소시 추후 처리 필수 파일에 상담신청서에 취소 영수증 동봉하기', 4, '2025-06-09T12:15:34', '2025-06-14T19:35:01', '회원요청', 720, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1001, '유주연', '구분 : 등록
+고객명 : 유주연
+전화번호 : 010-4238-7308
+특기사항 : 기존에 방문상담 하시고 따님 김현재님과 같이 10타 줄이기 프로젝트로 각각 결제하셨습니다.', 19, '2025-06-09T13:05:21', '2025-06-14T19:35:01', '상담기록', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1002, '김현재', '구분 : 등록
+고객명 : 김현재
+전화번호 : 010-2746-0613
+특기사항 : 기존에 어머님 유주연님과 방문 상담하시고 각각 10타 줄이기 프로젝트로 등록 하셨습니다.
+', 19, '2025-06-09T13:07:49', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1003, '황윤석', '구분 : 등록
+고객명 : 황윤석
+전화번호 : 010-9908-0924
+특기사항 : 당일 전화상담 하시고 등록하셨습니다.', 19, '2025-06-09T13:09:39', '2025-06-14T19:35:01', '상담기록', 749, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1004, '주지영', '구분 : 전화상담
+고객명 : 주지영
+전화번호 : 010-8867-3298
+특기사항 : 남편 5년 구력 (송동원 010-9652-2563)
+아내 2년 구력, 목동 앞단지 사시고 근처 카카오 다니시는데 대기시간 길어 다른 카카오 알아보시는중, 
+남편 레슨 필요하고 본인도 레슨 필요할지도 라고 하심, 주중 퇴근후 타석이용 원하심, 레슨체험 추천해드림,
+', 19, '2025-06-09T21:11:26', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1005, '크레딧 확인용 웹 공지안내', '안녕하세요?
+
+사용하신 크레딧을 직접확인할 수 있는 모바일웹 입니다.
+이용중 궁금하신 사항은 카카오톡이나 데스크로 문의 부탁드립니다.
+
+나를 위한 골프연습장
+프렌즈아카데미 목동프리미엄점', 1, '2025-06-09T21:22:23', '2025-06-14T19:35:01', '회원공지', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1006, '상담기록 참고사항', '상담 기록 및 회원 등록 연결은 방문 상담 기준입니다.
+
+*A가 전화 상담 하셨고 상담 기록 남기셨더라도 등록 시 B와 방문 상담 후 등록 하면 B로 회원등록이 매칭 됩니다.
+상담 기록시 방문상담/ 전화상담으로 구분 필수
+*A가 과거에 방문 상담이력이 있으신 분을 신규 등록 처리 했을 경우 B가 등록일에 상담기록을 또 작성하는것이 아닌 과거 방문 상담기록에서 A와 회원등록 매칭 됩니다. 
+특이사항이나 회원등록 과정에서 추가 기록 내용이 필요하면 댓글이나 회원등록 후 메모 남깁니다.
+
+상담기록이 누락 되는 경우도 있고 한 회원을 두 직원 기록하는 경우가 있어 이럴 경우 등록 회원 연결에 어려움이 있습니다. 상담 기록 전에 과거 상담 이력이 있는지 검색해 보시고 작성 해 주세요.
+
+상담기록 -회원 연결은 바로 하지 마시고 확인 후에 진행 하겠습니다.', 4, '2025-06-10T10:25:58', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1007, '새 레슨권 재등록', '6/6 새 레슨권 재등록으로 기존 잔여 레슨 4회 새레슨권에 합쳐서 20->24 회로 조정. 기존 레슨권 만료 처리', 4, '2025-06-10T11:47:07', '2025-06-14T19:35:01', '회원요청', 630, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1008, '염정연 (이인우주니어)', '구분 : 방문상담
+고객명 : 염정연
+전화번호 : 010-8639-4298
+특기사항 : 미국에서 잠시 한국 들어 와있는 상황 , 레슨 시작하면 20회 정도 받으면 좋겠다고 계획하심.
+                이인우 중1 초보
+                어머니도 연습장 이용 계획 있음.
+                6월 18일 체험 예정(15:00 이재윤프로)', 16, '2025-06-10T17:42:20', '2025-06-19T12:47:55', '상담기록', 756, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1009, '테스트 ', '테스트1', 1, '2025-06-11T00:07:13', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1010, '06/04 프렌즈10 등록', 'fms 새 레슨권 등록 인증 안됨. 
+방문하시면 fms에 프렌즈 10 등록해주시고 유효기간 25/9/4 로 변경, 횟수 조정 
+구 레슨권 기간 만료 시키고 횟수 0회로 조정 필요함', 4, '2025-06-11T09:44:43', '2025-06-14T19:35:01', '회원요청', 668, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1011, '레슨권 유효기간 연장', '6/16만료권 6/30로 15일 연장 해드림', 4, '2025-06-11T09:52:07', '2025-06-14T19:35:01', '회원요청', 435, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1012, '주니어 이름 확인 필요', '현재 등록 하고 레슨중이 오인주 주니어. 
+초기에 레슨북에 오"민"우로 되어있어 예약 오민우로 모두 잡고 진행
+이번주에 보니 레슨북 오"인"우로 변경되어있고 crm도 오"인"우로 되어있음/ fms예약은 이름 변경 안되어 있었음. 
+(혹시 오타로 이름 변경 하셨다면 fms예약도 변경하셨어야 합니다.)
+
+초기 등록 하셨던 이수현 매니저님 혹은 다른 매니저님 변경 하셨는지 확인 해주시고 댓글로 전달 부탁 드립니다.
+(15일 오전 11시 레슨 예약) 오인(민)우 주니어 이름 정확하게 확인 다시 해주셔서 레슨북, crm, fms예약 내역 이름 모두 동일하게 처리 해주세요
+현재는 오"인"우로 모두 되어있음.
+
+신규 체험 상담에 오인우 주니어가 있어서 등록 시 구분 해야 하므로 이름 확인 꼭 해주세요.
+
+
+신규 상담 기록 및 등록 시 회원님들 이름 오타가 종종 보여 꼭 명확하게 기재 부탁 드립니다. ', 4, '2025-06-11T10:52:19', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1013, '서주', '구분 : 방문상담(김캐디)
+고객명 : 서주
+전화번호 : 010-7520-5184
+특기사항 : 김캐디 이용으로 방문 하셔서 김캐디 회원권은 1개월 단위 소멸성인대신 우리 매장은 유효기간 무기한, 자유시간제, 1주일 예약, 5분 브레이크로 대기 없이 이용 가능함을 강조하여 상담. 
+김캐디 소멸로 급하게 예약 잡고 오신거라 안그래도 불편함을 겪고 계셨고, 현재 이용하고 계신 연습장(기간제)가 따로 있다고 하셔서 프로 소개 해드림. 레슨+ 무기한 마음에 들어하셨음. 현재 연습장 이용하고 계셔서 고민 해보신다고 하심. ', 4, '2025-06-11T12:00:46', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1014, '레슨 기간 연장', '레슨권 재등록 하실 때 레슨 종료일에 대한 안내가 미흡하다고 컴플레인 하셔서 1개월 추가 드리기로 했습니다.
+시작일 6월4일      종료일  9월1일 -->> 변경 후  10월 1일 까지', 16, '2025-06-11T19:30:24', '2025-06-14T19:35:01', '회원요청', 668, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1015, '레슨권 횟수 조정', '잔여 레슨 1회 새 레슨권 합하여 20->21로 조정', 4, '2025-06-12T10:34:35', '2025-06-14T19:35:01', '회원요청', 701, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1016, '유지선', '구분 : 방문상담 및 체험
+고객명 : 유지선
+전화번호 : 010-9041-9049
+특기사항 : 미국 거주. 한국에 3개월 정도 체류 예정. 미국에서 레슨, 필드 경험 있으나 한국처럼 디테일 하게 배운게 아니라 레슨과 타석 이용 문의 차 방문하셨다가 바로 체험까지 진행. 
+기간제 평일권과 타석권 중에 고민중이시고, 자녀 7세 남아 주니어도 골프를 배우고 싶어하여 상품 다양하게 설명 드림. 체험 레슨도 좋았고 시설, 위치 마음에 드신다고 고민해 보시고 주니어 체험과 등록 여부 연락 주시기로 함. ', 4, '2025-06-12T11:35:21', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1017, '주지영, 송동원', '구분 : 방문상담
+고객명 : 주지영, 송동원
+전화번호 : 주지영(010-8867-3298), 송동원(010-9652-2563)
+특기사항 : 전화 상담 후 방문 - 체험 레슨
+타석 예약이 어려울까 걱정하셔서 예약 현황 보여드리며 충분하다고 말씀드림
+오늘 6월 12일 체험 후 14일 토요일쯤 등록 원하신다고 하셔서 체험 레슨 끝나고 토요일 예약 시간 여쭤봄 - 시간 정해서 전화주신다고 하심', 18, '2025-06-12T20:24:37', '2025-06-16T10:58:19', '상담기록', 753, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1018, '레슨북 *** 횟수 관리', '레슨북에서 예약 막을 때 이용하는 *****의 레슨 횟수가 부족할 시
+새 레슨권은 10회씩 밖에 안되고 유효기간 매번 지정하셔야 하니
+****의 기존 레슨권 상품에서 ->"레슨/락커/이용권"클릭-> 오른쪽 상단 "횟수 조정"클릭 -> 횟수를 추가해서 넣기(100회씩 넣어도 괜찮습니다)  
+
+한날짜에 레슨권 여러개 넣어두신건 다 정리하고 한개만 남겨두었습니다.(진한글씨 레슨권이 유효한 것) 그것만 횟수 조정해서 이용해주시면 됩니다.', 4, '2025-06-13T10:36:08', '2025-06-14T19:35:01', '일반', NULL, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1019, '강미선', '구분 : 방문상담
+고객명 : 강미선
+전화번호 : 010-7935-7886
+특기사항 : 인터넷으로 찾아보시고 인도어랑 병행할 연습장 필요하셔서 방문
+크레딧, 시간 자율제 마음에 드셔서 바로 등록하심.', 4, '2025-06-13T11:23:17', '2025-06-14T19:35:01', '상담기록', 750, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1020, '전일권 등록', '6/13 조조권 만료로 전일권 새로 등록하셨는데 6/16일 부터 이용 가능하셔서 기간 2025/6/16~2026/6/16로 조정 해놓음. FMS타석권 조조권 기간에 맞춰 유효기간 조정해 놓음.', 4, '2025-06-13T11:31:46', '2025-06-14T19:35:01', '회원요청', 676, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1021, '강혜민', '구분 : 전화상담
+고객명 : 강혜민 
+전화번호 :  010-6413-4202
+특기사항 : 6세 여야 (키118CM) 주니어레슨 문의. 유치원에서 방과후로 3월부터 골프 레슨 진행하였는데 아이가 관심 있어하고, 정확한 진도는 어디까지 나갔는지는 모르지만 퍼팅도 했다고 함. 키가 큰편이라 7세 체구로 봐도 무방. 7월초에 목동으로 이사 예정이시라 주니어 문의 하셨고, 주니어 무료체험과 성인 무료체험 모두 안내. 이사로 인해 아이 학원 스케줄 조정중이라 조정 되면 체험 방문 원하심. 7월에는 방학으로 원하는 시간대 자리 선점 위해 늦어도 6월 말까지는 체험, 등록하셔야 유리하다고 안내. 1:1 약정 금액과 레슨 진행 시간 안내드림.', 4, '2025-06-13T12:08:29', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1022, '5월 26일 결제건 취소', '5월 26일 결제하신 프렌즈 10 결제 취소 후 fms 에서 레슨 횟수 10회 차감했습니다
+5월 8일 구매하신 프렌즈 10 은 6월 13일 현재 레슨 횟수 2회가 남은 상황이며 유효기간은 그대로 유지합니다 
+상담신청서에 취소영수증 첨부했습니다', 18, '2025-06-13T21:10:05', '2025-06-14T19:35:01', '회원요청', 720, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1023, '조성광', '구분 : 방문상담
+고객명 : 조성광
+전화번호 : 010-5134-2471
+특기사항 : 김희연 회원님, 조은찬 주니어 가족 아버님
+상담후 바로 등록', 1, '2025-06-14T11:51:20', '2025-06-14T19:35:01', '상담기록', 752, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1024, '김희연', '구분 : 방문상담
+고객명 : 김희연
+전화번호 : 010-5134-2471
+특기사항 : 조성광, 조은찬 주니어 어머님
+상담후 바로 등록', 1, '2025-06-14T11:52:31', '2025-06-14T19:35:01', '상담기록', 751, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1025, '임태하', '구분 : 체험/방문상담 
+고객명 : 임태하
+전화번호 : 010-8701-2778
+특기사항 : 미국 거주
+한국 방문기간동안 자녀 주니어 레슨 희망 7세
+주차 문제로 지각해서 불편하셨을 것으로 생각됨
+체험중에 다른 연습장 막 알아보심...', 1, '2025-06-14T13:28:52', '2025-06-19T12:43:27', '상담기록', 755, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1026, '최은경', '구분 : 방문상담/체험
+고객명 : 최은경
+전화번호 : 010-7102-9698
+특기사항 : 
+- 2단지 거주
+- 7세 쌍둥이인데 약간 어려서 버거운 느낌
+- 주니어 2:1을 각 80만원씩 160만원으로 인지하고 계셨어서 정정해드림
+- 골프패밀리 상품시 2:1 주니어 80 결제 후 50 남아서 아버님 이용하시는 방향으로 소개
+- 내년에 미국 갈 예정으로 그 전에 어머님도 배울 생각 있어서 골프레슨은 무조건 국내에서 받으셔야 한다고 안내함
+- 등록 가능성 50% 미만 추정 (아이들이 너무 어리고 집이 멀어서)', 1, '2025-06-14T13:48:01', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1027, '권순영', '구분 : 워크인 방문 상담 
+고객명 : 권순영
+전화번호 : 010-8182-3782
+특기사항 : 근처에 거주하시며 지나가다가 따님과 함께 오심
+딸과 같이 하길 원하시지만 주말에만 집에 오는지라 딸은 어려울거라 하심
+골프 초보라 레슨 원하시며 6월 15일 12시 레슨 체험 후 등록 희망하심 이재윤 프로님 레슨 원하셔서 레슨체험 예약해드림', 18, '2025-06-14T16:46:58', '2025-06-14T19:35:01', '상담기록', 0, 'famd');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1028, '테스트2', '123123123', 1, '2025-06-15T02:48:59', '2025-06-15T02:48:59', '회원요청', 901, 'test');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1029, '최다인 주니어 고열로 인한 취소', '최다인 주니어 고열로 인한 취소 문의를 주셨고 6월 15일 10시 레슨이었으나 취소 전화를 9시 40분경 주심 - 이재윤 프로님과 상의 후 노쇼처리+프로님께서 보강 한번 해주시기로 하심', 18, '2025-06-15T09:44:40', '2025-06-15T09:44:40', '회원요청', 708, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1032, '김지영', '구분 : 방문상담
+고객명 : 김지영, 정윤우
+전화번호 : 010-8940-0412
+특기사항 : 미국거주
+방학때 2달 들러옴. 
+정재율 초등 3학년 남자아이 (미국에서1-2달 레슨 받음)
+정윤우(남편) 구력3년이시고 레슨 타석 이용하시며 주니어 레슨 원하심,
+김주순 프로님 소개받고 오심 (30분정도 주니어 체험 받으심) 
+55분 커리큘럼을 매우 마음에 들어하심.
+다음 주 가족여행 후 등록하신다고 함, 골드 패밀리 상품 추천해 드림. 
+', 19, '2025-06-15T17:23:54', '2025-06-15T17:23:54', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1033, '주니어 골프 클럽 입고', '총 13개 (퍼터2개 포함)', 19, '2025-06-15T19:51:06', '2025-06-15T19:51:06', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1034, '정수기 아래 휴지통 뚜껑 파손', '스태프룸에 휴지통 뚜껑 새것 여분 있다고 하시는데 찾지 못했습니다.
+아시는분 계실까요?', 19, '2025-06-15T20:04:27', '2025-06-15T20:04:27', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1036, '미션 룰렛이벤트 확인', '회원님께서 완료 했다고 주시면 직원 카톡방 중 "미션 이벤트 룰렛"에 
+(1) 미션확인 접수
+회원명 : ***
+진행 매니저 : 조혜원 
+로 기재해주시고, 바탕 화면 혹은 커피바에 미션 성공 기준 확인 하셔서 미션 모두 성공하셨는지 채널 사진과 비교해서 체크해주세요.
+
+네이버 리뷰는 데스크 오른쪽 위에 모아둔 영수증 이용해서 영수증 리뷰를 쓰는데 대신 영수증 날짜에 맞춰 리뷰가 올라오거나, 리뷰 쓸때 날짜를 당일로 변경해주셔야 합니다. 
+리뷰 확인시 영수증에 기재된 날짜나 변경한 당일 날짜 순으로 올라오기 때문에 
+네이버에서 리뷰-최신순을 선택하셔서 해당 날짜의 리뷰를 체크해 주셔서 노출 확인 해주시면 됩니다.
+
+주말에 정춘화 회원님 리뷰 건은 영수증 날짜로 6/12로 올라와 노출 확인 했습니다. 날짜가 너무 과거일 경우는 작성당일로 변경 작성을 권유 해주세요. (저는 회원님들 어려워 하시면 같이 해드립니다^^;;)
+
+룰렛은 접수 당일이 아닌 그 이후의 직원 확인 후 진행 되므로 접수 후 채널 사진과 비교
+(2) 미션확인 완료
+회원명 : ***
+진행 매니저 : 조혜원
+로 기재  다음 방문 시 룰렛 돌리고
+
+3)룰렛완료
+회원명: ***
+진행 매니저: 조혜원
+상품: 룰렛에 나온 상품 기재
+
+로 완료 해주시면 됩니다.', 4, '2025-06-16T10:27:36', '2025-06-16T10:27:50', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1037, '골프백 카트 대여', '6/16 카트 대여로 15만c보증금 차감
+반납 시기에 보증금 회수 및 반납일 연장시 추가 크레딧 차감 필요', 4, '2025-06-16T11:59:43', '2025-06-16T11:59:43', '회원요청', 270, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1038, '조지은', '구분 : 방문상담
+고객명 : 조지은
+전화번호 : 010-6638-2575
+특기사항 : 주니어레슨 상담. 미국에서 한국와서 한달 정도 시간 있는상태. 8세여아, 입문. 주 2~3회 레슨 원하심. 어머님도 연습, 레슨 원하시는데 기간이 짧아 금액 고민중. 일단 주니어만 등록하고 가심', 4, '2025-06-16T12:01:12', '2025-06-16T12:04:52', '상담기록', 754, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1039, '전일권 시작일 변경', '시작일을 내일 6월17일로 변경 원하셔서 CRM은 1일 홀딩으로, FMS 타석권 유효기간 1일 조정해 놓음', 19, '2025-06-16T15:36:36', '2025-06-16T15:37:49', '회원요청', 676, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1040, '양다혜', '구분 : 전화상담
+고객명 : 양다혜, 스미다니코(9세주니어) 
+전화번호 : 010-3690-5534
+특기사항 : 미국 거주중, 한달 한국 체류 예정
+양다혜님, 주니어 모두 초보. 아버님이 골프 치셔서 미국 돌아가기전 레슨 원함. 스케줄 고민하셔서 무료체험 안내하고 예약 잡고 내방 유도, 19일 목요일 오전10시 체험 예약 완료', 4, '2025-06-17T11:46:28', '2025-06-17T11:46:28', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1044, '김도현', '구분 : 전화상담
+고객명 : 김도현
+전화번호 : 010-8701-2778
+특기사항 : 아들 김태하 주니어 레슨 상담, 8살 남자, 입문
+아버님 본인은 구력 6년 
+아들 레슨 하는 동안 본인도 레슨 타석 이용 원한다 하셔서 골프패밀리 상품 추천해드림.
+저번주말 매장 방문하셨었다고 하심(남자분이 계셨다고)
+오늘 체험레슨 잡아드림', 19, '2025-06-18T11:32:13', '2025-06-18T11:32:13', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1045, '정준호', '구분 : 전화상담
+고객명 : 정준호
+전화번호 : 010-8987-5627
+특기사항 : 입문, 레슨문의
+아이코젠 이용하실 예정인데 레슨 원하셔서 상품 안내드렸슴. 20회&타석15만 상품 관심있으시고(레슨이용시 타석 예약 필수이시라 아이코젠 이용은 예약이 안되시니 타석상품도 구매하셔라 말씀드렸슴), 레슨 체험 안내해 드렸슴', 19, '2025-06-18T11:33:50', '2025-06-18T11:33:50', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1046, '6/19 새 회원권 등록', '톡스토어로 레슨 20/크레딧90 구매완료.
+레슨권 fms등록 및 회원인증 필요', 4, '2025-06-19T10:13:53', '2025-06-19T10:13:53', '회원요청', 435, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1047, '체험 예약시', '레슨 체험 잡을때 1:1 체험 아니고 가족이나 지인 동반하여 예약시 가능하면5,6번 타석으로 예약 해주시고 레슨 시간은 팀당 최대 30분으로 잡아주세요.
+ex: 주니어+성인 조합도 주니어15분(30분x)+ 성인15분 으로 체험 잡아주시면 됩니다. ', 4, '2025-06-19T10:50:13', '2025-06-19T10:50:13', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1048, '일부 회원 어플예약 불가 상황', '일부 회원님이 어플에서 예약확인 버튼 비 활성화로 예약이 안되는 건이 있었습니다. as 센터에서는 개발팀과 확인 후 연락 준다고 했습니다.
+혹시 예약 안되는 분들 연락 오시면 예약 도와드리고 개발팀 연락 확인 해주세요.
+매장에서 예약을 잡은 경우 qr인증 필수이므로 메모 꼭 남겨서 다른 직원이 근무하는시간이라면 전달 해주세요.', 4, '2025-06-19T12:55:42', '2025-06-19T12:55:42', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1049, '김주원', '구분 : 전화상담
+고객명 : 김주원
+전화번호 : 010-9255-0254
+특기사항 : 고등학생 여자 아이 2명 친구사이 둘 다 초보이며 레슨 문의해주심
+6월 21일 토요일 오후 6시 2:1 체험 레슨 예약 후 상담 예정', 18, '2025-06-19T16:18:19', '2025-06-23T11:59:50', '상담기록', 758, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1050, '락커 이동 및 대기', '락커 상부장-> 하부장 이동시 락커 반납 말고 락커 이동으로 처리해서 하부 신규 락커 배정해 주시면 됩니다.
+이렇게 처리되면 하부장 이용금 차액이 자동 계산 되는 경우도 있고 아닐수도 있어서
+배정 후 하부로 이동하여 월말까지 잔여 금액 계산 하시고, 월초 혹은 기존 상부로 차감된 금액에서 차액을 수동으로 추가 차감 해주시면 됩니다. 
+
+락커대기 상하부 먼저 나오는것 대기 원하시는 경우 엑셀에서 상부 리스트, 하부 리스트 양쪽에 기록 남겨주세요. 그렇지 않으면 후발 신청 분이랑 순서가 구분이 안됩니다. 
+
+락커는 배정과 동시에 크레딧 차감확인 하시고 네임택도 꼭 만들어서 넣어주세요', 4, '2025-06-20T10:49:16', '2025-06-20T12:42:12', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1052, '고현미', '구분 : 전화상담(네이버체험예약)
+고객명 : 고현미
+전화번호 : 010-2972-4448 
+특기사항 : 현재 자카르타 거주중 한달간 한국 체류 예정. 출국전 레슨 받고 가서 레슨 유지 하고 싶어 하심. 
+10회 정도 생각 하고 계셔서 타석 15+프렌즈10 안내드림.
+주니어 2:1 도 관심 있어하셔서 레슨 시간 및 아이들 2:1 레슨 40만원x2 약정 안내 드리면서 타석권 금액 큰 것도 안내함.
+<<6/25 수 오후 14시 체험 예정>>
+상담 하면서 주니어 안내도 상세하게 해드려서 주니어 10회 약정 어머님과 같이 레슨 받는 것 유도. 
+크레딧권 금액 큰걸로 구매하셔서 성인+주니어2 등록 가능성 있어보임.', 4, '2025-06-20T13:46:25', '2025-06-20T13:46:25', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1053, '카드 교체 요청 (취소-재결제)', '주말중에 재결제 하러 오신다고 합니다. 재결제 하신 후에 가장빠른 평일 콜센터 운영시간에 KB카드 콜센터 전화해서 5월24일 99만원 결제건 취소 요청 부탁합니다.
+카드사에서 정산 된 금액에 대하여 입금 필요하다고 할 경우 계좌번호, 금액 안내 받아서 대표님께 전달해주시고 이체 완료 확인 후 회원님께 카드 취소 요청 했다고 체널로 안내해주세요~
+', 16, '2025-06-21T13:15:22', '2025-06-21T13:15:22', '회원요청', 24, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1054, '최유연', '구분 : 방문상담(네어버체험완료)
+고객명 : 최유연
+전화번호 : 010-2612-3861
+특기사항 : 본인 레슨+타석이용 필요. 기간권, 크레딧 둘가지 다 관심있음. 주니어 레슨도 관심 있으셔서 안내 드림. ', 16, '2025-06-21T13:55:05', '2025-06-21T13:55:05', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1055, 'fms 레슨권 연장 누락으로 인한 문의', '5월 18일에 레슨권 한달 연장 원하셨으나 6월 21일 확인해보니 연장이 안되어있고 레슨권 사라지셨다며 문의 주심 - 확인 후 fms 한달 연장해드림+남은 레슨권 4회 복구됨', 18, '2025-06-21T15:01:54', '2025-06-21T15:01:54', '회원요청', 598, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1056, '박두수 회원님 아내분', '구분 : 방문 상담
+고객명 : 박두수
+전화번호 : 010-9082-0260
+특기사항 : 박두수 회원님 아내분이시며 골프 처음이심
+박두수 회원님께서 몇년째 설득중이시며 체험 레슨 권유해드림
+시간 정해서 연락주신다고 함', 18, '2025-06-21T20:44:40', '2025-06-21T20:45:25', '상담기록', 431, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1057, '게시글 2', '테스트2', 1, '2025-06-21T22:00:02', '2025-06-21T22:00:02', '회원요청', 901, 'test');
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1058, '결제 대기', '예약 문제 때문에 레슨북에 레슨권 먼저 부여 해드렸습니다.
+7월1일 오후2시 방문, 결제 예정입니다.', 16, '2025-06-22T12:15:06', '2025-06-22T12:15:06', '회원요청', 634, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1061, '이남의', '구분 : 방문상담 
+고객명 : 이남의
+전화번호 : 010-4260-1359
+특기사항 : 남편 양욱진 소개로 오심.
+입문, 매장 설명 드리고 가입하심', 19, '2025-06-22T16:43:46', '2025-06-23T11:58:43', '상담기록', 759, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1062, '가족 회원', '남편 양욱진 회원', 19, '2025-06-22T19:17:08', '2025-06-22T19:18:58', '회원요청', 759, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1063, '가족 관계', '아내 이남의 회원', 19, '2025-06-22T19:18:29', '2025-06-22T19:18:43', '회원요청', 671, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1064, '심재인', '구분 : 방문2차 &등록
+고객명 : 심재인
+전화번호 : 010-2186-3521
+특기사항 : 지인 김한울 회원님 소개로 2개월 전에 매장 오셔서 상담 받으셨고
+등록하러 오심. 구력1년 타석상품구매, 지인이벤트 완료', 19, '2025-06-22T20:42:52', '2025-06-23T11:28:41', '상담기록', 760, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1065, '질문', '상담 기록시
+2차, 3차 방문하시고 등록 하실 경우도 기록 남겨야 하나요?', 19, '2025-06-22T20:49:48', '2025-06-23T15:15:00', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1066, '보관', '임수철 회원님 신발주머니 놓고 가셔서 네임택 붙여 스태프룸 철재 선반에 놓았습니다. ', 19, '2025-06-22T20:53:04', '2025-06-22T20:53:04', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1067, '주니어 레슨권 유효기간 연장', '시험기간이 종료일과 겹쳐 학업으로 레슨 불가
+유효기간 한달 연장 해서 6/21->7/19로 변경
+
+추후 연장 필요시 새레슨권 등록 안내', 4, '2025-06-23T10:16:17', '2025-06-23T10:16:37', '회원요청', 355, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1068, '레슨북 예약시', '레슨북 예약 잡으실때 꼭 fms랑 비교해서 시간 빈 것 확인 하고 넣어주세요
+특히 1주일내 예약변경을 센터에서 해주실 때는 fms레슨과 타석 꼭 비교해서 빈것 확인하고 예약 넣으시고 바로 fms예약도 입력해주세요!
+레슨북에서 취소 알림있으면 fms에서도 꼭 수정해주시고,  ***로 막아주세요', 4, '2025-06-23T10:56:01', '2025-06-23T10:58:05', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1069, 'fms 10타줄이기 인증 필요', '6/22남편분이 오셔서 10타 줄이기 결제하고 가심.
+crm등록 완료
+fms 10타줄이기 회원권 인증 필요', 4, '2025-06-23T11:27:17', '2025-06-23T11:27:17', '회원요청', 524, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1070, '주니어2:1', '안서연과 2:1', 4, '2025-06-23T11:52:06', '2025-06-23T11:52:06', '회원요청', 724, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1071, '주니어 2:1', '신채원과 2:1', 4, '2025-06-23T11:52:47', '2025-06-23T11:52:47', '회원요청', 758, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1073, '하이페리온 주차권 지급', '주성범 회원님 (하페 주차하시고 몇번 본인이 차액 결제하심), 하페 주차권에 대해서 여러번 말씀 하심(채널로 동영상 보내심), 최초 30분 적용 안되신다고 함, 주차권 지급시 60분 사용하시면 90분 드려야 할거 같아요.', 19, '2025-06-23T15:14:09', '2025-06-23T15:14:09', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1074, '주현조', '구분 : 전화상담
+고객명 : 주현조
+전화번호 : 010-2774-9550
+특기사항 : 웰빙클럽이용하시면서 매장 락커만 사용 중이신데
+일반 회원으로 가입해서 이용해 보고 싶으시다고 문의 (다른곳과 비교하고 계시다고함), 
+타석만 원하셔서 금액 알려드림, 6월락커 이용료-2만C 말씀드림', 19, '2025-06-23T15:17:11', '2025-06-23T15:17:11', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1076, '민건호', '구분 : 방문상담
+고객명 : 민건호
+전화번호 : 010-3885-5475
+특기사항 : 김주순P 지인, 1개월 전 상담없이 체험만 하고 가심. 8월경 지방으로 회사 옮기 실수 있다고 망설이셔서 10타줄이기 추천해드리며 (타인 양도가능하다)등록하심. 나머지 매장 상담 완료', 19, '2025-06-23T20:17:29', '2025-06-24T10:31:29', '상담기록', 761, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1077, '하이페리온 2 주차권 지급', '무료주차 30분이 적용이 안되고 있어 회원님들 연습시간+30분 주차권 지급 해주세요.', 4, '2025-06-24T11:44:17', '2025-06-24T11:44:17', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1078, '김아란', '구분 : 방문상담
+고객명 : 김아란
+전화번호 : 010-4779-4499
+특기사항 : 초보, 이사 오셔서 집 가까움. 필요한 프로그램 10타 줄이기 or 퍼펙트 스윙 ', 16, '2025-06-24T19:13:49', '2025-06-24T19:13:49', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1079, '5번타석 티 높이 ', '5번 타석 티 높이 조절 버튼이 눌려 있어서 안 내려오고 계속 최고 높이 상태로 되는 경우가 종종 생기는 것 같습니다. 티 높이 조정 안된다고 하시면 위로 올리는 화살표 버튼 눌려있는지 체크 해주세요.', 16, '2025-06-25T16:06:40', '2025-06-25T16:06:40', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1080, '산업안전보건 교육 관련', '산업안전보건 교육 관련 전화가 매장으로 오는데
+업체에서 실적 때문에 관공서, 필수 교육인 것처럼 강요하는 걸로 파악됩니다.
+전화 거는 데가 관청인지 업체인지 물어보고 업체면 정중히 끊고, 관청이라고 하면 어느 기관인지 파악해서 대표님께 전달 부탁드립니다~
+', 16, '2025-06-25T16:20:27', '2025-06-25T16:20:27', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1081, '레슨권 남은 횟수, 유효기간 불일치', '원포인트레슨 구매 하셨는데 fms 결제중에 원포인트 없어서 체험레슨3회 등록하고 횟수 1회로 조정하였습니다. 기간은 원포인트 레슨 받으시는 날인 6월 29일로 조정하였습니다.', 16, '2025-06-25T21:33:17', '2025-06-25T21:33:17', '회원요청', 565, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1082, '원포인트 레슨권', '원포인트 레슨 원하시는 회원님들은 fms에서 별도 레슨권 등록은 필요 없습니다.
+매장에서 직접 레슨 예약하고 메모에 "원포인트레슨"이라고 기재 해주시면 됩니다. 
+결제 여부는 예약 메모에 기록 남가주시면 됩니다.
+
+이벤트 레슨도 동일하게 메모에 "이벤트레슨"라고 명시 되어야 하며
+주니어 레슨도 "주니어레슨"명시가 되어있으면 됩니다.
+체험 레슨시 "체험 레슨" 명시가 되어있으면 됩니다. 
+
+네종류 레슨 모두 매장에서 예약 잡아 빨간색으로 남아있고 해당 레슨의 명칭이 명시 되면 자동 처리 되므로 따로 fms등록 없이 예약만 잡아주세요.', 4, '2025-06-26T10:03:36', '2025-06-26T12:42:38', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1083, '신규 채널 상담시', '기존 회원이 아닌 신규 상담이 채널로 문의가 오는 경우(네이버 톡톡도 예약이 아니고 신규 문의로 챗이 온경우) 채널 채팅창 왼쪽 하단에 자주 쓰는 답변 - 비회원 전화문의 표준문구 가 있습니다. 
+해당 답변은 상담자의 전화번호를 받고 유선상 간단한 안내와 내방을 유도, 전화상담 기록을 남기기 위함, 가격 노출 최소화를 위해(가격표 요구하는 경우가 종종 있음) 채팅으로 답변하시기 보다는 유선 통화를 우선적으로 하셔서 내방을 유도 해주세요. ', 4, '2025-06-27T09:46:45', '2025-06-27T09:46:45', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1084, '톡스토어 신규', '톡스토어로 프렌즈 10회 구매 하였으나  회원 기록 없고 유선 연결이 안됨. 
+톡스토어 발송 완료 처림 완료, 구매 확정 확인 필요
+기본 정보 등록, 레슨권만 등록 해두었음
+추후 회원 정보 추가 기입 및 타석권 구매 필요, 프로 지정 필요
+fms에 모든 신규 회원 절차, 채널 가입 등 신규 회원 가입 절차 필요함. ', 4, '2025-06-27T10:37:57', '2025-06-27T10:39:30', '회원요청', 762, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1085, '주문 내역 확인', '* 23일 주문한 탐사A4 500매 수령하신 분 있으신가요? 일요일 저녁까지 확인 안되시면 구매요청 카톡에 실장님께 문의해주세요
+*28일 토요일 장갑 도착 예정 - 앞 매대에 여성 18호 3개 주니어 S2개 진열해 주시고 나머지는 스태프룸 맨 오른쪽 락커 장갑 모아두는 곳에 정리해주세요', 4, '2025-06-27T13:01:35', '2025-06-27T13:09:17', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1086, '심성은님 채널추가', '근무 하실때 저녁에 주로 방문하시는 심성은 회원님 꼭 !!!! 채널 추가, 메세지 발송 요청 해주세요. 
+회원님 계신 자리에서 메세지 보내셨는지 확인 까지 꼭 부탁드려요. 
+pc밑에 메모 남겨둔지 오랜데 아무도 안해주셔서요 ㅜ ㅜ 이분 크레딧 메세지 못나가고 있습니다.
+채널 추가- 메세지 발송확인 - 추후처리 필수파일에서 상담등록증 사진 찍어서 발송, 약관발송
+꼭 좀 부탁드려요!
+유선 연결이 전혀 안되시는 분이라 직접 꼭 말씀 해주셔야해요!', 4, '2025-06-27T13:36:53', '2025-06-27T13:36:53', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1087, '프로님 변경', '기존 김은성 프로님에서 김주순 프로님으로 프로님 변경', 18, '2025-06-27T20:42:14', '2025-06-27T20:42:14', '회원요청', 573, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1088, '주니어 골프백 회수', '장윤소 주니어 골프백 찾아가셨습니다.25년 6월 28일 AM10:00', 16, '2025-06-28T10:01:37', '2025-06-28T10:01:37', '회원요청', 310, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1089, '프로 변경', '7월부터 김은성 프로님 휴무일 변경으로 인해 이재윤 프로님으로 변경', 18, '2025-06-28T15:52:13', '2025-06-28T15:52:13', '회원요청', 764, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1090, '유효기간 일주일 연장 요청', '당일 이용 원하셨으나 이용하지 못하셔서 유효기간 시작일을 7월 5일 토요일로 요청', 18, '2025-06-28T15:53:22', '2025-06-28T15:53:22', '회원요청', 764, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1091, '이수현', '구분 : 방문상담
+고객명 : 김택우
+전화번호 : 010-2719-3381
+특기사항 : 김주순 프로님 주니어 체험 후 토요일 레슨 원하셔서 김은성프로님-이재윤프로님으로 변경
+기존 김택우 회원님과 혼동이 있었던걸로 보입니다', 18, '2025-06-28T17:43:54', '2025-06-28T17:44:46', '상담기록', 764, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1092, '이수지', '구분 : 방문상담
+고객명 : 이수지
+전화번호 : 010-2630-0461
+특기사항 : 초보(아예 처음)이시라 걱정이 많으셔서 상담해드림 
+집이 근처이시라 전화 문의 후 바로 방문하심
+중학생 아들이 있으셔서 주니어 레슨도 관심있으심
+7월 1일 화요일 20시 체험 레슨 예정', 18, '2025-06-28T20:29:41', '2025-06-28T20:29:41', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1093, '재등록 해택 드림', '남은 3회 레슨권 (25.07.01 까지 인데 ) 프로님 시간 안맞고 못쓰실거 같다고 하셔서  재등록 패키지 결제 하셔서 레슨 1개월 연장 레슨3회 이월 해드림', 19, '2025-06-29T18:01:48', '2025-06-29T18:02:17', '회원요청', 700, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1094, '레슨권 연장', '바쁘신 스캐줄과 환불문의로 인하여 1개월 연장해 드림', 19, '2025-06-29T19:46:17', '2025-06-29T19:46:17', '회원요청', 29, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1095, '주니어레슨권 유효기간 연장', '현준이 시험과 학업 일정으로 방문이 어려워 7/16->8/16 1개월 연장
+추후 추가 연장은 레슨권 등록으로만 가능함 안내', 4, '2025-06-30T10:39:54', '2025-06-30T10:39:54', '회원요청', 460, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1096, '남은 레슨권 환불을 크레딧 적립으로 적용', '집중레슨 4회권 환불 요청으로 20만C으로 적립해 드림.', 19, '2025-06-30T18:47:58', '2025-06-30T18:47:58', '회원요청', 336, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1097, '락커비 정산', '7/3 락커 비우실 예정 
+7월달 락커비 제외하고 6월까지 마이너스 금액 결제 필요', 4, '2025-07-01T10:37:46', '2025-07-01T10:37:46', '회원요청', 689, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1098, '락커 이용 종료시', '락커 이용 종료하시고 비우시는 경우 확인 해주시고 바로 락커 반납 처리 꼭 해주세요
+월말까지 락커 이용하신다고 하시는 분들은 꼭 락커 비우고 직원에게 고지해달라고 안내 해주세요
+
+어떤 락커가 비었는지 일일히 확인이 어렵고, 잠겨있는 경우 함부로 열수가 없어 회원님들과 매니저님들이 꼭 같이 확인 해주세요~
+
+그리고 톡스토어 구매시 꼭 발송 완료 처리 후 회원님께 "구매 확정" 요청 해주세요^^', 4, '2025-07-01T12:53:08', '2025-07-01T12:53:08', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1099, '레슨 유회기간', 'fms 7월 2일 / crm 6월 2일로 되어 있는데 기록이 없습니다. 회원님은 (7월 2일이 맞다고 하심)
+손바닥 부상으로 최대 기간 연장 요청하셔서 7월 2일 기준 1달 연장해 드렸습니다.
+추가 연장은 부상에 대한 증빙 필요. 혹은 레슨권 추가 구매로 남은 레슨권 부활 가능함 안내드렸습니다.', 16, '2025-07-01T20:14:31', '2025-07-01T20:14:31', '회원요청', 636, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1100, '이선우', '구분 : 방문상담
+고객명 : 이선우
+전화번호 : 010-4845-8634
+특기사항 : 네이버 체험레슨(김주순P) 후 바로 등록 하셨습니다. ', 16, '2025-07-01T20:18:28', '2025-07-03T09:36:13', '상담기록', 765, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1101, '레슨권 1개월 연장', '바쁘셔서 1개월 연장으로 등록', 19, '2025-07-02T10:52:02', '2025-07-02T10:52:02', '회원요청', 625, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1102, '황인효', '구분 : 방문상담
+고객명 : 황인효
+전화번호 : 010-8808-5438
+특기사항 : 가까운 곳에서 식당운영 중. 
+가까운 거리, 지인 동반 이용가능, 크레딧 유효기간 없음, 단독타석, 30분 부터 예약 가능 등에 만족하셨고 바로 등록 하셨습니다.', 16, '2025-07-02T14:34:23', '2025-07-03T09:36:02', '상담기록', 766, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1103, '박승현', '구분 : 방문상담
+고객명 : 박승현
+전화번호 : 010-4949-4173
+특기사항 : 김캐디로 예약해서 첫 방문하셨습니다. 
+프렌즈아카데미 연습장 이용 처음이셔서 어플과 시스템 사용법 설명 드리고. 
+매장 안내. 예약제, 요금제 안내 해드렸습니다.', 16, '2025-07-02T15:04:47', '2025-07-02T15:04:47', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1104, '고용대', '구분 : 전화상담
+고객명 : 고용대
+전화번호 : 010-2784-7470
+특기사항 : 3개월 배운 경험 있는 초보, 타석 이용, 레슨 둘 다 필요하십니다.
+15만 크레딧, 원 포인트 레슨 1회 하신다고 하는데
+레슨, 크레딧 더 등록하실 수도 있을 것 같아서 체험 레슨 예약해 드렸습니다.', 16, '2025-07-02T16:33:04', '2025-07-02T16:33:04', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1105, '프린트 인쇄 불량', '빨간색 인쇄가 잘 되지 않습니다. 
+프린터 노즐 점검 , 노즐청소 3회 반복 , 해드 정렬 진행하였으나 개선되지 않습니다. A/S신청 부탁드립니다', 16, '2025-07-02T20:13:11', '2025-07-02T20:13:11', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1106, '25/07/07 기간제 등록', '결제일7/2 이나 기존 기간제 종료일 6일에 맞춰 7/7 시작으로 홀드 등록해 놓음', 16, '2025-07-03T10:24:06', '2025-07-03T10:24:06', '회원요청', 152, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1107, '6/30 새 회원권 등록', '기존 잔여 레슨 1회를 새 레슨권 18회에 합쳐서 19회로 조정
+기존 레슨권 기간 만료 처리', 16, '2025-07-03T10:41:51', '2025-07-03T10:41:51', '회원요청', 621, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1108, '고용배', '구분 : 방문 상담 및 체험
+고객명 : 고용배
+전화번호 : 010-2784-7470
+특기사항 : 체험 후 만족도 매우 높으심. 바로 등록 하심', 4, '2025-07-03T11:47:35', '2025-07-03T11:47:48', '상담기록', 767, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1109, '문다은', '구분 : 방문상담 워크인 
+고객명 : 문다은
+전화번호 : 010-4213-7786
+특기사항 : 집이 근처라 지나가다가 들르심. 주변에 헬스장+골프장 같이 이용하며 레슨 경험 있으심
+레슨에 주로 관심 보이셔서 체험 레슨 추천 드림 7월 4일 금요일 오후 3시 김은성 프로님 레슨 체험 예정
+', 18, '2025-07-03T16:13:41', '2025-07-03T16:13:41', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1110, '주말 처리할 내용', '* 스테인리스 스쿱 오면 기존 플라스틱에서 교체해주세요. 오전/ 오후 조 출근하시면 스쿱 지저분 하지 않은지 원두, 제빙기 물 체크할 때 한번씩 봐주세요. 커피때문에 얼룩이 생길때가 있습니다.
+
+* 7/3 락커 종료 예정(마이너스 크레딧 결제 필요) 이신 689.주현조 님(129번락커) 미방문 하셨습니다.
+오시면 마이너크 크레딧 결제 해주시고, 주말까지 미 방문하시면 락커 이용여부 한번 더 문의드려주세요. 현재 락커 종료 요청하셔서 7월 락커비 결제 안되어 있는 상태입니다.
+
+*7/6 김방선 회원님 13:15 이재윤 프로님 레슨 현재 빨강으로 예약 되어있습니다. 빨강색 레슨 꼭 qr인증 하셔서 파랑으로 처리 해주세요. (톡스토어 구매 후 예약 요청 하셨었는데 그 후에 레슨권 fms등록만 하고 가셨더라고요.)
+ ', 4, '2025-07-04T10:32:25', '2025-07-04T10:32:25', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1111, '레슨권 연장', '6월 24일 구매하신 집중레슨18 레슨권 7월 4일 갈비뼈 부상으로 한달 연장 요청
+레슨권 종료일 11월 20일에서 12월 20일로 연장해드림', 18, '2025-07-04T19:18:09', '2025-07-04T19:18:09', '회원요청', 666, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1112, '전선영', '구분 : 전화상담
+고객명 : 전션영
+전화번호 : 010-9522-0253
+특기사항 : 할 수 있으면 오늘부터 바로 시작하고 싶다고 하셔서 비어있는 타임 체험레슨 예약했는데 노쇼입니다.', 16, '2025-07-05T13:56:55', '2025-07-05T13:56:55', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1113, '김희태 회원님 레슨권 fms 큐알 인증 및 등록 필요', '김희태 회원님 프렌즈 10회 레슨권 fms 큐알 인증 및 등록 부탁드립니다.
+결제 후 fms등록을 하지 않아 crm에만 등록된 상태입니다. 방문하시면 큐알 인증 및 등록 부탁드립니다.', 18, '2025-07-05T17:10:49', '2025-07-05T17:10:49', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1114, 'fms 큐알인증 및 등록 필요', '김희태 회원님 프렌즈 10회 레슨권 fms 큐알 인증 및 등록 부탁드립니다.
+결제 후 fms등록을 하지 않아 crm에만 등록된 상태입니다. 방문하시면 큐알 인증 및 등록 부탁드립니다.', 18, '2025-07-05T17:11:55', '2025-07-05T17:11:55', '회원요청', 504, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1115, '레슨권 유효기간 연장', '현재 발목부상+8월 한달 해외일정으로 인해 레슨권 일시정지 요구하셔서 기존 10월 7일에서 12월 7일로 2달 연장 해드렸습니다.', 18, '2025-07-05T17:35:49', '2025-07-05T17:40:43', '회원요청', 705, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1116, '레슨권 유효기간 연장', '부상으로 2회 남은 레슨권 일주일만 연장 요청
+기존 7월 14일에서 7월 21일로 일주일 연장해드림', 18, '2025-07-05T21:00:27', '2025-07-05T21:00:27', '회원요청', 434, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1119, '김슬아', '구분 : 방문 상담 및 체험
+고객명 : 김슬아
+전화번호 : 010-2735-5666
+특기사항 : 초4, 남, 주니어 레슨 체험 진행 (김주순P), 만족 하셨고 방학 때 레슨 받을 거라 7월 말 오셔서 등록 하신다고 함.  
+프아 PPT 안내해 드림.', 19, '2025-07-06T14:18:23', '2025-07-06T14:18:23', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1120, '레슨1회 수동 차감', '2025.07.06 13:15 레슨1회 QR인증 못하여 fms수동차감 진행', 19, '2025-07-06T16:36:55', '2025-07-06T16:36:55', '회원요청', 435, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1121, '윤지완', '구분 : 방문상담
+고객명 : 윤지완
+전화번호 : 010-2004-6542
+특기사항 : 초2, 남, 입문, 윤주호 회원님 (아버님) 
+7월13일 16:30 체험레슨 김주순P 잡음, 아이가 배우고 싶다고 해서 오심, 체험 후 결정 예정', 19, '2025-07-06T16:44:20', '2025-07-06T16:44:20', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1122, '전이찬 주니어', '2025-07-06 전이찬 주니어 레슨 2회만 끊으심.(13만원 결제)
+1회차= 7월 6일 13:00 김은성P 레슨 진행완료.
+2회차= 7월 13일 17:00 김은성P 레슨 예정.
+
+7월 가족 여행 때 아이와 필드 나갈 예정 이시며 이후 주니어 레슨 재등록 여부 생각하심.
+
+위 내용은 레슨북에 없슴', 19, '2025-07-06T18:27:49', '2025-07-06T18:27:49', '회원요청', 444, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1123, '레슨권 1개월 연장', '바쁘셔서 못치시겠다 하셔서 최초 1회 1개월 연장해드림.', 19, '2025-07-06T19:58:07', '2025-07-06T19:58:07', '회원요청', 661, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1124, '레슨 1개월 더 드림', '2025-7-6 프로님 교체로 김주순P께 무료 체험 레슨 받으시고 등록하셨는데
+직장인이라 바쁘시다고 10회 3개월 짧다고 하셔서 1개월 더 드렸습니다.', 19, '2025-07-06T20:04:53', '2025-07-06T20:04:53', '회원요청', 393, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1125, '조상민', '구분 : 방문상담
+고객명 : 조상민
+전화번호 : 010-2087-7791
+특기사항 : 입문, 쉐르빌1차 거주하시고 가입에 따른 혜택 집요하심. 
+매장 ppt 안내해 드리고 상담 당일 등록시 오픈 이벤트 때 드리는 커버류나 새 동 세트 드리겠다고 말씀드림.', 19, '2025-07-06T21:03:34', '2025-07-06T21:03:34', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1126, '김지연', '구분 : 방문상담
+고객명 : 김지연
+전화번호 : 010-3204-9194
+특기사항 : 입문, 프아PPT 안내드림, 현재5군데 정도 비교하고 계심, 
+매장 투어 해드리고 꼼꼼히 보시고 가심. 10타 줄이기 추천함', 19, '2025-07-06T21:08:17', '2025-07-06T21:08:17', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1127, '김동민 주니어 스케줄', '8/30 11시 (25"연습,30" 연속레슨)
+9/3 14:30 시작(30"연속레슨, 25"연습)', 4, '2025-07-07T10:39:23', '2025-07-07T10:39:23', '회원요청', 634, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1128, '양도문의', '아드님 방학동안만 골프 레슨 원하셔서 양도 문의
+레슨권 유효기간 안내. 안내분 안영미 회원님것도 추후 추가 양도 여부 문의하셔서 가능함 안내
+레슨 원하시면 아드님은 타석권 구매, 레슨권만 양도 가능함을 안내.
+(가능하면 타석권 별도 구매 유도하면 좋을듯)
+
+양도 원하실때 연락 주고 방문하시거나 무인시간대 피해서 신분증 지참 하셔서 방문하시기로 함.
+양도시 아드님  어플, 채널, crm 처리 필요', 4, '2025-07-07T12:02:35', '2025-07-07T12:02:35', '회원요청', 699, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1129, '상품 변경', '체험3회 레슨 구매 후 크레딧15 로 5만원 추가 결제 후 변경', 19, '2025-07-07T14:49:53', '2025-07-07T14:49:53', '회원요청', 566, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1130, '김정은', '구분 : 전화상담& 체험예약
+고객명 : 김정은
+전화번호 : 010-3255-9943
+특기사항 : 기존 회원이시고 아들 이주한 주니어 레슨상담, 입문, 초5, 당일 무료체험 도와드림', 19, '2025-07-07T15:31:01', '2025-07-07T15:31:01', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1131, '재등록', '퍼팩트 스윙 재등록 하면서 기존 레슨3회 합산해서 21회로 맞춰드림. 유효기간 2달 연장. ', 19, '2025-07-07T17:28:35', '2025-07-07T17:28:35', '회원요청', 562, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1132, '이민경', '구분 : 네이버 체험 후 등록
+고객명 : 이민경
+전화번호 : 010-9554-8785
+특기사항 : 체험 전 가입 상담 해드림, 구력 4년 이시고 집 머신데 김주순 프로님 소개로 체험레슨3회만 결제하시고 비회원 타석이용 하신다하셔서 15만크레딧 결제 후 체험3회권 크레딧 차감으로 도와드렸습니다.', 19, '2025-07-07T20:55:29', '2025-07-08T10:20:36', '상담기록', 768, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1133, '체험3회권 1개월 연장', '김주순프로님 소개로 집이 멀어서 1달 연장해 드림', 19, '2025-07-07T20:57:42', '2025-07-07T20:57:42', '회원요청', 768, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1134, '홀드등록', '기간권 등록후 2개월간 못오심
+소급 등록 문의 주셨는데 신청일부터 가능하다고 안내
+1개월 홀드 등록 원하셔서 홀드 해 드림
+추가 홀드 필요시 증빙(진료, 해외 출국 등) 확인 후 도와드리겠다고 안내함', 1, '2025-07-07T22:16:21', '2025-07-07T22:16:21', '회원요청', 687, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1135, '**매장운영 방침 준수요청**', '1.
+아이코젠, 웰빙의 경우. 30분 이내 시작하는 타석 예약은 잡아주셔도 되는데, 그 이상은 받아주시면 안됩니다.
+\'출발하시기 전에 연락 주시면, 타석 확인해서 잡아드리겠습니다\' 라고 거절하시면 됩니다.
+
+2.
+타석 쉐어링도 본인 안오시는 경우에 열어주시면 안됩니다.
+무인 시간대도 있고, 회원 상담시에 정신을 빼앗길 우려도 있고,
+하나의 타석권으로 쉐어링하는 것은 회원권 운영 방침상 기본적으로 금지됩니다.
+
+3.
+매장 방문해주시는 회원님들께는 가급적 눈 맞추고 인사 드리기 바랍니다.
+실내 골프연습장은 \'회원제\' 비즈니스로 회원들과 서로 좋은 \'관계\'를 형성하는게 무엇보다 중요합니다.
+이름도 시스템에서 다 확인 가능하기 때문에 오며가며 봐둬서 자연스럽게 숙지하시고
+회원별 특기사항도 현장에서 파악하고 중요한 내용은 메모로 남겨놔야 연속적인 대응이 가능해집니다.
+
+
+오픈 이후로 지금까지 유지해온 원칙이고 회원님들도 겨우 받아들이게 만들어놨는데,
+새로 오신 매니저님들께서 숙지가 안되어있거나,
+아니면 알고도 임의로 유연하게 하시는 경우가 있는데 주의 부탁드립니다.
+
+당장은 해달라는대로 해주는게 편할지 몰라도,
+나중에는 결국 고객과 불필요한 더 큰 충돌이 일어나게 되고
+누가 해줬는지 찾아야하는 불편한 상황이 발생하니 가능한 원칙대로 합시다.
+
+', 1, '2025-07-07T23:01:21', '2025-07-07T23:08:57', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1136, '김묵정', '구분 : 방문상담 및 네이버체험
+고객명 : 김묵정
+전화번호 : 010-3810-8056
+특기사항 : 오래전 배우고 쉬시다가 다시 시작. 이재윤 프로님 체험 만족도가 높아서 등록원하시나 근무시간과 주로 방문시간대가 맞지않아 상품과 프로선택 조금 고민해보고 등록 원하심. 아내분도 체험과 동반등록을 원하셔서 체험 예약 안내, 지인 이벤트 안내드림. 아내분은 입문이라 10타 패키지 권유. 김묵정님은 패키지나 레슨10+크레딧 조합 고민중. 추후 아내분 체험 예약후 방문하셔서 등록 예정', 4, '2025-07-08T10:27:03', '2025-07-08T10:27:03', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1137, '레슨 결제 안내 오류', '담당 : 고민정 매니저
+15만 크레딧 상품 결제 후 크레딧으로 체험 레슨권 구매 가능하다고 잘못 안내됨.
+대표님 확인 후 크레딧15-체험레슨10결제-> 잔여 크레딧 5만. 민건호님과 지인이벤트 5천c씩 적립 완료
+
+추후에 크레딧으로 레슨권 결제 안됨 안내. 
+', 4, '2025-07-08T10:53:42', '2025-07-08T12:10:30', '회원요청', 768, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1138, '타석할인', '7/7 예약 실수 인지 못하고 타석 이용 못하심.
+7/8 방문시 사정 말씀해주시고 50% 할인 적용. 추후 노쇼 상황시 할인 어렵다고 안내 완료', 4, '2025-07-08T13:20:48', '2025-07-08T13:20:48', '회원요청', 702, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1139, '레슨 기간 연장', '손목부상으로 2주 연기 하였습니다.', 16, '2025-07-08T21:17:51', '2025-07-08T21:17:51', '회원요청', 646, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1140, '프로님 변경 요청', '이재윤 프로님과 시간대가 맞지 않고 예약에 어려움이 있어 프로님 변경을 원하심
+현재 구매한 레슨권의 잔여분까지 이재윤 프로님과 하기로 하고 다음 레슨권 구매시 김주순 프로님으로 변경 요청', 18, '2025-07-09T18:05:30', '2025-07-09T18:05:30', '회원요청', 702, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1141, '50만 크레딧 구매 실수건', '임상혁 회원님께서 50만 크레딧을 구매하시며 아내 이슬기회원님과 25만씩 나눠서 적립을 부탁하였음
+원래 안되는 사항이나 50만원 결제 후 안된다는 사실을 인지 - 25만원씩 자율 적립으로 드린 후 각각 1만원 추가적립해드림 총 52만 크레딧 드림', 18, '2025-07-09T22:13:02', '2025-07-09T22:13:02', '회원요청', 629, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1142, '25/7/9 자율금액', '배우자 임상혁님이 50만 일괄 결제. 이슬기님 25만 자율금액.', 4, '2025-07-10T09:47:35', '2025-07-10T09:47:35', '회원요청', 630, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1143, '김영민', '구분 : 방문상담
+고객명 : 김영민
+전화번호 : 010-5643-1282
+특기사항 : 정은주 회원님 지인. 1개월뒤 제주도로 이주 예정이시라 가시기 전에 레슨과 연습을 많이 받고 가시길 원하심. 완전 초보. 추후 제주도 이주시 남편분께 양도 하시거나, 잔여크레딧은 무기한으로 추후 이용 가능하심 안내드림.', 4, '2025-07-11T11:47:38', '2025-07-11T11:52:59', '상담기록', 769, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1144, '전화상담', '구분 : 전화상담
+고객명 : 남성
+전화번호 : 010-3743-9597
+특기사항 : 김캐디 1개월권 보시고 사용하고있는 프로그램이 카카오vx인지 문의 전화하심. 스크린아니고 연습장 인것 안내드리고 김캐디기간권 이용 방법 문의. 그 외 시간 이용시 회원권 으로 이용하실 수 있는것 안내드리면서 직접 방문하시고 매장 둘러보시고 상담 받으시라고 권유드림.', 4, '2025-07-11T12:57:22', '2025-07-11T12:57:22', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1145, '민지혜', '구분 : 방문상담
+고객명 : 민지혜
+전화번호 : 010-4941-0515
+특기사항 : 네이버 타석 체험 이벤트 후 상담 - 레슨은 현재 다른곳 이용중
+일주일에 한두번 이 근처에 들를일이 있어 그때마다 타석 이용 원하심
+다음주 수요일 7월 16일경 다시 한번 들르셔서 등록 후 바로 이용원하신다고 하심
+', 18, '2025-07-11T18:45:12', '2025-09-01T11:34:21', '상담기록', 794, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1146, '체험레슨, 체험타석 상담 예약 등록 하는 방법 안내', '네이버 예약 센터에서 고객 요청이 아니어도 직접 등록이 가능합니다.
+등록 시 고객에게 안내 문자 발송되고 관리에 유용하여 앞으로
+네이버 전화연결, 방문상담 등 모든 체험 예약 건은 네이버 예약에 등록해 주시기 부탁드립니다.
+(고객이 직접 네이버에서 예약 신청 한 경우는 당연히 제외)
+
+방법은 pc 바탕화면에서 오른쪽 위에 예약등록 폴더에 있는 이미지 참고 바랍니다.
+1. 등록 페이지
+2. 입력 화면 [예약자 입력 정보 : 담당 직원 ]입력해 주세요
+             [직원 메모 : 고객 정보 공유 사항 있으면 입력(구력 등등) ]
+3. 완료 화면 - 창 맨 아래 보면 취소 변경 가능
+4. 완료 시 발송되는 안내 문자 참고해주세요
+
+각자 본인핸드폰 번호로 테스트 해서 숙지 해주시기 바랍니다.~', 16, '2025-07-12T14:14:16', '2025-07-13T07:58:20', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1147, '김동선', '구분 : 전화상담
+고객명 : 김동선 
+전화번호 : 010-7308-1278
+특기사항 : 골프 처음 이신데 이용 안내 물어보셔서 간단하게 레슨, 타석 이용 방법 알려드리고 네이버 체험 잡아드림 추천해 드렸으나 조망간 매장에 와서 상담 받아보신다고 함', 19, '2025-07-13T16:25:46', '2025-07-13T16:25:46', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1148, '새 레슨권 등록으로 기존 레슨권과 합함', '레슨권 2개월 연장 반영', 19, '2025-07-13T17:27:57', '2025-07-13T17:27:57', '회원요청', 417, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1150, '레슨권 일주일 연장', '지난 5월 18일 1개월 연장을 도와 드린적이 있었던 봐여서 추가 연장은 안되시는데 저희 프로님 오류로레슨 예약을 못하셔서 일주일 연장 도와 드렸슴. 추후 재등록시 잔여 레슨권까지 고려해서 추가 기간 지급해 드림 안내함.', 19, '2025-07-13T19:36:27', '2025-07-13T19:36:27', '회원요청', 598, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1152, '전이찬 주니어', '1회권 구매, 7월 20일 15:00 예약 잡아드림(김은성 P), 레슨북 등록', 19, '2025-07-13T20:58:56', '2025-07-13T20:58:56', '회원요청', 444, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1153, '조조권 6개월 재등록', '현재 이용중인 조조권 7/16 만료 예정이라 새 조조권 7/17 시작일로 변경하여 등록 해 놓음. fms 타석권은 유효기간 무기한으로 설정 되어있고, 회원님께도 안내드렸음.', 4, '2025-07-14T10:25:38', '2025-07-14T10:25:38', '회원요청', 672, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1154, '권옥연', '구분 : 전화상담
+고객명 : 권옥연
+전화번호 : 0104-5339-501
+특기사항 : 김주순 프로님과 타 연습장에서 레슨 받은 이력이 있으셔서 프로님과 연결 하시고 싶으셔서 문의 전화 하심. 김주순 프로님 근무시간과 레슨 가능 시간이 맞지 않고, 금액과 이용 방법을 문의 하셔서 주로 방문 시간대에 맞게 17일 오전 11시30분으로 이재윤 프로님 체험 예약 잡아드림', 4, '2025-07-14T11:21:23', '2025-07-14T11:21:23', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1155, '5번타석 선풍기 파손', '선풍기 파손으로 5번 타석에 커피바에 있던 선풍기 임시 비치 해 두었습니다. 
+새 선풍기 배송오면 5번타석에 비치해 주시고, 팬없는 선풍기는 커피바로 다시 이동 해주세요', 4, '2025-07-14T11:25:40', '2025-07-14T11:25:40', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1156, '주니어 레슨권 유효기간 연장', '2주 요청 하셔서 8/10->8/24로 변경 완료', 4, '2025-07-14T11:58:34', '2025-07-14T11:58:34', '회원요청', 649, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1157, '레슨북 알람 체크', '주말에 바쁘시겠지만 레슨북 취소 내역, 예약 알람 바로 바로 확인 하셔서 특히!! 1주일내에 예약 취소와 변경 여부 확인 해주세요. 
+12일에 안수호 주니어가 19일 날짜를 예약 했는데 fms에 예약을 잡지 않아 성인 예약이 다 들어와서 부득이 하게 주니어 레슨을 취소 하게 되었습니다. 
+
+또한 예약 취소 확인 된 경우 ***로 레슨북 막기, fms에 타석, 레슨 모두 동시 취소 해주세요.
+3가지가 동시에 처리 되지 않고 한가지씩만 처리된 경우도 많습니다. 
+
+제가 출근하면 1주일 내의 예약은 무조건 확인 하고 길게는 2주 이상씩 미리 예약을 잡아두고 있습니다.
+주말에 제가 확인이 어려울 경우는 특히 더 1주일 내 예약 오류나 변경 사항없는지 틈틈히 확인 해주세요. 
+주말 예약건은 변경 가능한 여유시간이 없으니 더 신경 써주시길 바랍니다. ', 4, '2025-07-14T12:01:18', '2025-07-14T12:11:07', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1158, '홍채은 주니어와 가족 관계 여부 체크', '현재 홍채은 주니어 홍주혜 회원님 주니어로 등록 되어있는데, 항상 홍성균님과 동반이용 하고 계심
+아버님 맞다면 주니어 등록하여 주니어 동반 할인 처리 되어야 하는데 미등록 되어있음. 
+회원-자녀 여부 확인 후 맞다면 홍성균님거에 홍채은 주니어 등록 해야함
+기존에 할인 못해드렸다 안내는 따로 하지 마시고 자녀 여부 확인 후 등록 처리 해주세요.', 4, '2025-07-14T12:03:33', '2025-07-14T12:03:33', '회원요청', 385, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1159, '양도 및 유효기간 문의', '작년에 부상으로 유효기가 24년 연말로 모든 상품 홀드하셨음.
+25/7/15 기준 조조권 만료/ 레슨권 잔여 10회 6/14 만료/ 잔여 크레딧 약8만원
+양도시 크레딧 양도가능. 레슨권 양도시 새 레슨권 등록 하시면 잔여 10회 취합 및 3개월 유효기간 연장 해드린다고 안내함. (남편분께 양도시 동일 하게 적용 가능) 
+건강 상 문제로 양도 가능성이 높으며, 신분증 지참하여 방문 안내 완료.
+', 4, '2025-07-15T09:45:12', '2025-07-15T09:45:12', '회원요청', 293, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1160, '레슨권 유효기간 연장', '7/15->8/15로 1개월 연장', 4, '2025-07-15T12:04:55', '2025-07-15T12:04:55', '회원요청', 642, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1161, '김동민 주니어 레슨', '별도의 요청이 없을시 예약건은 모두 정시 시작 30분 연속 레슨으로 예약 잡아주시면 됩니다. ', 4, '2025-07-15T12:54:12', '2025-07-15T12:54:12', '회원요청', 634, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1162, '김캐디 기간제 1개월 이용권', '7/3 구매 하심. 크레딧 먼저 소진 후 기간제 이용 하고 싶다고 하심.
+추후 기간제 이용 원하시면 김캐디 신청서 작성후 회원권 등록 필요함', 4, '2025-07-15T13:03:06', '2025-07-15T13:03:06', '회원요청', 722, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1163, '남성 회원님 골프채', '채 닦는 곳 옆에 드라이버 하나, 아이언 하나 세워져 있었는데
+혹시 다른 연습용 채와 섞일까 봐 상담 테이블 옆에 세워뒀습니다. 
+(발견시간 7월 15일 저녁 시간대)', 16, '2025-07-15T21:12:54', '2025-07-15T21:12:54', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1164, '카드 취소 재결제', '7월 14일 삼성카드 29만원 결제 건 7월 16일 취소
+7월 16일 하나카드 29만원 결제', 16, '2025-07-16T19:43:03', '2025-07-16T19:43:03', '회원요청', 46, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1165, '새 회원권 등록', '기존 잔여 레슨 4회 새 레슨권(199패키지)에 취합하여 레슨 36회->40회 조정 완료', 4, '2025-07-17T10:52:11', '2025-07-17T10:52:11', '회원요청', 563, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1166, '무료레슨 1회', '예약 레슨 미 이행으로 1회 무료레슨 있음. (김주순 프로)
+연락 오면 무료 레슨 예약 잡아 주시고, 댓글로 언제 이용하셨는지 기록 남겨주세요.', 4, '2025-07-17T12:49:04', '2025-07-17T12:49:04', '회원요청', 594, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1167, '하나증권 지점장', '하나증권 지점장', 1, '2025-07-17T14:29:18', '2025-07-17T14:29:18', '회원요청', 677, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1168, '레슨 재등록시', '레슨 재등록 시 기존 2025년7월15일까지였던 2회 남은 레슨권 살려 드리기로함', 19, '2025-07-17T16:50:22', '2025-07-17T16:50:22', '회원요청', 403, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1169, '김동선', '구분 : 방문상담 (네이버 체험 완료)
+고객명 : 김동선
+전화번호 : 010-7308-1278
+특기사항 : 입문, 근처사심, 김은성P 체험레슨 만족, 평일 저녁때 레슨 희망, 전반적인 안내 도와드림, 금액 계산해 보시고 결정하고 이번주에 등록하신함, 지인 임상혁 회원님', 19, '2025-07-17T17:01:37', '2025-07-17T17:01:37', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1171, '미방문 크레딧 상품 결제', '계좌이체로 상품 구매 하시고 신청서에 서명없이 신청 절차 완료됨 안내
+
+부상으로 휴회 하시다 잔여 레슨권 변주원 주니어가 이용중.
+레슨권 종료 되면 주니어로 재 등록 예정이심', 4, '2025-07-18T11:35:35', '2025-07-18T11:35:35', '회원요청', 246, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1172, '7/17 결제 분 카드 변경 예정', '7/17 50만원 결제분 카드 변경 예정이심
+추후 처리 필수 파일에 신청서 넣어 두었습니다. 오셔서 카드 교체시 취소 영수증, 재결제 영수증 신청서에 동봉 해주세요.', 4, '2025-07-18T11:40:54', '2025-07-18T11:40:54', '회원요청', 710, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1173, '해충 퇴치기', '상담석 아래, 커피바 두군데 설치했습니다. 둘다 상시로 켜두고 사용하며, 안쪽 끈끈이에 벌레 많아지면 교체해주세요
+새 끈끈이 위치는 이수현 매니저님 락커 위쪽 상단락커 두번째 칸에 있습니다.
+
+상담석 하단에 설치했는데 효과 없으면 선풍기랑 자리 바꾸셔도 됩니다. 옆에두니 눈이 아플 것 같아 거리를 좀 두었습니다.
+커피바는 룰렛 뒤에 두었는데 콘센트가 없어서 아직 설치 못했습니다. 멀티탭 배송오면 연결해주세요.', 4, '2025-07-18T12:11:47', '2025-07-18T12:48:21', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1174, '골프백 배송 및 마이너스 크레딧 충전 필요', '7/17 38번 하부락커 반납 요청 하셔서 물건은 129번 상부장으로 옮겨놓음( 락커는 반납 처리 완료, 네임택 제거완료)
+골프백 배송 서비스 원하셔서 연락 오시면 주소 받고, 대표님께 배송 요청 -3,000C 배송비 차감 필요
+
+현재 -29,408C/ 배송비 -3,000C 총 32,408C결제 필요
+계좌이체시 입금 확인 대표님한테 하기
+크레딧 충전시 톡스토어 구매 확인하고 CRM에 회원권 등록해놓기
+
+잔여 레슨 69회라 크레딧 결제로 받으면 더 나을 것 같습니다. ', 4, '2025-07-18T14:08:00', '2025-07-18T14:08:00', '회원요청', 142, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1175, '레슨 기간 연장', '속목부상, 프로님 권유로 회복 기간 더 필요하여 2주 추가 연장합니다.', 16, '2025-07-19T11:12:44', '2025-07-19T11:12:44', '회원요청', 646, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1176, '남성(BMW)', '구분 : 방문상담
+고객명 : 남성분
+전화번호 : 
+특기사항 : 카카오 스크린골프 대회 참가 중, 연습장 이용 필요하여 지나가다 잠깐 방문하셨다고 합니다.
+ 매장 운영시간, 크레딧 설명 빠르게 드렸습니다. 꼭 다시 방문 하신다고 합니다 :)', 16, '2025-07-19T12:41:47', '2025-07-19T12:41:47', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1177, '주니어 레슨 기간', '8월에 장기간 여행 계획 있으셔서 남을 레슨권과 신규 등록한 레슨권을 
+8월 30일 시작 기준으로 하여 11월 29일까지로 등록 하였습니다.', 16, '2025-07-19T13:31:29', '2025-07-19T13:31:29', '회원요청', 201, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1178, '이소민', '구분 : 방문 상담
+고객명 : 이소민
+전화번호 : 010-5384-0921
+특기사항 : 네이버 상담 예약 후 방문 상담 - 7월 20일 2시 체험 레슨 예약 
+레슨에 관심 많으시며 아이코젠 회원이시지만 아이코젠은 레슨 예약 시 이용 가능한 타석 예약을 위해 레슨권과 타석 크레딧 모두 추천 드림
+이슬기 회원님 지인 추천 받으셔서 지인 추천 이벤트도 안내 드림', 18, '2025-07-19T17:31:44', '2025-07-21T09:51:21', '상담기록', 771, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1179, '기간권 홀드 신청', '여행으로 인해 7월 20일~8월 3일까지 15일 홀드 신청 요청하셨습니다', 18, '2025-07-19T19:47:45', '2025-07-19T19:47:45', '회원요청', 676, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1180, '배연후 주니어 ', '어머니', 19, '2025-07-20T16:07:53', '2025-07-20T16:07:53', '회원요청', 772, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1181, '가입 후 무료 레슨 신청', '무료 레슨 1회 원하셔서 7월 23일 수요일 잡아드림.', 19, '2025-07-20T16:10:43', '2025-07-20T16:10:43', '회원요청', 772, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1182, '이정미(배연후 주니어)', ' 구분 : 방문상담
+고객명 : 이정미
+전화번호 : 010-5679-5277
+특기사항 : 배연후 주니어, 6학년 남자, 3년전 동광초에서 골프수업과 6개월 개인레슨 경험있슴.
+상담 후 주니어 가입, 차 후 주니어 개인 연습시 크레딧 구매 의향 있으심. ', 19, '2025-07-20T17:05:15', '2025-07-21T09:48:23', '상담기록', 772, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1183, '여성 블랙 가디건 (자라)', '2시경 휴게 의자에서 발견.
+스태프룸 스탠장에 놓음', 19, '2025-07-20T17:12:26', '2025-07-20T17:12:26', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1184, '락커 이동', '임은형 회원님 락커 이동 으로 오셔서 기존 락커 비워주시면 확인 후 이름표 제거해 주심 되세요. 그외 모든 처리는 완료 하였슴.하부장 132번->하부장 38번으로 변경하심.', 19, '2025-07-20T18:46:41', '2025-07-20T18:46:41', '회원요청', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1185, '소현정 회원님', '소현정 회원님 조조권 종일권으로 바꾸신다고 하시는 내용 카톡 채널 확인 부탁드립니다', 19, '2025-07-20T21:30:11', '2025-07-20T21:30:11', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1186, '레슨권 유효기간 1주일 연장', '7/20종료->7/27로 1주일 연장 요청 하셔서 해드림', 4, '2025-07-21T09:38:52', '2025-07-21T09:38:52', '회원요청', 570, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1187, '지해인', '구분 : 방문상담
+고객명 : 지해인
+전화번호 : 010-2770-4916
+특기사항 : 구력 8개월, 6개월 휴식. 이사오셔서 새로 시작하시려고함.
+주로 오전 시간대 방문 원하셔서 상담 받으시고 이재윤 프로로 패키지 등록', 4, '2025-07-21T11:18:05', '2025-07-21T11:24:40', '상담기록', 775, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1188, '고무티 위치', '새 고무티 어디에 있는지 아시는 분 계신가요?
+직원락커 하부에 하리보 통에 항상 있었는데 안보입니다.
+혹시 아시는 분 있으시면  위치 알려주시면 감사드립니다. 나사가 필요한데 못찾고 있습니다.
+혹시 다 썼으면 새로 주문해야합니다.', 4, '2025-07-21T11:59:42', '2025-07-21T11:59:59', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1189, '프린트 인쇄 안됨', '주문한 부품이 23일 수요일 배송 예정이오니 이후 프린트 사용 가능함.
+지해인 회원님 락카 네임텍 만들어 놓았는데 프린트를 못하였슴. 손글씨쓴 네임텍 대체중. 차 후 교체 필요!', 19, '2025-07-21T15:54:35', '2025-07-21T16:14:06', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1190, '레슨권 연장', '유효기한 만료된 레슨권 3회 1개월 연장해드림. 재가입시 레슨권 살려 기간 늘려 드린다 하였으나 다 쓰시고 재가입 원하셔서 해드림. 7월16일->8월13일로 변경', 19, '2025-07-21T18:00:25', '2025-07-21T18:03:00', '회원요청', 686, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1191, '기간권 시작일', '내일 부터 시작일 원하셔서 시작일 맞춰드림', 19, '2025-07-21T20:19:02', '2025-07-21T20:19:02', '회원요청', 46, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1192, '이다연 주니어 어머님', '이효진님 아내/ 이다연 주니어 어머님
+
+홍윤진님은 회원권 없음.
+주니어 예약은 레슨북만 등록 해도되므로 이런경우 이효진님에 이다연 주니어 올리고 홍윤진님은 가족(아내) 연락처 정도로만 등록하면 됨.
+홍윤진님은 레슨북, 채널만 등록하면 됨. 채널에 회원 번호 없더라도 성함(이다연주니어)로만 대화명 변경해두면 됨.', 4, '2025-07-22T09:47:26', '2025-07-22T09:47:26', '회원요청', 774, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1193, '락커 할인 조건 변경', '민경욱님과 락커 같이 사용 중이셔셔 할인 조건 300분->200분으로 변경(민경욱님 7/21 채널 확인)', 4, '2025-07-22T10:01:09', '2025-07-22T10:01:09', '회원요청', 631, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1194, '영수증 리뷰 방법 숙지 해주세요', '회원권 등록이나 미션완료 후 영수증 리뷰를 요청 드리는데 회원님들께서 리뷰가 익숙치 않아 직원들에게 도움을 요청하는 경우가 많습니다.
+리뷰등록 방법 미리 숙지하셔서 작성시 도움 요청 하시면 안내하실 수 있도록 해주세요.
+영수증인증시 매장 보관용 영수증으로 리뷰 작성하는경우 영수증상의 결제날짜로 리뷰가 등록 되므로 상위 노출이 안됩니다.
+그래서 꼭 리뷰 날짜 변경을 하루전 날짜로 변경해서 등록 해주세요~! 
+리뷰에 사용된 영수증은 폐기합니다. 회원님께 리뷰 완료 캡쳐보 채널 발송 요청하시고 가능하면 리뷰 작성 즉시 노출 확인 해주세요.
+
+
+상담 신청서 작성시 날짜, 상담 직원명 꼭 기재해주시고, 리뷰 작성이 확인 되어 적립 된 경우 엑셀 리뷰 리스트에 꼭 적어주세요', 4, '2025-07-22T10:05:01', '2025-07-22T11:05:59', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1196, '프린트 고장으로', '오늘 배정 받으신 유정원 회원님 상부 113번, 
+지해인 회원님 하부 132번 네임텍 교체 필요함', 19, '2025-07-23T12:56:26', '2025-07-23T12:56:26', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1198, '양도 양수 완료', '김광     회원님 (부) 크레딧 110,214 / 레슨 7회 (레슨기간 9월2일 까지)
+안영미 회원님 (모) 크레딧 116,613 / 레슨 5회 (레슨기간 9월2일 까지)
+모두 양수 함. 
+
+레슨은 crm 등록은 생략하였습니다. fms 프렌즈10등록 횟수 12회로 조정
+담당프로:김은성P
+주니어(중학생) 회원임으로 단독타석 만 이용 가능. 부모님 함께 동시 이용시 5,6번 타석 이용 가능
+', 16, '2025-07-23T17:13:03', '2025-08-03T11:25:54', '회원요청', 776, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1199, '양도-양수', '안영미 회원님의 [잔액 116,613c, 레슨권 5회(기간25.09.02)] 를 
+김도윤 회원님(관계:자녀)께  양도함
+', 16, '2025-07-23T17:43:59', '2025-07-23T17:44:37', '회원요청', 698, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1200, '양도 - 양수', '김광 회원님의 [잔액 110,214c, 레슨권 7회(기간25.09.02)] 를 
+김도윤 회원님(관계:자녀)께  양도함', 16, '2025-07-23T17:46:00', '2025-07-23T17:46:00', '회원요청', 699, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1201, '프렌즈 아카데미 어플 본인인증 필요', 'fms에서 이름 검색X 닉네임검색O의 경우 어플에서 본인인증안한것으로 예상 됩니다.
+방문하시면 본인인증 요청해주세요. 
+어플 오른쪽 상단 3줄바-계정관리- 본인인증 하면 됩니다.
+
+본인 인증 안할 경우 회원 등록 과정에서 qr인증하면 이름 안뜨고 닉네임 뜨는것으로 알고 있습니다. 신규 등록시 꼭 본인인증 요청하시고, qr인증시 이름이 제대로 나오는지 확인 후 등록 절차 진행 해주세요', 4, '2025-07-24T10:12:53', '2025-07-24T10:12:53', '회원요청', 776, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1202, '주니어레슨권 이용 기간 변경', '7/23일 등록이었는데 시작일 8/1로 변경 종료일10/22->10/31로 변경 완료', 4, '2025-07-24T10:31:53', '2025-07-24T10:31:53', '회원요청', 379, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1203, '재고관리', '로스트볼 창고에 있던거 앞에 진열 해 두었습니다. 추가 주문해서 배송오는 상품은 창고 맨 오른쪽 락커 장갑 있는데 두시면 될것 같습니다. 혹시 자리 좁으면 맨 왼쪽 장에 두셔도 괜찮습니다. 정리해주시고 위치 공유해주세요
+장갑재고는 창고 있는거랑 정리해서 모자란건 진열해 두었습니다. 장갑소진이 아주 빠른건 아니라 재고가 1개 이상씩 남아있어 품절 되는 시점에서 추가 주문 하려고 합니다. ', 4, '2025-07-24T10:59:02', '2025-07-24T10:59:02', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1204, '민생소비쿠폰', '우리 매장은 민생소비 쿠폰사용이 가능 한 매장입니다.
+서울사랑상품권 등 상품권 이용 가입이 되어있는 매장은 아니므로 카드 결제시에만 사용 가능하며,
+사용시 별도의 조취없이 민생소비 쿠폰 포인트가 들어가 있는 카드라면 결제시 카드 대금이 아닌 포인트 사용이 자동적으로 우선 적용 된다고 합니다.
+해당 사항은 민생소비 쿠폰 사용 기한인 11/30까지 이며 회원님들께서 문의 주시면 사용가능 안내해주시면 됩니다.', 4, '2025-07-24T12:16:21', '2025-07-24T12:16:21', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1205, '손창훈', '구분 : 워크인 방문상담
+고객명 : 손창훈
+전화번호 : 010-3085-3024
+특기사항 : 근처 거주하셔서 지나가다 들르심
+구력은 4년 정도이며 레슨은 관심 없으시며 타석 이용만 하신다고 함
+체험으로 해보길 원하셔서 체험 타석 20분 열어드렸고 이용 후 만족하시며 등록', 18, '2025-07-24T19:00:59', '2025-07-31T09:53:39', '상담기록', 778, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1206, '재등록', '7월23일 10타 줄이기 상품 결제 후 fms 등록 후 취소 하시고 골드 패밀리로 변경 하심. 등록한 fms 레슨권 0적용 왼료.', 19, '2025-07-25T09:55:29', '2025-07-25T09:55:29', '회원요청', 379, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1207, '레슨권 1개월 연장', '3개월 제주도 생활로 레슨권 연장 원하셔서 만료일 9/26 ->10/26 1개월 연장해 드림.', 19, '2025-07-25T10:45:19', '2025-07-25T10:45:19', '회원요청', 727, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1208, '박지은', '구분 : 방문상담
+고객명 : 박지은
+전화번호 : 010-3887-7783
+특기사항 : 중2, 여자, 강지성 주니어 상담, 현재 학교에서 방과후 골프 듣는데 잘한다 하셔서 레슨 받아보려서 문의하러오심. 
+매장 ppt및 네이버 체험 안내함
+남편 강성민님도 골프 치셔서 골드 패밀리 상품 추천해드림', 19, '2025-07-25T13:52:32', '2025-07-25T13:52:32', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1209, '타석권 유효기간 연장', '2025년 6월이 타석권 만료일이라 연장해드림(타석권 구매 당시는 유효기간이 있었음)', 18, '2025-07-25T16:02:18', '2025-07-25T16:02:18', '회원요청', 38, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1210, '정수지', '구분 : 방문상담
+고객명 : 정수지
+전화번호 : 010-7456-9724
+특기사항 : 네이버톡으로 타석 이용 문의 주셔서 방문 상담 도와드리고 등록하심. 골프 입문으로 회사 근처에서 레슨만 30회 등록해서 10회 받으셨는데 집 근처 연습만 이용 원하셔서 상담 하심. 6개월 기간제 & 3회 체험레슨 등록하심. 체험레슨 잘 맞으시면 기존 받고 있는 레슨 끝나면 여기로 옮길 생각이심. 초등 1학년 자녀도 추후 레슨 생각 중이심
+', 19, '2025-07-26T11:17:05', '2025-07-31T09:53:00', '상담기록', 779, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1213, '1개월기간권 8월 1일 시작 요청', '7월 26일 구매 시 8월 1일로 기간권 시작 요청 하셔서 7월 31일까지 홀드', 18, '2025-07-26T16:06:53', '2025-07-26T16:06:53', '회원요청', 780, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1214, '1개월 기간권 8월 1일 시작으로 홀드 요청', '7월 26일 구매 시 8월 1일로 기간권 시작 요청 하셔서 7월 31일까지 홀드', 18, '2025-07-26T16:08:41', '2025-07-26T16:08:41', '회원요청', 781, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1215, '신규 가입 등록 절차 필요', '본인 대신 남편분(성운제 회원님)께서 오셔서 등록하셔서 앱 다운, 본인인증 및 fms  등록, 카카오톡 친추등의 신규가입 절차가 필요합니다', 18, '2025-07-26T16:12:26', '2025-07-26T16:12:26', '회원요청', 781, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1216, '성운제,안재명', '구분 : 네이버 문의 후 방문
+고객명 : 성운제
+전화번호 : 010-5267-9063, 010-2383-1108
+특기사항 : 네이버로 1개월 기간권 문의 후 방문
+남편분 혼자서 아내분까지 등록 및 결제하고 가심 
+8월 1일 기간권 시작 요청
+8월 1일 방문시 락커이용 원하시나 보증금등의 문제로 여러모로 크레딧 결제 하실걸로 보입니다', 18, '2025-07-26T16:38:58', '2025-07-31T09:52:38', '상담기록', 780, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1217, '전상혁', '구분 : 방문상담
+고객명 : 전상혁
+전화번호 : 010-5231-9008
+특기사항 : 근처 거주하셔서 들리심
+민생회복 쿠폰 사용 가능하다는거 보고 오셨다고 함
+레슨은 관심 없고 기간제 이용 원하셨으나 이래저래 크레딧 타석 이용을 고민하심
+둘 중 하나 정해서 다시 오신다고 하십니다.', 18, '2025-07-26T18:09:48', '2025-07-31T09:52:22', '상담기록', 784, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1218, '레슨권 유효기간 연장', '7월 30일 만료일이었으나 김은성 프로님의 휴무일 변경으로 레슨 시간이 맞지 않아 8월 6일까지 일주일 연장해드림', 18, '2025-07-26T21:37:46', '2025-07-26T21:37:46', '회원요청', 650, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1219, '주니어 재등록', '박서우 주니어 재등록.
+여름 휴가로 시작일 8월 24일 부터 적용.', 19, '2025-07-27T13:57:13', '2025-07-27T13:57:13', '회원요청', 561, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1220, '고원호', '구분 : 전화상담
+고객명 : 고원호
+전화번호 : 010-4218-3727
+특기사항 : 웰빙이용 하는거 물어보시고 별도로 레슨은 필요 없으시고 타석 이용방법과 락커이용료 물어보심. 간단히 설명해드림.', 19, '2025-07-27T14:16:10', '2025-07-27T14:16:10', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1221, '이태영', '구분 : 방문상담
+고객명 : 이태영
+전화번호 : 010-8775-7131
+특기사항 : 구력3년, 타석이용만 원하셔서 전반적인 안내 도와드림. 조금더 생각해 보시고 오신다고함', 19, '2025-07-27T15:02:37', '2025-07-27T15:02:37', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1222, '스크린에 볼 스펙정보가 안뜰때', '타석이용중 오른쪽 볼 스펙정보가 스크린에 안뜰때는 모니터스크린 오른쪽 상단 설정에 들어가서 \'볼 스펙정도->사용\'으로 변경해야 함.', 19, '2025-07-27T15:21:04', '2025-07-27T15:21:04', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1224, '다리 부상으로 인한 잔여 크레딧, 레슨권은', '다리 부상으로 남은168,966c, 레슨권 4회 못쓰셔서 가족인 따님이 쓰시기로 함.
+따님이 주니어로 타석예약시 단독타석 이용과 본인이 함께 오신다고함.
+오늘 락커 반납하심. 처리완료
+', 19, '2025-07-27T17:18:14', '2025-07-27T17:18:14', '회원요청', 683, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1225, '레슨권 합산', '재등록으로 기존 2회 남은 레슨권 2주 연장해드리고fms 레슨권 합산해드림.총38회임', 19, '2025-07-27T18:33:07', '2025-07-27T18:33:07', '회원요청', 671, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1226, '프로님 변경', '토요일  레슨 원하시는대 김은성 프로님과 시간 안맞으셔서 이재윤 프로님으로 변경함', 19, '2025-07-27T18:51:01', '2025-07-28T12:57:59', '회원요청', 650, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1227, '락커 이동', '락커 상부장#63 -> 하부장#32 으로 배정. 카톡 안내 문자 보냄. crm처리 및 네임텍 완료. 상부장 비우시면 확인 후 처리 필요
+', 19, '2025-07-27T19:02:58', '2025-07-27T19:02:58', '회원요청', 177, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1228, '레슨권 시작일', '29일 부터 시작일로 fms종료일 2일 연기함', 19, '2025-07-27T21:07:57', '2025-07-27T21:07:57', '회원요청', 782, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1229, '서주현', '구분 : 방문상담
+고객명 : 서주현
+전화번호 : 010-7509-7973
+특기사항 : 아이코젠 사용하시는데 완전 초보시라 레슨 필요하다고 하셔서 상담 도와 드리고 가입하심. ', 19, '2025-07-27T21:11:18', '2025-07-31T09:52:02', '상담기록', 782, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1230, '레슨권 조정', '시작일 내일로 원하셔서 fms 레슨 종료일 1일 연기함', 19, '2025-07-29T11:48:59', '2025-07-29T11:48:59', '회원요청', 783, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1232, '박정우', '구분 : 방문상담
+고객명 : 박정우
+전화번호 : 010-9902-5183
+특기사항 : 입문, 네이버 체험 후 등록하심, 매장PPT안내, 지인 김호균 회원님 소개, 대학생이라 우선 여름 방학 1개월 레슨 받고, 앞으로 겨울 방학때 3개월 더 받으실 생각, 목동 12단지 거주', 19, '2025-07-29T12:05:01', '2025-07-31T09:51:49', '상담기록', 783, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1233, '룰렛 이벤트', '오늘자 룰렛 당일 연습 50% 할인 나옴, 기간제 회원이시라 적용 대상자가 아니심.', 19, '2025-07-29T12:19:25', '2025-08-05T10:09:42', '회원요청', 26, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1234, '락커 안열림', '오늘 오전 무인 시간대 타석 이용하셨는데 락커가 안열려 매장 클럽 사용하심, 마스터키로 열어놓음', 19, '2025-07-29T12:48:23', '2025-07-29T12:48:23', '회원요청', 672, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1235, '남성', '구분 : 전화상담
+고객명 : 남성
+전화번호 : 01046567831
+특기사항 : 타석 이용 문의, 크레딧 설명, 예약 운영 설명, 두번째 통화라고 하십니다. ', 16, '2025-07-29T16:59:56', '2025-07-29T16:59:56', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1236, '서비스 최초 이용전 환불', '7월 24일 회원 등록 (35만 크레딧)
+7월 25일 취소 요청 (전화통화: 서비스 최초 이용전 환불 요청이므로 환불 가능 안내)
+7월 29일 카드 취소 (fms 날짜 수정, crm회원권 삭제, 크레딧 차감 하였습니다)
+', 16, '2025-07-29T19:35:43', '2025-07-29T19:35:43', '회원요청', 778, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1237, '타석 쉐어링', '동반 입장만 타석 오픈 가능 한 거 알고 계시지만 한번만 오픈 해 달라고 간곡히 요청하셔서 배우자분 혼자 오셨을때 오픈 해드렸습니다. 다음번엔 불가함', 16, '2025-07-29T21:00:17', '2025-07-29T21:00:17', '회원요청', 36, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1238, '기간권 시작일 변경 요청', '1개월 기간권 시작일을 8월 1일로 변경 요청', 18, '2025-07-30T13:15:38', '2025-07-30T13:15:38', '회원요청', 784, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1239, '예약 qr인증 필요', '어플로 예약이 안된다고 하셔서 8/2 토요일 13:30 레슨과 6번 타석매장에서 예약 잡아드렸습니다. 방문하시면 꼭QR인증 해주세요!', 4, '2025-07-31T11:15:48', '2025-07-31T11:15:48', '회원요청', 702, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1240, '4번타석 공 올라 올때 소음발생', 'AS신청 해놓고 고무티 연결 쇠 바 2개 윤활제도 뿌려 놓았습니다.
+4번타석 커버가 나사 마모로 열지 못하는 상태 입니다.
+기사님 연락 오시면 마모된 나사 푸는 방법 문의, 윤활제 뿌리는 위치 확인 후 자체 수리 가능하면 출장 취소,
+자체 처리 어렵다면 방문 신청 해주시고 수리 후 4번 타석 막아둔 것 풀어주세요. 출장 시 대표님께 말씀해주세요
+기사님 오시면 9번타석 커버 나사 하나가 없는데 그 부분 나사가 잘 안 들어 갔었습니다. 기사님께 확인 요청 해주세요.
+
+그외 타석 AS처리 할것 있으면 대표님께 말씀해주시고 출장 오셨을 때 일괄 처리 할 수 있도록 해주세요.', 4, '2025-07-31T11:54:41', '2025-07-31T12:04:57', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1241, '락커 이동시 추가금 발생 처리', '락커 이동시 하부장이 상부장보다 비싸므로 상부장-> 하부장 이동시 추가금을 꼭 추가 차감 해야합니다.
+락커 탭에서 이동 처리 하더라도 자동 과금이 되지 않으므로, 처리하는 직원이 꼭 일자 계산하여 수동차감 내용에 락커이동 추가금 등으로 명시 해 두어야 합니다.
+
+EX) 우원근 회원님 27일에 상부-> 하부장 이동 으로 일간 하부장 이용에 대한 추가금 발생
+50%할인 받으시는 회원이므로 하부장 15000크레딧/30일=500(일단가) 으로 계산하여
+500(일단가) X 5일=2500원 추가금 발생 되므로 크레딧 차감이 되어야 합니다.
+
+락커 이동은 꼭 월말에만 있는것이 아니니 이동시 꼭 추가금 체크 하시고 차감 해주세요', 4, '2025-07-31T12:54:45', '2025-07-31T12:58:24', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1242, '허광철', '구분 : 워크인 방문 상담
+고객명 : 허광철
+전화번호 : 010-6370-3951
+특기사항 : 근처 거주하시며 지나가다가 들리심
+주니어(초등학교 3학년) 레슨 관심 있으셔서 레슨 상담 및 가격 알아가심
+아버지 본인도 현재 다른 골프장 이용중이시며 11월에 옮기실 예정이시라 관심있으심
+주니어 레슨 체험 다음주 월,화중 원하시며 어머니랑 학원 안겹치는 시간으로 체험 예약주신다고 하십니다', 18, '2025-07-31T18:21:30', '2025-07-31T18:21:30', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1243, '조조 기간제 홀드 요청', '8월1일 조조 기간제 시작을 원하셔서 7월 31일 1일 홀드 등록', 18, '2025-07-31T20:19:13', '2025-07-31T20:19:13', '회원요청', 38, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1244, '김정훈', '구분 : 워크인 방문상담
+고객명 : 김정훈
+전화번호 : 010-6206-8973
+특기사항 : 근처 거주하심
+아내분과 같이 방문하셔서 두분 다 등록 권유하였으나 아내분은 남편분과 올때만 이용하실거라 남편분만 등록하심
+두분 다 레슨은 관심 없으시며 평일 피크시간 이용하실예정(피크시간 할인 중요)', 18, '2025-07-31T21:09:17', '2025-08-01T10:20:02', '상담기록', 785, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1245, '레슨권 1주일 연장요청', '출장으로 인한 연장요청
+부상 1개월 + 1주일 연장
+최종연장 안내함', 1, '2025-07-31T21:50:23', '2025-07-31T21:50:23', '회원요청', 636, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1246, '락커 보증금 15만원', '김캐디 1개월 이용권 이용
+락커도 8월 1개월 이용예정이라 2만원 크레딧 충전-락커비 결제 완료
+락커 보증금 8/1 15만원 계좌 이체로 완료. 락커 반납시 보증금 환급 예정', 4, '2025-08-01T11:08:09', '2025-08-01T11:08:09', '회원요청', 784, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1247, '락커 배터리 교체', '락커 종종 안열리는 경우 있습니다.
+아예 먹통인 경우(마스터 키도 안먹는 경우) 는 왼쪽 서랍 9v배터리를 락커 번호키 하단에 은색 동그라미 두개에 맞춰 임시 충전을 하고 마스터키로 엽니다.
+문 안쪽 번호키 나사를 푸르고 상부를 위로 밀면 뚜껑이 열립니다. AA배터리 3개 교체 하면 수리 완료.
+
+배터리 수명 다된 경우가 많으니 숙지하셨다가 필요시 교체 해 주세요', 4, '2025-08-01T11:59:10', '2025-08-01T11:59:10', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1248, '창고 비품정리', '골프공(로스트볼) , 장갑 등 판매 용품들 창고 맨 왼쪽 장으로 옮겨 두었습니다. 기존에 왼쪽 장에있던 쿠폰, 드라이버커버(프렌즈상품 아닌것들) 을 맨 오른쪽으로 옮겨 두었습니다.
+물건 찾을실때 참고해주세요', 4, '2025-08-01T14:20:26', '2025-08-01T14:20:26', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1249, '기간권 소멸 - 크레딧 적립', '출퇴근 문제로 이용 중이던 조조 기간권 사용이 어려워져서 전일권으로 변경 원하셨습니다.
+전일 기간권 결제할 금액에서 이용 중이던 조조 기간권의 남은 잔여 일수 금액으로 계산해서 빼어드리기로 상담하셨다가 기간권 사용이 어렵겠다고 하셔서
+크레딧 구매하시고 이용 못하시는 기간권에 대해서는 크레딧으로 적립해 드렸습니다.
+기간권 남은 일수 계산해서 크레딧으로 변경하는 건 불가합니다. 이번 건은 예외적인 경우로 보시면 좋을 것 같습니다.', 16, '2025-08-02T08:59:44', '2025-08-02T08:59:44', '회원요청', 701, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1250, '유효기간 지난레슨권 1회', '유효기간 2025.08.01일까지인 레슨권 1회 8월2일에 사용하심. 다음주 재등록 하신다하여 유효기간 지난 1회권 사용 도와드림.', 19, '2025-08-02T15:53:22', '2025-08-02T15:53:22', '회원요청', 702, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1251, '지인 이벤트', '남편 김정훈님 소개로 등록. 35000 양쪽 수동 적립 완료', 19, '2025-08-02T19:18:22', '2025-08-02T19:18:22', '회원요청', 786, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1252, '문현주', '구분 : 방문상담
+고객명 : 문현주
+전화번호 : 010-2927-1872
+특기사항 : 김캐디 1회권 이용하심(주니어가 이용),피규연 주니어, 초3, 외국에서 5회 레슨 받았다고 하심.
+전반적인 매장 안내 드리고 내일 무료체험예약 잡아드림
+', 19, '2025-08-02T20:39:10', '2025-08-02T20:39:10', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1253, '양도양수', '김영민 회원님 엘보 증상으로 장기간 휴식 필요하여 남편 정종우 님께 
+레슨 8회(기간:12월 11일 까지,담당프로 이재윤) /  347,650c 양도함
+
+레슨은 crm 등록은 생략하였습니다. fms 체험레슨3등록 - 횟수 8회로 조정', 16, '2025-08-03T11:10:55', '2025-08-03T11:23:50', '회원요청', 787, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1254, '양도양수', '김영민 회원님 엘보 증상으로 장기간 휴식 필요하여 남편 정종우 님께
+레슨 8회(기간:12월 11일 까지,담당프로 이재윤) / 347,650c 양도함', 16, '2025-08-03T11:28:06', '2025-08-03T11:29:18', '회원요청', 769, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1255, '여성(톡톡닉네임MM)', '구분 : 전화 상담
+고객명 : 여성(톡톡닉네임MM)
+전화번호 : 010-3020-2004
+특기사항 : 골프 입문, 이번 가을에 라운딩 가는 목표
+                    단기간에 많은 이용 원함, 
+                    크레딧 무기간, 우리매장의 독립적인 타석의 장점, 30분부터 원하는 시간 단위 예약 가능, 등등 설명 드렸습니다. 무료체험 안내 드렸습니다.', 16, '2025-08-03T11:33:37', '2025-08-03T11:33:37', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1256, '락커 2개 배정(아내 안재명 회원님)', '안재명 회원님(아내) 락커 이용분도 성운제님 크레딧차감으로 해드림.
+', 19, '2025-08-03T14:51:57', '2025-08-03T14:51:57', '회원요청', 780, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1257, '락커이요금 첨부는 남편 성운제 회원님이', '본인 락커 이용금은 남편분 성운제님이 크레딧에서 차감하심.', 19, '2025-08-03T14:53:03', '2025-08-03T14:53:03', '회원요청', 781, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1258, '최노미', '구분 : 방문상담
+고객명 : 최노미
+전화번호 : 010-6332-8973
+특기사항 : 남편분 김정훈 회원 소개로 등록하심. 지인 이벤트 양쪽 드림. 타석권만 구매.
+매장 안내는 기존 김정훈님과 방문때 들으셔서 따로 안드림. 
+
+', 19, '2025-08-03T14:58:04', '2025-08-14T11:21:32', '상담기록', 786, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1259, '지인 이벤트', '최노미(아내) 회원님 소개 35000C 적립', 19, '2025-08-03T15:12:34', '2025-08-03T15:12:34', '회원요청', 785, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1260, '지인 소개 이벤트', '남편 왕희선 회원님 소개로 35000C 적립해 드림', 19, '2025-08-03T17:04:48', '2025-08-03T17:04:48', '회원요청', 788, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1261, '지인 소개 이벤트', '아내 여진주 회원님 소개해 주셔서 35000c 적립해 드림', 19, '2025-08-03T17:06:50', '2025-08-03T17:06:50', '회원요청', 84, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1262, '양지은', '구분 : 방문상담
+고객명 : 양지은
+전화번호 : 010-7553-3017
+특기사항 : 정윤채 주니어(초3), 정윤아 주니어(초2), 입문, 어제 방문상담하신 문현주님 소개로 무료 레슨 체험 진행. 1:1로 진행. 매장 안내 도와 드리고 아이들 체험 레슨 만족도 높음. 추후 1:1 레슨 선호. 하페주차안내 드렸으나 주차가 불편하시다고 함.  현재 수영을 배우고 있어 조금 더 생각해 보겠다 하심.
+', 19, '2025-08-03T17:23:33', '2025-08-03T17:23:33', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1263, '박재용', '구분 : 방문상담
+고객명 : 박재용
+전화번호 : 010-3032-7125
+특기사항 : 주먹구구식으로 배우신 구력2년차, 골린이, 내년 정년퇴직 후 취미생활 알아보시다 골프 집중적으로 배워 볼까 가격, 이용방법 상담 받아 보시고자 방문하심. 전반적인 안내 도와드리고(1시간 타석 이용료 매우 만족하심) 무료 체험 레슨 예약 잡아 드렸으나 개인 일정으로 당일 취소하심. 집은 근처이심.
+', 19, '2025-08-03T17:46:40', '2025-08-03T17:46:40', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1264, '주니어 학부모 할인 미적용분', '2025년7월27일자 사용분 미적용으로 2500c적립해드림', 19, '2025-08-03T21:23:27', '2025-08-03T21:23:27', '회원요청', 583, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1266, '정현영', '구분 : 방문상담
+고객명 : 정현영
+전화번호 : 010-6279-7845
+특기사항 : 골프구력 조금 있으시고 기본기도 있으신데 집중레슨 1개월 받고 싶으셔서 상담. 근처 거주하시고 현재 하페2차 골프연습장 다니시는데 공사로 이용 못해 1개월 이용할 곳 찾으심. 매장 소개 해드리고 네이버 체험 레슨 잡아드림.', 19, '2025-08-04T12:53:32', '2025-08-04T12:53:32', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1268, '윤재경', '구분 : 방문상담
+고객명 : 윤재경
+전화번호 : 010-9673-0727
+특기사항 : 남편분 서정탁님 (010-2753-1100) 워크인 으로 단독 타석 이용하심(9홀 치심), 남편 분 치시는 동안 레슨 상담 해드림. 왕초보 이시고 현재 다른 인도어 이용 중이신데 실내 연습장 방문 겸 상담해드림.', 19, '2025-08-04T13:04:05', '2025-08-04T13:04:05', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1269, '톡스토어 결제', '톡스토어 구매 후 다시 취소 하시고 다음날 오셔서 오프라인 결제 하시는 경우가 있으니 구매 결정까지 확인이 필요하며 구매 결정 전에는 취소 가능하니 계속 모니터링이 필요하니 참조 바랍니다.
+', 19, '2025-08-04T15:16:58', '2025-08-04T15:16:58', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1270, '신명화', '구분 : 방문상담
+고객명 : 신명화
+전화번호 : 010-4077-8637
+특기사항 : 구력10년이상, 하페2차 연습장 사용중이신데 공사로 타석이용 상담하러 오심. 매장 안내해 드리고 등록하심.
+', 19, '2025-08-04T19:19:45', '2025-08-14T11:15:05', '상담기록', 790, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1271, '이수진', '구분 : 방문상담
+고객명 : 이수진
+전화번호 : 010-7139-8083
+특기사항 : 구력2년이라 레슨 필요 없고 네이버 무료타석 이용해 보신다고 남편(김수찬 010-7788-8032)분이 예약하심. 하페2차 거주하시고 하페2차 골프 연습장 이용중이나 공사로 타석이용 상담. 매장 안내해 드리고 등록하심.
+', 19, '2025-08-04T19:22:45', '2025-08-14T11:13:43', '상담기록', 789, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1272, '류지선', '구분 : 방문상담
+고객명 : 류지선
+전화번호 : 010-4077-8637
+특기사항 : 남효주 주니어, 경인초, 네이버 주니어 체험, 기존에 마포쪽 1인 프로 아카데미에서 레슨 받음. 늘지 않아서 오심.  부모와 필드 나가서 칠 정도로 배우고 싶으시다고 매장 상담 도와 드리고 체험 후 등록 하심.
+
+
+', 19, '2025-08-04T19:49:17', '2025-08-14T11:12:04', '상담기록', 791, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1273, '프로님 변경', '이재윤 프로님 시간이 안맞으셔서 김주순 프로님으로 변경해 드림.', 19, '2025-08-04T20:19:01', '2025-08-04T20:19:01', '회원요청', 328, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1274, '락커 닉네임', 'fms 닉네임은 najane 이셔서 crm 닉네임도 najane 으로 입력함. 
+회원님의 요청으로 락커 #65 닉네임은 JANE 로 해드림.
+', 19, '2025-08-05T11:52:39', '2025-08-05T11:52:39', '회원요청', 792, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1275, '김재연', '구분 : 방문상담
+고객명 : 김재연
+전화번호 : 010-2757-1144
+특기사항 : 구력10년이상, 스포짐에서 헬스&골프 이용중 이신데 골프가 비싸고 시설 노후로 옮기려고 방문. 예전에 방문 상담하셨는데 정보가 없슴. 간단히 안내 해드리고 등록 하심.
+', 19, '2025-08-05T11:58:31', '2025-08-14T11:11:54', '상담기록', 792, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1276, '권현영', '구분 : 전화상담
+고객명 :권현영
+전화번호 : 010-8579-2128
+특기사항 : 초6(여), 중2(남) 입문 주니어 레슨 문의, 간단한 커리큘럼과 네이버 체험 안내해 드림.
+', 19, '2025-08-05T12:29:24', '2025-08-05T12:29:24', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1277, '양도양수 재상담', '만료된 레슨권 10회에 대하여 기간 연장을 적용하여 양도를 원하셨지만
+불가하고, 재등록으로 지난 레슨권 구제하는 해택으로 설명드렸습니다.
+크레딧 + 재등록 프렌즈10 추가구매 할 경우 +지난 레슨 10회 부활
+본인이용 레슨권 기간 1년 적용 / 가족 양도 레슨권 기간 6개월 ,수수료X / 타인 양도 레슨권 기간 6개월 , 수수료 66,682원', 16, '2025-08-05T15:26:31', '2025-08-05T15:27:19', '회원요청', 293, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1278, '10,000c적립', '회원등록 전일 8월5일 이용하신 1회 이용 25,000원 에 대하여 회원 시간이용권 적용해서, 
+카드 취소 대신 차액 10000c 적립해드렸습니다', 16, '2025-08-06T17:37:59', '2025-08-06T17:37:59', '회원요청', 794, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1279, '레슨권 재등록, 기간추가', '레슨권 재등록 하셔서 25.5.8 종료되었던 레슨19회 부활 및 기간 3개월 추가 해드렸습니다.
+', 16, '2025-08-06T20:17:48', '2025-08-06T20:17:48', '회원요청', 305, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1280, '레슨 횟수', '체험레슨3 카드 결제 취소, 회원권 등록 취소
+프렌즈10 계좌송금으로 결제 - crm에 톡스토어결제로 등록했습니다.
+crm fms 레슨 횟수 불일치. 10회 등록이 맞습니다. ', 16, '2025-08-06T21:09:39', '2025-08-06T21:09:39', '회원요청', 733, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1281, '수강 확인증 관련하여', '발급드린 수강확인증 관련하여 회사에서 확인 전화 매장으로 오면 본인 단독(자녀와 같이쓰지 않고)으로 수강한다고 하면 된다하심. 굳이 안물어보시면 안얘기해도됨. ', 19, '2025-08-07T12:08:33', '2025-08-08T09:41:40', '회원요청', 435, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1282, '김방선 회원님 수강 확인증 관련하여', '발급드린 수강확인증 관련하여 회사에서 확인 전화 매장으로 오면 본인 단독(자녀와 같이쓰지 않고)으로 수강한다고 하면 된다하심. 굳이 안물어보시면 안얘기해도됨. 
+
+', 19, '2025-08-07T12:10:39', '2025-08-08T09:40:34', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1283, '클레임 전화 및 환불 혹은 연장 여부 문의', '홍성표 회원님 아내분이 2025년 1월에 만료된 레슨권을 가지고 항의 전화가 오심
+항의 내용은 그 당시 손목이 안좋아서 골프를 못갔고 그 내용은 이재윤 프로님도 아신다 그런데 어떻게 회원이 안오는데 챙기지도 않고 연락도 없냐고 하심 돈만 받으면 다냐고 난리가 나심
+그건 프로님의 의무가 아니고 그당시 데스크에 병원 소견서나 서류를 가져왔으면 레슨권 기간을 홀딩해드렸겠지만 그런 메모가 없다고 하니 데스크엔 말한적 없지만 회원이 안오면 신경써야하는거 아니냐며 따지심 
+레슨권 재연장할경우 기간 늘려드리는거 가능하고 크레딧의 경우는 지금도 쓰실수 있다고 해도 환불 문의를 하셔서 규정에 따라 레슨권의 경우 유효기간이 지나 환불 불가, 크레딧의 경우는 60%를 쓰지 않아 불가능하다고 하니 또 화를 내심
+결국 크레딧이라도 환불 가능한쪽으로 할지 아니면 레슨권 등록후 유효기간 늘리는쪽으로 할지 생각해본 후 연락주시기로 함', 18, '2025-08-07T20:12:19', '2025-08-07T20:12:19', '회원요청', 31, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1284, '송대근', '구분 : 워크인 방문상담
+고객명 : 송대근
+전화번호 : 010-6318-9218
+특기사항 : 근처에 거주하시며 기간제+레슨에 관심있으심
+그러나 기간제가 조조가 아닌 이상 저렴하진 않은거 같아서 고민이시라 1개월 이벤트 기간제 139000원 있다고 말씀드리니 1개월씩 결제하면 그게 더 이득아니냐고 관심보이심(아마 등록하신다면 이걸로 하실거 같습니다)
+레슨도 관심보이셔서 체험 레슨 추천 드렸고 시간 정해서 연락주신다고 하심
+', 18, '2025-08-08T19:46:04', '2025-08-14T11:11:40', '상담기록', 795, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1285, '시작일 8월 9일로 등록 요청', '8월 8일 등록 당일 이용 원하셨으나 오픈타석 빈타석이 없어 이용 못하시고 시작일을 8월 9일로 1일 홀드', 18, '2025-08-08T20:18:39', '2025-08-08T20:18:39', '회원요청', 795, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1286, '기간권 시작 및 단독타석 추가요금 결제', '8월 8일 김캐디 1개월권 등록 후 바로 이용원하셨습니다. 당시 단독타석만 가능해서 단독타석 추가금 3000원 결제하셨으며 등록 후 바로 이용하심', 18, '2025-08-08T21:43:33', '2025-08-08T21:43:33', '회원요청', 796, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1287, '상담시 주의사항', '기간제 상품만으로는 우리 매장은 큰 경쟁력이 없습니다.
+골퍼의 70%는 일주일에 두세번 이하로 연습하기 때문에 대부분의 니즈에 맞고 오히려 더 경제적인 크레딧 제도를 공들여 만들어 놓은 것입니다.
+특히 유효기간 무기한, 자율시간제는 다른 매장에서는 흉내도 낼 수 없는 장점이고, 꾸준히 재등록이 일어나는 중요한 요인입니다.
+김캐디 1개월 기간권 미끼 상품으로 오더라도 결제하고 오셨다고 그냥 등록해버리고 끝내면 안되고 크레딧 회원으로 전환 유도를 반드시 시도해 주시기 바랍니다.
+하물며, 일반 워크인 고객에게 김캐디 미끼 상품을 권하는 것은 절대 하지 않는 것으로 하겠습니다. 어차피 우리 매장의 장점을 하나도 누릴 수 없기 때문에 뜨내기 손님이 될 가능성이 크고 무기한 예약권 부여된 상황에서 한달마다 재등록 챙기기도 어렵습니다.
+1개월 기간권 회원 기간종료 후 타석이용하다가 재등록 안내하니 기분나빠서 중간에 가신적도 있었죠. 절대 우리 매장을 다시 찾지 않고 주변에 악담을 하게 할 만한 최악의 고객 경험입니다.
+기간제 상품은 궁금하면 물어볼테니 처음에는 설명 자체를 하지 않고 그냥 ‘있다’ 정도로 언급하고 넘어가도 됩니다. PPT에도 기간제 설명부분에 거의 비중을 두지 않은 이유도 마찬가지 입니다.', 1, '2025-08-09T01:11:26', '2025-08-09T01:18:39', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1289, '최성훈', '구분 : 방문상담
+고객명 : 최성훈
+전화번호 : 010-9026-4296
+특기사항 : 구력 10년, 타석이용만 원하셔서 매장 안내 도와드리고 등록하심.
+', 19, '2025-08-09T15:20:53', '2025-08-14T11:11:19', '상담기록', 797, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1290, '김현지', '구분 : 방문상담
+고객명 : 김현지
+전화번호 : 010-7325-7532
+특기사항 : 어렸을 적 조금 배우시다 흥미 없어 그만둠. 그냥 막 필드 나가고 스크린 치니 엉망에 회사 일로 골프 필드 나가야 해서 배우러 오심. 매장 안내 도와드리고 등록하심. 인금거주. 지인 분 전아현님 소개로 오심. ', 19, '2025-08-09T15:21:43', '2025-08-14T11:10:59', '상담기록', 798, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1291, '잔여 크레딧 정산처리', '이사로 더이상 못다심. 잔여 8515c은 로스트볼2개 구매= 잔액 \\1485 이나 락커 8월분 나갔는데 오늘 짐 다빼시고 반납 처리하는 걸로 추가금 끝내기로함. 정산처리 완료.
+', 19, '2025-08-09T15:37:54', '2025-08-09T15:37:54', '회원요청', 92, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1293, '락커 반납', '엘보 진단으로 당분간 이용 못하신다고 락커 비우심. 반납처리 해드림.', 19, '2025-08-09T17:46:59', '2025-08-09T17:47:15', '회원요청', 701, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1294, '레슨권 연장', '일과 휴가로 최소 1회로 1개월 연장해드림. FMS 연장 완료.', 19, '2025-08-09T18:18:14', '2025-08-09T18:18:14', '회원요청', 726, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1296, '주니어 기간연장', '임하준 주니어 여름 휴가로 연장 처리 완료/ 종료일 9월7일=>9월29일 로 변경(잔여 레슨5회).
+
+작성 번호 836. 기간 연장 후 재등록 분에 해드림.', 19, '2025-08-09T18:24:32', '2025-08-09T18:24:32', '회원요청', 643, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1297, '강준효', '구분 : 방문상담
+고객명 : 강준효
+전화번호 : 010-5051-7285
+특기사항 : 전화주시고 당일 네이버 체험, 구력3년 이상, 아내 전지원 회원님 소개로 이재윤 프로님 레슨 상담. 
+매장 PPT안내 및 등록하심
+', 19, '2025-08-09T18:29:09', '2025-08-14T11:10:51', '상담기록', 799, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1298, '양도양수 문의', '남편 임수철 회원님 잔여 6회 레슨권 양도양수 원하셔서 신분증 가지고 방문하신다고 함.
+최초 1회로 양도 양수 가능함.', 19, '2025-08-09T19:20:00', '2025-08-09T19:20:42', '회원요청', 643, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1299, '톡스토어 레슨권 구매', '8월8일 톡스토어로 10회권 구매 9일 FMS 등록 완료.', 19, '2025-08-09T20:51:00', '2025-08-09T20:51:34', '회원요청', 571, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1300, '김예린', '구분 : 방문상담
+고객명 : 김예린
+전화번호 : 010-3390-3996
+특기사항 : 입문, 네이버 체험 레슨 후 매장 안내해 드리고 등록하심. (지인 김지원 회원님), 오승준님과 체험 같이 예약.
+', 19, '2025-08-09T21:56:39', '2025-08-14T11:10:42', '상담기록', 800, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1301, '오승준', '구분 : 방문상담
+고객명 : 오승준
+전화번호 : 010-4185-9252
+특기사항 : 구력 3년 정도, 네이버 체험 레슨 후 매장 안내해 드리고 등록 하심.(지인 장국현님 회원님). 김예린님과 체험 같이 예약.
+
+', 19, '2025-08-09T21:57:24', '2025-08-14T11:10:28', '상담기록', 801, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1302, '한동석', '구분 : 방문상담
+고객명 : 한동석
+전화번호 : 010-4466-4092
+특기사항 : 토요일 저녁6~10시 까지 고3 아들이 같은 건물 학원 다니는데 기다리시는 동안 심심하셔서 타석 이용해 보시겠다고 상담 도와드리고 등록하심. (초보이시고 동네에서 레슨권 끊어놓고 다니심) 수능전까지 매주 토요일 타석 이용 원하시고 동네 레슨 끝나면 추후 레슨도 생각해 보신다고 함. 
+', 19, '2025-08-09T21:58:07', '2025-08-14T11:10:16', '상담기록', 802, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1303, '7번타석 핸폰 충전기', '몸통은 되는데 케이블 선 USB부분 파손으로 빼놓음.', 19, '2025-08-09T22:00:15', '2025-08-09T22:00:15', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1304, '프로님 변경', '시간이 안맞아 김은성 프로님에서 이재윤 프로님으로 변경해드림', 19, '2025-08-10T14:48:53', '2025-08-10T14:48:53', '회원요청', 401, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1305, '시작일 변경', '신규이시나 체험레슨 3회만 등록.(아내 김수경 회원님 크레딧으로 같이 오셔서 사용 하신다함). 휴가로 시작일 8월23일 부터 원하셔서 fms 만료일 9월21일 로 조정해드림.
+
+', 19, '2025-08-10T16:04:02', '2025-08-10T16:04:02', '회원요청', 804, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1306, '김주연', '구분 : 방문상담
+고객명 : 김주연
+전화번호 : 010-6512-2156
+특기사항 : 네이버 이재윤P 상담 예약, 체험안하신다 하셔서 상담 진행 후 등록 도와드림. 골프 입문
+', 19, '2025-08-10T16:19:59', '2025-08-14T11:10:05', '상담기록', 803, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1307, '손정태', '구분 : 방문상담
+고객명 : 손정태
+전화번호 : 010-8870-2365
+특기사항 : 구력5년, 아내 김수경 회원님 소개로 네이버 체험 레슨진행, 매장 안내해 드리고 등록 하심.
+신규이시나 체험레슨 3회만 등록.(아내 김수경 회원님 크레딧으로 같이 오셔서 사용 하신다함).
+아들 대학교1학년 2달정도 배웠는데 등록 시키실 가능성 있슴.', 19, '2025-08-10T16:20:48', '2025-08-14T11:09:53', '상담기록', 804, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1308, 'fms 는 등록 안함', '구력 4년정도, 웰빙 클럽 이용 중이신데 원포인트 레슨 등록하심(김은성 프로님 진행). 이사 전 웰빙 이용하시면서 원포인트 레슨만 몇번 받으실 예정.
+채널은 추가함. fms는 등록 안함. ', 19, '2025-08-10T16:55:11', '2025-08-10T17:05:42', '회원요청', 805, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1310, '김승현', '구분 : 방문상담
+고객명 : 김승현
+전화번호 : 010-9364-1257
+특기사항 : 구력 4년 정도,원포인트 레슨 등록, 곧 이사 가시기 전에 웰빙 이용하면서 원포인트 레슨만 
+몇 번 받으실 예정.매장 ppt는 괜찮다 하심.
+', 19, '2025-08-10T17:03:38', '2025-08-14T11:09:40', '상담기록', 805, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1311, '류용상', '구분 : 방문상담
+고객명 : 류용상
+전화번호 : 010-3265-3090
+특기사항 : 구력 5년, 타석 이용만 원하심. 현재 다른 스크린 연습장 만기일이 다가와 김캐디 보고 방문하심.
+매장 ppt 안내 해드림. 매장 둘러보시고 맘에 들어 하심. 다른 곳 끝나고 오신다 하심.
+', 19, '2025-08-10T18:01:43', '2025-08-10T18:01:43', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1312, '당일 사용', '원포인트 레슨 당일 이용하심. 김은성 프로', 19, '2025-08-10T19:54:34', '2025-08-10T19:54:34', '회원요청', 805, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1313, '재등록으로 만료된 레슨권 살려드림', '기존 만료된 레슨권 7회 재등록으로 살려드림. fms 합산 총25회 수정 완료.', 19, '2025-08-10T21:21:29', '2025-08-10T21:21:29', '회원요청', 664, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1315, '조의상', '구분 : 방문상담
+고객명 : 조의상
+전화번호 : 010-4656-7831
+특기사항 : 초보, 네이버 타석 체험, 현재 레슨은 다른 곳에서 배우심, 타석만 이용 원하심. 매장 ppt 안내와 매장 투어 해드림. 타석 체험 마음에 들어 하심. 9월초에 등록 하러 오신다고 함.', 19, '2025-08-10T21:44:43', '2025-08-10T21:44:43', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1316, '지인 소개', '황인효 회원님 7월 2일 신규 등록 하셨는데 당일 지인 이벤트 잊으셔서 오늘 적립해 드림.', 19, '2025-08-11T18:22:33', '2025-08-11T18:22:33', '회원요청', 20, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1317, '지인 소개 받음', '김이선 회원님 소개로 7월 2일 신규 등록 하셨는데 당일 지인 이벤트 잊으셔서 오늘 적립해 드림.', 19, '2025-08-11T18:23:55', '2025-08-11T18:23:55', '회원요청', 766, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1318, '레슨권 연장', '최초 1회 2주 연장해 드림. 08/15- 08/29 fms 조정 완료', 19, '2025-08-11T19:07:06', '2025-08-11T19:07:06', '회원요청', 684, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1319, '레슨권 연장 & 프로님 변경', '그동안 이재윤 프로님과 스케줄이 어긋나 레슨을 못받으셔서 남은 10회, 최초 1회 1개월 연장해 드리고 김주순 프로님 으로 변경.  fms 프로님 & 종료일 8/22-9/21 변경함.
+', 19, '2025-08-11T21:42:03', '2025-08-11T21:42:03', '회원요청', 215, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1320, '매장 전기 점검으로 이용 못하심', '기간제 사용중이셔서 기간 3일 연장 하여 25년 11월 4일로 만료일 변경해 드림.', 19, '2025-08-12T11:23:17', '2025-08-12T11:23:17', '회원요청', 38, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1321, '매장 전기 점검으로 이용 못하심', '기간제 사용중이셔서 기간 3일 연장 하여 26년 8월 7일로 만료일 변경해 드림.', 19, '2025-08-12T11:24:23', '2025-08-12T11:24:23', '회원요청', 716, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1322, '매장 전기 점검으로 이용 못하심', '당일 이용금 긴급할인 해드림. ', 19, '2025-08-12T11:29:04', '2025-08-12T11:58:33', '회원요청', 697, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1323, '지인 이벤트에 관하여', '지인 이벤트는 당일 적립을 원칙으로 합니다. 그러나 부득이 하게 사후 적립을 원하신다면 쿨하게 해주면 안되고 생색이라도 내고 해드리기를 추천드립니다.
+', 19, '2025-08-12T11:47:39', '2025-08-12T11:47:39', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1324, '남성', '구분 : 전화상담
+고객명 : 남성
+전화번호 : 010-5387-8213
+특기사항 : 1달 단기간 이용권 문의, 1달 이용권 보다 쓰기 편한 크레딧, 예약제 설명 드렸습니다. ', 16, '2025-08-12T18:09:37', '2025-08-12T18:09:37', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1325, '손승민', '구분 : 네이버체험 완료
+고객명 : 손승민
+전화번호 : 010-8467-2365
+특기사항 : 어프로치 1회성 레슨체험 진행
+                  크레딧이용, 타석 예약제,  단독타석 독립타석 등의 매장 안내해 드렸습니다', 16, '2025-08-12T18:43:04', '2025-08-14T11:09:10', '상담기록', 806, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1326, '부부', '구분 : 방문상담
+고객명 : 부부(여성)
+전화번호 : 
+특기사항 : 부부 방분, 이용자 여성분, 골프 입문
+                    크레딧, 예약제, 패키지 상품 설명드렸습니다.
+                        입문자 셔서 기간 없는 크레딧의 장점, 프로님들 레슨 강점, 우리 매장 분리되어 있는 타석 구조의 장점 설명드렸고, 스캐줄 보고 네이버 체험 예약 하시기로 했습니다.', 16, '2025-08-12T20:30:23', '2025-08-12T20:30:23', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1328, '레슨권 기간 연장', '김태윤 프로 퇴사시 레슨 한동안 안받은 사유로 추가연장 요청 9월 말까지 완료
+
+이후 연장은 재등록 시 잔여분 포함해서 길게 연장해 드리기로 안내함', 1, '2025-08-12T21:52:40', '2025-08-12T21:52:40', '회원요청', 139, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1329, '김캐디 1개월권 종료 후 타석 이용', '7월 11일로 김캐디 1개월권 종료였으나 7월 12일 타석 예약해주셨고 방문 후 이 사실을 인지-회원 등록을 위해 상담하였으나 등록은 생각해보시겠다고 하셔서 타석 종료 - 크레딧 마이너스 상태(당시 타석도 종료+본인은 한달권이 끝난지 몰
+그 후 8월 10일 일요일 김캐디 이용 방문 이력 있으심', 18, '2025-08-13T13:00:09', '2025-08-13T13:00:09', '회원요청', 721, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1330, '8/14 에어컨 청소 및 수리', '8월 14일 06:00~08:00 매장 내 에어컨 청소 및 수리 진행합니다', 16, '2025-08-13T18:51:43', '2025-08-13T18:51:43', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1331, '락커 반납 처리', '락커 반납 처리가 완전히 락커가 비워지지 않은 상태에서 미리 해둘 필요 없습니다
+ex.433.박재성 회원님의 경우 락커번호 131
+회원님의 경우 서울에 오시면 락커를 뺀다고 하셨는데 
+이미 8월건은 결제 되었고 그로 인해 발생된 마이너스 금액 결제 안내도 해드린 상태입니다.
+그러므로 그냥 두셨다가 락커 비우시고 마이너스 금액 정리 후 락커 반납처리하셔도 됩니다.
+미리 해두시면 시스템상 락커는 비워져 있고 실제는 사용하고 있기때문에 다른 직원에게 혼동을 줄 수있습니다.
+
+또한 사정상 8월에 방문을 안하시게 되면 9월 락커비 차감이 자동으로 이뤄지지 않게 됩니다.
+
+하루 이틀내에 비우실 예정이고 다음달 락커비가 발생되지 않게 하시는경우는 미리 비워두고 전달 하셔도 괜찮을 수 있지만 이런 경우는 그냥 락커 반납 처리를 락커 비우는날 해주세요.
+', 4, '2025-08-14T10:57:57', '2025-08-14T10:59:31', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1332, '주니어 fms레슨 예약', '주니어 레슨 fms에 예약 잡으실 때, 가능하면 레슨 타석 한번에 같이 예약 잡아주세요.
+레슨과 타석을 서로 다른 직원들이 예약 잡으면서 오류가 발생 할 수 있습니다.
+또한 레슨 시간대가 정시~55분이 아닌 특이 사항 발생 시 타석, 레슨 예약 메모란에도 작성해 주세요.
+
+* 8/30 김동민 주니어 레슨 11시로 예약 되어있음
+fms레슨 백매니저님이 11시~11:30 예약
+fms타석 고매니저님 "25연습 후 30분 연속 레슨으로 예약" 으로 메모
+
+25분 연습 후 30분 붙터 30분 연속 레슨 이라는 건지 메모가 이해가 안되었습니다. 
+만약에 그게 맞다면 레슨이 11:30에 시작 되어야 하는게 맞다고 생각 됩니다.
+특이 사항이 있을 시 타석+레슨 예약 꼭 더블 체크 해주시고 기록도 잘 남겨주세요.
+(이 부분은 고민정 매니저님 메모 확인 해주시고 레슨시간 예약 체크 부탁 드립니다)
+
+
++ 매일 출근 하시면 오전, 오후 상관없이 주니어 당일 레슨 fms예약(레슨 타석 모두 클릭해서 이름확인) 먼저 확인, 프로님 휴무일 확인. 꼭 확인 해주세요. 당일 예약 확인 후 바쁘시지 않을때 틈틈히 1주일내 주니어 레슨 예약 변경 확인 및 ***막기 더블 체크 부탁 드립니다. 
+예약 취소내역 확인시 꼭 fms에서 타석, 레슨 취소 처리 부탁드립니다.
+', 4, '2025-08-14T12:09:45', '2025-08-14T12:17:26', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1333, '레슨권 유효기간 연장', '8월 26일이 종료일인 4회 남은 레슨권 4주 연장 요청 - 이재윤 프로님 레슨 시간 잡기가 너무 힘들다고 하심 - 4주 연장해드림', 18, '2025-08-14T17:46:50', '2025-08-14T17:46:50', '회원요청', 436, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1334, '발목부상으로 인한 레슨권 유효기간 연장 요청', '발목부상으로 소견서 들고 매장 방문하심
+레슨권 유효기간 두달 연장 요청하셔서 기존 8월 24일에서 두달 연장 - 10월 24일로 만료일 변경', 18, '2025-08-14T20:25:35', '2025-08-14T20:25:35', '회원요청', 104, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1335, '회원권 누락', '8/9 15만 크레딧 결제 등록 하셨는데 회원권등록 누락되어있었음.', 4, '2025-08-15T11:13:44', '2025-08-15T11:13:44', '회원요청', 802, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1336, '8/9 주니어 20회 일괄 구매', '주니어 20회 일괄 결제 하셔서 추후에 유효기간  연장 필요한 경우 해드려도 됨', 4, '2025-08-15T12:28:36', '2025-08-15T12:28:36', '회원요청', 398, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1337, '체험레슨3회 프로 변경', '이재윤 프로님 예약이 힘들고 주로 주말이 가능하셔서 김주순 프로로 변경', 4, '2025-08-15T12:35:19', '2025-08-15T12:35:19', '회원요청', 714, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1338, '주형', '구분 : 김캐디
+고객명 : 이주형
+전화번호 : 010-7300-1569
+특기사항 : 김캐디 방문으로 이용. 시설 마음에 드신다고 하시고 이용이 좋았다 하심. 급히 가셔야 하셔서 무기한 크레딧, 최소30분 예약 5분단위 과금 안내드리니 관심 있어하심. 김캐디와 병행하시는 분들도 많다고 안내드리고 다음번 방문때 회원권도 고려하시라고 안내. ', 4, '2025-08-15T13:56:34', '2025-08-15T13:56:34', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1339, '이동하, 김정민부부', '구분 : 네이버 방문 예약 및 체험 레슨
+고객명 : 이동하,김정민 부부
+전화번호 : 010-2874-0267, 010-2874-0662
+특기사항 : 근처 거주하시며 현재 이용중인 연습장 있으심(하이페리온2연습장 추정)
+체험 레슨 후 매우 만족하셔서 다른 골프장에서 레슨중이시지만 병행도 생각중
+남편분 조조권도 관심있으시며 추후 등록하실 예정', 18, '2025-08-15T15:03:10', '2025-08-18T10:47:08', '상담기록', 807, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1340, '8월 15일 정수기 필터 교체 및 점검 ', '8월 15일 정수기 필터 교체 및 점검 완료', 18, '2025-08-15T16:20:17', '2025-08-15T16:22:40', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1341, '레슨권 연장 요청', '그동안 다리를 다쳐서 레슨을 잘 받지 못하셨다면서 연장 요청 - 기존 9월 16일에서 10월 14일로 4주 연장해드림', 18, '2025-08-15T18:36:03', '2025-08-15T18:36:03', '회원요청', 644, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1342, '락커 반납 취소요청', '락커 월중반납시 일할환불 어렵고
+전화주신 날짜(8/15) 기준으로는 크레딧 환불 도와드리겠다고 하였음
+
+최근 등록한 지인이 본인이 결제한 하부장 \'월말까지\' 사용할 수 있도록 요청하셔서
+그렇게 하기로 합의함
+
+월말까지 락커이용권 양도대상자는 채널로 보내주시기로 함
+하부장 1개 남아있는 것 당분간 홀드 필요', 1, '2025-08-15T21:26:00', '2025-08-15T21:26:00', '회원요청', 701, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1343, '레슨권 취합', '8월 10일 재등록 하신 레슨과 이전 3회 잔여 레슨권 취합하고 만료일 2026/02/06로 1개월 연장해 드림.', 19, '2025-08-16T13:18:15', '2025-08-16T13:18:15', '회원요청', 401, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1344, '레슨권 취합', '8월 10일 재등 록하신 레슨과 이전 2회 잔여 레슨권 취합하고 만료일 2026/02/06로 1개월 연장해 드림. 잔여 레슨권 20회 임.
+', 19, '2025-08-16T13:32:14', '2025-08-16T13:32:14', '회원요청', 709, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1345, '최미영', '구분 : 방문상담
+고객명 : 최미영
+전화번호 : 010-8506-1033
+특기사항 : 입문, 집근처, 평일 퇴근 후 레슨 받으시길 원함. 매장 PPT 안내 도와드림. 다리 아프신거 낫는대로 오신다고 하심.', 19, '2025-08-16T15:29:33', '2025-08-16T15:29:33', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1346, '락커 반납', '상부장 #33, 비우시고 네임텍 제거 완료', 19, '2025-08-16T15:55:07', '2025-08-16T15:55:07', '회원요청', 33, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1347, '상담 신청서 관련', '급히 결제만 하고 가셔서 상담 신청서 동의, 서명을 받지 못하였습니다. 추후 오시면 받아 채널로 사진 발송 처리도 필요함.', 19, '2025-08-16T20:27:42', '2025-08-16T20:29:38', '회원요청', 779, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1348, '주니어 학부모 할인', '학부모 할인은 부모 모두 등록시 1인만 적용됩니다. 주니어 레슨 받는 동안 부모(2명) 모두 타석 이용하실 경우 자동으로 1인만 할인 적용이 되지만 컴퓨터가 잘 못잡을수도 있으니 현장에서 어떻게 되나 더블 체크 추천 드립니다.', 19, '2025-08-17T13:59:42', '2025-08-17T13:59:42', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1349, '박승현, 이동현', '구분 : 방문상담
+고객명 : 박승현(아내), 이동현(남편)
+전화번호 : 010-9798-4861, 010-8999-4603
+특기사항 : 부부 초보, 네이버 타석 체험 이용, 12월경 회사 지원금 쓸 수 있을 때 패키지 상품 등록 하실 예정.(추후 회사 증빙 자료 필요시 이용 만료일 써야 하는데 해드리기로함). 주변분들이 여럿 다니셔서 소개 받고 오셨으며 지인 이벤트 적립에 괸심 많으심.', 19, '2025-08-17T16:44:53', '2025-08-17T16:44:53', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1350, '유지영', '구분 : 방문 상담
+고객명 : 유지영
+전화번호 : 010-4023-9622
+특기사항 : 하페2 사시는데 하페2 스크린 다니심. 공사로 당분간 연습할 곳이 필요하여 방문하심. 구력 되셔서 타석만 이용 원하심. 매장ppt 안내 도와드리고 집 앞이니 생각해 보시고 오신다고 함.', 19, '2025-08-17T21:16:25', '2025-08-17T21:16:25', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1351, '양도 문의', '팔목이 아프셔서 골프를 치실 수 없으셔서 어머니께 양도 원하셔서 최초 1회 가능 안내해 드림. 다음주경 양도 양수하러 방문 예정.', 19, '2025-08-17T21:20:22', '2025-08-17T21:21:23', '회원요청', 670, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1352, '9번타석', '공이 안올라와서 한번 열어서 정리하고 다시 닫으니 공은 올라옵니다.
+혹시 추가적으로 9번타석에 공이 안올라오는 문제가 생기면 a/s받은지 얼마 안되었는데 동일 문제 발생으로 a/s 컴플레인 요청 필요시 진행합니다.(대표님께 확인 해주세요)
+
+유격 맞추는 건 직원들이 하기 쉽지않아 보입니다. ㅜ ㅜ', 4, '2025-08-18T10:48:56', '2025-08-18T10:48:56', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1353, '레슨권 유효기간 연장', '유효기간 연장 요청으로 25/10/12->25/11/12로 1개월 연장 완료', 4, '2025-08-18T11:01:33', '2025-08-18T11:01:33', '회원요청', 729, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1354, '긴급할인', '9번타석 공안올라오는 문제로 8번타석 이동 후 10분 추가/ 3,000c 긴급할인 적용', 4, '2025-08-18T11:42:33', '2025-08-18T11:42:33', '회원요청', 775, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1355, '락커이용', '소현정님께서 금액 납부하신 하부락커 양도받아 15일간 사용하기로 하였으나(대표님 확인됨) 하부장 없어 임시로 77번 이프로님 상부장 이용중. 하부장 나오면 우선 배정 하고 15일 사용 안내 필요', 4, '2025-08-18T11:58:02', '2025-08-18T11:58:02', '회원요청', 190, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1356, '분실물 ', '성시광 회원님 8월17일 11:35~12:50 3번 타석 이용하셨는데 크레딧 카드 검정색 보신분 있으시면 연락 바랍니다.', 19, '2025-08-18T21:03:28', '2025-08-18T21:03:28', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1357, '에어컨-smartThings 연결', '7,8번 타석 에어컨 -  smartThings 등록을 위해 
+smartThings 에서 기기 삭제, 에어컨에서 wi-fi 삭제 한 후에 
+새로 등록 되기는 했는데
+wi-fi : \'프렌즈아카데미\' 로 연결했을 때 - 에어컨과 smartThings 연결이 됐다가 네트워크 연결 안됨 떴다가 왔다 갔다 함.
+wi-fi :  \'U+net2554\' 로 연결했을 때는 smartThings에 연결 자체 실패 했습니다. 
+
+상담원 의견은 공유기와 7,8번 에어컨 잘 연결 안됨 의심
+혹은, smartThings 연결 할때 보통은 5G가 잘 안돼서 2G 주로 연결 한다 함. ', 16, '2025-08-20T17:29:49', '2025-08-20T17:29:49', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1358, '타석노쇼 1회 (긴급할인)', '18:00 2번 타석 예약하고 한시간 늦게 오셔서, 타석 다시 예약하셨는데 기간권 회원이셔서 
+크레딧 구매,추가금만 결제, 혹은 남편분(성은제님) 크레딧에서 차감 하는 방법, 중 알아보다가 
+대표님 승인 받고, 회원님께 이번만 된다고 안내 드리고 타석 배정하고 긴급할인 해드렸습니다.', 16, '2025-08-20T19:45:00', '2025-08-20T19:45:00', '회원요청', 781, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1359, '남성', '구분 : 방문상담
+고객명 : 남성
+전화번호 : 
+특기사항 : 하이페리온2에 있는 연습장 이용중이신데, 종료 후 이용 위해서 알아보러 오심.
+                  무기한 크레딧 장점으로 다른 연습장과 병행도 가능하다고 설명 드렸습니다. 
+                    친구분이랑 같이 오신다고 합니다.', 16, '2025-08-20T20:17:06', '2025-08-20T20:17:06', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1360, '무료체험 레슨 1회 ', '네이버 체험으로 신청하셔서 회원님 이신 거 체크 부족해서, 무료 타석 30분 잡아서 레슨 진행됐습니다.
+체험 레슨 들어오면 우리 매장 이용 중인 회원님인지 교차 확인 잘 하겠습니다~
+김주순 프로님 레슨 진행', 16, '2025-08-20T20:49:10', '2025-08-20T20:49:39', '회원요청', 189, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1361, '왼쪽 서랍 개인 물품', '개인 물품(선풍기, 악력기 등)은 개인 사물함에 보관 부탁 드립니다. ', 4, '2025-08-21T11:57:15', '2025-08-21T11:57:15', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1362, '김혜민', '구분 : 방문상담
+고객명 : 김혜민
+전화번호 : 010-3203-5312
+특기사항 : 전화로 1회권 문의하셔서 1회권, 회원 크레딧 사용 안내드리고 내방 유도 위해 무료 체험 안내드림. 바로 방문하셔서 상담 받으시고 무료체험 예약 하고 가심. 기존에 엘스퀘어 다니시다가 닫아서 연습 못하고 계신 상태. 레슨은 현재 필요없고 겨울쯤 레슨 받을 예정. 8/22 타석 체험 예약 잡아드림', 4, '2025-08-21T12:45:30', '2025-08-22T11:44:06', '상담기록', 809, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1363, '나노을', '구분 : 방문상담
+고객명 : 나노을 님 외 친구 1
+전화번호 : 010-4713-4134
+특기사항 : 연습장 필요하셔서 방문. 현재 스크린만 다니고 계심. 
+크레딧, 레슨 상품 설명. 기간제와 비교해보시면서 뭐가 더 나은지 고민하심. 락커와 주차 등 상세하게 질문
+젊은 운동하는 듯한 청년들이라 혹시 스파이 인가 싶어서 무료체험은 아직 안내 안하고 추후 무료 체험 같은 이벤트시 연락 드리겠다고만 안내. 주말까지 연락이나 재방문 기다려 보고 다음주에 전화 예정.', 4, '2025-08-21T13:03:17', '2025-08-21T13:03:17', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1364, '레슨 기간 연장', '프로님 화,수 휴무로 인하여 레슨권 소진을 못하셨다고 하셔서 일주일 연장해드림. 2회
+8월22일->27일로 변경.', 19, '2025-08-21T15:06:26', '2025-08-21T15:06:26', '회원요청', 646, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1365, '기간제 시작일', '조조 6개월권 크레딧 결제하심. 시작일 내일부터 1일 홀드 등록으로 시작일 2025.08.22-2026.02.22 로 만료일 변경함.', 19, '2025-08-21T20:08:32', '2025-08-21T20:08:32', '회원요청', 61, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1366, '체험 예약에 관하여', '레슨 체험 (총60분)이 15분 레슨후 45분간 자율 타석 이용 후 상담 진행을 도와 드렸으나 더뎌지는 상향과 입문 이실 경우는 혼자 타석 이용시 위험 소지가 있기에 이용 시간을 변경 하고자 합니다. 앞으로 체험 레슨 예약 시 참고 부탁 드립니다.
+1)레슨 체험은 총 30분 이용 (레슨 15분 포함)
+2)타석 체험은 총 50분
+
+기타, 주니어 레슨 체험은 전과 동일.', 19, '2025-08-21T21:01:05', '2025-08-21T21:01:05', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1367, '박정현', '구분 : 전화상담
+고객명 : 박정현
+전화번호 : 010-5378-3423
+특기사항 : 구력 있으시고 거리가 안나서 레슨 원하심. 내일 체험 예약 잡아드림. 오후 8시 김주순P 이시고 30분 이용 (레슨포함) 후 상담 도와 드리기로함
+
+', 19, '2025-08-21T21:10:03', '2025-08-21T21:10:03', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1368, '무료레슨권 1회 사용', '채널 7월6일자 내용 확인 필요.
+
+무료레슨권 1회 2025.08.24 잡아드림.', 19, '2025-08-21T21:17:51', '2025-08-21T21:17:51', '회원요청', 501, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1369, '레슨권 등록 후 바로 레슨 예정', '22일  16:30 김주순 프로님 레슨예약 완료(빨간색)
+미리 오셔서 레슨권 등록 하실 예정- 결제 후 fms빨간색 예약 꼭 QR인증 하기!!', 4, '2025-08-22T11:43:54', '2025-08-22T11:43:54', '회원요청', 806, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1370, '강석형', '구분 : 방문상담(김캐디 이용)
+고객명 : 강석형
+전화번호 : 010-4249-0050
+특기사항 : 김캐디 이용으로 매장 처음 방문. 매장이 넓고 쾌적하여 마음에 드시고 크레딧 이용을 굉장히 좋아하심. 현재 김캐디 이용권이 좀 남아있어서 소진후 등록 원하심. 김캐디로 이용하시면서 레슨권 등록 가능과 가족과 쉐어, 지인 이벤트 등 안내드림. 매장시설을 매우 마음에 들어하셔서 추후 등록 가능성이 높아보임', 4, '2025-08-22T12:02:05', '2025-08-22T12:02:05', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1371, '박희진', '구분 : 전화상담
+고객명 : 박희진
+전화번호 : 010-5186-6998
+특기사항 : 중2여학생, 어머님 함께 레슨 진행 원하셔서 간략한 금액 안내및 상담. 무료체험 문의 하셔서 안내드리고 이번주 주말에 스케줄 확인하고 레슨 체험 원하심. 레슨 시간대가 금토일을 원하셔서 김주순 프로님으로 배정 해드리면 좋을듯 함. ', 4, '2025-08-22T13:19:47', '2025-08-22T13:19:47', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1372, '제빙기 고장', '제빙기 고장으로 as보내려고 박스에 담아 두었습니다. 박스 테이프가 없어서 배송오면 마감 하고 택배 발송 해주세요.
+(주말에 안되면 월요일에 오전에 하겠습니다^^)
+
+임의로 쓰는 제빙기는 용량이 작아 물을 자주 부어주어야 합니다. 수시로 확인하고 얼음과 물이 비면 물 자주 채워주세요. 물 부족하면 빨간 불 떠서 자리에서도 보입니다^^', 4, '2025-08-22T13:38:14', '2025-08-22T13:38:14', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1373, '기간 1개월 연장', '강주연 회원님 , 이주원 주니어 회원님
+학업 스케줄로 레슨권 기간 안에 소화 힘드셔서 1개월 연장 해드렸습니다.
+', 16, '2025-08-22T15:33:12', '2025-08-22T15:34:10', '회원요청', 637, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1374, '기간권 이용 회원 취소 요청', '\'기간권 취소요청\'은 3시간 취소규정 적용받지 않고 그냥 해주시고 
+오히려 연락 주셔서 감사하다고 응대 해주세요~ ', 16, '2025-08-22T21:18:51', '2025-08-22T21:18:51', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1376, '재등록시 할인', '8월21일 기간권 이용중이신데 노쇼 이후 다시 예약 방문 하셔서 추가금 발생하여 따로 카드결제 하셨습니다.
+재등록시에 15000원 할인 해드리면 되겠습니다.
+', 16, '2025-08-22T21:36:30', '2025-08-22T21:36:30', '회원요청', 795, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1377, '박정현', '구분 : 방문상담
+고객명 : 박정현
+전화번호 : 010-5378-3423
+특기사항 : 네이버체험 레슨 하신 후 추가 상담 내용입니다.
+목표 기간내에 드라이버 비거리를 목표거리까지 달성하기 원하십니다. 
+추가 할인 해택 문의 하셔서 락커 상단 할인 제안 드림 (무조건은 아니고 전월 5시간 이상 이용시 할인율 50% 에서 100%로 해드림)<-- 등록시 락커 상단 우선 배정
+집중레슨 10 + 크레딧 구매 생각중이신데 크레딧 소액 하시면 , 패키지 "퍼펙트스윙" 권하는 것도 좋을 것 같습니다. ', 16, '2025-08-23T08:00:45', '2025-08-23T08:00:45', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1378, '체험레슨', '체험레슨3 등록 가능한걸로 안내 드렸습니다. (대표님 승인)
+오시면 프렌즈 10 이상 유도해 봐 주세요~', 16, '2025-08-23T12:31:50', '2025-08-23T12:31:50', '회원요청', 424, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1379, '락커 ', '하부장 나오는 동안 클럽 보관 원하셔서 스탭룸에 보관해 드리기로 했습니다.', 19, '2025-08-23T16:55:19', '2025-08-23T16:55:19', '회원요청', 810, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1382, '패키지로 변경', '8월 4일 등록하신 집중레슨10 (15분 짜리 7회 사용)->퍼팩트 스윙 패키지로 교체 원하셔서 추가금 89 결제하시고 적용해드림.
+
+fms 레슨 기존 남은 13회(15분)->29회로, 종료일 2026.01.1로 조정 완료함.
+
+하이페리온 2차 지하 다녀도 되는데 재등록 하셔서 스페셜 서비스 무료 레슨 2회권(15분짜리)드림. (무료레슨 2회는 fms포함 안시키고 따로 이벤트 레슨으로 잡아드린다고 안내드림.)', 19, '2025-08-23T19:19:43', '2025-08-23T19:19:43', '회원요청', 491, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1383, '서비스', '8월 11일 5번 타석 이용시 6번타석 볼이 날라와 머리에 부딪힘 사고로 인한 서비스
+(1) 현재까지 크레딧 타석 이용분 (44,150 C) 전액 환불=적립완료
+(2) 기간권 1주일 연장으로 9월 9일까지 =완료 
+(3) 무료 레슨 1회권
+', 19, '2025-08-23T19:47:21', '2025-08-23T19:47:21', '회원요청', 780, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1384, '성운제 회원님', '8월 3일 14:10 시경 5번타석 이용중인 한현철(8724)회원님이 치신 공이 인조 잔디 바닥을 튕겨 6번 타석 이용중이신 성운제(9063)님 야구 모자쓰신 머리에 떨어지는 사고가 있었습니다. 직접 보지 못하고 나중에 듣게 된 상황에서 당일 회원님은 괜찮다 하셔서 따로 대표님과 메모를 남겨두지 않은 상태였습니다. 오늘 성운제님 타석 교체 이용안내 드리러 갔다 (홍채은 주니어 6번 타석 예약 홍성균 아버님은 4번 타석예약하신 상황이여서), 성운제 회원님은 기존 공 맞은거+ 타석 교체 요구+ 채널로 잔여 크레딧 못받으심(이름입력 오류로) 으로 화가 많이 나신 상태셨고 채널안내해 드린대로 3가지 서비스(채널 확인요망) 드리기로 하고 마무리 되었습니다. 성운제 회원님 채널 연락이나 대면 안내 하시면 더욱 신경 써주시기를 부탁 드립니다. 
+1) 매장에서 일어나는 사소한 상황들도 메모나 대표님께 알려 드리기를 추천.
+2) 공이 바닥에 있을시 모르고 밞으면 위험하니 타석 밖에 있는 공들은 항시 치워 주시고 5,6번 타석 경우 공이 튕겨 앞, 뒤 사람을 칠 수 있으니 항시 주의 깊게 인지 하고 있어야 함.
+3)주니어 회원 중 6번 타석을 원하시는 분이 있는데 기본 예약은 단독 타석이여야 하며 부모와 동반 타석을 원하실 경우 우선 타석을 예약하시고 연락 주시면 주니어 예약 도와드리는 것으로 함.', 19, '2025-08-23T20:42:08', '2025-08-23T20:54:12', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1385, '이은실', '구분 : 방문상담
+고객명 : 이은실
+전화번호 : 010-4749-9075
+특기사항 : 구력은 있으시고 다른 연습장도 이용 중 병행 원하셔서 오심.
+타석만 원하셔서 매장안내 도와드리고 등록 하심. 락커 하부장 나오는 동안 클럽 스태프 룸에 보관해 드리기로함.', 19, '2025-08-23T21:01:34', '2025-08-26T09:47:57', '상담기록', 810, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1386, '이근우', '구분 : 방문상담(일일타석이용)
+고객명 : 이근우
+전화번호 : 010-6204-9585
+특기사항 : 하페 사시고 구력 있으셔서 타석 이용만 원하심. 하페 지하 골프장 리모델링으로 당분간 사용 원하심(거기 1년권 구매한 상태). 매장 안내 도와드리고 등록하심.  크레딧 구매로 당일 일일타석 이용은 서비스 드림.', 19, '2025-08-24T14:59:14', '2025-08-26T09:47:48', '상담기록', 811, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1387, '하은, 김태준', '구분 : 방문상담(김캐디 이용)
+고객명 : 하은, 김태준
+전화번호 : 010-6393-8838, 010-8595-9959
+특기사항 : 하은님은 입문, 김태준님은 구력있슴. 남친이 여친님 가르쳐 주시는 상황. 매장 안내 도와드림. 김캐디 타석이용 3회권 사용중 이시고 등록할 상황이 아니셔서 다음에 등록한다 하심. ', 19, '2025-08-24T15:59:56', '2025-08-24T15:59:56', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1388, '결제 수단 변경 예정', '다음주 일요일 8/31 현금으로 변경예정', 19, '2025-08-24T18:07:40', '2025-08-24T18:07:40', '회원요청', 812, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1390, '최진희', '구분 : 방문상담 (일일타석이용)
+고객명 : 최진희
+전화번호 : 010-5223-7921
+특기사항 : 구력 있으시고 타석 이용만 원하심. 주차가 힘드셔서 등록은 생각해 보신다고 하심. 클럽을 지니고 다니셔야 함. 추후 등록하시게 되면 오늘 타석이용금액 25,000원 빼드리는 걸로 대표님과 소통함(고객님은 모르시는 상황)', 19, '2025-08-24T19:50:35', '2025-08-24T19:50:35', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1391, '레슨권 연장', '회사일로 도저희 주중 시간이 안되셔서 남은 6회 레슨권  기간 연장 원하셔서 (기존 1개월 연장해 드려 안되는상황) 대표님 승인으로 11일 연장해 드림. 2025.09.19-> 09.30', 19, '2025-08-24T21:14:06', '2025-08-24T21:15:04', '회원요청', 586, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1392, '수술로 6주 연장(홀드)', '금일 수술로 이용권 연장 요청하심(채널 확인)
+서류 채널로 발송해 주시면, 기간권 6주 홀드, 레슨권 6주 연장(FMS, CRM모두 기간조정 처리)해주시고
+완료 메모 혹은 댓글 작성 해주세요. ', 4, '2025-08-25T10:35:35', '2025-08-25T10:35:35', '회원요청', 77, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1393, '25/09/12 금 이재윤 프로님 무료 필드 레슨', '일시 : 9/12 금 06:45
+장소 : 스프링힐스 CC
+대상자 : 이유라님, 박진일님, 김현주님
+
+--------이재윤 프로님 안내 전문-------
+[스프링힐스CC]
+예약일자: 09/12 (금)
+예약시간: 06:45
+예약자명: 이재윤
+예약인원: 4명
+예약 홀: 18홀 예약 되었습니다.
+티오프 시간 15분전 광장대기 바랍니다. 
+● 키오스크 체크인 안내 - 팀예약자는 아래 링크를 통해 동반자를 기입해주시기 바랍니다.
+※예약자 인터넷회원가입 필수 https://www.springhills.co.kr/mobile/visit/visit.asp
+●단체팀 혹은 조인으로 구성되신 팀은 모바일로는 등록이 불가하니 티업시간을 정확히 확인하시어 키오스크에서 체크인을 진행해주시기 바랍니다.
+★키오스크 결제 후 업장 이용 방법 팝업창을 확인해주시고, 결제하신 카드를 꼭 챙겨주시기 바랍니다. 
+※ 취소 및 인원변경 기한 : 라운드 예정일 포함 4일 전 15시까지 입니다.
+※ 예약일 임박 인원변경 및 취소는 위약 적용 및 패널티 요금이 부과됩니다. 
+※ 영수증 하단의 바코드로 사전 정산 후 출차하셔야 비용이 발생되지 않습니다. 
+※ 우천, 설천시 정상 그린피에서 홀별 정산 됩니다.
+
+문의 전화:031-969-2000', 4, '2025-08-25T10:46:06', '2025-08-26T09:36:07', '이벤트기획', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1394, '재등록 레슨권 연장 적용', '재등록으로 만료된 레슨권4회 살려드림(1개월 연장). 기존레슨권 신규레슨권 합산완료. FMS 반영 2025.01.21->2025.02.21 레슨권22회 남음.', 19, '2025-08-25T15:38:29', '2025-08-25T15:38:29', '회원요청', 311, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1395, '카카오 버터커버 서비스 잘못 나감', '당일 재등록하여 판매중인 카카오 버터커버를 서비스로 드렸습니다. (나는 싱글 패키지 등록시 드려야 하나 소통이 잘못되어 드리게됨).
+남편분인 백재승님도 재등록 하실거라는 면목하에 드리기는 했으니 부부님 모두 더이상 서비스 상품은 없는걸로 합니다.
+', 19, '2025-08-25T15:39:09', '2025-08-25T15:39:23', '회원요청', 311, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1396, '재등록시 서비스에 대하여', '재등록시 서비스 혜택을 원하시면 기존 아내 이윤지 회원님이 2025-8-25 재등록때 카카오 버커 커버를 서비스로 드려서 중복 서비스 불가함.
+(패키지 재등록+남편분 재등록 예정까지 고려하여 드렸씀. 원래 나는 싱글 패키지 이상이여야 드리는 건데 10타줄이기 하셨는데도 소통 오류로 드린것임)', 19, '2025-08-25T16:11:53', '2025-08-25T16:12:14', '회원요청', 312, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1397, '송현지', '구분 : 전화상담
+고객명 : 송현지
+전화번호 : 010-6830-8996
+특기사항 : 입문이시고 레슨, 타석 이용 방법 간단히 안내해 드리고 체험은 생각해 보고 연락 주시거나 본인이 네이버로 잡으신다고함.', 19, '2025-08-25T16:19:49', '2025-08-25T16:19:49', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1398, '양도 양수 대기중', '*정은영 회원님 이사로 레슨권만 양도양수 하실지 대기 상태. (잔여 크레딧 58,836C은 8월31일 락커 반납시 물건 구매 하실 예정)
+  -레슨권 잔여 29회(유효기한 25.10.02) 양도 가액 708,900원.
+  -현재 조정현 회원님과 소통 중 이시며 두분 합의가 되시면 저희가 진행해 드려야 할 것은 다음과 같음.
+
+1) 양도 수수료 70,890원 결제해야함 (카드 상관없슴.)
+2) 조정현 회원님은 레슨 재등록 (최소 레슨권 프렌즈10 이상 하셔야 양도 받으시며 레슨권 29회를 기간 6개월 연장해드리고함.)
+   ex) 프렌즈10으로 재등록 하시면 유효기간 3개월이니 + 양도 레슨권29회 6개월 연장= 총 9개월 이여야함.
+', 19, '2025-08-25T19:54:07', '2025-08-25T19:54:07', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1399, '양도 양수 대기중', '*정은영 회원님 이사로 레슨권만 양도양수 하실지 대기 상태. (잔여 크레딧 58,836C은 8월31일 락커 반납시 물건 구매 하실 예정)
+  -레슨권 잔여 29회(유효기한 25.10.02) 양도 가액 708,900원.
+  -현재 조정현 회원님과 소통 중 이시며 두분 합의가 되시면 저희가 진행해 드려야 할 것은 다음과 같음.
+
+1) 양도 수수료 70,890원 결제해야함 (카드 상관없슴.)
+2) 조정현 회원님은 레슨 재등록 (최소 레슨권 프렌즈10 이상 하셔야 양도 받으시며 레슨권 29회를 기간 6개월 연장해드리고함.)
+   ex) 프렌즈10으로 재등록 하시면 유효기간 3개월이니 + 양도 레슨권29회 6개월 연장= 총 9개월 이  여야함.', 19, '2025-08-25T20:53:09', '2025-08-25T20:53:09', '회원요청', 469, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1400, '기타 전달 사항', '*제빙기 AS 위해 로젠 택배 접수해두었습니다. 기사님 방문하시면 상담석 옆 박스 보내주세요
+*의자위 가디건 직원 비상용입니다. 필요하실때 사용하세요. 주기적으로 세탁해다 두겠습니다. 
+*주차권 30분 짜리가 아주 많이 남아서 회원님들께 배부하실때 30분짜리도 많이 이용해주세요~', 4, '2025-08-26T11:41:08', '2025-08-26T11:42:09', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1401, '레슨 횟수 조정', '25.8.22 퍼펙드스윙 등록 (레슨36회) + 남아있던 (레슨 10회)
+fms에 레슨 횟수 46회로  합산하여,  하나로 정리 했습니다.
+                ', 16, '2025-08-26T14:09:20', '2025-08-26T14:09:20', '회원요청', 185, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1402, '레슨권', '25.08.26 프렌즈40 구매, 
+fms 25.05.20 프렌즈40 - 횟수 40회 등록', 16, '2025-08-26T16:05:30', '2025-08-26T16:05:30', '회원요청', 419, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1403, '레슨권 시작일 조정', '7월27일 등록 주니어 레슨권 시작을 9월 7일로 최종 조정하였습니다.', 16, '2025-08-26T18:54:03', '2025-08-26T18:54:03', '회원요청', 561, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1404, '25/8/25 기간제 이용권 양도 ', '전일권 기간권 잔여기간 (~26.02.01) / 8/25기준 잔여일 161일로 환산 금액  688,347원
+566. 조정현 회원님께 양도(서로 모르는 사이, 지인 아님)
+양도 수수로 68,800원 카드 결제 완료. 
+주정택님 기간권 만료 처리 완료. 566.조정현님께 기간권 부여 및 유효기간 설정 완료.
+
+양도신청서 작성 및 신분증 확인 처리자 : 고민정 매니저', 4, '2025-08-27T09:56:04', '2025-08-27T09:56:04', '회원요청', 657, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1405, '25/8/25 657.주정택님 기간제 이용권 양수', '전일권 기간권 잔여기간 (~26.02.01) / 8/25기준 잔여일 161일로 환산 금액  688,347원
+657.주정택 회원님으로 부터 양도받으심. (서로 모르는 사이, 지인 아님)
+양도 수수로 68,800원 카드 결제 완료. 
+주정택님 기간권 만료 처리 완료. 566.조정현님께 기간권 부여 및 유효기간 설정 완료.
+
+양도신청서 작성 및 신분증 확인 처리자 : 고민정 매니저', 4, '2025-08-27T09:59:03', '2025-08-27T09:59:03', '회원요청', 566, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1406, '락커이용', '체널로 안내 드림 - 락커 131 배정, 이용기간 8/27~9/10
+락커77 이재윤 프로님 배정', 16, '2025-08-27T14:58:15', '2025-08-27T14:58:15', '회원요청', 190, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1407, '레슨권 기간 설정 조정', '다음 레슨을 언제 받을지 아예 기약이 없으나 결제를 하고 가야 레슨권 부여가 돼서
+25.8.27 체험 레슨 3 결제하고, fms crm에 등록하였습니다.
+레슨 첫 예약일 때 연락 주시면 기간 변경 부탁드립니다.', 16, '2025-08-27T19:42:33', '2025-08-27T19:43:49', '회원요청', 768, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1408, '주니어 레슨 유효기간 연장 ', '연장 2회차
+2주 요청하셔서 8/24->9/10로 변경 완료', 16, '2025-08-27T20:11:19', '2025-08-27T20:11:19', '회원요청', 649, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1409, '주니어 레슨권 이용기간 정지', '학기중 이용이 어려워서 정지하고 26.01.01 다시 시작 요청 하셨습니다. 
+(대표님 확인 완료)
+정지 요청일 기준 - 잔여일 67일
+다시 시작하시는 시점에 연락 주시면 기간 설정 다시 부탁드립니다~ ', 16, '2025-08-27T20:19:36', '2025-08-27T20:19:53', '회원요청', 379, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1410, '여성', '구분 : 방문상담
+고객명 : 여성
+전화번호 : 
+특기사항 : 잠깐 들리셔서 빠르게 매장 안내, 타석 장점 설명, 크레딧 설명 드렸습니다. 
+                내일 와서 등록하고 바로 타석 이용하겠다 하심.', 16, '2025-08-27T20:21:45', '2025-08-27T20:21:45', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1411, '이동연', '구분 : 방문상담 (네이버체험)
+고객명 : 이동연
+전화번호 : 010-8960-8881
+특기사항 : 네이버 타석 상담 이용하셨습니다. 
+                시간이 없다고 하셔서 등록 못하고 가셨습니다. 빠르게 설명 해달라고 해서
+                예약시간 3시간 전부터는 취소 안됨 , 룰렛 이벤트 등등은 설명 못드렸습니다.
+                크레딧 구매 원하고 지인분 있으셔서 크레딧 구매 시 지인 할인 등록 해달라고 하셨습니다', 16, '2025-08-27T21:25:23', '2025-08-27T21:25:23', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1412, '레슨권 유효기간 연장', '집중레슨 잔여 3회 유효기간 연장요청으로 9/1->10/1로 1개월 연장
+fms와 crm 유효기간 변경 완료.
+집중레슨인데 홀수잔여레슨이라 2회 레슨기준임을 안내. 추후 추가 연장 요청은 재등록시 도와드린다고 안내', 4, '2025-08-28T09:30:07', '2025-08-28T12:13:30', '회원요청', 745, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1413, '남성', '구분 : 전화상담
+고객명 : 남성
+전화번호 : 010-7180-2228
+특기사항 : 거의 입문, 와이프(입문) 같이 레슨 배우고자 알아보시고 계심. 간단한 이용방법 안내함. 체험 레슨 말씀드리니 와이프와 상의하고 연락주신다고 함. 주차장 잘되있는지 물러보심.', 19, '2025-08-28T14:59:05', '2025-08-28T14:59:05', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1414, '앱 회원 탈퇴', '실제 아드님 조현규님 이용하셨으나 회원탈퇴 앱 삭제 원하셔서 fms 타석 이용권 과거 날짜로 조정해 드리고(2025.08.27로) ->본인이 회원탈퇴하심. 기타 사항) 불편한 점 없으시고 본인이 바쁘셔서 더 이상 이용 못 하신다고 잔여 328,800c 환불없이 앱 탈퇴만 원하심으로 회원 탈퇴 왼료함.
+조현규님 핸드폰 010-3458-5150.', 19, '2025-08-28T15:28:55', '2025-08-28T15:28:55', '회원요청', 283, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1415, '레슨권 양도 양수 대기중', '*정은영 회원님 이사로 레슨권만 양도양수 하실지 대기 상태. (잔여 크레딧 58,836C은 8월31일 락커 반납시 물건 구매 하실 예정)
+  -레슨권 잔여 29회(유효기한 25.10.02) 양도 가액 708,900원.
+  -현재 조정현 회원님과 소통 중 이시며 두분 합의가 되시면 저희가 진행해 드려야 할 것은 다음과 같음.
+
+1) 양도 수수료 70,890원 결제해야함 (카드 상관없슴.)
+2) 조정현 회원님은 레슨 재등록 (최소 레슨권 프렌즈10 이상 하셔야 양도 받으시며 레슨권 29회를 기간 6개월 연장해드리고함.)
+   ex) 프렌즈10으로 재등록 하시면 유효기간 3개월이니 + 양도 레슨권29회 6개월 연장= 총 9개월 이여야함.', 19, '2025-08-28T16:41:03', '2025-08-28T16:41:03', '회원요청', 566, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1417, '고시윤 주니어 만료일 변경', '9월4일 김은성 프로님 연수 일정으로 주니어 만료일 9월 14일에서 9월 18일로 변경해 드렸슴.', 19, '2025-08-28T20:22:20', '2025-08-28T20:22:20', '회원요청', 523, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1419, '9번 타석 화면 에러 문제로', '당일 이용 (기간제 이용이심) 단독 타석 추가금 할인처리 완료', 19, '2025-08-28T21:36:55', '2025-08-28T21:36:55', '회원요청', 336, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1420, '락커', '상부장 대기중  스텝룸에 보관해 드리기로함', 19, '2025-08-28T21:40:25', '2025-08-28T21:40:25', '회원요청', 814, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1421, '윤흥수', '구분 : 방문상담
+고객명 : 윤흥수
+전화번호 : 010-2359-0545
+특기사항 : 구력있으셔서 타석이용만 원하심. 하페2차 거주하심. 매장 안내 도와드리고 등록 하심. 하부 라커 대기 중 스텝룸 보관해 드리기로함.
+', 19, '2025-08-28T21:42:48', '2025-08-29T09:49:17', '상담기록', 814, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1422, '김선우 프로 체험 레슨 진행', '기존 회원들중 3개월내에 레슨 이력 없으신 분들에게 새로운 프로님 홍보중입니다.
+9월간 체험 레슨이 진행 예정인데
+체험레슨 요청하시는경우 레슨20분 타석30분 무료체험(기존에 타석은 직접 잡으시라 했는데 이번에는 레슨/타석 모두 무료로 매장에서 예약)으로 진행합니다.
+
+유료 레슨이 잡히는 경우 부득이하게 시간이 맞지 않으면 15분 레슨으로 진행하나 특이 사항없고 프로님 스케줄 여유 있으시다면 20분 레슨으로 진행합니다.
+
+신규상담의 무료 체험의 경우도 특이 사항 없을시 동일하게 레슨 20분 타석 30분으로 체험 진행 해 주세요.', 4, '2025-08-29T09:48:46', '2025-08-29T09:48:46', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1423, '냉장고 음료 재고관리', '냉장고 음료는 선입선출을 기본으로 합니다. 냉장고에 음료 리필하실때 기존 음료와 유통기한 비교하시고 꼭 기한이 짧은것을 뒤쪽으로 진열해주세요. 대부분 유통기한이 길긴하지만 앞에있는 음료 회전 안해주시면 유통기한 지나도 모릅니다~ 그리고 판매시 만약을 대비해 꼭 유통기한 한번씩 확인하고 판매해주세요. 과거에 재고 관리가 안되었던 적이 있어 매니저님들께서 함께 확인 정리 해주시면 감사하겠습니다.
+이번에 음료 리필 후 냉장고는 재정리해두어 유통기한 순으로 배치해 두었습니다.', 4, '2025-08-29T11:22:25', '2025-08-29T11:23:28', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1424, '황윤선님께 크레딧+레슨권 양수', '293. 황윤선님의 크레딧 86,826c + 만료레슨권 10회 양수
+프렌즈 10 재등록으로 만료 레슨권 회생하여 레슨권 횟수 취합 (20회)및 유효기간 6개월 연장.
+양도 수수료 50% 할인으로 30,000원 + 프렌즈 10 290,000원-= 320,000원 이희선님(용정희님이 대신 결제) 카드 결제 완료 (영수증 레슨권 등록 신청서에 첨부)
+crm 크레딧 적립으로 양도받은 크레딧 적립 완료, 레슨권은 프렌즈 20으로 등록 완료.
+
+이희선님 방문시
+신분증 복사 
+fms 레슨권 프렌즈 20으로 등록 qr인증 필요', 4, '2025-08-29T12:37:40', '2025-08-29T13:14:24', '회원요청', 501, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1425, '이희선님께 크레딧+레슨권 양도', '501. 이희선님께 크레딧 86,826c + 만료레슨권 10회 양도
+
+프렌즈 10 재등록으로 만료 레슨권 회생하여 레슨권 횟수 취합 (20회)및 유효기간 6개월로 연장.
+
+양도 수수료 50% 할인으로 30,000원 + 프렌즈 10 290,000원-= 320,000원 이희선님(용정희님이 대신 결제) 카드 결제 완료 (영수증 레슨권 등록 신청서에 첨부)
+
+fms 레슨권 횟수 0처리 완료
+
+', 4, '2025-08-29T12:39:51', '2025-08-29T12:41:57', '회원요청', 293, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1426, '입력오류로 ', '입력오류로 350000C 삭제함', 20, '2025-08-29T14:57:31', '2025-08-29T14:57:31', '회원요청', 815, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1427, '김선우 프로 체험 레슨 2회 지급', '김선우 프로 체험 레슨 2회 중 1회 잡아드림(2025.9.5)', 19, '2025-08-29T17:55:37', '2025-08-29T17:55:37', '회원요청', 111, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1429, '수동 적립', '9번 타석 소리 안나옴 으로 불편 드려 당일 이용 금액 20% DC 수동 적립해 드림. +3720', 19, '2025-08-29T19:28:43', '2025-08-29T19:28:43', '회원요청', 413, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1430, '양도양수', '남편 이요셉 회원님께 모두 양도함
+크레딧 147966C  레슨2회(기간25.09.05까지)', 16, '2025-08-30T11:39:23', '2025-08-30T11:39:23', '회원요청', 683, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1431, '레슨권 재등록', '2025.08.30 프렌지20 등록
+2024 10 기간 만료된 남은 레슨권10회 취합하였습니다.  (25.08.30 기준 총30회)
+본인 방문이 아닌 남편분이 결제 하고 가셔서 fms 새로 등록을 못해서 기존에 있던 레슨권에 기간, 횟수 조정하여 바로 예약하실 수 있도록 하였습니다.', 16, '2025-08-30T12:02:35', '2025-08-30T12:02:35', '회원요청', 380, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1432, '양도양수', '아내 박유미 회원님에게서 모두 양수함
+크레딧 147966C 레슨2회(기간25.09.05까지)
+
+레슨권은 cms에 등록 하시 않았습니다.', 16, '2025-08-30T12:11:38', '2025-08-30T12:12:11', '회원요청', 816, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1433, '레슨권 기간 연장', '잔여 6회 레슨권 최초 1회 1개월 연장 요청으로 해드림 2025.9.6->10.6 fms 적용완료.', 19, '2025-08-30T14:20:02', '2025-08-30T14:20:02', '회원요청', 704, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1434, '이벤트 당첨', '8월30일 깨진볼 이벤트 당첨으로 무료 레슨권1회+ 김선우 프로님 체험 레슨 1회 로 잡아드리기로함.', 19, '2025-08-30T21:30:28', '2025-08-30T21:30:28', '회원요청', 376, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1435, '기간권 홀드', '기간권 1개월 (김캐디로 결제 안하시고 남편 성운제 회원님과 함께 결제하심),
+9월2~9월9일로 홀드 수정완료함.', 19, '2025-08-30T21:33:08', '2025-08-30T21:33:08', '회원요청', 781, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1436, '기간권 수정', '기간권 1개월 (김캐디로 결제 안하시고 남편 성운제 회원님과 함께 결제하심),
+9월2~9월9일로 홀드 수정완료함.', 19, '2025-08-30T21:33:45', '2025-08-30T21:33:45', '회원요청', 780, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1437, '전상협 회원 라커보증금 반환요청', '전상협 회원 라커보증금 반환요청 ', 20, '2025-08-31T11:55:25', '2025-08-31T11:55:25', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1438, '락커 반납 완료', '락커 반납 완료. 보증금 15만원 송금 완료.', 19, '2025-08-31T14:18:55', '2025-08-31T14:18:55', '회원요청', 784, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1439, '잔액 부족 ', '어머니 안영미님 -20,440 계좌이체 완료하심.', 19, '2025-08-31T15:59:20', '2025-08-31T15:59:20', '회원요청', 776, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1440, '매장 대면 안내 ', '7월12일에 기간권 지나고 하루 이용하셔서 -7,733c 이심. 
+대면시 다음부터 현장 결제 조건부로 7월12일에 사용금에 대해선 봐 드리는걸로 함 (대표님 승인)
+크레딧 병행 추천해 드리고 (다음에 하신다 하심)
+앞으로는 기간권 김캐디 결제시 매장에서 도와 드리겠다 말씀드림.', 19, '2025-08-31T17:05:46', '2025-08-31T17:36:38', '회원요청', 721, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1441, '결제 수단 카드->현금', '8월24일 골프패밀리 149만원 신한카드 결제 하셨는데 8월31일 현금 교체하심. 잔돈 없어 150만원 받고 1만 크레딧 적립 도와드림.
+기한이 지나서(이미 가맹점에 입금처리된 상황) 카드 취소가 안되어 신한카드 상담원과 통화함, 주말이라 카드 취소 가상계좌 진행 절차는 평일 9-6
+처리 가능하다함-> 진행 후 회원님께 알려 드려야함. 
+승인번호 20186048. 거래일시 25/08/24 17:25:08
+가맹점번호 0133373696
+', 19, '2025-08-31T17:47:54', '2025-08-31T17:47:54', '회원요청', 812, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1442, '박희진 회원님 결제 수단 변경 진행 중', '8월24일 골프패밀리 149만원 신한카드 결제 하셨는데 8월31일 현금 교체하심. 
+잔돈 없어 150만원 받고 1만 크레딧 적립 도와드림(crm등록완료).
+기한이 지나서(이미 가맹점에 입금처리된 상황) 카드 취소가 안되어 신한카드 상담원과 통화함, 주말이라 카드 취소 가상계좌 진행 절차는 
+평일 9-6시 처리 가능하다함-> 진행 후 회원님께 알려 드려야함. 
+승인번호 20186048. 거래일시 25/08/24 17:25:08
+가맹점번호 0133373696
+', 19, '2025-08-31T17:48:49', '2025-08-31T17:56:07', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1444, '고희정', '구분 : 방문상담
+고객명 : 고희정
+전화번호 : 010-2621-4325
+특기사항 : 남편 주명건 회원님 소개로 함께 내방하심. 전에 유틸 빼고 다 배우심. 레슨 필요. 매장 ppt 안내 도와 드리고 10타줄이기 추천 관심 있어 하심.
+근처 사시고 근처 헬스장과 골프권 같이 하시는데 가보고 생각해 보신다함.  체험 레슨도 생각해 보신다고함.', 19, '2025-08-31T18:34:00', '2025-08-31T18:34:00', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1445, '김인혜', '구분 : 방문상담
+고객명 : 김인혜
+전화번호 : 
+특기사항 : 기존에 김은성 프로님 체험 레슨 받으심, 상담 기록 없슴. 입문이시고 8단지 거주. 10타 줄이기 추천. 남편 분과 상의하고 오시겠다고 함.
+', 19, '2025-08-31T20:29:51', '2025-08-31T20:29:51', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1446, '레슨 유효기간 연장', '연장 요청으로 1개월 9/7->10/7로 연장 완료', 4, '2025-09-01T10:32:50', '2025-09-01T10:32:50', '회원요청', 79, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1447, '레슨권 유효기간 변경', '11월 중순까지 레슨이 불가하신 상황이라 10/1->11/1로 1개월 유효기간 연장.
+추후 11월에 다시 방문하셔서 레슨권 등록하시면 기존 잔여 레슨 횟수 취합해드리기로 함.', 4, '2025-09-01T11:06:44', '2025-09-01T11:06:44', '회원요청', 668, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1448, '환불 문의', '5/27 10타 줄이기 구매, 잔여 크레딧 569,900원, 잔여레슨 15회. 
+허리아파서 그동안 못치셨고, 다시 치려고 하니 손가락 부상으로 이용 불가. 
+환불 요청 하셔서 채널로 답변 드리겠다하고 통화 종료.', 4, '2025-09-01T11:57:39', '2025-09-01T11:57:39', '회원요청', 740, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1449, '락커 대기중', '클럽 락커 대기중 스텝룸에 보관해 드리기로 함.
+아침 무인때 오시면 스텝룸 보관하고 채널로 알려 주시기로함.', 19, '2025-09-01T15:08:49', '2025-09-01T15:08:49', '회원요청', 817, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1450, '정진용', '구분 : 방문상담	
+고객명 : 정진용
+전화번호 : 010-3367-1425
+특기사항 : 구력 있으셔서 타석 이용만 원하심. 매장 안내 도와 드리고 등록 하심.
+락커 대기중 스텝룸 보관해 드리기로함.', 19, '2025-09-01T15:12:41', '2025-09-02T12:29:14', '상담기록', 817, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1451, '이서현 (엄지후 주니어)', '구분 : 전화상담
+고객명 : 이서현
+전화번호 : 010-2541-3093
+특기사항 : 중2, 남자, 엄지후 학생, 입문, 내일 김주순 프로님으로 체험 레슨 잡아드림. 체험 후 상담 도와 드리기로함.', 19, '2025-09-01T16:00:18', '2025-09-12T13:50:54', '상담기록', 825, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1452, '레슨권 합산 완료', '8월29일 재등록 하신 10타 줄이기 fms 미등록분 완료함.
+기존 레슨권 2026.2.3 16회-> 2026.07.03 까지로 조정과 레슨권  34회로 합산 완료함.', 19, '2025-09-01T16:53:58', '2025-09-01T16:53:58', '회원요청', 562, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1453, '프로님 변경', '김은성 프로님 휴가이신대 레슨은 안 막아 회원님 레슨 예약 잡고 오셔서 못받으심. 당일 타석 이용금 무료로 도와드리고 김주순 프로님으로 변경 원하셔서 
+오늘 못한 레슨1회 FMS 살려드리고 프로님 변경 수정 완료함. CRM 타석은 긴급할인함.', 19, '2025-09-01T20:03:40', '2025-09-01T20:03:40', '회원요청', 524, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1454, '최준', '구분 : 전화상담
+고객명 : 최준
+전화번호 : 010-9963-4314
+특기사항 : 구력 조금 있으신 초보, 레슨 시간 평일 가장 늦게 가능한지 물어보심, 안내해 드리고 네이버 체험 예약 본인이 생각해 보고 잡으시겠다 하심.
+', 19, '2025-09-01T20:43:18', '2025-09-01T20:43:18', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1455, '9/1 타석이용 제대로 못함', '타석 고무티 문제로 제대로 이용 못하시고 채널 문자 보내시고 이용 중단 하심.
+차감되었던 크레딧 100프로 환수 해드리고 무인시 유선 연락 하시라고 안내드림', 4, '2025-09-02T10:42:49', '2025-09-02T10:42:49', '회원요청', 814, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1456, '기간권 3일연장', '9/2 오전 고무티 문제로 타석 이용 제대로 못하심
+기간권의 과거 일자 홀드로 유효기간 3일 연장 11/13->11/16 해드림
+추후 무인시간대 문제발생시 유선 연락 하시라고 안내', 4, '2025-09-02T11:56:43', '2025-09-02T11:57:02', '회원요청', 376, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1457, '레슨권 유효기간 조정', '9/2 10타줄이기 패키지 구매
+레슨이 1주일 뒤부터 가능하셔서 유효기간 1주일 연장 해드림
+기간 조정용으로 1주일 해드린거라 추후 요청시 1개월 연장 가능', 4, '2025-09-02T11:58:13', '2025-09-02T11:58:13', '회원요청', 8, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1458, '주니어 프로님 변경', '김은성 프로님-> 김선우 프로님 으로 변경 요청. 레슨북도 적용 완료함.', 19, '2025-09-02T14:33:42', '2025-09-02T14:33:42', '회원요청', 315, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1459, '김선우 프로 체험', '2025.09.03 김선우 프로님 체험레슨 20분 적용 완료.', 22, '2025-09-02T18:26:04', '2025-09-02T18:26:04', '회원요청', 721, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1460, '기간권 홀드 신청', '2025.09.02->2025.10.13 까지 홀드 적용 완료.
+진단서 채널로 보내주심(교통사고)', 19, '2025-09-02T19:16:00', '2025-09-02T19:16:00', '회원요청', 676, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1461, '재등록 처리', '2025.10.19 까지인 남은 레슨권 20회, 재등록 레슨과 취합 총 56회 만료일 2026.03.19 로 변경 완료함.', 19, '2025-09-02T20:30:51', '2025-09-02T20:33:07', '회원요청', 736, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1462, '김캐디1개월권 ', '매장 카드 결제함.', 19, '2025-09-02T21:11:33', '2025-09-02T21:11:33', '회원요청', 819, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1463, '단독 추가금 발생', '단독 타석 이용금 5000 카드결제 함', 19, '2025-09-02T21:15:33', '2025-09-02T21:15:33', '회원요청', 819, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1464, '권영윤', '구분 : 방문상담
+고객명 : 권영윤
+전화번호 : 010-5272-0397
+특기사항 : 근처 아이파크 거주, 구력4년, 90타 치셨는제 100타 느셨다고 레슨 받아야 할 거 같다고 하셔서 강력 추천 드림. 이번 주 안에 등록 예정이심.', 19, '2025-09-02T21:24:41', '2025-09-02T21:24:41', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1465, '심성보', '구분 : 방문상담
+고객명 : 심성보
+전화번호 : 010-2499-1591
+특기사항 : 구력 10년. 타석만 이용 원하심. 집근처. 김캐디 1개월 이용권 매장 결제하심. 매장 ppt원하시지 않고 가볍게 이용 방법 안내해 드리고 등록하심.', 19, '2025-09-02T21:25:19', '2025-09-04T09:39:21', '상담기록', 819, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1466, '리뷰 적립', '텍스트 리뷰 노출 확인 후 5000c 수동 적립 완료.', 19, '2025-09-03T20:35:06', '2025-09-03T20:35:06', '회원요청', 820, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1467, '한경숙', '구분 : 방문상담 (네이버 타석 체험)
+고객명 : 한경숙
+전화번호 : 010-6281-9193
+특기사항 : 구력 6개월, 현재 레슨은 다른곳에서 받고 계시고 타석 이용만 원하심.
+타석 체험, 매장 ppt 안내 후 등록 하심.', 19, '2025-09-03T20:45:51', '2025-09-04T09:38:59', '상담기록', 820, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1468, '크레딧 마이너스, 김캐디9/8종료 예정', '지난 주말 저녁 2시간 이용으로 마이너스 된 상황
+혹시 이번 주말에 방문하시면 잔액 부족+ 김캐디 재등록 관련 상담하시고 결제 하시면 좋을것 같습니다.
+평일에는 새벽에만 오셔서 주말까지 결제 안된다면 유선상 연락 드려봐주세요.', 4, '2025-09-04T09:51:15', '2025-09-04T09:51:15', '회원요청', 796, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1469, '토요일 레슨권 등록 후 바로 이용 예정', '김선우 프로님 체험 마음에 드셔서 레슨권 등록 원하심
+등록후 바로 레슨 원하셔서 미리 예약 잡아드릴예정
+간단하 유선 상담시 99패키지도 마음에 들어하셔서 등록시 패키지 위주로 상담 해도 좋을듯 합니다.', 4, '2025-09-04T11:18:06', '2025-09-04T11:18:06', '회원요청', 715, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1470, '임은택', '구분 : 방문상담
+고객명 : 임은택
+전화번호 :  010-5250-1944
+특기사항 : 구력 아주 오래되심, 연세 아주 많으심, 하나증권(은행?) 직원분 소개로 방문하심, 하페2 회원권 있으신데 취소 하고 오실 생각이심. 9월 중순 경 이사 안 가면 등록 여부 생각해 보시겠다함. 간단히 매장 크레딧 사용 안내해 드림.
+', 19, '2025-09-04T16:45:00', '2025-09-04T16:45:00', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1471, '재등록 혜택', '패키지 재등록  으로 만료 레슨권 2회 살려드리고 1개월 연장해 드림. 취합 20회로 만료일 2026.02.28 fms 조정완료.
+
+', 19, '2025-09-04T18:53:43', '2025-09-04T18:53:43', '회원요청', 549, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1472, '문 앞 배송서비스', '배송 서비스 이용으로 기간제 회원이신데 -크레딧 발생.', 19, '2025-09-04T19:59:35', '2025-09-04T19:59:35', '회원요청', 190, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1474, '남편 문재윤님 무료체험 ', '9/4 아이코젠으로 이용중 티문제로 20분 정도 밖에 못하심
+문재윤 서주현님 두분 김선우 프로 체험 + 타석 이용 30분 제안
+서주현님은 김은성 프로로 등록 되어있는 상태라 문재윤님이 15분+15분 총 30분 레슨 받기로 하심.
+전화나 서주현님 채널로 연락 오시면 예약 잡아주세요', 4, '2025-09-05T11:14:03', '2025-09-05T11:14:03', '회원요청', 782, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1476, 'fms 등록 해야함', '어제 날짜 20253.09.04 김선우 프로 체험 레슨 후 등록 하셔서 2가지 혜택 적용해 드림.
+1)당일 단독 타석 이용료 3만원 면제해 드림.
+2)레슨 받으러 멀리서 다니시는 거라 4만 크레딧 서비스 드림.
+
+예약 어플 본인 인증이 안되어 fms 등록 못함-> fms 등록 할때까지 채널 or 유선으로 예약 잡아드리기로 함.
+<예약시 레슨은 1시간 잡고, 타석은 단독 타석으로 잡기.>
+', 19, '2025-09-05T15:18:35', '2025-09-05T15:18:35', '회원요청', 821, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1477, '안영재', '구분 : 방문상담
+고객명 : 안영재
+전화번호 : 010-7237-7080
+특기사항 : 구력 8년정도, 김캐디 김선우 프로님 프로필 보시고 50분 체험 레슨 받고 상담 진행 후 등록하심. 일은 홍대, 집은 안양 이시고 연습은 안양에서 목동은 레슨만 받으러 오시는 거임. 한번 오실 때 레슨 1시간씩 단독에서 받으실 예정.', 19, '2025-09-05T15:28:56', '2025-09-05T15:28:56', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1478, '남자 프로', '구분 : 전화상담 (김캐디 프리랜서 프로)
+고객명 : 남자 
+전화번호 : 010-8916-2662
+특기사항 : 매장 위치, 공 자동 올라오는지 물어 보심, 단독 타석 3개 알려 드리고, 현재 회원님들이 타석 잡아 본인이 레슨하시는데 보통 타석료2만~25000원 정도 든다하셔서 관심 있어 하심. 상설 상품화 예정이라고 안내와 회원, 프로 구매가능하며 프로님이 직접 내시고 마진 조금 붙여서 고객한테 받는것도 혀용된다 추천함.', 19, '2025-09-05T18:36:37', '2025-09-05T18:36:37', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1479, '재등록 조건으로 레슨권 일주일 연장', '이미 1개월 연장은 해드렸으나 이재윤 프로님과 예약하기 힘드셔서 예약을 못하셨다고.. 레슨,타석권 재등록 조건 일주일 연장해 드림. 잔여 레슨권 1회 9월8일->9월14일 까지 fms 적용 완료.
+등록은 다음주 안에 꼭 하신다 하심. 패키지 가격 부담 이셔서 타석,레슨권 따로 할 가능성 보임.
+', 19, '2025-09-05T19:38:26', '2025-09-05T19:38:26', '회원요청', 27, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1480, '체험 레슨, 회원권 ', '무료 체험레슨 1회 진행 25.09.13  12:00 김선우 프로님 (레슨20분 진행)
+이번에 크레딧만 구매 하셨는데 , 패키지 상품으로 전환 가능합니다.
+9월 27일 라운드 있어서 마음이 급하다고 하십니다.', 20, '2025-09-06T14:10:51', '2025-09-06T14:17:25', '회원요청', 21, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1481, '지인이벤트 보너스 크레딧', '소개 받은 분과 소개 해주시는 회원님께 각각 적립 해드리는 보너스 크레딧을
+송미화 회원님께 모두 적립하여, 10만 크레딧 적립 하였습니다 (지인:조영주실장님)', 16, '2025-09-06T15:23:42', '2025-09-06T15:23:42', '회원요청', 822, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1482, '타석 이용시 프렌즈아카데미 프로그램 튕김 현상 ', '프로그램이 종료 되어 버리는 경우 있습니다. 다시 시작하기도 안됨.
+주말에도 AS센터 콜센터 연결 됩니다. 전화 하셔서 증상 설명 해주시면 원격으로 파일 점검해서 해결 가능합니다~
+(약 30분 정도 소요됨)', 16, '2025-09-06T17:50:49', '2025-09-06T17:50:49', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1483, '타석긴급할인', '2번 타석 시스템 오류로 타석 이용 못하셔서 긴급 할인 해드렸고(2원은 수동 적림) 
+3번 타석으로 이동, 무료로 이용 도와드렸습니다.', 16, '2025-09-06T19:03:53', '2025-09-06T19:03:53', '회원요청', 111, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1484, '문앞 배송 서비스 비용 할인', '비용 3000원 발생에 대하여 고지 받지 못해서 무료로 알고 있다 하셔서 
+설명 드리고 이번 건 할인 해드렸습니다. (차감된 3000C 다시 적립)', 16, '2025-09-06T20:50:40', '2025-09-06T20:50:40', '회원요청', 190, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1485, '웰빙 최재성회원님  장갑25호 구매', '웰빙 (11:15~12:15)최재성회원님  장갑25호 구매 13,000원 일시불 단말기에서 결제', 20, '2025-09-07T12:29:00', '2025-09-07T12:29:00', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1486, '타석,레슨 예약후 당일 취소 요청', '타석,레슨 예약후 당일 취소 요청(이재윤 프로님과 상의후 취소 도와드림,생색내는 문구는 안 좋아함, 욕한적도 있다함)-이재윤 프로님 문구 직접 작성해서 주심', 20, '2025-09-07T13:17:46', '2025-09-07T13:17:46', '회원요청', 384, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1487, '김경록', '구분 : 방문상담
+고객명 : 김경록
+전화번호 : 010-5132-3290
+특기사항 : 구력 1년 반, 골프 나가야 되는 일을 하셔서 레슨 단기간 제대로 받아야 하심. 매장 ppt 안내 도와드리고 
+등록 하심.', 19, '2025-09-07T15:28:16', '2025-09-08T11:19:40', '상담기록', 823, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1488, '이준화', '구분 : 일일 타석 이용
+고객명 : 이준화
+전화번호 : 010-5409-4652
+특기사항 : 당산동 에서 연습장 이용하고 계시고 하루만 이용 원하셔서 이용하심. PPT 따로 진행 안 함.
+', 19, '2025-09-07T19:21:36', '2025-09-07T19:21:36', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1489, '잔액 부족 결제', '이사 가실 예정이라 잔액 부족 카드 결제 하심.', 19, '2025-09-07T21:16:37', '2025-09-07T21:16:37', '회원요청', 598, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1490, '9/7 프렌즈10등록(안광은매니저)', '레슨권 이용을 9/27 부터 원하심.
+fms에 레슨권 등록을 안한 상태라 이용전 fms에서 프렌즈 10등록(qr인증) 필요함.
+회원님께 이용전 직원에게 등록 요청 해달라고 말씀드림.', 4, '2025-09-08T11:34:52', '2025-09-08T11:34:52', '회원요청', 27, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1491, '김캐디 기간제 재등록', '기존 이용권 만료일 9/9로
+새 이용원 9/10로 시작 날짜 조정 9/10~10/10이용', 4, '2025-09-08T11:43:32', '2025-09-08T11:43:32', '회원요청', 795, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1492, '프리랜서 프로 상품 판매', '# 김선우 프로님 9월 한달간 매장 회원 외 개인 레슨 가능
+타석비는 회원가로 받으면 됨. 
+
+# 프리랜서 프로 상대 상품 판매 개시 (상담 및 결제 과정 대표님께 전달 드리기)
+50만 단일 상품으로 신규 회원과 동일하게 fms등록 채널 등록 절차 진행합니다.
+단독만 사용 가능하며 상품 등록 전까진 상담과 판매 후 자율 금액 50만원으로 등록합니다.
+(구매 후 단독 예약 잡고 와서 레슨 진행하고 퇴실)
+
+회원가가 동일 하게 적용 되기 때문에 회원이 타석 잡고 예약 가능 하며,
+혹은 프로가 회원 등록하고 잡고 와서 회원에게 타석료 받는 것도 가능
+이벤트성 아니고 상시 판매 상품이니 숙지하시고 상품 판매 안내 잘 해주세요.
+
+프리랜서 프로가 회원을 가입 시키면 지인 이벤트 적용 가능합니다.(회원-프로 각각 적용가능)
+
+추후 상풍 등록 및 세분화 되면 다시 전달 드리겠습니다.', 4, '2025-09-08T12:05:58', '2025-09-08T12:05:58', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1493, '기간제 이용 중 60분 초과 이용', '기간제 이용중 60분 이상 타석 이용으로 기존 보유하신 크레딧으로 차감이 되었으나 더이상 크레딧 부족으로 -37c 잔여가 뜸,
+장기 기간제 회원 서비스로 300c 적립 시켜드림. (대표님 인증)
+추후 1일 60분 이상 사용하여 - 잔여 크레딧 부족시 회원님께 크레딧 병행 추천 또는 부족 크레딧 결제 하여야함.', 19, '2025-09-08T14:22:34', '2025-09-08T14:22:34', '회원요청', 716, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1494, '설효진', '구분 : 일일 타석 이용
+고객명 : 설효진
+전화번호 : 010-3160-0381
+특기사항 : 근처 일보러 왔다 하루 이용만 원하심. 1일 오픈타석 1시간 25000원 카드결제 하심.
+', 19, '2025-09-08T14:40:51', '2025-09-08T14:40:51', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1495, '지인 이벤트', '최이란 회원님 소개로 35000c 두분 모두 적립 완료.', 19, '2025-09-08T17:37:48', '2025-09-08T17:37:48', '회원요청', 824, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1496, '지인 이벤트 ', '유미애님 소개 시켜주셔서 35000c 적립 완료.', 19, '2025-09-08T17:38:45', '2025-09-08T17:38:45', '회원요청', 524, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1498, '체험 레슨', '김선우 프로님 체험 레슨 30분 타석(20분 체험 레슨 포함) 잡아 드리기로함. 
+', 19, '2025-09-08T18:06:06', '2025-09-08T18:06:36', '회원요청', 824, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1499, '유미애', '구분 : 방문 상담
+고객명 : 유미애
+전화번호 : 010-6203-3484
+특기사항 : 구력 1년 이상, 초보, 지인 최이란 회원님 소개로 오심, 매장 ppt 안내 도와드리고 등록 하심.
+현재 하페 2차 & 함흥냉면 자리 2곳 회원권, 레슨권 등록하신 상태, 두군데 다 공사가 늦어져 1개월 정도 연습하시려함. 
+레슨을 받으셔야 하는 상황이시고 관심 있으셔서 일단 김선우 프로님 체험 레슨 기존 회원 동일 하게 30분 타석(20분 체험 레슨 포함) 잡아 드리기로 함(다음주에 잡으실 예정). 체험 레슨 후 레슨 등록 하실 가능성 있으심.', 19, '2025-09-08T18:10:58', '2025-09-09T11:58:31', '상담기록', 824, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1500, '지인(회원) 양도 문의', '총 크레딧 729,000c 양도시 (기간만료된 레슨권은 언급할 필요 없음!!)
+양도 수수료 10% 72,900원 카드결제. 양도인 신분증 사본 필요
+
+양수자가 기존 지인이벤트가 적용되었던 이효진 님의 경우 지인이벤트 상대방에게 전액 양도시에는 지인이벤트 지급분은 양도가 어려움(채널로 안내 완료됨. 참고)
+', 4, '2025-09-09T09:57:07', '2025-09-09T09:57:52', '회원요청', 108, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1501, '신영광', '구분 : 방문상담
+고객명 : 신영광(98,10,12)
+전화번호 : 010-2954-3927
+특기사항 : 오목교 근처 직장근무, 지인이랑 같이 오시겠다함', 20, '2025-09-09T17:27:15', '2025-09-09T17:27:15', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1503, '성용훈', '구분 : 방문상담
+고객명 : 성용훈
+전화번호 : 01085028900
+특기사항 : 하이페리온 지하 1달 치심(1년회원권 구입했는데 ,공사중),10타줄이기 프로젝트 구입희망,(3개월정도)
+주중저녁9시정도,주말은 시작,끝 레슨시간에 수법받고 싶다고 하심
+9월11일 저녁9시정도 무료체험 희망하심', 20, '2025-09-09T21:39:17', '2025-09-09T21:39:17', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1504, '지인 이벤트', '김정민 회원님 소개로 115000c 적립 완료', 19, '2025-09-10T11:55:19', '2025-09-10T11:57:06', '회원요청', 825, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1505, '지인 이벤트', '지인 이서현님 소개 시켜 주셔서 115000c 적립 완료', 19, '2025-09-10T11:56:27', '2025-09-10T11:56:27', '회원요청', 185, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1506, '집중레슨10 구매', '중국출장으로 26년1월8일까지 유효기간 연장요청.
+금일타석30분 무료 요청(대표님 확인됨)
+네이버 영수증 리뷰 크레딧 요청', 20, '2025-09-10T20:30:58', '2025-09-10T20:30:58', '회원요청', 111, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1507, '유정원님 90분 연습시 할인 차감 문의', '9월13일 10시 1시간 본인 예약하고 치시고, 바로 카운터에 30분 연장 요구하셔서 90분 치심 다음날 차감시 90분사용 할인적용 안됨 해 달라 부탁하고 가심', 20, '2025-09-11T11:38:14', '2025-09-11T11:38:14', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1508, '김혜민(809)지인 초대', '김혜민(809)지인 초대라고 하심 지인적립요청', 20, '2025-09-11T11:56:28', '2025-09-11T11:56:28', '회원요청', 826, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1509, '빨강 골프백 두고가심', '채 8개 ,사진찍어 확인 ,사무실 안쪽 보관 원하심.팔이 너무 아프셔서 오늘 두고 가심.
+락커 이용료 안내는 해드림', 20, '2025-09-11T12:35:24', '2025-09-11T12:35:24', '회원요청', 826, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1511, '지인 이벤트', '김문경님 소개 시켜주심.', 19, '2025-09-11T13:58:11', '2025-09-11T13:58:11', '회원요청', 809, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1513, '이용규', '구분 : 방문상담
+고객명 : 이용규
+전화번호 : 010-6351-6364
+특기사항 : 집근처, 구력 1년으로 타석 이용만 원하심. 김캐디 선 결제 하시고 오셔서 재등록시 매장에서 결제로 안내함. 매장 ppt 안내 들으시고 크레딧 상품에 관심 가지심. 재 등록시 크레딧 상품으로 하실 가능성 있슴.', 19, '2025-09-11T16:36:44', '2025-09-12T11:23:32', '상담기록', 827, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1514, '락커', '락커 이번 달 까지 이용할 예정.', 19, '2025-09-11T18:56:44', '2025-09-11T18:56:44', '회원요청', 530, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1515, '락커 사용', '락커#131 사용함=>소현정 회원님 크레딧으로 사용', 19, '2025-09-11T19:06:47', '2025-09-11T19:06:47', '회원요청', 190, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1516, '락커 사용에 대하여', '락커#131 사용함=> 김선영(5042) 회원님이 사용하심', 19, '2025-09-11T19:09:29', '2025-09-11T19:09:29', '회원요청', 701, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1517, '신용카드', '김문경 회원님 신용카드 놓고 가심.
+연락드렸고 내일 찾으러 오신다고함. 데스크 오른쪽 서랍에 넣어 둠.', 19, '2025-09-11T19:13:49', '2025-09-11T19:13:49', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1518, '당일 이용 50%', '타석 센서가 됐다 안됐다 해서 이용에 불편, 만석으로 자리 교체도 서비스 시간도 못 드려 당일 이용 요금 50% 해드림.  5,134c 수동 적립해 드림.', 19, '2025-09-11T20:04:52', '2025-09-11T20:04:52', '회원요청', 504, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1519, '이진희, 손미라, 장혜정', '구분 : 방문상담
+고객명 : 이진희, 손미라, 장혜정
+전화번호 : 
+특기사항 : 이진희(구력5년) 타석이용만 원하심, 손미라(6개월), 장혜정 (6개월) 두 분은 레슨 필요. 전체적인 상담 도와 드리고 체험 예약은 생각해 보시고 본인 들이 하신다고 하심. ', 19, '2025-09-11T20:36:49', '2025-09-11T20:36:49', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1520, '조조기간제 회원님 ', '정춘화, 김경진, 박영선 회원님 만료일 임박으로 재등록 시점 입니다.
+정춘화 회원님 15일 오전 재등록 예정, 김경진 회원님 17일 혹은 18일 재등록 예정
+재등록시 크레딧 결제가 아닌 기간권 12개월 99만 상품 카드결제시 90만원으로 결제(9만원 할인적용)
+
+향후 변경 사항 선 적용으로 안내 드리고 재등록  해주시면 됩니다.', 4, '2025-09-12T10:09:39', '2025-09-12T10:43:02', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1521, '타석권 구매시 fms새 상품등록 필요', '박재관님 타석권이 23년도 상품등록이 마지막이라 잔여시간 부족으로
+새 타석권 구매시 fms에 새예약권 등록해주세요', 4, '2025-09-12T11:31:04', '2025-09-12T11:31:04', '회원요청', 111, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1522, '조준석', '구분 : 방문상담
+고객명 : 조준석
+전화번호 : 010-3115-4856
+특기사항 : 입문, 근처 거주, 평일 오후 7시 이후 레슨 원함, 매장 ppt 안내 및 매장 투어 시켜드림. 체험 레슨은 생각해 보고 하신 다함. 주말에 와이프와 상의해서 오시겠다함.', 19, '2025-09-12T15:05:04', '2025-09-12T15:05:04', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1523, '핸드폰 충전기 본체 ', '7번 타석 핸드폰 충전기 몸통 고장으로 새것으로 교체함. 현재 매장에서 사용하는 본체들과 다른 걸로 주문 함. 
+추후 새로운 본체가 더 괜찮을 시 조영주 실장님께 알려 드리기 바람.', 19, '2025-09-12T16:29:39', '2025-09-12T16:29:39', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1524, '9번 타석 센서 인지 오류', '9번 타석 퍼팅 시 센서 작동 됐다 안됐다 하여 천정 센서 on&off 와 컴퓨터 켰다 켬. 그래도 안된다 하셔서 (김제이 회원님)->7번 타석 이동 시켜드림. 이 후 해보니 됨. 인지 하고 지켜보다 반복 시 조치 필요함.', 19, '2025-09-12T16:36:42', '2025-09-12T16:36:42', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1525, '재등록 ', '잔여 레슨권 3회 신규 레슨권과 취합 완료.', 19, '2025-09-12T19:16:32', '2025-09-12T19:16:32', '회원요청', 524, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1526, '아이언 거품세정제 교체', '손님 요청으로 아이언 거품세정제 교체(재고 없는거 같아요)', 20, '2025-09-13T09:08:17', '2025-09-13T09:08:17', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1527, '레슨권 기간요청하심', '인테리어 공사로 바뻐서 모르셨다하심 일주일 기간 연장 요청하심
+크레딧 부족부분 안내해 드렸는데, 우선 아내분 보유 크레딧을 사용하신다고 하심', 20, '2025-09-13T09:42:50', '2025-09-13T09:43:13', '회원요청', 706, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1528, '박수홍', '구분 : 방문상담
+고객명 : 박수홍
+전화번호 : 010-8970-9630
+특기사항 : 비회원으로 하고 가시려는거 등록 유도하여 다시 등록하고 가심', 20, '2025-09-13T11:37:38', '2025-09-15T09:41:28', '상담기록', 828, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1529, 'QR 사진 찍기 문제있음', 'Qr등록시 핸디폰 화면이 찍히지 않음. 회원님 본인 핸드폰 문제이신것 같다고 해서 게스트로 로그인 함.
+채널들록시에도 Qr로 안되서 채널찾기로 등록 도와드렸음', 20, '2025-09-13T11:43:07', '2025-09-13T11:43:07', '회원요청', 828, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1530, '손정태(부)에게 잔액 양도 신청요', '방문하여 손정태(부)에게 잔액 양도 신청요청', 20, '2025-09-13T12:54:04', '2025-09-13T12:54:04', '회원요청', 806, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1531, '5번타석 wait에서 ready변경 오류', '5번타석 wait에서 ready변경 오류로 인식이 안됨->6번 타석으로 20분 무료 넣어드림', 20, '2025-09-13T12:59:03', '2025-09-13T12:59:03', '회원요청', 826, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1532, '이혜림', '구분 : 방문상담
+고객명 : 이혜림
+전화번호 : 010-3245-6080
+특기사항 : 김선우 프로님 무료체험전 10타줄이기 프로젝트 회원등록 유도', 20, '2025-09-13T14:25:22', '2025-09-30T12:33:21', '상담기록', 829, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1533, '락커 대기중', '락커 대기 중 클럽 스텝룸에 보관해 드리기로함.', 20, '2025-09-13T14:52:11', '2025-09-13T14:52:11', '회원요청', 829, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1534, '양도양수', '손승민 회원님(아들) 으로 부터 잔여 크레딧 48,949c, 레슨권 1회 (2025.09.20/김주순P) 양도 받으심.
+기존 이용시 아내분 크레딧 으로 사용 하셔서 fms 인증 후 레슨권, 타석권 부여함.', 19, '2025-09-13T15:49:37', '2025-09-13T15:49:37', '회원요청', 804, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1535, '양도양수', '손정태 회원님(아버지) 께 잔여 크레딧 48,949c, 레슨권 1회 (2025.09.20/김주순P) 양도 해드림.', 19, '2025-09-13T15:51:56', '2025-09-13T15:51:56', '회원요청', 806, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1536, '락커 대기중', '스텝룸에 보관 가능하심 안내함.', 19, '2025-09-13T19:14:49', '2025-09-13T19:14:49', '회원요청', 212, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1538, '수강 확인서', '채널로 보내드림.', 19, '2025-09-13T19:34:29', '2025-09-13T19:34:29', '회원요청', 212, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1539, '김동선, 권혜진', '구분 : 방문상담
+고객명 : 김동선(7월17일 체험레슨-김은성P), 아내 권혜진(첫방문)
+전화번호 : 010-7308-1278, 010-9145-1278
+특기사항 : 남편 김동선님은 7월17일 이미 체험 받으셨고 상담 도와드렸슴. 아내분은 처음 방문이셔서 매장 ppt 및 투어 시켜드림.
+하페 2차 거주, 부부 모두 1개월 배운 입문, 목동역 QED 스크린 레슨 등록하고 몇 번 안받고 폐업하여 붕 뜬 상황. 
+부부 동반 가입시 혜택 물어 보셔서 당일 등록시 지인이벤트(부부 중 1인) 크레딧을 10% 양쪽 드리시로함. 
+10타 줄이기 같은 상품 등록 하셔서 5만 크레딧씩 적립해 드렸슴.', 19, '2025-09-13T19:42:35', '2025-09-15T09:40:40', '상담기록', 830, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1540, '고상혁', '구분 : 방문상담
+고객명 : 고상혁
+전화번호 : 010-4193-8747
+특기사항 : 네이버 상담으로 예약 하시고 오심. 근처 거주. 3년전 1개월 배우셨던 입문. 매장ppt 및 투어 시켜 드림. 
+금,토,일 오후 8시 레슨 가능 하셔서 김은성P 으로 매칭해 드림.
+11월 필드 나가야 해서 집중레슨 필요 페펙트 스윙으로 등록 하심. 네이버 무료 체험 내일로 잡아드림.', 19, '2025-09-13T20:34:36', '2025-09-15T09:41:19', '상담기록', 832, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1541, '카드 ', '권혜진(아내) 님과 함께 등록. 카드 결제 5개월 무이자로 하셨는데
+9월15일 월요일 카드사에 물어 5개월 무이자 할부 적용 안될시 카드 취소하고 재결제 도와드리기로 함.
+99만원 2번 결제 했었슴.
+', 19, '2025-09-13T21:05:37', '2025-09-13T21:05:37', '회원요청', 830, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1542, '종이컵600개 택배받음', '종이컵600개 택배받음,커피머신 아래 정리해서 둠', 20, '2025-09-14T10:36:38', '2025-09-14T10:39:03', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1543, '레슨권 2달 연장', '회사일로 2달 연장 요청하심 ', 20, '2025-09-14T10:47:50', '2025-09-14T10:48:24', '회원요청', 454, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1544, '7번타석 바닥키보드 켜지지않음', '7번타석 바닥 키보드 켜지지 않아서 게스트로 들어가서  처보려고 하나 그때켜짐', 20, '2025-09-14T12:56:00', '2025-09-14T12:56:00', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1545, '정인숙, 양수인', '구분 : 방문상담
+고객명 : 정인숙
+전화번호 : 010-3220-9318
+특기사항 : 기존 5월 6일 아버님 매장 방문 상담 이력 있으심.
+오늘은 부모 함께 매장 방문. 매장 ppt 안내해 드리고 
+9월18일 목요일 딸과 방문하여 등록 하시겠다고 함. 입문으로 10타 줄이기 추천.
+등록할 딸 성함 양수인 (010-2789-9318), 
+부모님은 등록 생각 없으시고 대학원생 딸만 등록 시키실 예정.', 19, '2025-09-14T14:29:52', '2025-09-19T10:13:17', '상담기록', 835, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1546, '서비스 레슨 2회', '패키지와 기간제 등록 하셔서 레슨 2회 서비스로 드림.(fms는 적용 안함)
+김선우 프로님 9월16일 화요일 2타임 레슨 데스크 에서 잡아드림.', 19, '2025-09-14T16:11:32', '2025-09-14T16:11:32', '회원요청', 829, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1547, '최수연', '구분 : 방문상담
+고객명 : 최수연
+전화번호 : 010-6821-1118
+특기사항 : 근처 거주, 평일 퇴근 후 + 주말 레슨 원함. 입문으로 10타 패키지 추천. 매장 pp t안내 도와드림. 다음 주 스케줄 확인 후 체험 레슨 잡을지 연락 주신다 하심.', 19, '2025-09-14T18:26:51', '2025-09-24T11:48:39', '상담기록', 841, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1548, '유효기간 연장 관련 ', '현재 레슨권 혹은 기간권의 경우 특별 사유 없이 연장 요청시 1개월이 최대연장 기한이며 그 외의 추가 연장이 필요시 매장에서는 증빙서류(병원기록 혹은 장기 출장등..)을 요청하고 있습니다. 
+그런 특별 사유의 경유를 제외하고는 1개월 이상 기한 연장은 하지 않으며, 유효기간 만료 상품의 경우(레슨권) 추가 재등록시 만료된 상품 부활과 필요시 약간의 유효기간 연장을 해드립니다. 
+위 내용은 항시 회원님들께 메뉴얼대로 적용하고 안내드리도록 합니다. 
+
+유대건님의 회원 요청에 들어가셔서 메모와 댓글 확인해 주시기 바랍니다.
+
+또한 매장에서 직원이 임의로 판단이 어렵거나 곤란한 경우 대표님께 먼저 말씀드리고 컴펌 후 후 처리 하시는걸 우선으로 합니다.
+
+
++ 신규 회원등록시 회원이름, 전화번호 등 오타 없도록 정확한 기입 요청 드립니다
++ 회원요청 관련 메모사항은 누가 봐도 이해할수 있게 매우 자세히 기록 해주세요. 여러 직원이 로테이션으로 일하다 보니 조금 손이 가더라도 최대한 상세히 기록해주셔야 일 처리가 빠르게 됩니다.
++ 필수 전달사항이 아닌 물건정리나 간단한 전달사항, 구매요청 리스트 등은 crm에 남기지 않으시고 이면 메모지에 남겨주셔도 괜찮습니다.', 4, '2025-09-15T11:54:34', '2025-09-15T11:58:14', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1549, '레슨', '어머님 신규 등록 후 레슨북 첫 예약을 못하시고 본인 레슨권+타석권으로 예약 잡고 아들 지후 주니어가 내방.(20분 늦게 오셨음)
+레슨북 상품에 프로님 선정이 안 되어 있어서 예약이 안 되었던 것임.(선정 완료)
+레슨북 예약 방법과 레슨 시간 엄수 말씀드림.
+이미 차감이 진행된 상황이니 늦게 오셔서 못 받으신 레슨과 단독 타석 무료 열어 드려 주니어 레슨 받음.어머님이 예약하신 레슨권 2회 타석권 그대로 두고 복잡하게 수정 안 하기로함.
+', 19, '2025-09-15T18:27:16', '2025-09-15T18:32:20', '회원요청', 825, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1551, '이진욱 (여자)', '구분 : 방문상담
+고객명 : 이진욱 (여자)
+전화번호 : 010-2002-2022
+특기사항 : 근처 거주, 구력 2년 초보로 타석 이용만 원하심. 목동역 QED 이용 했으나 폐업으로 다른 곳 알아 보시는 상황. 웰빙 클럽 이용 문의도 하셔서 병행 추천 해드리고 매장 ppt 안내함. 남편 분과 얘기해보고 하겠다 하심.
+', 19, '2025-09-15T19:39:23', '2025-09-15T19:39:23', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1552, '재등록 서비스', '타석 200만 크레딧 재등록으로 남자 장갑 23호 1개 서비스 드림.', 19, '2025-09-15T20:19:34', '2025-09-15T20:19:34', '회원요청', 465, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1553, '전지수, 황현철', '구분 : 방문상담
+고객명 : 전지수, 황현철
+전화번호 : 010-9968-1885, 010-8627-1885
+특기사항 : 근처 거주, 부부 구력 1년 초보 레슨 필요. 매장ppt안내 나는 싱글 추천 같이 등록 하심.
+지인 강준효,전지원(부부 회원님 소개), 두분 락커 2개 대기 하실 때까지 스텝룸 보관해 드리기로함.
+
+', 19, '2025-09-15T20:56:11', '2025-09-16T09:46:05', '상담기록', 834, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1554, '조조권 12개월 등록(유효기간연장)', '조조권 12개월 카드결제시 기간2개월 추가 이벤트 적용으로 유효기간이 26/9/16에서 26/11/16로 연장', 4, '2025-09-16T10:15:10', '2025-09-16T10:15:10', '회원요청', 242, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1555, '주니어레슨권 유효기간 연장', '방학동안 레슨이 어려워 진행 못함
+유효기간 1개월 연장으로 8/28->9/30로 연장.
+추후 추가 연장 어렵고 재등록시 취합 연장으로 안내 완료', 4, '2025-09-16T10:36:23', '2025-09-16T10:36:23', '회원요청', 613, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1556, '-7500c카드결제', '타석이용 부족 크레딧 7500 카드결제, 크레딧 수동적립으로 0원 처리
+하페 2 공사 기다리시는 동안 이용 하셨는데 연습이 잘 되어서 새로 오픈한 시설 보고 재등록 고려예정(하페2 1년권 끊어놓은상태)
+', 4, '2025-09-16T10:42:22', '2025-09-16T10:42:22', '회원요청', 789, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1557, '유미애 레슨권 구매', '집중레슨10회구매, 금일 타석무료(대표님 승인) 부부같이 사용,2개월 연장레슨', 20, '2025-09-16T19:42:57', '2025-09-16T19:42:57', '회원요청', 824, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1558, '9/16 톡스토어 프렌즈 20구매', '방문하시면 fms에서 회원권 등록 필요(화,목 주로 방문)
+과거 레슨 예약 문제 있었어서 1개월 레슨 일괄로 스케줄 잡아드리고 있음
+fms 회원권 등록 하시고 "목요일 13:15 레슨 고정으로 넣어드릴지" 여쭤보고 9월 혹은 10월까지 원하시는 날짜 fms에 레슨 매장에서 예약 잡고 qr인증 완료 해 둬주세요. ', 4, '2025-09-17T10:52:53', '2025-09-17T10:52:53', '회원요청', 177, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1559, '집중레슨20회 등록시 요구사항', '3개월 기간연장과 11회 남은 레슨권 취합(대표님 승인 )', 20, '2025-09-17T21:34:20', '2025-09-17T21:34:20', '회원요청', 447, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1560, '3,4번 타석 에러로 10분 더드리고 긴급할인20프로', '3,4번 타석 에러로 10분 더 드리고 긴급할인 20프로 각각 3100원 할인해드림(대표님 승인)', 20, '2025-09-18T12:12:00', '2025-09-18T12:12:00', '회원요청', 11, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1561, '신민철', '구분 : 방문상담
+고객명 : 신민철	
+전화번호 : 010-8700-5416
+특기사항 : 구력 1년, 근처로 이사 오심. 타석 이용해 보고 레슨 여부 생각해 보신 다고함. 매장 ppt 안내 해드리고 등록 하심.', 19, '2025-09-18T18:24:58', '2025-09-19T10:08:59', '상담기록', 836, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1562, '고객 불만사항 처리', '모든 고객 불만 상황은 보상 및 응대 방법을 통일 하기 위해 대표님과 상의 해주시길 바랍니다.
+', 4, '2025-09-19T11:58:24', '2025-09-19T11:58:24', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1563, '체험 레슨 예약시 안내사항', '현재 김선우 프로님 체험 레슨시 레슨20분 타석30분이 무료로 제공 되고있습니다.
+신규회원님들은 상관없으시지만
+기존 회원들은 체험 레슨시 타석은 회원이 잡는 경우가 있어 예약시 꼭
+레슨20분 타석30분 무료로 예약 도와드린다 **번 타석을로 예약 했다. 의 상세한 안내를 해주시기 바랍니다.', 4, '2025-09-19T13:36:04', '2025-09-19T13:36:04', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1564, '9/18 김선우 프로 체험레슨', '타석 무료 이용이 안내가 안되어 프로님은 단독에서 대기
+회원님은 2번 타석 예약 하시고 체험 레슨 기다리심.
+직원 무인 상태라 두분 서로 엇갈려서 무료체험 진행 못함
+9월 말까지 무료체험이지만 시간이 없으셔서 임바다 회원님은 10월까지 무료 체험 가능으로 안내해드림.
+추후 체험 레슨 예약시 타석 30분 레슨15 분 예약 해주시고, 타석도 예약 해드린것 꼭 안내해주세요
+
+10월 스케줄 상황을 몰라 일단 15분 체험으로 안내드렸습니다. (임바다님 9/19 채널 참고)', 4, '2025-09-19T13:43:28', '2025-09-19T13:48:03', '회원요청', 424, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1565, '10월 레슨 선예약', '이재윤 프로님  fms열어주시면 10/2,16,23,30 목요일 오후 1:15~1:30 레슨 매장에서 예약 후 방문하시면 qr인증 모두 해서 빨강-> 파랑으로 변경 해주세요.
+방문전에 fms예약 미리 다 잡아두시고 오시면 휴대폰 받으셔서 일괄 qr 인증하셔야 빠르게 처리됩니다.', 4, '2025-09-19T14:00:07', '2025-09-19T14:00:07', '회원요청', 177, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1566, '송대호', '구분 : 전화상담
+고객명 : 송대호
+전화번호 : 010-6356-7176
+특기사항 : 기존에 다른 프아다니신 경험 있음. 크레딧 마음에 들어하시고, 방문상담 권유 및 체험레슨 말씀드려서 9/20  10:30 체험 레슨 예약 잡음. 등록가능성이 매우 높음. 질문이 많으셨어서 상세히 ppt상담 해주세요', 4, '2025-09-19T14:03:10', '2025-09-19T14:03:10', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1567, '우산 분실', '양희진 회원님, 18:30~19:10 타석 이용 하셨는데 데스크 출입문 쪽 우산 꽂이에서 우산 분실(편의점 투명 우산) 하셔서 SBS 쓰여 있는 검정 매장 우산 빌려 드림.
+대표님께 CCTV 확인 후 회원님께 연락하여 말씀 드리고 SBS 우산 반납 확인하여야 합니다.', 19, '2025-09-19T19:57:03', '2025-09-19T20:11:21', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1568, '2번타석 센서 이상으로 강제 종료', '2번타석(강호준) 8시 48분경 센서 이상으로 회원님이 찾으셔 가보니 강제 종료되어 있어서 1번 타석으로1시간 오픈타석으로 열어드림,모니터,바닥키보드,센서등 다 끄고10분뒤 다시 킴.센서의 초록색불이 여러번 반복해서 컸다켰다 하니까 불이 들어옴', 20, '2025-09-20T08:54:14', '2025-09-20T11:43:24', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1569, '송대호', '구분 : 방문상담
+고객명 : 송대호
+전화번호 : 010-6356-7176
+특기사항 : 전화상담후, 김선우프로님 체험레슨후 타석권, 레슨권 구매하심', 20, '2025-09-20T11:15:19', '2025-09-24T11:47:48', '상담기록', 837, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1570, '레슨권 1달 연장 요구', '10월23일까지 1달 연장 도와드림', 20, '2025-09-20T11:35:12', '2025-09-20T11:35:12', '회원요청', 379, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1571, '투명 우산 분실 ', '어제 저녁 18:30~19:10 투명 편의점 우산 잃어 버리셔서 CCTV 확인요청 하셨는데 답변을 늦게 드려 화가 많이 나신 상태에서 경찰에 신고까지 하셨으나
+CCTV 확인 후 대표님이 연락 하셔서 좋게 마무리 하심. (김은성 프로님이 매장에서 잃어 버린 우산인줄 아시고 가지고 가신 거임.)
+이번 일로 매장에서 회원님의 사소한 사건 및 컴플레인 귀 기울여야 함.
+즉각적인 응대와 연락을 하여야 일이 안커짐.
+', 19, '2025-09-20T15:29:02', '2025-09-20T15:29:02', '회원요청', 652, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1572, '기간제 3일 연장', '2번 타석 센서 문제로 이용에 불편을 드려 기간제 이용 중 이시라 3일 연장해 드림.(대표님 승인)
+만료일 2026.04.21->2026.04.24 조정 완료.', 19, '2025-09-20T18:34:49', '2025-09-20T18:34:49', '회원요청', 687, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1573, '최준규', '구분 : 방문상담
+고객명 : 최준규
+전화번호 : 010-6803-0040
+특기사항 : 근처 거주.구력 오래되심. 몇 년전 레슨 조금 받고 계속 필드만 나가셨슴. 공 안맞으신다고 연습 알아보러 오심. 매장 PPT안내, 김선우 프로님 당일 체험 레슨 진행 후 만족 하시고 등록 하심.', 19, '2025-09-20T18:42:38', '2025-09-24T11:47:41', '상담기록', 838, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1576, '양도 양수', '공양용님께 양도 하심.
+양도 수수료 46,820 카드 결제 완료.
+FMS,CRM 크레딧0, 레슨권0 적용 완료.
+양도가액 안내
+- 크레딧 569,900 원 (유효기간 무기한)
+- 레슨권 366,667 원 (15회 : 회당 24,444 원 / 유효기간 6개월)
+합계 : 936,567
+양도수수료(5%) 46,828 (50% 할인)', 19, '2025-09-20T20:34:49', '2025-09-20T20:35:38', '회원요청', 740, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1577, '양도 양수', '조주연 회원님으로 부터 양도 받으심.
+양도 수수료 46,820 카드 결제 완료.
+FMS 레슨권 15회 유효 기한 6개월 조정 완료. (김선우 프로님 매칭)
+CRM 569,900 잔여 크레딧 수동 적립 완료.
+양도가액 안내
+- 크레딧 569,900 원 (유효기간 무기한)
+- 레슨권 366,667 원 (15회 : 회당 24,444 원 / 유효기간 6개월)
+합계 : 936,567
+양도수수료(5%) 46,828 (50% 할인)', 19, '2025-09-20T20:42:51', '2025-09-20T20:43:05', '회원요청', 839, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1578, '레슨 재등록시', '기존 1회 1개월 기간 연장하셔서 2주 기간 연장 원하셨지만 규정상 안됨 알려드리고 레슨권 재등록시 기간 만료된 레슨권 살려 드리고 재등록 시작일 선정해서 하시는 걸로 함.', 19, '2025-09-20T20:50:48', '2025-09-20T20:51:01', '회원요청', 436, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1579, '동영상리뷰 15000크레딧 적립', '두더지4030으로 동영상리뷰 확인 적립 도와드림', 20, '2025-09-21T09:14:31', '2025-09-21T09:14:31', '회원요청', 229, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1580, '7번방 선풍기 고장', '7번방 선풍기 고장나서 새 선풍기 택배와서 조립하여 7번방에 넣고 고장난거 스텝방에 넣어둠', 20, '2025-09-21T09:19:16', '2025-09-21T10:46:51', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1581, '5회 레슨권 연장과 이재윤 프로님 변경 요구 ', '유영규 회원님 이재윤프로님이 예약 스케줄과 맞지않아서 김주순프로님으로 바꾸시면서 1달 연장하셔서 9월21일까지 하시고 5회가 남으셨는데,다시 연장 원하시고..프로님도 다시 이재윤프로님으로 바꾸시길 원하십니다.과 크레딧이4만정도 남으셔서 크레딧구매도 같이 하심 레슨권 취합하여 기간연장 9개월정도 도와드린다고 말씀드림, 생각해 보신다고 하시고 가심', 20, '2025-09-21T09:45:26', '2025-09-21T09:46:40', '회원요청', 215, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1582, '조조 이벤트2개월 추가와 레슨2회 기간이 28년으로 되어있음', 'FMS에 조조타석 기간입력하려고 보니 레슨2회 남은게 기간이28년으로 되어있음', 20, '2025-09-21T09:53:59', '2025-09-21T09:53:59', '회원요청', 229, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1583, '이주은', '구분 : 방문상담
+고객명 : 이주은
+전화번호 : 010-9622-0503
+특기사항 : 입문, 3개월 뒤 주재원으로 해외 이주 전에 골프 배우러 네이버 체험 진행. 매장 ppt안내해 드리고 생각해 보시고 결정 하겠다고 하심.', 19, '2025-09-21T15:22:11', '2025-09-29T11:34:30', '상담기록', 842, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1584, '2번 타석 AS 받음.', '천정 센서 등 안껴짐, 게임중 모니터 튕김 현상(갑자기 바탕화면으로 바뀜) 으로 AS 의뢰함.
+-프로그램 체크
+-센서 접촉 단자 위치 변경
+-pc 메모리카드 위치 변경
+-팬 먼지 제거
+-그래픽 카드 드라이버 업데이트
+출장비 16500+공임비 26,500= 44,000 나옴
+같은 이유로 재문제시 출장비 면제이나 공임비는 나옴.', 19, '2025-09-21T15:39:40', '2025-09-21T15:39:51', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1585, '커피머신 고장', '커피머신 고장 (증상은 물만 나오고 마지막에 뒷쪽 에서 내려 앉는 소리가 남)
+데스크 모니터에 적힌 as 전화 안 받으셔서 기계 끄고 사용금지 붙여놓음.
+주말이라 안 받을수 있으니 평일 다시 전화 해 봐야 함.', 19, '2025-09-21T16:14:10', '2025-09-21T18:21:24', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1586, 'fms 레슨권 부여, 시작일 설정', '배너 레슨 1개월 시작은 추석 이후 부터 시작하는걸로 함. 시작일은 추석일정 나오면 알려 주신다고 함.
+남편분이 결제 하셔서 fms 인증 레슨권 부여 하고 만료일 변경해야 함.', 19, '2025-09-21T16:37:11', '2025-09-21T16:37:11', '회원요청', 189, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1587, '기간제 시작일', '기간제 3개원권/ 배너 김주순p 3개월권
+동시 시작일 2025.09.24일로 fms, crms 모두 적용하여 만료일 12.21->12.24로 수정 완료.', 19, '2025-09-21T16:43:36', '2025-09-21T16:43:36', '회원요청', 759, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1588, '레슨권 1개월 연장', '2025년7월에 등록하신 레슨권에 대한 최초 1개월 연장 요청. fms 2025.10.04->11.04 만료일 수정 완료.', 19, '2025-09-21T18:03:35', '2025-09-21T18:03:35', '회원요청', 504, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1589, '잔액부족 빼드리기', '김주순 프로 3개월권 레슨 시작일 설정 안하심.
+전일 기간권 3개월권 결제하러 오실 예정이신데 그때 레슨권, 기간권 시작일 설정 적용해 드리기로 함.
+fms, crm 만료일 조정 필요함.
+전일 3개월 기간권 등록시 잔액 부족 -7,384c 빼드리기로 말씀드리기.', 19, '2025-09-21T19:48:05', '2025-09-21T19:48:05', '회원요청', 719, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1590, '기간 조정', '3개월 기간제, 3개월 레슨권 시작일 9월22일부터 시작으로 fms,crms 12월22일로 조정 완료.', 19, '2025-09-21T21:00:30', '2025-09-21T21:00:30', '회원요청', 524, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1591, '카드 취소', '9월12일 99타 결제 최소함
+fms 레슨0으로 기간 만료함. crm 삭제 완료', 19, '2025-09-21T21:01:43', '2025-09-21T21:01:43', '회원요청', 524, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1592, '만료일 조정', '3개월 기간제, 3개월 김주순 프로 레슨권 
+둘다 시작일 9월23일부터로 fms,crm 만료일 12월23일로 조정 완료.', 19, '2025-09-21T21:06:53', '2025-09-21T21:06:53', '회원요청', 817, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1593, '레슨시작일 미정', '김주순 프로 1개월 레슨권 시작일 미정이며
+시작일 알려 주실때 전일 이용권3개월짜리 크레딧 결제 예정이심.', 19, '2025-09-21T21:12:22', '2025-09-21T21:12:22', '회원요청', 840, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1594, '김주순 프로 1개월 레슨권 등록', '현재 조조 이용중이시라 오후에 레슨 받으러 따로 방문하셔야 함. 해보시고 필요시 조조권을 레슨기간만큼 홀드 예정이심.
+대표님 확인 완료 되어 요청하시면 조조권 기간 홀드 해주세요', 4, '2025-09-22T10:30:41', '2025-09-22T10:30:41', '회원요청', 152, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1595, '기간권 유효기간 관리', '기간제 이용권(조조 전일권등) 이용회원님들 타석권 유효기간은
+fms는 무기한(28/12/31)으로 설정 합니다. 기간 만료후 크레딧으로 타석 이용 원하실 경우 예약이 안됩니다.
+crm은 회원권 등록시 자동 설정되는 유효기간 기반으로 하며, 홀드 등으로 유효기간을 조정합니다. 
+조정 사유 발생시 꼭 메모 남겨서 모두가 공유 할 수 있도록 해주세요.', 4, '2025-09-22T12:09:45', '2025-09-22T12:09:45', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1596, 'fms 기간 레슨권 ', '기간 레슨권 1개월로 하셨다 3개월로 바꾸셔서 fms 1개월권이 들어가 있슴. 횟수 0처리 기간 만료 적용 완료.', 19, '2025-09-22T13:26:01', '2025-09-22T13:26:01', '회원요청', 817, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1597, '주니어 레슨권 연장', '조은찬 주니어 자전거 타다 넘어져 비장에 출혈로 입원. 최초 1개월 레슨권 연기해 드림. 
+2025.12.02->2026.01.02 레슨북 수정 완료.', 19, '2025-09-22T15:34:23', '2025-09-22T15:34:23', '회원요청', 751, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1598, '기간제 레슨권 시작일', '김주순 프로 기간제 레슨 1개월권 시작일 전화 주시기로함.', 19, '2025-09-22T17:09:18', '2025-09-22T17:09:18', '회원요청', 702, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1599, '재등록', '기존 레슨권 6회 만료일 2025.11.20 까지임. 신규 레슨 시작일을 11월 21일 부터로 만료일 2026.04.20 fms 조정과 레슨권 24회로 취합함.
+', 19, '2025-09-22T18:40:18', '2025-09-22T18:40:18', '회원요청', 672, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1600, '김주순 프로 기간제 상품 판매 종료', '선착순 10인 판매 완료 
+추가 구매 원하는 회원님께 안내사항
+-기간제가 아닌 일반회원 레슨도 진행해야 해서 10분 한정 진행을 프로님이 원하심
+- 반응이 좋아 다른 프로님들도 확대 가능성 열어두고 추후 안내 드릴예정
+- 유사 상품 진행시 등록 의향 여부
+의 상담 후 엑셀(주차권 기입하는)에 명단 탭 만들었습니다. 기록 해주세요.', 4, '2025-09-23T10:50:43', '2025-09-23T10:50:43', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1601, '이준혁 주니어 레슨북 유효기간 수정', '기존 이용 기간 8/2~11/1 만료 잔여레슨 7회
+홀드 요청일 기준 67일 잔여일 남음
+1/1부터 이용 원하셔서 이용권  기간 변경을 1/1~3/8로 수정
+
+만료 알람이 온다고 하셔서 방학기간에 맞춰 회원님이 요청하신 날짜로 변경 해 두었습니다. ', 4, '2025-09-23T11:40:50', '2025-09-23T11:40:50', '회원요청', 379, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1602, '조조권 12개월 추가 2개월 이벤트 적용', '2025/9/21 12개월 등록으로 26/9/21->26/11/21로 유효기간 2개월 연장됨', 4, '2025-09-23T12:09:19', '2025-09-23T12:09:19', '회원요청', 229, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1603, '5번타석 wait에서 움직이지 않음', '흰색 빔 저절로 꺼져있음,다 끄고 10분후 열어서 다시 됨,
+5번타석 유민주님 4번타석으로 오픈하여40분 치심
+', 20, '2025-09-23T17:14:43', '2025-09-23T17:59:58', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1604, '이정희', '구분 : 방문상담
+고객명 : 이정희
+전화번호 : 010-3522-5680
+특기사항 : 목동 아파트 801동1004호 거주,다른곳(내년4월까지)에서 치고 계셔서 환불되는지 알아보고  등록한다하심', 20, '2025-09-23T17:56:42', '2025-09-23T17:56:42', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1605, '이재승님으로부터 447,582c과 레슨권18회 양수받으심', '447,582c+레슨18회(490,000)=937,582(10프로)
+93,700원 결제 완료', 20, '2025-09-23T20:19:22', '2025-09-23T20:19:22', '회원요청', 41, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1606, '김한울님께 447,582c과 레슨권18회 양도', '이사로 김한울님께 447,582c과 레슨권18회 양도, 못오신다고 하셔서 신분증은 채널로 받고,양수인이 대신 양도 신청서 작성하심(대표님 확인)', 20, '2025-09-23T20:36:43', '2025-09-23T20:38:44', '회원요청', 42, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1607, '기간권 홀드', '9/29~10/9 여행으로 홀드', 4, '2025-09-24T10:04:56', '2025-09-24T10:04:56', '회원요청', 242, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1608, '홍채은 주니어 이름 오류', '홍채은 이 아니고 홍채"운"이라고 합니다. 그동안 말씀 안하시고 그냥 넘어가신듯 해요.
+등록신청서 작성할때 이름 잘 확인 해주시고 오타 안생기도록 잘 기입 해주세요^^', 4, '2025-09-24T11:47:08', '2025-09-24T11:47:08', '회원요청', 384, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1609, '46번 락커장 소리난다하심', '46번 락커장 소리난다하심(건전지 교환 필요 한듯)  교체방법 알려주세요~', 20, '2025-09-24T19:44:35', '2025-09-24T19:46:04', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1610, '기간권 이해 못해 18원 받지 못해서 수동으로 입력', '부족한 크레딧 2982원만 카드로 추가금 받고, 기간권 이해 못해 18원 받지 못해서 수동으로 다시 입력.
+다음엔 이런 상황을 대비해 크레딧 상품 판매유도하면 좋을듯 합니다.', 20, '2025-09-24T21:15:42', '2025-09-24T21:16:24', '회원요청', 795, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1611, '4번 타석 이부현님 6번타석으로 타석이동', '9시 예약하신 이부현님  처음부터 안되었다고 하셔서 오자마자 4번 타석에서 6번타석으로 타석이동,4번 모든 전원 내리고 5분뒤 다시 켜니 됨', 20, '2025-09-25T09:51:21', '2025-09-25T10:22:08', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1612, '아이언 커버 보신분', '황인효 회원님(5438) 저번주 아이언 커버 1개 잃어 버리 셨다 하심. 본인도 어디서 잃어 버리신지 잘 모르심.
+습득 하신분은 연락 드려 주세요. 여자 아이언 커버입니다.', 19, '2025-09-25T14:22:41', '2025-09-25T14:58:09', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1613, '프로님 변경', '일 때문에 요일이 안 맞아 프로님 변경. 김은성P->김주순P. fms변경 완료.
+아내 권혜진 회원님도 함께 변경하심.', 19, '2025-09-25T14:29:03', '2025-09-25T14:29:03', '회원요청', 830, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1614, '프로님 변경', '일 때문에 요일이 안 맞아 프로님 변경. 김은성P->김주순P. fms변경 완료.
+남편 김동선 회원님도 함께 변경하심.', 19, '2025-09-25T14:29:49', '2025-09-25T14:29:49', '회원요청', 831, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1615, '031-527-7033', '원두 업체인데 매장으로 전화 오셔서 원두 무료 드셔 보시라고 보내 주신다고 함. 주소 알고 계심. 
+드셔 보시고 연락 달라 하십니다.', 19, '2025-09-26T14:13:34', '2025-09-26T14:13:34', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1617, '양도양수 와 락커', '장용원 회원님(딸) 결혼으로 어머님께 양도양수 받으심. 719,150c
+따님이 쓰시는 락커#141번 9월 30일 반납 후 배정 받으시기로 하심.', 19, '2025-09-26T15:13:53', '2025-09-26T15:19:41', '회원요청', 176, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1618, '양도양수 와 락커', '이창희 회원님(어머님)께 양도함. 719,150c
+ 락커#141번 9월 30일 반납 후 어머님께 배정 해드리기로 함.', 19, '2025-09-26T15:22:28', '2025-09-26T15:22:28', '회원요청', 173, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1619, '양도양수 중 레슨권', '장요원 회원님 양도양수 중 지난 레슨권33회 (만료일 2025.05.31) 
+레슨권 재등록시 살려 드리기로 함. (프렌즈20 이상 등록시)
+조망간 매장 오셔서 마저 상담 받으시고 등록 하신다고 함.
+기존 타석만 이용하신 회원님 이시라 fms 레슨권 부여해 드려야함.', 19, '2025-09-26T16:13:49', '2025-09-26T16:13:49', '회원요청', 176, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1620, '양도양수 레슨권', '지난 레슨권33회 (만료일 2025.05.31) 
+양수인 어머니 이창희 회원님이 레슨권 재등록시 살려 드리기로 함. (프렌즈20 이상 등록시)
+조망간 매장 오셔서 마저 상담 받으시고 등록 하신다고 함.
+기존 타석만 이용하신 회원님 이시라 fms 레슨권 부여해 드려야함.', 19, '2025-09-26T16:15:25', '2025-09-26T16:15:25', '회원요청', 173, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1621, '황상진', '구분 : 전화상담
+고객명 : 황상진
+전화번호 : 010-3173-5835
+특기사항 : 라운딩2번 나간 초보, 11월 업무일로 라운딩을 나가야 되서 속성 레슨 필요로 문의주신. 
+네이버 검색으로 이재윤 프로님 문의하셔서 내일 체험 잡아 드림.
+체험 받고 매장 상담 후 등록은 다음주에 하신다함. 회사 수강 확인서 가져 오셔서 해드리기로함. 100만원대 아래로 원하셔서 10타 줄이기 추천드림.', 19, '2025-09-26T21:21:09', '2025-10-03T12:57:37', '상담기록', 844, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1622, '8번타석 티교체', '8번 타석 김정민 회원 티가 자꾸 쏠린다고 하셔서 티교체', 20, '2025-09-27T11:09:35', '2025-09-27T11:09:35', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1623, '정춘화님과 엄혜정님 비닐우산 바뀜', '정춘화님과 엄혜정님 비닐우산 바뀜,정춘화님이 가져가신 비닐우산 모양이 다른것 같은데,만약 아니시라면 사주신다 하심', 20, '2025-09-28T11:58:29', '2025-09-28T11:58:29', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1624, '만료된 레슨권', '만료일 2025.06.17 레슨권11회 기간 연장 물어보셔서 레슨권 프렌즈 10 이상 하시면 살려 드린다 말씀 드렸고 크레딧도(126,749 보유)부족 하셔서 10줄타 패키지 안내함. 생각해 보고 결정하시겠다 하심.
+', 19, '2025-09-28T16:14:46', '2025-09-28T16:14:46', '회원요청', 645, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1625, '레슨권 취합', '만료일 2025.09.28인 레슨권 7회 재등록 취합하여 1개월 연장 2026.01.26, 17회 fms 적용완료.', 19, '2025-09-28T17:01:14', '2025-09-28T17:01:14', '회원요청', 605, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1627, '이벤트 레슨 2회', 'vip회원이신데 10월 숏게임 이벤트 열심히 하셨으나 당첨이 안되셔서 위로 차 이벤트 레슨 2회 서비스 드리기로 함.(대표님 승인) 예약은 채널로 연락 주시는 걸로 안내함.
+예약시 댓글 남겨 주세요.', 19, '2025-09-28T18:56:55', '2025-09-28T18:56:55', '회원요청', 46, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1628, '아들 안재현 주니어 체험 후기', '아들 안재현 주니어 체험(25.09.28)완료. 집에 가서 아이 의견 듣고 결정하시겠다 하심.
+레슨권 43회 있으시고 크레딧 얼마 안남으셔서 크레딧 높은거 또는 골드패밀리 추천드림.', 19, '2025-09-28T19:00:54', '2025-09-28T19:00:54', '회원요청', 447, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1629, '락커 배터리 교체방법', '1. 마스터키를 이용해서 락커를 연다(필요시 회원께 양해 구하기)
+2. 키패드 안쪽 나사 두개 풀기
+3. 검정 커버 위로 밀어 열기
+4. 배터리 교체
+5. 검정 커버 닫고 나사 조립
+6. 회원님 이용중이신 경우 비번 전번 뒷자리로 입력하고 채널로 안내드리기', 4, '2025-09-29T09:57:44', '2025-09-29T09:58:06', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1630, '이재윤 프로님 10월 무료 숏게임레슨 ', '봄꽃1000(정춘화님), 박영선10(박영선님), 세나1(오세나님), 쥬집사(박진일님) 
+무료 숏게임레슨 대상자 선정.
+참가 관련안내 추후 재공지 예정', 4, '2025-09-29T10:58:22', '2025-09-29T10:58:22', '이벤트기획', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1631, '12개월 조조권 등록시 2개월 추가 연장 지급', '이벤트로 12개월+2개월 연장 적용
+26/9/29->26/11/29로 2개월 연장 ', 4, '2025-09-29T11:13:41', '2025-09-29T11:16:34', '회원요청', 26, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1632, '레슨북&FMS 대조', '이지수 주니어 10월 4일 오전 10시, 11시 레슨북 예약 하셨는데 11시 타임만 잡혀있고 10시타임에는 성인들로 모두 참.
+누락으로 이지수 주니어 10시 레슨북 취소한 상황이 생겼슴. 다행히 어머님이 흥쾌히 이해해주셨지만 앞으론 레슨북&FMS 체크 필수.
+
+오픈자는 당일예약 체크/ 마감자는 레슨북***막는 1주일 뒤 레슨 필수 대조. 가능하면 근무일~1주일 예약 수시 대조
+(특히 주말건은 여러번 체크)', 19, '2025-09-29T14:57:53', '2025-09-29T14:57:53', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1634, '타석 AS 받음', '5번 타석 쇠소리, 7번 타석 공 잘 못 올려줌 으로 AS 신청.
+5번은 모터 나사 풀려 마찰음 발생이라 나사 재조임 후 티센서 청소 하심. 정상 작동됨.
+7번은 테스트 시 정상이고 증상 재현 안되어 티블럭 바닥 이물질 제거, 티센서 청소 고무티 내부 분진가루 제거 , 샤프트 윤활제 도포 하심. (이런 증상시 동영상 찍어 두시면 더 정확하고 빠른 진단 처리 할 수 있다 하심.)
+
+타석 문제시 동영상 찍기. 대표님께 전달 및 기사분 방문시 필요.
+출장비+공임비 2타석 모두 금액 받으셨슴-> 다음 부터 내고 필요!', 19, '2025-09-29T18:03:24', '2025-09-29T18:03:24', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1635, '잔액 부족 차액결제 및 수동 적립', '잔액 부족 결제는 회원에 한하여 회원가로 제공하는것인데  벌써 4회에 걸쳐서 잔액 충전만 하심
+크레딧을 이용하는것으로 회원가가 적용 되는것이므로 실제로 매번 회원가로 결제 안되며 1회 타석을 원할시 비회원가 적용이 맞음
+회원님께 크레딧 이용하여야 회원가 그렇지 않으면 비회원 가 임을 사전 안내 못드렸다고 말씀드림
+
+하페 오픈하면 보고 오겠다고 말씀하셔서 위 사항처럼 계속 소액 결제는 어려우며 타석권이 무기한 이기에 소액이라도 결제 해두시고 편하실때 타석 양쪽 매장 편하게 이용하시라 안내.', 4, '2025-09-30T10:26:46', '2025-09-30T10:26:46', '회원요청', 789, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1636, '잔여레슨 취합및 기간 연장', '현재 레슨권 유효기간 1개월 가량 남은 상태에서 크레딧 구매로 패키기 결제
+잔여레슨 3회 새 레슨권에 취합하여 18->21개로 fms조정 완료
+기존레슨권 기한 만료 0처리 완료
+유효기간 26/2/26->26/3/26로 연장완료', 4, '2025-09-30T10:52:00', '2025-09-30T10:53:00', '회원요청', 403, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1637, '10/1 김희민 주니어레슨 관련', '"김현주님 자녀분 김희민 원포인트 레슨.
+결제는 레슨 당일 하신다고 함
+원포인트 레슨비 65000원 차감"
+이라고 메모 남겨져 있습니다.
+
+주니어 레슨은 성인 원포인트와는 다르기 때문에 
+1. 성인이 타석예약+원포인트 예약 하고 하느냐(부모 동반시 단독에서 가능함)
+2. 주니어 레슨처럼 레슨 30분 타석55분 이용이냐에 따라 결제방법이 달라집니다.
+김희민 주니어의 예약 내역을 보니 일반 주니어 수업처럼 스케줄을 잡아놓으신걸로 보아 2번으로 보여집니다.
+
+이 경우 크레딧 차감이나 성인 원포인트레슨권으로결제가 아닌 
+회원권-주니어-주니어1:1 1회권(65,000원)으로 결제 하면 됩니다.
+또한 예약 메모에 일반 주니어 레슨 예약 처럼 "주니어레슨"이라고 명시가 되어야 합니다.', 4, '2025-09-30T11:08:49', '2025-09-30T11:12:42', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1638, '10/2 방문시', '추가 레슨권+타석권 구매 가능성 있음
+이사로 방문이 어려워져 방문과 비용 최소화 하여 레슨을 받고 싶으심.
+* 옵션1. 10/2 잔여레슨 1회 소진시 비회원가 타석이용 : 25000원결제
+크레딧 레슨 다 털고 나가시려는 것. 가능하면 소액이라도 레슨을 위해 재결제 할 수 있게 유도
+* 옵션2. 크레딧15 +레슨 10회 등록. 등록시 추석 연휴 기간 방문 못하시는 건에 대해 2주 유효기간 연장. 원하시면 추후에 추가 1개월 연장 가능 안내.
+등록 가능성이 가장 높은 옵션임
+*옵션3. 전일이용권 3개월 + 레슨 10회 등록. 등록시 추석 연휴 기간 방문 못하시는 건에 대해 2주 유효기간 연장. 추후 필요시 홀드로 1개월 만료기간 변경 가능.
+
+위 내용 숙지하셨다가 2일에 방문하시면 재등록 도와주시기 바랍니다. ', 4, '2025-09-30T12:23:28', '2025-09-30T12:23:28', '회원요청', 669, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1639, '9월30일 무료이벤트  김선우프로님 사용', '9월30일 무료이벤트  김선우프로님 사용(5시)', 20, '2025-09-30T17:00:57', '2025-09-30T17:00:57', '회원요청', 160, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1640, '131번 락커 비우신다함', '하이페리온 수리끝나서 그만다니신다고 함,10월1일 차량가져와서 채 가져가니 10월 락커비용안되게 해달라하심', 20, '2025-09-30T17:45:12', '2025-09-30T17:45:12', '회원요청', 190, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1641, '10번 락커사용 10월부터 안하심', '10번 (하부장)락커사용 10월부터 안하신다하심', 20, '2025-09-30T19:25:21', '2025-09-30T19:25:21', '회원요청', 235, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1642, '49번 락커 사용안하신다고 하심', '49번 락커 사용안하신다고 하심', 20, '2025-09-30T19:57:22', '2025-09-30T19:57:22', '회원요청', 814, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1643, '레슨권 유효기간연장', '1개월 연장이력 있으나 추가 요청
+대표님 확인 후 10/6->10/31로 연장. 
+추후 추가 연장 안됨.
+재등록시에만 가능(안내완료)', 4, '2025-10-01T10:53:53', '2025-10-01T10:53:53', '회원요청', 29, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1644, '김연희', '구분 : 방문상담
+고객명 : 김연희
+전화번호 : 010-9460-7596
+특기사항 : 앱으로 가입하는거 넘 싫어하심', 20, '2025-10-01T15:24:13', '2025-10-03T12:58:27', '상담기록', 843, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1645, '화분 물과 장갑30개', '화분은 물 다 주었고요.장갑은 어디다 둘지 몰라서   창고쪽 바닥의 휴지 옆에 두었습니다.', 20, '2025-10-01T16:15:49', '2025-10-01T16:15:49', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1646, '2주 홀드(10월2일~10월16일)', '2주연장 도와드림 명절에 다시 몸이 좋아짐 홀드 풀고 다시 올수있다고 함,꼭 홀드 풀고 치시게해야함,아님 크레딧차감됨.대표님 승인(추가연장은 증빙 확인후 도와드림)', 20, '2025-10-01T17:17:19', '2025-10-01T17:18:20', '회원요청', 336, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1647, '핸드폰 번호 바뀜', '핸드폰 번호바뀜(leehs22/010-2541-3093  ->ㅅㄷㄱ/010-6467-4789)
+FMS변경 완료,CRM전번과 닉변경)
+주니어 (엄지후) 센터에서 10/12 7시,10/15,10/17,10/20은 5시30분으로 예약 잡아둠)레슨북 변경은 못도와드림', 20, '2025-10-01T19:56:02', '2025-10-01T19:56:02', '회원요청', 825, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1648, '기존 남은 레슨권2개와 집중레슨권 취합해드림', '기존 남은 레슨권2개와 집중레슨권 취합해서 22개 만들어 드림', 20, '2025-10-02T09:35:18', '2025-10-02T09:48:48', '회원요청', 701, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1649, '15만 타석크레딧 구매와 락커미사용 수동적립(15000크레딧)', '15만 타석크레딧 구매와 락커미사용 수동적립(이사로 사용안하겠다고 전달했다 하심 )레슨권은 추석 끝나고 생각하신다 함', 20, '2025-10-02T11:18:36', '2025-10-02T11:20:21', '회원요청', 669, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1650, '라커미사용분10000만크레딧 수동적립', '라커미사용분10000만크레딧 수동적립(대표님 승인),채널로 적립', 20, '2025-10-02T11:52:26', '2025-10-02T12:32:10', '회원요청', 786, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1651, '10월 락커미사용분 20000크레딧 수동적립', '10월 락커미사용분 20000크레딧 수동적립대표님 승인)', 20, '2025-10-02T11:56:32', '2025-10-02T11:56:32', '회원요청', 684, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1652, '10월 락커 미사용분30000크레딧 수동 적립', '10월 락커 미사용분30000크레딧 수동 적립(대표님 승인)', 20, '2025-10-02T11:58:57', '2025-10-02T11:58:57', '회원요청', 212, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1653, '레슨권 연장', '레슨권 최초 1회 1개월 연장 해드림. 2025.10.19->2025.11.30 (15회 남음),fms 적용 완료.
+손목& 허리 디스크로 레슨을 못 받으셔서 최초 1회 11월 30일까지 연장 원하셔서 해드림.
+혹시 레슨 받다가 무리시 레슨권 기간 연장 요구 가능. 진단서 첨부 안내 말씀드림. ', 19, '2025-10-02T17:02:42', '2025-10-02T17:02:42', '회원요청', 735, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1654, '락커 반납금', '락커 몇 일 안쓰심. 9월30일 반납 처리로 도와 드리고 10월 락커 차감비 1만c 수동 적립 함.', 19, '2025-10-02T18:05:05', '2025-10-02T18:05:05', '회원요청', 824, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1655, '홍원숙', '구분 : 방문상담 
+고객명 : 홍원숙
+전화번호 : 010-6866-6551
+특기사항 : 트라 팰리스 이사 오신지 얼마 안되심. 골프 입문이시고 잘 치기보다 폼 예쁘게 배우는게 목적.
+주 2회 이상 시간 상관 없이 붐비지 않은 시간에 이용 원하심. 체험 예약 하셨으나 감기로 당일 취소 하시고 상담만 받으러 오심. 매장 ppt 안내 및 투어 시켜드림. 연휴 끝나고 10월 16일경 체험 받고 등록 하신다고 함.(체험 예약은 다시 전화주신다고 함). 나는 싱글 패키지 추천 드림.', 19, '2025-10-02T18:17:45', '2025-10-02T18:17:45', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1656, '락커 반납', '아내 안재명 회원님 락커 반납. 10월 2만 크레딧 차감 분 적립해 드림.', 19, '2025-10-02T19:17:23', '2025-10-02T19:17:23', '회원요청', 780, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1657, '톡스토어 구매', '프렌즈 10 FMS QR인증 등록 필요', 4, '2025-10-03T12:56:19', '2025-10-03T12:56:19', '회원요청', 767, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1658, '허리부상으로 기간권, 레슨권 홀드 요청', '기간권 10/3~10/10 홀드 처리
+레슨권 유효기간 12/22->12/29 1주일 연장
+병원 진료 기록 채널 발송
+컨디션이 좋아지셔서 홀드 기간내 이용 원하시면 연락 주셔서 홀드 해제후 이용하시기로 함.
+기간내 홀드 해제 및 레슨 이용시 레슨권 유효기간 축소 필요', 4, '2025-10-03T13:29:04', '2025-10-03T13:48:02', '회원요청', 719, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1659, '레슨권 ', '10월 14일 만료인 21회 레슨권 연장 요청 하셨으나 기존 1회 1개월 연장 해드린바 레슨권 재등록시 연장 가능 하다고 말씀드림.', 4, '2025-10-03T15:30:37', '2025-10-03T15:30:37', '회원요청', 644, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1660, '남성용 드라이브', '매장 남성용 드라이브 채 부러짐. 송대근 회원님 치시려는데 부러지셨다고 함. 데스크 뒤에 놓아 둠
+', 19, '2025-10-03T20:23:54', '2025-10-03T20:23:54', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1661, '박영분', '구분 : 방문상담
+고객명 : 박영분
+전화번호 : 010-4906-3787
+특기사항 : 하이페리온206동1505호 
+                    골프페밀리 주니어 가입가능성 많음
+', 20, '2025-10-04T11:15:14', '2025-10-04T11:15:14', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1662, '김희연님 레슨 기간 한달 연장', '김희연님 레슨 기간 한달 연장 도와드림( 추후 레슨권 구매해야 추가 기간 연장 가능하다고 알려드림)', 20, '2025-10-04T12:09:06', '2025-10-04T12:10:40', '회원요청', 751, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1663, '1번 락커 건전기 교환필요', '건전지 교환하려고 했으나 어디있는지 모르음,지금 작동이 안되서 열어져 있어요', 20, '2025-10-04T13:14:25', '2025-10-04T13:43:53', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1664, '재등록 시작일 변경', '본인 레슨권 시작일 2025.10.17 부터 시작 요청으로 만료일 2026.01.17 로 fms 변경 완료함.
+이주원 주니어 시작일 2025.10.17 부터 시작 요청으로 만료일 2026.01.17 로 레슨북 변경 완료함.', 19, '2025-10-04T14:49:29', '2025-10-04T14:49:29', '회원요청', 637, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1665, '최초 1개월 연장 ', '아이 시험 기간이라 최초 1개월 연장 요청.
+본인 잔여 8회 레슨권 2025.10.22->2025.11.22 fms 변경 완료.
+조윤서 주니어 2025.11.30->2025.12.30 레슨북 변경 완료.', 19, '2025-10-04T15:10:13', '2025-10-04T15:10:13', '회원요청', 812, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1666, '18호 장갑4개 택배옴', '1개는 매장 장갑매대에 둠', 20, '2025-10-05T11:15:04', '2025-10-05T11:15:04', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1667, '레슨 기간권 중복 예약', '레슨 기간제 이용중 중복 예약 사용분 4회를 체험 레슨3회, 원포인트 레슨1회권 결제 하심. fms는 체험레슨만 등록 후 3회 차감 완료함.', 19, '2025-10-05T16:37:45', '2025-10-05T16:37:45', '회원요청', 841, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1669, '하효원', '구분 : 방문상담
+고객명 : 하효원
+전화번호 : 010-2288-5955
+특기사항 : 하효원(남편)님은 김선우프로님으로 무료체험레슨 잡아드림, 골프존에서 3개월 치심.(경력3개월)프로님이 마음에 안들어 지인분들이 이재윤프로님 좋다고해서 한번 와보심, 직장때문에 평일 2~3번정도 저녁9시경에만 올수있다하셔서 김선우,김주순프로님 추천해드림, 아내분 조근조근 자세히 설명해주실 꼼꼼한 프로님 찾고 계심.평일 이용권( 프렌즈20)과 10타줄이기 프로젝트 추천해드림. 두분다 무료체험 끝나고 가입가능성 아주 많음', 20, '2025-10-07T15:14:45', '2025-10-13T10:39:40', '상담기록', 849, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1671, '강연주', '구분 : 방문상담
+고객명 : 강연주
+전화번호 : 010-2825-0109
+특기사항 : 강연주(부인)님은 김주순프로님으로 8번타석으로 25분 예약 도와드림.(부부가 겹쳐서 레슨 받고 싶어하심),다음 레슨시간 고려하여 25분 가능하다고 설명한뒤 잡아드림.골프존에서 3개월 치심.(경력3개월)프로님이 마음에 안들어 지인분들이 이재윤프로님 좋다고해서 한번 와보심, 직장때문에 평일 2~3번정도 저녁9시경에만 올수있다하셔서 김선우,김주순프로님 추천해드림, 아내분 조근조근 자세히 설명해주실 꼼꼼한 프로님 찾고 계심.평일 이용권( 프렌즈20)과 10타줄이기 프로젝트 추천해드림. 두분다 무료체험 끝나고 가입가능성 아주 많음,아내분 결정에 따라 프로 정해질듯', 20, '2025-10-07T15:23:47', '2025-10-13T10:38:49', '상담기록', 848, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1672, '10월14일 2시 이재윤프로님 레슨 매장에서 잡음.레슨권 구매하셔야함', '조윤우 어머님이 전화오셔서 레슨북이 전에 사용시에는 열였는데 튕겨 나간다하시는데,,무슨 의미인지는 모르겠음,레슨북을 보니 레슨권이 없어서 그런거 같다고는 했는데.. 레슨권이 없으면 로그인 조차 안되는지는 확인부탁드립니다.   어째든...14일 2시에 이재윤프로님 레슨 잡아주면 14일 와서 레슨하면서 구매하시겠다고 하셔서 매장에서 잡아는 드림.하지만 레슨북에서는 레슨권이 없어서 잡히지 않은 상태입니다. ', 20, '2025-10-07T17:40:01', '2025-10-08T17:39:31', '회원요청', 613, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1673, '이수호', '구분 : 방문상담 후 즉시 등록
+고객명 : 이수호
+전화번호 : 010-2762-7773
+특기사항 :
+- 목동역 큐이디 갑자기 망해서 이전
+- 레슨 관심있음(오후 이용으로 김선우 프로님 추천)
+- 체험까지 잡으려고 했으나 나중에 연락 주시기로 함', 1, '2025-10-08T12:04:01', '2025-10-08T12:04:09', '상담기록', 846, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1674, '톡스토어 구매 - 레슨권 인증필요', '25.10.08 톡스토어 레슨권 구매 - 레슨권 FMS 인증필요', 1, '2025-10-08T13:37:58', '2025-10-08T13:37:58', '회원요청', 139, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1675, '이현경 주니어', '구분 : 네이버 체험(방문)
+고객명 : 이현경
+전화번호 : 010-4670-3772
+특기사항 : 15분 늦으심,양천고1학년 남아 별로 안하고 싶어하는데 부모가 시키려고 하는듯 보임,골프페밀리 추천, 생각하고 연락주시기로 하심', 20, '2025-10-08T15:25:56', '2025-10-13T10:38:03', '상담기록', 851, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1676, '8월17일결제 재발급영수증 or 수강확인서 ', '8월17일결제 재발급영수증 or 수강확인서 ,둘중 하나 회사 재출용으로 필요하다 하심,추후에 다시 말씀하신다함. 영수증 재발급은 기간이 오래되서 카드사에 문의해야 될듯함', 20, '2025-10-08T16:28:09', '2025-10-08T17:37:52', '회원요청', 807, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1677, '50만 크레딧구매,기존 잔액 크레딧과 합산하여 55만 변주원주니어 구입(레슨은11월1일부터)', ' 25년10월8일 시작~26년1월31일로 등록도와드렸습니다. 지금 레슨북 열어서 보실 수 있도록해달라고하셔서...', 20, '2025-10-08T16:58:38', '2025-10-08T17:36:20', '회원요청', 246, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1678, '대상 포진으로 재연장', '기간권 10/10~10/17 홀드 처리
+레슨권 유효기간 2025/12/29->2026/01/04 1주일 연장
+대상포진으로 일주일 재연장.(대표님 승인)
+병원 진료 기록 채널 발송
+아프시기 전에 기간제 레슨권 중복 사용(5번) 하셔서
+홀드 끝나고 다시 오시면 중복 사용 레슨 분에 대해서 추가 결제 또는 5일 레슨기간제 축소로 해야 함.
+', 19, '2025-10-09T18:39:51', '2025-10-09T18:40:08', '회원요청', 719, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1679, '레슨권 유효기간 연장 요청', '2주 연장 요청 하셔서 10/11->10/25로 종료일 조정.
+추후 필요시 2주 연장 추가 가능', 4, '2025-10-10T10:51:53', '2025-10-10T10:51:53', '회원요청', 46, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1680, '8/22 15000원 결제분', '8/21 노쇼로 오후 재방문시 크레딧 차감이 안되어야 하는데 차감 되면서 별도 15000원 결제건이 있었음. 
+8/22 메모에 15000원 재등록시 할인이라고 기록 되어있으니 할인 내역이 없어
+15000크레딧으로 전환해 드리고 단독이용 혹은 60분 이상 이용시 추가금 발생에 차감 하여 쓰시도록 안내.', 4, '2025-10-10T12:49:24', '2025-10-10T12:49:43', '회원요청', 795, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1681, 'QR 인증이 안될때', '타석 QR 인증시 화면이 검은색으로 먹통이 될 때가 있슴. 그럴 땐 회원님께 앱 삭제 후 재설치 해보시라고 안내해 주세요.', 19, '2025-10-10T14:39:41', '2025-10-10T14:39:41', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1682, '부부 가입 서비스', '부부 동반 패키지 가입으로 크레딧의 10%= 5만 크레딧 수동 적립해 드림.
+(아내 강연주님도 동일 적용함)', 19, '2025-10-10T19:43:59', '2025-10-10T19:43:59', '회원요청', 849, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1684, '부부 가입 서비스', '부부 동반 패키지 가입으로 크레딧의 10%= 5만 크레딧 수동 적립해 드림.
+(남편 하효원님도 동일 적용함)', 19, '2025-10-10T20:00:42', '2025-10-10T20:00:42', '회원요청', 848, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1685, '599,000원 박소영님으로부터 양도받으심', '599,000원 박소영님으로부터 양도받으심', 20, '2025-10-11T12:16:10', '2025-10-11T12:16:10', '회원요청', 773, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1686, '프로님 변경', '김주순 프로-> 김선우 프로 fms 적용 완료', 19, '2025-10-11T16:17:13', '2025-10-11T16:17:13', '회원요청', 848, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1687, '이현경, 이상훈, 이건희(주니어)', '구분 : 방문상담 (네이버 체험)
+고객명 : 이현경, 이상훈, 이건희(주니어)
+전화번호 : 010-4670-3772, 010-6212-3772
+특기사항 : 이건희 주니어는 지난 10월 8일 네이버 체험 진행 했었슴.
+남편분은 구력 있으시고 아내분은 5년전 조금 치셨던 초보로 부부함께 김선우 프로님 체험 진행.
+기존 상담내용이 기억이 안나신다고 다시 설명 부탁 하셔서 매장 ppt 안내해 드림. 세 분 모두 등록 하심.', 19, '2025-10-11T19:15:37', '2025-10-13T10:37:32', '상담기록', 852, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1689, '권준호', '구분 : 방문 상담
+고객명 : 권준호
+전화번호 : 010-9103-7811
+특기사항 : 3년전 조금 배운 초보, 매장 뒤 젠틀한 식탁 대표님, 매장 ppt 안내 및 투어 진행, 체험 레슨 생각해 보시고 연락 주신다고 함. 레슨은 평일 오전 10시전 원하셔서 이재윤 프로님 말씀드림.', 19, '2025-10-11T21:12:38', '2025-10-14T12:04:14', '상담기록', 853, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1690, '9번타석 연습후,게임으로 넘어갈때 멈춤', '다행히 끄고 다시 켜니 괜찮았음', 20, '2025-10-12T09:48:23', '2025-10-12T09:48:23', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1692, '5번타석 발판키보드 불꺼지면서 공 안올라옴. ', '5번타석 발판키보드 불꺼지면서 공 안올라옴. 1번타석 강연주회원님 옮겨 드리고 20분 서비스 드림.다시 그럼 AS전화해야할듯', 20, '2025-10-12T11:27:51', '2025-10-12T11:27:51', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1693, '송인혁 (송하준 부)상담신청서 작성,크레딧은 어머님쪽 입력함', '송인혁(010-7558-0324) 송하준 아버님', 20, '2025-10-12T12:14:22', '2025-10-12T12:14:22', '회원요청', 690, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1694, '남편과 레슨권 쉐어', '9회 레슨권을 
+남편 이상훈 회원님이 3번 정도 쓰시고 나머지 본인이 쓰시기로 하심.(남편은 김선우 프로님 선정)
+이현경 회원님은 김주순 프로님 으로 변경 요청하심.(프로님 변경시 fms, crm 변경 하여야 함.)', 20, '2025-10-12T14:03:50', '2025-10-12T14:03:50', '회원요청', 851, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1695, '이경환', '구분 : 방문상담
+고객명 : 이경환
+전화번호 : 010-9373-5423
+특기사항 : - 몇 년전 치셨던 초보
+                - 당일 함께 상담 받으신 정현님과 부부
+                - 매장 ppt 안내함
+                - 당일 레슨 체험 원하셔서 김은성 프로님으로 진행. (네이버 체험으로 잡음)
+                - 체험 후 오는 주말 까지 생각해 보시고 등록 하시겠다 함.
+', 19, '2025-10-12T17:10:02', '2025-10-12T17:10:02', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1696, '정현', '구분 : 방문상담
+고객명 : 정 현
+전화번호 : 010-9548-0929
+특기사항 : 
+- 2년전 입문 했으나 몇 번 안쳐본 초보 
+- 당일 함께 상담 받으신 이경환님과 부부
+- 매장 ppt 안내함
+- 레슨은 평일 퇴근 후 오후 8시경 (요일은 불규칙함)
+- 10월 18일 토요일 김선우 프로님 체험 예약 잡아드림. (네이버 체험으로 잡음)
+', 19, '2025-10-12T17:12:10', '2025-10-12T17:12:10', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1697, '레슨권 1개월 연장', '일로 바쁘셔서 연장 요청하심.
+최초 1회 1개월 연장 가능 하여 2025.10.24->11.24 fms 연장 적용 완료', 19, '2025-10-12T19:19:21', '2025-10-12T19:19:21', '회원요청', 622, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1698, '본문 확인', '남편 김재윤님이 이사 가신다고 락커 빼시고 잔액 부족 -12000 계좌 이체 하시고 락커 반납하심. 그런데 기간 만료 레슨권 15회 살려 드리는거 말씀드리니 관심 있어 하시고 아내분과 상의해 보시겠다 하심.(프렌즈 10, 10 줄타 이상 등록시 가능하다 안내함)
+', 19, '2025-10-12T20:07:10', '2025-10-12T20:07:10', '회원요청', 449, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1699, '이규도', '구분 : 방문상담 (네이버 체험)
+고객명 : 이규도
+전화번호 : 010-7700-7699
+특기사항 : 
+-입문
+-김주순P 체험 진행함, 레슨 마음에 들어 하심.
+-매장 ppt 안내함.
+-남편분(오상균)도 상담 같이 받으심. 골프 구력 있으심. 남편 허리를 다치셔서 같이 다녀야 하기에 좀 더 생각해 보시고 등록 하시겠다 하심.
+-레슨과 타석 딱 맞게 떨어지게 상품 원하심 (35만 크레딧+ 프렌즈20 원하심)
+', 19, '2025-10-12T20:51:07', '2025-10-12T20:51:07', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1700, '우지선', '구분 : 방문상담
+고객명 : 우지선
+전화번호 : 010-4828-5285
+특기사항 : 
+-입문
+-남편 김준혁님과 함께 상담 받으심.
+-현재 다른 곳에서 레슨 받고 계신데 연습을 따로 할 수 없어서 레슨과 연습하실 곳 찾고 계심(아직 9회 남았으나 
+병행 예정)
+-네이버 체험 레슨 잡아드림. 김주순p
+-매장 ppt 안내 및 투어 시켜드림.
+-체험 후 등록 가능성 높으심. 연습 필요 하시니 나는 싱글 패키지 추천 드리면 좋을 것 같습니다.
+
+', 19, '2025-10-12T21:14:19', '2025-10-12T21:14:19', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1701, '김준혁', '구분 : 방문상담
+고객명 : 김준혁
+전화번호 : 010-9650-0813
+특기사항 : 
+-입문
+-부인 우지선님과 함께 상담 받으심.
+-현재 다른 곳에서 레슨 받고 계신데 연습을 따로 할 수 없어서 레슨과 연습하실 곳 찾고 계심(아직 9회 남았으나 병행 예정)
+-네이버 체험 레슨 잡아드림. 김선우p
+-매장 ppt 안내 및 투어 시켜드림.
+-체험 후 등록 가능성 높으심. 연습 필요 하시니 나는 싱글 패키지 추천 드리면 좋을 것 같습니다.
+', 19, '2025-10-12T21:15:23', '2025-10-12T21:15:23', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1702, '108.박소영님으로 부터 크레딧 양도 받으심', '잔여 크레딧 729,000c중 
+박소영-이효진님 양방 지인이벤트 적립 이력이 있어 지인이벤트 크레딧 130,000제외
+729,000-130,000=599,000c 양도 가능
+양도수수로 59,900원 카드 결제 완료
+(안광은 매니저 진행)', 4, '2025-10-13T09:56:39', '2025-10-13T09:56:39', '회원요청', 773, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1703, '772.이효진님께 크레딧 양도하심', '잔여 크레딧 729,000c중 
+박소영-이효진님 양방 지인이벤트 적립 이력이 있어 지인이벤트 크레딧 130,000제외
+729,000-130,000=599,000c 양도 가능
+양도수수로 59,900원 카드 결제 완료
+(안광은 매니저 진행)', 4, '2025-10-13T09:57:32', '2025-10-13T09:57:32', '회원요청', 108, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1704, '레슨권 등록', '오랜만에 오셔서 레슨권 등록하심.(어제)
+전에 이용 안해 보셔서 매장 ppt안내 투어 시켜드림.
+타석권, 레슨권 부여해 드렸고 채널도 확인 완료함.
+레슨 프로님 화 안내시는 분 원하셔서 (다른곳에서 배울때 프로님이 본인이 못치고 답답하셔서 화를 많이 내셨다고 하셔요)
+김선우 프로님 매칭 도와드렸고 프로님께는 위 내용을 따로 말씀드릴 예정.', 19, '2025-10-13T13:25:09', '2025-10-13T13:25:09', '회원요청', 213, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1705, '온열기구', '온열 방석과 라지에이터 꺼내두었습니다. 
+방석은 일정 시간 지나면 자동으로 꺼지니 온도 조절 중간에 하시면 다시 켜집니다. 부득이 하게 의자 오른쪽에 방석 선이 연결 되어있으니 이동시 조심해주세요.
+퇴근시 잊지 마시고 꼭!!!!! 전원 끄고 퇴근해주세요~
+마감자는 데스크 아래 하얀 콘센트 전원 버튼 각각 2개 있으니 꺼두시고 퇴근하면 좋을 것 같습니다!', 4, '2025-10-14T11:14:03', '2025-10-14T11:14:27', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1706, '조윤서 타석변경 유무', '댓글 삭제 헀더니 다 지워 져서..다시 적어요.일요일 오전 박희진회원님이 채널로 연락오셔서 전화통화를 했구요.3시경 1,2번 타석을 예약해서 15분씩 김주순프로님께 어머님과 조윤서가 받겠다고 하시면서 윤서가 단독타석에서 혼자쳐서 재미없어해요,하고 말씀하셔서 5,6번 타석으로 같이 예약해서 받는 주니어가 있다고 말씀드렸구요. 그럼 이따 김주순프로님과 레슨받은후, 상의하고 결정하겠다고 하셔서..제가 근무시간이 아니라 고메니저님과 구두로 인수인계하고 갔는데..지금보니  시간도 5시로 레슨도3타임으로 변경되어 있네요. 제가 레슨북에 들어온거 10월꺼는 다 잡아둔 상태라 만약6번타석 하심 변경햐야합니다 라고 말씀드리고 갔는데...그뒤는 잘 모르겠습니다.', 20, '2025-10-14T15:18:46', '2025-10-14T15:20:33', '회원요청', 812, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1708, '7타석오류로  다음 예약때 20분 타석 서비스 주기로 함', '구재인 5시 7번타석오류로 8번 타석이동. 학원때문에 시간없어서 다음 예약때 20분 타석 서비스 주기로 함', 20, '2025-10-14T17:04:53', '2025-10-14T18:33:50', '회원요청', 503, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1709, '조윤우 주니어', '주로 화요일마다 2시로(21일,28일 예약 완료),채널로 알려드림
+11월도 레슨오픈되면  화요일.2시로 다 잡은뒤,,채널로 알려드리기로기로 함', 20, '2025-10-15T09:57:34', '2025-10-15T09:57:34', '회원요청', 613, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1710, '10타줄이기 재등록', '40(현금)+59(카드) 분할 결제 완료
+기간만료 레슨권 15회 회생으로
+15+18=33회로 레슨권횟수 조정, 기존 만료 레슨권 횟수 0처리
+유효기간 26/3/13->26/7/13로 4개월 추가 해드림
+추후 레슨권 유효기간 재연장은 재등록시에만 가능하다고 안내.
+', 4, '2025-10-15T10:31:09', '2025-10-15T10:31:41', '회원요청', 449, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1711, '김정민', '구분 : 방문상담
+고객명 : 김정민
+전화번호 : 010-2874-0662
+특기사항 : 이동하회원님 아내분
+이동하님이 타석 예약하시고 혼자 오셔서 타석 이용 원하셔서 qr없이 이용 불가 안내
+타석권 별도 구매후 이용 권유
+바로 등록하시고 이용', 4, '2025-10-15T11:32:22', '2025-10-15T11:32:28', '상담기록', 854, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1712, '10월26일2시 방문시 신청서 받아야함', '윤지완주니어 레슨권 윤주호님 크레딧으로 구매,(레슨권과 crm등록완료)이선녀(010-9599-4054)어머님이 10월26일2시 방문시 신청서 받아야함.금일 방문 못하셔서 윤지완 수업할때 작성하시기로 함
+', 20, '2025-10-15T16:25:38', '2025-10-15T16:25:38', '회원요청', 417, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1713, '신영주', '구분 : 방문상담
+고객명 : 신영주
+전화번호 : 010-3000-2840
+특기사항 : 유민영님 남편분,90만 크레딧과 프렌즈40 등록 도와드림.락커11번등록.', 20, '2025-10-15T17:40:15', '2025-10-17T10:11:55', '상담기록', 855, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1714, '유민영(010-7115-2840)님 남편분', '김선우프로 지정,락커11번등록,양쪽 지인 이벤트적립(9만)을 아내분에게 18만 크레딧 모두 드림', 20, '2025-10-15T17:46:24', '2025-10-15T17:46:24', '회원요청', 855, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1715, '신영주님 아내분으로 지인이벤트 18만 크레딧 적립함', '신영주님 아내분으로 지인이벤트 18만 크레딧 적립함(양쪽 9만크레딧 적립인데,,아내분에게 다 드린다함)대표님 승인,김선우프로님으로 변경 도와드림', 20, '2025-10-15T17:49:08', '2025-10-15T17:49:45', '회원요청', 537, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1716, '아이코젠(박현철) 우산빌려가심', '검정 프렌즈아카데미 우산빌려가심.', 20, '2025-10-15T19:37:05', '2025-10-15T19:37:05', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1717, '전화번호 바뀌심', '010-2355-0133(예전 전화번호)', 20, '2025-10-15T21:11:36', '2025-10-15T21:11:36', '회원요청', 741, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1718, '골프채 대여(드라이버,유틸)2', '26일 저녁에 대여해서 27일 저녁에 반납하는걸로(대표님 승인)', 20, '2025-10-15T21:56:58', '2025-10-15T21:56:58', '회원요청', 504, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1719, '이나현님(딸)으로부터 247,364크레딧 양도 받음', '이나현님(딸)으로부터 247,364크레딧 양도 받음,채널발송,crm처리 완료', 20, '2025-10-15T22:01:08', '2025-10-15T22:01:08', '회원요청', 694, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1720, '수동차감', '윤소진회원님 기존 예약 시간보다 일찍 오셔서 기존 타석(7번 단독)취소 처리 후 홍현숙 매니저 직접 예약(오전9시43분~11시03분)해드려 노란색으로 표시되었습니다수동차감으로 기존 16,500+ 9시43~10시 5,000=21,500 수동차감 처리하였습니다', 23, '2025-10-16T11:13:12', '2025-10-16T11:13:12', '회원요청', 449, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1721, '키보드 한영버튼 작동오류', '제가 커피를 키보드에 흘려서 한영 전환버튼이 안 먹네요 일단 모니터 우측  아래 한을 클릭하시면 사용은 가능합니다
+지금 그대로 사용하시는데는 무리없음
+
+12시15분~1시15분  김캐디 선결제 사용(박진선010-9400-5394) 
+키보드가 한영이 안먹여 급히 영어로 적성되어 내용이 쓰여 있음
+죄송합니다 다음부턴 커피 주의 하겠습니다', 23, '2025-10-16T12:38:45', '2025-10-16T12:48:06', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1722, '구재인 주니어', '구재인 주니어 서비스(14일 타석 이용 불편분) 20분 타석 이용 오늘 시간 없으시다고, 다음에 필요할 때 말씀해 주시면 적용해 드리기로 함.', 19, '2025-10-16T16:03:43', '2025-10-16T16:03:43', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1723, '구재인 주니어', '구재인 주니어 서비스(10월14일 타석 불편 분) 20분 타석 이용 오늘 시간 없으시다고, 다음에 필요할 때 말씀해 주시면 적용해 드리기로 함.', 19, '2025-10-16T16:04:55', '2025-10-16T16:04:55', '회원요청', 503, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1724, '대상 포진 재재연장', '채널로 연락, 대상포진으로 재연장 요청하심.
+기간권 10/16~10/23 홀드 처리
+레슨권 유효기간 2026/01/04->2026/01/11 1주일 재연장
+대상포진으로 일주일 또다시 재연장.
+아프시기 전에 기간제 레슨권 중복 사용(5번) 하셔서
+홀드 끝나고 다시 오시면 중복 사용 레슨 분에 대해서 추가 결제 또는 5일 레슨기간제 축소로 해야 함.
+', 19, '2025-10-16T19:38:14', '2025-10-16T19:38:14', '회원요청', 719, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1725, '크레딧 양도', '694. 이성호님께 247,364크레딧 양도 ,채널발송,crm처리 완료 (안광은매니저 처리완료)', 4, '2025-10-17T11:51:04', '2025-10-17T11:51:04', '회원요청', 670, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1726, '회원 전화번호 변경시', '회원님의 어플에도 전화번호가 변경 되어 매장 CRM과 연동 되어야 하므로
+<<CRM번호 변경, 채널 키워드 변경, 채널네임 뒷자리 변경>> 은 매장에서 처리하고
+회원님께 어플 재인증 요청 해주세요.
+"프렌즈아카데미 어플 접속-오른쪽 상단 3줄 바-하단 계정관리-부가정보-새 휴대전화번호 입력 -본인인증" 하시라고 안내해주세요.
+
+전화번호 변경 되신 홍원기님께는 안내드렸습니다. ', 4, '2025-10-17T12:02:31', '2025-10-17T12:02:31', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1727, '임경환', '구분 : 방문상담
+고객명 : 임경환
+전화번호 : 010-5257-3441
+특기사항 : 
+대학때 치고, 10년전 쳐보고, 일 때문에 필드 나감, 제대로 배워본적 없는 입문.
+내년 봄 머리 올이실 예정이라 제대로 배우고 싶으시다고 방문.
+하페 2 거주하심. 아내 안정은님과 함께 방문.
+주말 포함 두 2회 이상 레슨 추천 드림.
+10월 18일 김선우 프로님 체험 잡아드림.
+', 19, '2025-10-17T14:38:34', '2025-10-20T09:51:24', '상담기록', 858, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1728, '안정은', '구분 : 방문상담
+고객명 : 안정은
+전화번호 : 010-8964-9269
+특기사항 : 
+입문, 
+내년 봄 머리 올리실 예정이라 레슨 상담으로 방문.
+10월 18일 김선우 프로님 체험 잡음.
+주말 포함 주 2회 이상 레슨 추천 드림.
+하페 2거주. 남편 임경환님과 함께 방문 하심.', 19, '2025-10-17T14:39:15', '2025-10-20T09:51:16', '상담기록', 857, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1729, '최상호', '구분 : 방문상담
+고객명 : 최상호
+전화번호 : 010-9403-7134
+특기사항 : 
+-구력 6개월, 김주순 프로님 소개 받고 오심.
+-매장 ppt 안내, 당일 체험 레슨 진행 후 등록 하심.
+', 19, '2025-10-17T19:29:43', '2025-10-20T09:51:07', '상담기록', 856, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1730, '레슨 보강', '10월 17일 김주순 프로님 레슨 예약 하시고 못오심.
+추후 레슨권 (11월 재등록 예정) 등록 하시고 보강 해 드리기로 함.(김주순 프로님 승인)
+', 19, '2025-10-17T20:12:16', '2025-10-17T20:12:16', '회원요청', 692, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1731, '우산 대여', '매장 장우산 대여.(손잡이에 SBS 써있슴)', 19, '2025-10-17T20:50:06', '2025-10-17T20:50:06', '회원요청', 571, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1732, '집 앞 클럽 배송', '집 앞 클럽 배송 완료. 3000c 수동 차감 채널 안내 완료.', 19, '2025-10-17T21:24:07', '2025-10-17T21:24:07', '회원요청', 393, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1733, '집 앞 클럽 배송', '집 앞 클럽 배송 완료. 3000c 수동 차감 채널 안내 완료.', 19, '2025-10-17T21:24:49', '2025-10-17T21:24:49', '회원요청', 622, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1734, '9번타석 공이 겹쳐 안올라옴', '10/16목 오전에도 같은 증상
+오늘도 같은 문제지만 열어서 겹친 공 제거하면 다시 작동됨
+고무티는 아직 사용하기에 무리 없어서 그냥 둠', 23, '2025-10-18T11:16:57', '2025-10-18T12:19:28', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1735, '두루마리휴지 배송옴', '창고 안쪽 바닥에 두었습니다', 23, '2025-10-18T11:50:07', '2025-10-18T11:50:07', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1736, 'fms 레슨권 부여 필요', '재등록 하시고 fms 레슨권을 부여 못해 드림.
+전화 드려 상황 말씀 드렸고 레슨 예약시 전화나 채널로 주시기로 함.
+레슨 오실 때 레슨권 (나는 싱글이 될거야 패키지 등록) 부여 해 주시고 댓글 남겨 주세요.', 19, '2025-10-18T15:28:46', '2025-10-18T15:28:46', '회원요청', 384, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1737, '락커 반납', '락커 89번 확인 후 반납처리 완료. ', 19, '2025-10-18T16:34:05', '2025-10-18T16:34:05', '회원요청', 205, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1738, '이재형, 이라온(주니어)', '구분 : 방문상담
+고객명 : 이재형. 이라온(주니어)
+전화번호 : 010-2460-0870
+특기사항 : 
+-아버님 구력 3개월, 8살 여자 주니어 입문
+-매장 ppt 안내, 네이버 체험 진행 후 만족 하시고 내일 등록 하신다 함.
+-나는 싱글 추천 (주니어 크레딧 차감으로)+ 기간권도 하실 예정', 19, '2025-10-18T16:44:19', '2025-10-24T11:20:07', '상담기록', 862, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1739, '카카오 어플 본인 인증 필요', '핸드폰 번호 변경하시고 어플 인증을 안하셔서 
+타석 이용 2건, 10월 17일 오전 10:05~11:05, 18일 오전 10~11 차감이 안되어 있슴.
+본인 인증 완료 확인 및 크레딧 차감 확인 필요.
+', 19, '2025-10-18T17:29:33', '2025-10-18T17:29:33', '회원요청', 741, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1740, '진정민, 정재아(주니어)', '구분 : 방문상담
+고객명 : 진정민, 정재아(주니어)
+전화번호 : 010-9046-0960
+특기사항 : 
+-진정민님 몇 년전 레슨 받고 오래 쉬셔서 본격적으로 배우고 싶으심.
+-정재아 주니어 말레이시아 가족 여행때 5회 레슨 받음.
+-매장ppt 안내, 네이버 체험 이재윤 프로님 진행 후 어머님, 주니어 함께 등록 하심.', 19, '2025-10-18T19:35:22', '2025-10-20T09:50:41', '상담기록', 859, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1741, '금일 프렌즈40구매 수강신청서 추후에 요청하신다고 하심', '금일 프렌즈40구매 수강신청서 추후에 요청하신다고 하심,추후, 11월15일 만료되는조조 12개월 등록하신다하심', 20, '2025-10-19T09:16:10', '2025-10-19T09:16:10', '회원요청', 539, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1742, '레슨권 합산', '10 줄타 재등록 으로 남아있는 레슨권 3회와 합산하여 21회 fms 변경 완료', 19, '2025-10-19T17:17:27', '2025-10-19T17:17:27', '회원요청', 573, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1743, '레슨권 연장', '시간 여유 없으시다고 하시는데 레슨권 기간 길게 드리겠다고 하여 등록 하심. 1개월 연장.
+fms 2026.03.17_>2026.04.17 조정 완료.
+차후 재연장 요청시 대표님과 상의 필요.', 19, '2025-10-19T18:28:28', '2025-10-19T18:28:28', '회원요청', 456, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1744, '기간권 연장', '어깨 부상으로 진단서 보내 주심.(채널 참조)
+기간권 3개원(90일) 연장 완료. 2026.02.01->2026.05.01
+추후 재연장도 가능함.', 19, '2025-10-19T19:22:27', '2025-10-19T19:22:27', '회원요청', 566, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1745, '수술, 회복 건강 문제로 홀드 요청', '채널로 진단서 첨부
+수술로 첫 홀드 요청있었던 날짜부터 8/25~10/31 약 68일 기간권 홀드, 레슨권 유효기간 연장
+레슨권 유효기간 12/8->2/16로 변경 완료', 4, '2025-10-20T10:44:38', '2025-10-20T10:52:17', '회원요청', 77, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1746, '김선우 프로님 기간제 레슨권 리스트', '내용전달 상항 엑셀에 탭 만들어 놨습니다.(주차권 기록하는 엑셀 파일)
+10명 등록 현황 파악을 위해 등록시 기록 해주세요. ', 4, '2025-10-20T11:01:17', '2025-10-20T11:01:17', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1747, '레슨권 만료일 변경', '프렌즈 10 기한 2배로 드리기로 함.(시간 없으신데 등록 하시는거라)
+3개월+3개월=6개월
+추후 재연장 요청시 대표님과 상의 필요함.
+', 19, '2025-10-20T16:42:21', '2025-10-20T16:42:21', '회원요청', 424, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1749, '재등록시 만료 레슨권 ', '만료된 레슨 6회 재등록시 살려 드리기로 함.
+재등록 상품은 기존과 동일 원하심.
+(프렌즈 10+ 15만 크레딧 하셨슴)
+만료 레슨 합산 시 추가 연장은 말씀 안드렸는데 4~8주 더 드리면 되지 않을까요', 19, '2025-10-20T20:45:12', '2025-10-20T20:45:12', '회원요청', 739, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1750, '오늘 부터 이용', '오늘 전화 오셔서 기간권 & 레슨권 오늘 부터 사용하신다고 함.
+10월3일~19일까지 홀딩 하시는 걸로
+-crm 17일 홀딩으로 바꿔야함 (확인 필요)
+-레슨 기간권 5일 축소(중복 예약분) 2026.01.02 변경 완료', 19, '2025-10-20T21:34:22', '2025-10-20T21:35:10', '회원요청', 719, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1751, '레슨권 관련 안내', '*집중 레슨 상품(30분)은 상품 판매에도 써있지만 30분이상 레슨을 받는 상품입니다.
+그래서 판매할때의 횟수의 2배를 레슨권으로 넣어드리고(2개가 세트의 개념) 꼭 연달아 30분이 아니더라도 15분씩 2회 이상 레슨을 예약 하셔야 합니다.
+부득이 하게 레슨이 풀로 차서 30분 예약이 불가 하여 15분만 레슨을 예약하거나,  사정상 15분씩 나눠서 하루에 2회이상 레슨을 받는경우는 괜찮으나 기본적으로 15분x2회 가 집중레슨의 형태이므로 회원님께 등록 안내하실때 꼭 2회이상 레슨 예약을 안내해 주세요.
+
+그동안 판매하였던 집중레슨 회원님들께 안내가 안되었다면 추후 방문시에 등록시 안내미흡에 대해 말씀드리고 30분 이상 예약 재안내 해주세요.(중복 안내 및 체크를 위해 pc밑에 체크리스트 만들었습니다. 각 매니저님들 등록하셨던 집중레슨 회원님들 기억나는대로 리스트 작성해주시고, 안내 안되었던 분들은 재 안내)
+불만 회원 발생시 유도리 있게 안내해주시고 추후 재등록시 적용에 대해서 안내 및 대표님께 말씀드리고 메모 남겨주세요
+
+
+* 기간제 레슨권 1일 1회 사용 안내
+현재 판매하고 있는 김선우 프로님 기간제 레슨권은 레슨권만 포함 된 상품이라 타석권은 별도 판매 하여야 하며, 기간제 레슨권은 1일 1회 레슨이 원칙입니다.
+기간제 레슨권 등록시 기존 레슨권 소지 회원님들은 기간제의 기간만큼 레슨권의 유효기간을 연장 해주시고 회원 메모 남겨주세요
+어플에서 시스템상 레슨 예약이 중복적으로 가능하므로 강제성은 없으나 1일 1회 레슨시 추가 비용 발생 될 수 있음을 꼭 안내해주시고,
+1회 이상 레슨 원할 시 기간제 레슨권 1회레슨 예약 + 일반레슨권으로 추가 예약 해야함을 안내 및 어플을 함께 보며 안내해주시길 바랍니다(어플에 레슨권 클릭하면 각자 이름이 다르게 들어가있음)
+
++추가적으로 기간제 타석 상품 이용도 상품명에 따른 해당 시간대에 1일 1시간만 오픈타석에서 기간제 이용 가능하며 추가 이용시(ex:1시간 30분 / 하루 총 이용이 1시간 초과시/ 단독타석 이용시) 추가금 발생 안내.
+혹시 매일 1시간 기본에 추가 연습이 필요한 회원이면 크레딧 15라도 결제 해두고 무기한 으로 사용가능함 안내 하여 추가 결제 유도', 4, '2025-10-21T10:04:03', '2025-10-21T12:36:44', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1752, '6번타석 볼 지급 안됨', '6번 타석 볼지급 안됨, 볼 지금 휠이 안돌아 가고 오히려 시계 반대방향으로 살짝 움직임
+as전화해서 청소 방법 숙지
+먼지 제거 티 센서 물티슈로 박박 닦기, 고무티 사이로도 물티슈 통과해서 닦고 모든 과정을 마른 휴지로 반복
+
+최대한 청소하고 재지급 됨
+혹시 비슷한 문제 발생시 재 청소 해주시고
+그래도 안되면 대표님께 말씀해주시고 as신청해주세요
+', 4, '2025-10-21T12:12:56', '2025-10-21T12:12:56', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1754, '레슨권2개 취합해서 기간 한달 연장해드림.', '집중레슨10회에 남은2회 취합후, 1달연장', 20, '2025-10-21T15:49:23', '2025-10-21T15:49:23', '회원요청', 829, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1755, '7번 타석 뒤로 카메라 빠짐', '2시 조윤우 주니어가 손으로 밀어서 카메라 뒤로 빠짐. 카메라쪽 위에 판에 박혀있는 나사 풀러서 안쪽에서 카메라 찾고,안쪽으로 꺼내서,혹시 고정 나서 없음 판매 장갑있는 사물함에 공구함에 있는 은색 나사 찾아서 고정 시키면 됩니다.', 20, '2025-10-21T16:09:43', '2025-10-21T16:09:43', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1756, '김선우프로 everyday lesson 1개월(30만원)구매', '등록하신 기간제만큼 기존 레슨권(26.2.19->26.3.18)유효기간변경 완료
+1일1회레슨,추가 레슨 원하실때 일반레슨권 사용해야한다고 설명드림', 20, '2025-10-21T18:39:06', '2025-10-21T18:41:51', '회원요청', 206, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1757, '권신오', '구분 : 방문상담
+고객명 : 권신오
+전화번호 : 010-4601-5028
+특기사항 : 회사근처 ,주2회 타석권만 원하심,구력20년이상', 20, '2025-10-21T19:20:57', '2025-10-22T09:45:11', '상담기록', 861, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1758, '이재윤프로님에서 김선우프로 변경', '25년10/21 만기된11개 레슨권이랑 금일 구입한 집중레슨10이랑 취합하여 2달 기간 연장해드림(26.1/19->26 3/19) 추후 1개월 더 해드릴수 있다고 말씀드림.
+everyday lesson1개월(김선우프로지정) 유효기간10/22~11/23(fms에 시작일이 23일로 변경이 안되서 끝나는시점만 변경함)', 20, '2025-10-22T15:52:51', '2025-10-22T15:52:51', '회원요청', 551, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1759, '집중레슨10회권 사용', '김선우프로 1개월권 사용시에는 집중레슨 2개 사용 안화시고, 1개씩만 추가로 사용하시기로 하심(대표님 승인)', 20, '2025-10-22T15:59:08', '2025-10-22T21:12:19', '회원요청', 551, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1760, '장윤아', '구분 : 전화상담
+고객명 : 장윤아
+전화번호 : 010-6233-1402
+특기사항 : 2~3명 같이 평일 7시~8시 와서 상담받고 싶어함,그 시간때 상담 가능하다 말해둠', 20, '2025-10-22T16:25:35', '2025-10-22T16:25:35', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1761, '레슨권 (25.12/16->26.01/16 )유효기간 1달 연장', '추후 다시 연장시 요청하실때는 새로운 레슨권 구매하셔야 해드릴수 있다고 안내해드림', 20, '2025-10-22T18:26:54', '2025-10-22T21:13:45', '회원요청', 771, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1762, '레슨1달 기간연장(25.10/1->25.11/1)해드림', '어깨아프셔서 못오심,추후 연장 원하심 새 레슨권 구매하셔야 한다고 알려드림', 20, '2025-10-22T18:37:31', '2025-10-22T18:41:18', '회원요청', 746, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1763, '레슨 유효기간 1달연장(25.10/10->25.11/10)', '12/31일까지 연장 요구하셨으나 1달만 연장해드림. 추후 새 레슨권 구매해야 연장가능하다고 말씀드림.어깨 아프셔서 못오셨다고 (진단서 제출하면 25.12.31까지 연장 가능-대표님 승인),담부터 미리 연락주시라고 부탁드림', 20, '2025-10-22T18:56:01', '2025-10-22T21:27:25', '회원요청', 725, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1764, '레슨권 제등록시 사용못한 4회 취합해드리기 함', '채널로 국민계좌번호 발송,입금 확인시,레슨권 취합한뒤 원하는 시간때, 센터에서 잡아주고, 방문하실때 신청서 작성하시기로 하심', 20, '2025-10-22T20:55:28', '2025-10-22T20:55:28', '회원요청', 649, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1765, '10/26일부터 김주순프로님으로 변경', '박서우 주니어 10/26일부터 김주순프로님으로 변경,fms와crm은 변경완료 ),레슨북은 프로님변경에서 김은성 프로님이 삭제 안되는듯( 김은성,김주순 프로 2명으로 되어있음)', 20, '2025-10-22T20:56:41', '2025-10-22T21:05:50', '회원요청', 561, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1766, '김주순 프로 변경', '김은성 프로에서 김주순 프로로 변경(오후 시간만 가능하셔셔 원함)', 23, '2025-10-23T11:35:58', '2025-10-23T11:35:58', '회원요청', 832, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1767, '프로님 변경', '김은성 프로님 퇴사로 김주순 프로님 으로 변경 요청.
+fms,crm 프로 변경 완료.', 19, '2025-10-23T14:25:17', '2025-10-23T14:25:17', '회원요청', 630, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1768, '시작일 변동으로 만료일 변경', '1) 3개월 기간제 레슨권= 시작일 10월 28일로 하여 종료일 2026/01/20-> 2026/01/25 로 fms 조정 완료.
+2) 6개월 타석 기간제= 시작일 10월 28일로 하여 종료일 2026/04/23-> 2026/04/28 로 crm 조정 완료.
+', 19, '2025-10-23T15:57:21', '2025-10-23T15:57:21', '회원요청', 862, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1769, '김은성 프로님 퇴사로', '김은성 프로님 퇴사로 김주순 프로님 체험 잡아드림.2025.10.28 ', 19, '2025-10-23T19:13:38', '2025-10-23T19:13:38', '회원요청', 305, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1770, '양도문의', '남편에세 양도 문의하셔서 가족간 1회 수수로 무료 진행 됨 채널로 안내함.', 19, '2025-10-23T19:15:35', '2025-10-23T19:15:35', '회원요청', 363, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1771, '김민지', '구분 : 방문상담
+고객명 : 김민지
+전화번호 : 010-2460-8781
+특기사항 : 
+-구력은 초보, 10월18일 상담 받으신 이재형님 아내분, 그날 같이 오셔서 안내 받으심.(체험은 안받으셨슴)
+-등록 의사가 생겨서 등록 하심. 네이버 김주순프로 체험 레슨 진행 후 프로님 선정 예정. 
+-부부등록 혜택 원하셔서 지인이벤트로 하여 양쪽 11만c 드림.
+', 19, '2025-10-23T20:34:39', '2025-10-24T11:16:00', '상담기록', 863, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1772, '강원우, 강우주 주니어', '구분 : 방문상담(네이버 체험)
+고객명 : 강원우, 강우주 주니어
+전화번호 : 010-2535-4508
+특기사항 : 
+-강원우님 초보로 레슨 필요, 강우주 주니어 5세(유치원)=본인이 골프 배우고 싶다고 함.
+-김선우 프로님 체험 진행함. 만족 하셨는데 집 가서 아이와 얘기 해보시고 결정 하신다 함. 
+-매장 ppt 진행과 김선우 프로님 기간 레슨권 안내함.
+-아이가 넘 어림
+', 19, '2025-10-23T20:35:24', '2025-10-23T20:35:24', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1773, '장윤아', '구분 : 방문상담
+고객명 : 장윤아
+전화번호 : 010-6233-1402
+특기사항 : 
+-구력 8년이고 필드경험도 있으나 얼마 안 쳐본 초보. 주 2회 레슨 받으실 예정(주말 포함).
+-매장 ppt 안내 
+-같이 다니실 친구와 상의해서 26일 일요일 체험 레슨 잡으시겠다 하심.
+', 19, '2025-10-23T20:35:54', '2025-11-05T10:29:45', '상담기록', 866, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1774, '크레딧 수동 적립', '7번 타석 시스템 오류 패드 작동 안하여 불편 드려서 차감 크레딧 수동 적립해 드림.', 19, '2025-10-23T21:03:11', '2025-10-23T21:03:11', '회원요청', 735, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1775, '프로님 변경', '김은성 프로님 퇴사로 김주순 프로님으로 변경함.
+fms,crm 변경 완료', 19, '2025-10-23T21:38:23', '2025-10-23T21:38:23', '회원요청', 741, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1776, '유효기간 연장 관련', '기본적으로 유효기간 연장은 레슨권 하나의 상품당(혹은 기간권) 최대 1개월까지 가능합니다. (15일씩 2번 가능. 10일씩 3번 가능. 토탈만 30일 이면 됨)
+부상이나 해외 장기 출장등 특별 사유가 생길시 서류 받고 회원님이 원하시는 만큼 연장 가능(기간에 따라 직원이 판단 어려우면 대표님께 문의)
+
+유효기간 연장시 메모를 꼭 남겨야 하는데 1개월 연장, 2주 연장 완료 등으로 명시하는것이 아니라
+"기존 유효기간00/00을 00/00로 연장 완료" (ex:25/10/1->25/11/1 로 1개월 연장완료)의 방법으로 기존 유효기간과 새 유효기간을 동시에 꼭 명시해주세요
+그래야 추후에 유효기간으로 재 문의가 들어오거나 다른직원이 기간을 얼마나 연장 했는지에 대한 확인이 가능합니다.
+
+메모를 남겨놓는 이유는 직원간 정보 공유 및 추후 문제 발생시 대처를 위함이므로 꼭 !! 내용을 누가 봐도 이해할 수 있도록 상세하게 기재해주세요.
+
+그리고 공유사항을 읽으신 후엔 "확인했습니다" 댓글 달아주세요', 4, '2025-10-24T11:30:04', '2025-10-24T11:30:44', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1777, '기간제 이용권 재등록 시 혜택', '기간제 이용권 해당금액 카드 결제시(크레딧 구매후 크레딧으로 결제 안됨)
+6개월->7개월로 1개월 연장
+12개월->14개월로 2개월 연장 혜택 제공 예정
+채널로 안내드렸고 대표님 승인 받음.
+등록 처리후 대표님께 내용 전달 필수', 4, '2025-10-24T12:01:03', '2025-10-24T12:01:03', '회원요청', 539, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1778, '레슨북 프로 변경 방법', '1.회원정보 -> 회원선택 -> 레슨/락커/이용권 선택 -> 프로이름,  사람이모티콘 "변경"선택 -> 변경프로 선택
+2.회원정보 -> 회원선택 -> "상품등록" 아래 담당강사 선택 -> 변경프로선택, 기존프로 선택해제', 4, '2025-10-24T13:31:46', '2025-10-24T13:31:46', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1779, '이라온 주니어', '이라온 주니어 레슨북 예약은 아버님이 하신다고 레슨북 핸드폰 번호는 이재형 회원님(아버님) 번호로 되어 있고 crm은 김민지 회워님(엄마)으로 매칭 되어 있습니다.', 19, '2025-10-24T14:13:41', '2025-10-24T14:13:41', '회원요청', 862, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1780, '부부 신규 등록 혜택', '부부 신규 등록으로 지인 이벤트 적용하여
+110000c 양쪽 수동 적립해 드림.', 19, '2025-10-24T14:16:19', '2025-10-24T14:18:29', '회원요청', 862, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1781, '부부 신규 등록 혜택', '부부 신규 등록으로 지인 이벤트 적용하여
+110000c 양쪽 수동 적립해 드림.
+남편분 이재형 회원님.', 19, '2025-10-24T14:19:16', '2025-10-24T14:19:16', '회원요청', 863, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1782, '이라온 주니어', '이라온 주니어 레슨북 예약은 아버님이 하신다고 레슨북 핸드폰 번호는 이재형 회원님(아버님) 번호로 되어 있고 crm은 김민지 회워님(엄마)으로 매칭 되어 있습니다.', 19, '2025-10-24T14:21:15', '2025-10-24T14:21:15', '회원요청', 863, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1783, '홀드에 관하여', '등록시점 내년 1월2월중에 해외 출장 잡히실수 있으시다고 타석 기간제& 레슨 기간제 1개월 이내 홀드 가능과 추후 재출장시에는 인증서 제출하시면 재홀드 가능함 말씀드림.', 19, '2025-10-24T14:24:11', '2025-10-24T14:24:11', '회원요청', 862, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1784, '김지수', '구분 : 방문상담
+고객명 : 김지수
+전화번호 : 010-7120-8017
+특기사항 : 
+-입문
+-7단지 거주, 남편분과 방문하심.
+-매장 ppt, 투어 시켜드림. 
+-체험 레슨 생각해 보시고 하시겠다 하심.', 19, '2025-10-24T14:45:34', '2025-10-24T14:45:34', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1785, '이라온 주니어 프로님 변경', '김선우p-> 김주순p 레슨북 적용 완료', 19, '2025-10-24T15:52:33', '2025-10-24T15:52:33', '회원요청', 863, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1786, '재등록 레슨권 취합', '만료 오늘 까지인 2025.10.24 까지인 6회권,
+프렌즈 10 재등록으로 살려 드림. 발목이 아직 아프신데 재등록 하시기 망설이셔서 기간 더블로 드리고 등록하심.
+재등록 유효기간 2026.01.21->2026.04.21 연장 16회 취합 완료.
+', 19, '2025-10-24T19:41:54', '2025-10-24T19:41:54', '회원요청', 104, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1787, '재등록 신청서 ', '재등록 신청서 사인, 동의 받아서 채널 발송 해야함.
+유선으로 다음 방문시 데스크 문의 안내함.', 19, '2025-10-24T19:50:35', '2025-10-24T19:50:35', '회원요청', 486, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1788, '강효종', '구분 : 방문상담
+고객명 : 강효종
+전화번호 : 010-7647-5560
+특기사항 : 
+-대학교1학년, 입문
+-어머니와 방문, 매장 ppt 안내
+-일주일 1~2회, 30분씩 레슨 받으시길 원함. 퍼팩트 상품 추천
+-오전 레슨 원하심. 네이버 체험 11월 1일 09:00 김선우p 잡음.', 19, '2025-10-24T19:58:54', '2025-10-24T19:58:54', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1789, '재등록', '레슨기간권3개월 재등록으로 
+-기존 집중레슨 등록 잔여 26회(15분) 만료2026.03.08->2026.06.08  3개월 연장완료.
+-레슨기간권 시작일 2025.10.28로 만료일 2026.01.21->2026.01.25 변경완료.
+
+11월안에 카드변경하여 취소 후 재결제 예정', 19, '2025-10-24T21:28:55', '2025-10-24T21:28:55', '회원요청', 848, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1790, 'QR 인증 수동 1회 차감', '시간 없으신데 재등록 하여 기한 2배로 드리기로함.(대표님 승인)
+프렌즈 10 상품 3개월+3개월 더드리기로 함.
+만료일 2026.01.21 ->2026.04.21 fms 연장 완료.
+
+당일 레슨 시간지나 QR이 안되어 1회 수동 차감함. ', 19, '2025-10-24T21:34:22', '2025-10-24T21:34:22', '회원요청', 424, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1791, '김동민 주니어 재등록 대기', '김동민 주니어 11월 2일 오전8시 예약 원하시는데 예약권 없으셔서 데스크 에서 잡음.
+당일 오셔서 재등록(신청서 작성) ->레슨북 등록->1회 차감 필요.', 19, '2025-10-25T18:18:31', '2025-10-25T18:18:31', '회원요청', 634, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1792, '재등록', '10줄타 재등록 으로 기존 만료 2025.10.19 까지인 레슨권 1회 살려 드려 취합 19회로 조정 완료.', 19, '2025-10-25T20:07:47', '2025-10-25T20:07:47', '회원요청', 394, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1793, '게스트로 로그인 했다가 회원으로 등록하는 방법', '갑자기 화면 꺼짐으로 게스트로 로그인 했는데, 본인으로 인증 원하셔서 취소하고 다시 잡아드리는 과정에서 결국 게스트로 로그인 해서 치심.추가로 크레딧이 추후에 차감 되었는지 걱정하심. 게스트로 로그인 했다가 회원으로 등록하는 방법이 취소하고 회원이 다시 잡는거 말고 다른 방법이 있는지 알고 싶습니다.', 20, '2025-10-26T09:33:25', '2025-10-26T09:33:25', '회원요청', 229, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1794, '1번 타석 공나오는 구멍 커서 그 사이 공 낀다고 하심', '교체 하기엔 다른 부분이 깨끗해 보이나 충분히 낄 수 있다 보여짐', 20, '2025-10-26T11:10:23', '2025-10-26T11:10:23', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1796, '핸드폰 앱 업데이트 문제', '핸드폰 예약 어플 업데이트가 안되어 데스크에서 레슨, 타석 잡아드림. QR인증도 안되어 수동 차감함.
+20205/10/26 레슨1회 차감 (6회에서->5회로), 타석 (기간제로 -1C차감)
+앱 업데이트가 국적이 외국인으로 되어 있어 안된다 하심. 구글 관리자 연락 후 업데이트 예정.
+그 동안은 데스크에서 예약 도와 드려야 함.', 19, '2025-10-26T14:10:10', '2025-10-26T14:10:10', '회원요청', 622, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1797, '깨진볼 이벤트', '10월 25일 진행되었던 깨진볼 이벤트 구재인 주니어 당첨 되었슴. 성인 레슨에 한해서 진행 됨 채널로 안내함.', 19, '2025-10-26T14:51:36', '2025-10-26T14:51:36', '회원요청', 503, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1798, '리뷰 이벤트 당첨', '10월 리뷰 이벤트 당첨. 무료 레슨 7일 유효기한  채널 안내함.', 19, '2025-10-26T15:48:04', '2025-10-26T15:48:04', '회원요청', 294, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1799, '레슨권 연장', '연휴 때 허리를 다치셔서 레슨권 1개월 연장 요청.
+fms 2026/02/16(16회)에서->20026/03/16로 최초 1개월 연장 완료. 
+추후 재연장시 진단서 첨부 안내함.', 19, '2025-10-26T17:47:30', '2025-10-26T17:47:30', '회원요청', 838, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1800, '프로님 변경', '김은성 프로님 퇴사로 김주순 프로님 체험 하심. 
+crm, fms 프로 변경 적용 완료함.', 19, '2025-10-26T18:39:57', '2025-10-26T18:39:57', '회원요청', 835, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1801, '프로님 변경', '김은성 프로님 퇴사로 김주순 프로님으로 변경하심.
+crm,fms 프로 변경 완료.', 19, '2025-10-26T19:48:41', '2025-10-26T19:48:41', '회원요청', 687, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1802, '주니어 레슨권 이용 후 크레딧 전환 및 환불 요청 시', '10회 약정 할인으로 등록하신 주니어 레슨은 약정 할인으로 1회 단가가 55,000원 입니다(할인전 1회 단가65,000원)
+그리고 담당 프로님과의 계약관계로 인해 이용 후에는 금액 환불 불가 및 2가지 방안으로 대응해 주시면 됩니다. 
+
+1. 크레딧으로 전환 요청시
+65,000x진행한 레슨 횟수=사용하신 크레딧
+10회 기준으로 550,000-사용하신 크레딧=전환 가능한 크레딧
+(예:65,000x6=390,000 크레딧 사용
+    550,000-390,000=160,000 크레딧 적립 가능)
+혹시 사용 하신 크레딧이 결제한 금액보다 높을 경우는 크레딧 전환이 불가함
+
+2. 일반 레슨권으로 전환가능
+주니어 레슨 1회에 일반 레슨 2회로 전환
+(예:주니어 남은레슨이 4회이면 학부모님 레슨 8회로 전환
+1회당 레슨비도 27,500원이라 프렌즈10 단가보다 저렴함. 타석 크레딧은 별도) ', 4, '2025-10-27T10:56:02', '2025-10-29T10:01:06', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1803, '조윤서 주니어 레슨권', '주니어 레슨권 성인으로 전환 문의 
+', 4, '2025-10-27T11:37:45', '2025-10-27T11:37:45', '회원요청', 812, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1804, '조조권 연장', '교통사고로 조조권 30일 연장 적용. 추가 필요시 증빙 확인 후 가능함 안내함(채널 참조).
+crm 2025/10/27~2025/11/25 홀드 적용 완료.', 19, '2025-10-27T13:26:41', '2025-10-27T13:26:41', '회원요청', 376, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1805, '만료 레슨권', '기간 만료된 레슨6회 재등록시 (프렌즈 10 상품& 10줄타 패키지 이상) 하시면 살려 드린다고 함.', 19, '2025-10-27T14:32:46', '2025-10-27T14:32:46', '회원요청', 62, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1806, '김재호', '구분 : 전화상담
+고객명 : 김재호
+전화번호 : 010-4933-0600
+특기사항 : 
+-구력 6개월 되시는데 레슨 필요 없으시고 타석 이용만 원하심.
+-타석 이용 방법 간단히 안내해 드리고 1년 기간제 문의로 안내함
+-네이버 타석 체험은 생각해 보시고 예약 하신다고 함.', 19, '2025-10-27T16:43:54', '2025-10-27T16:43:54', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1807, '매장 여성 드라이버', '조정현 회원님(676) 여자 드라이브 매장 연습용 찾으셨는데 (어제 김희태는 대여하심) 수선하러 외부로 나갔다 말씀드림.(매장내 클럽은 대여 불가여서).', 19, '2025-10-27T17:08:01', '2025-10-27T17:08:01', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1808, '레슨권', '기존 2회 2개월 레슨 연장 해드린바 또 연장 요청하셔서 안내문 발송(채널 참조), 김은성 프로님 퇴사 변경 프로님 체험 총 3회(2분 프로님께 각각 2회, 1회씩 받으시는 조건) 안내와
+체험 레슨 후 재등록시 잔여분은 그대로 이어서 받으실 수 있고 유효기간도 연장됨 안내함.', 19, '2025-10-27T19:13:26', '2025-10-27T19:13:26', '회원요청', 29, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1809, '네이버 리뷰', '회원님들 영수증 인증으로 네이버 리뷰 작성 하신 경우
+노출 여부 확인후 크레딧 적립 및 내용전달사항 엑셀 파일  "네이버리뷰" 탭에 꼭 기록 해주세요
+적립 후에 따로 적립 문자 발송이 안되므로 회원님께도 적립 안내 해주세요. 
+
+주말에 박영선 회원님 리뷰 적립 누락 되었었습니다. ', 4, '2025-10-28T09:51:04', '2025-10-28T09:55:27', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1810, '레슨권 유효기간 1주일 연장 요청', '기간 만료인데 당장 방문이 어려워  10/29->11/6 1주일 연장 해드림, 1주일내 방문하셔서 회원권 등록 예정
+새벽시간 주로 방문하셔서 동생 김방선님 대리 등록 가능성 있음.', 4, '2025-10-28T13:01:06', '2025-10-28T13:01:06', '회원요청', 625, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1811, '프렌즈10구매와 남은레슨권8회 취합해드림', '프렌즈10구매와 남은레슨권8회(유효기간25.11.1) 취합해드렸으나 기간연장 안하심, 다음 요구하심 1~2달 연장 해드리기로 했음.(FMS기존8회 레슨 기간 25.11.1->25.10.1변경)', 20, '2025-10-28T19:58:06', '2025-10-28T20:57:19', '회원요청', 668, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1812, '김주순 프로로 변경(25.10.29부터)', 'CRM과 FMS는 프로 변경 완료.,성인 레슨북 프로변경 어떻게 하는지 모르겠습니다.알려주세요.', 20, '2025-10-28T20:13:09', '2025-10-28T20:13:09', '회원요청', 305, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1813, '주니어 회원 등록시', '부모님 두분 다 회원인 경우 두분 주니어에 아이 꼭 중복 등록 해주세요
+주니어 동반 할인혜택 적용 때문에 부모님 두명에게 아이가 모두 들어가 있어야 합니다.
+주니어 동반 할인은 부모 모두 동반시 한명에게만 자동 적용됩니다.
+주니어-엄마 동반 : 엄마할인 / 주니어-아빠 동반 : 아빠할인 / 주니어-엄마아빠 모두 동반 : 둘 중 한명만 할인
+채널에도 부모님 성함 옆에 000주니어로 동시 기입 해주세요
+
+EX:최근 이라온 주니어 김민지님만 등록, 레슨북은 이재형님 번호, 이재형님 에게는 주니어 미등록
+     두분다 채널에는 주니어 이름 미등록 
+->수정후 : 김민지님 주니어 이라온등록, 이재형님 주니어 이라온 등록, 김민지님 채널 대화명에 이라온 주니어 추가, 이재형님 채널 대화명에 이라온 주니어 추가 
+
+최근 등록 한 주니어중에 위의 내용 적용 안된 회원있으면 수정 해주세요.', 4, '2025-10-29T10:18:25', '2025-10-29T10:22:50', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1814, '수동크레딧차감', '김선우 EVERYDAY레슨권 등록시 크레딧차감으로 하시겠다해서 등록후 다시 안되는걸 확인후 대표님과 상의후 수동차감해드림
+50만+2만 결제(10/13)에서 2만 보너스 차감
+30만 차감 총32만 크레딧차감
+실수로 32,000차감후 288,000차감 합320,000차감 채널로 공지해드림', 23, '2025-10-29T18:04:23', '2025-10-29T18:04:23', '회원요청', 328, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1815, '이건희 주니어 하프백대여', '이건희 주니어 부모님 하프백2개 대여(내일 파3가신다함)기간 10/29~11/2까지 반납예정', 23, '2025-10-29T19:42:25', '2025-10-30T10:26:28', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1816, '박서우 주니어 기간연장', '박서우 주니어 1달 기간연장해드렸습니다
+(기존 25.11/9까지를 25.12/8까지 변경)
+기존 연장내역 없으시고 레슨이 4회 남아서 1회에 한해 무료연장 해드린다고 채널에 안내드렸습니다', 23, '2025-10-29T20:18:35', '2025-10-29T20:27:26', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1817, '박서우 주니어 기간연장', '1달 연장 원하셔서 기존 연장내역 없어서 1회 연장해드림
+25.11/9을 25.12/8까지로 연장하고 안내드림
+레슨북도 연장 수정함', 23, '2025-10-29T20:20:53', '2025-10-29T20:24:24', '회원요청', 561, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1818, '락커반납 12,149', '락커하부장 12번 임수철726(슈퍼헌터 님)
+락커 상부장 149번 김광숙 (맑은빛님)
+ 25.10/28 저녁에 락커 비우심
+라커관리에서 반납누룸 ', 23, '2025-10-29T20:50:32', '2025-10-30T09:47:33', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1819, '락커반납', '25.10.29 락커반납 연락오심(맑은빛)', 23, '2025-10-29T21:22:12', '2025-10-29T21:22:12', '회원요청', 438, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1820, '윤재은', '구분 : 방문상담
+고객명 : 윤재은
+전화번호 : 010-3014-4612
+특기사항 : 
+-경력 있음, 김주순 프로님 지인
+-남친과 동반 등록 가능
+-매장 ppt 안내후 네이버 타석체험(10/29 21시)
+-퇴근후 겨울 3개월 레슨 김주순p 레슨 받으시길 원함. everyday 3개월 상품 추천
+', 23, '2025-10-30T10:15:52', '2025-11-18T09:49:25', '상담기록', 876, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1821, '락커반납', '10/29 수 저녁 락커반납 전화하심(슈퍼헌터 12번락커)', 23, '2025-10-30T10:31:14', '2025-10-30T10:33:54', '회원요청', 726, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1822, '택배-큰종이컵, 맥심, 수정테이프', '택배물품 정리
+- 큰 종이컵 1상자, 맥심1상자 (커피 아래 정리함)
+- 수정테이프 3개 (왼쪽 책상서랍에 둠)', 23, '2025-10-30T10:57:33', '2025-10-30T10:57:33', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1823, '연장 요청안내', '양희진님  기존 25.11월1일까지 인데 3개월 연장 원하심
+사유 : 레슨이 26회나 남아 있어 1달 연장으로는 다 못하므로 대표님과 직접 연락 원하심
+진행 : 대표님과 상의후 수정해서 오후에  채널 연락 보내기로함
+           
+ 안녕하세요 프렌즈 아카데미 목동프리미엄점입니다
+연장관련 안내드립니다
+ 12월에 재등록시 유효기간 무기한 이벤트 진행 예정인데 1개월 연장 해드리면 그때쯤 끝나시니 잔여레슨이 남아 있으시면 그 혜택 받아 보시는것도 좋으실듯 합니다
+일단 특별히 1개월+2주 연장으로 (25.12.15까지) 연장 해드리겠습니다.', 23, '2025-10-30T12:53:04', '2025-10-30T12:54:22', '회원요청', 652, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1824, '레슨중 드라이버 샤프트 부러짐', '윤소진 회원님 
+이재윤p 레슨시 3일전 드라이버 샤프트가 고장나서 프로님과 조정중인데 사장님과 중제 원하시네요
+혼마2스타 베레스 22.7월 구매 
+회원님은 같은 사양으로 as원함 비용35만원 발생 
+프로님은 국산 샤프트로 교환해주신다함
+대표님과 상의후 채널 연락 드린다함', 23, '2025-10-30T12:56:57', '2025-10-30T12:58:16', '회원요청', 449, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1826, '조조 기간권 시작일 변경', '조조 기간권 재등록 
+시작일 2025/11/01
+2025/10/30-10/31 2일 홀드 처리 함.', 19, '2025-10-30T19:33:13', '2025-10-30T19:33:13', '회원요청', 819, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1827, '주니어 레슨권 일반 레슨권 전환', '엄지후 주니어 잔여 3회 일반 레슨권으로 전환.
+이서현 회원님 잔여 5회+ 주니어 레슨권 전환한 6회= 총 11회 기한 2025년 12월 31일로 연장해 드림.
+(본인 1개월 연장+ 주니어 레슨 전환 추가 기간 연장입니다.)
+추후 재연장 원하시면 재등록시만 가능하심 안내함.
+만료기한 2025/11/08->2025/12/31, 레슨권 11회로 조정 완료.
+엄지후 주니어 레슨권 0 처리 완료.', 19, '2025-10-30T19:56:05', '2025-10-30T20:00:02', '회원요청', 825, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1828, '서비스 타석 살아있슴', '9번 타석 이용시 티 고무티 올라오는게 이상해서 못치심. 당일 연속 예약이 있어서 서비스 시간더 못드림.
+다음에 드리기로 함. 단독으로 20분 무료 이용 서비스 드려야 함.', 19, '2025-10-30T20:44:25', '2025-10-30T20:44:25', '회원요청', 185, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1829, '김은성->김주순 프로 변경 완료', '이주원, 강지연님 모두 체험 후 김주순 프로로 변경 완료
+FMS, CRM, 레슨북 모두 변경 완료(홍현숙매니저처리)', 4, '2025-10-31T11:17:27', '2025-10-31T11:17:27', '회원요청', 637, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1830, '주니어 잔여레슨권 ->일반 레슨권 전환', '25/5/10카톡에 주니어레슨 잔여6회 -> 성인 일반레슨으로 12회 전환 안내
+25/10/31 방문 성인 등록 시 주니어 전환 레슨 추가 요청. 대표님 확인
+99패키지 18회레슨->30회로 fms 횟수 변경 완료. 유효기간 변경 없음 안내(시간이 너무 지난 내용이라 추가 연장 없음, 추후 잔여 레슨은 재등록 시에만 가능 안내)', 4, '2025-10-31T12:17:14', '2025-10-31T12:18:00', '회원요청', 607, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1831, '강소리', '구분 : 방문상담
+고객명 : 강소리
+전화번호 : 010-3208-0871
+특기사항 : 
+-입문
+-집 근처 이시고 친언니(입문) 함께 배우려고 생각 중이심.
+-매장 ppt 안내드림, 레슨은 평일 저녁대 가능, 네이버 체험은 언니와 상의 후 직접 하신다고 함.
+', 19, '2025-10-31T15:12:42', '2025-10-31T15:12:42', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1832, '기간제 레슨권', '김선우 프로 1개월 기간 레슨권
+시작일 2025/11/01로 종료일 2025/11/29->2025/11/30 변경 적용 완료.', 19, '2025-10-31T19:37:13', '2025-10-31T19:37:13', '회원요청', 864, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1833, '권윤경', '구분 : 방문상담
+고객명 : 권윤경
+전화번호 : 010-8772-0940
+특기사항 : 
+-구력 5년인 초보(명랑 골프치며 주먹구구로 배움), 이젠 제대로 배우고 싶어서 오심.
+-지인 주재현 회원님(남편) 소개로 오셔서 매장 PPT 안내 , 투어, 등록 하심.', 19, '2025-10-31T20:01:13', '2025-11-05T10:31:27', '상담기록', 864, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1834, '기간제 레슨권 시작일', '1개월 기간제 레슨권 시작일 미지정.', 19, '2025-10-31T21:34:30', '2025-10-31T21:34:30', '회원요청', 857, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1835, '이재윤프로변경 전화로 부탁하심', '톡스토어에서 프렌즈10 구매하셔서 ,센터 오심 FMS에 레슨권 부여해 드려야 함', 20, '2025-11-01T09:04:45', '2025-11-01T09:04:45', '회원요청', 571, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1836, '프렌즈10구매시 기간만료된9회권 취합해드리기로 함', '1주일 뒤 필드나가야 한다고 하심,오늘 저녁에 오셔서 구매할 예정,넘 예전에 오셔서 앱 사용 잘 모르심, 레슨30분이상 예약하시라고 말씀드렸는데,, 예약 하는 방법 알려드려야 할듯', 20, '2025-11-01T12:02:15', '2025-11-01T12:10:48', '회원요청', 620, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1837, '채널 발송에  크레딧 없어지심(확인중)', '웰빙(10월6,7,9,12,25)사용하셨는데,채널 발송 확인하면 9월21일 145,598C에서 10월6일 갑자기 16,298C으로 변함,10월 타석이용은 5일과 26일만 사용하셨다고 함. 원인을 대표님 알아보고 계심', 20, '2025-11-01T12:12:58', '2025-11-01T12:16:10', '회원요청', 27, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1838, '11/1 전화,채널로 락커 반납요구하심', '락커 반납처리 후 채널로 반납처리안내 발송해드림', 20, '2025-11-01T13:48:36', '2025-11-01T13:48:36', '회원요청', 38, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1839, '79번 락커 배정 완료', '우선 79번 락커 배정,추후 하부장 나옴 꼭 달라 하심', 20, '2025-11-01T13:50:51', '2025-11-01T13:50:51', '회원요청', 822, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1840, '수동 적립', '신규 앱 조정 상황에서 시작일 조정 꼬이는 로직으로 금액이 튀어서 수동 적립해드림.(대표님 요청)', 19, '2025-11-01T15:43:19', '2025-11-01T15:43:19', '회원요청', 726, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1841, '재등록 레슨권 취합', '2025/11/04까지인 레슨권 3회, 재등록으로 3회 취합하여 1개월 더 드림.
+2026/03/30에서 2026/04/30로 21회 적용 완료.', 19, '2025-11-01T17:47:22', '2025-11-01T17:47:22', '회원요청', 417, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1842, '락커 이용료만 차감', '부재중이셔서 채널로 안내 드림.
+2024년 05월 25일 이용 후 방문이 없으시고 매달 락커 이용료만 크레딧 차감 되셔서 안무 차 연락드림.
+현재 18개월치 락커 이용료가 540,000C(월3만 크레딧) 차감되셔서 현재 보유 크레딧은 -53,000C 이심.
+매장오픈 첫 회원이셔서 크레딧 50 이상 상품으로 재등록시 기존 차감 되셨던 540,000C의 50% 270,000를 특별히 반환시켜 드리겠다 안내함.
+톡 스토어로 링크 보내드림.회신 요청
+', 19, '2025-11-01T20:02:48', '2025-11-01T20:02:48', '회원요청', 1, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1843, '잔여 크레딧 부족 연락 안됨', '부재중이셔서 채널로 안내
+2025년 7월11일 이후 방문없으시고 락커 이용료만 차감 -41,701C.
+2025/08/06까지 만료된 레슨권 2회 있으심. 재등록(저번과 동일한 10줄타 이상)시 만료 레슨권 살려 드린다 안내함.
+톡스토어로 재등록 가능함 링크 보냄. 확인하시고 회신 요청. ', 19, '2025-11-01T20:57:06', '2025-11-01T20:57:06', '회원요청', 675, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1846, '김상문 주니어 등록후 수동차감', '90만 크레딧 상품 구매 후 주니어 55만 크레딧 차감함
+주니어 1회 수동 횟수 차감함
+어머니도 타석이용하신다고하셔서 잡으셨다가 오픈이 안되어 5분(1,000원) 수동 적립해드림
+', 23, '2025-11-02T09:38:36', '2025-11-02T09:43:09', '회원요청', 634, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1848, '정성한', '구분 : 방문상담
+고객명 : 정성한
+전화번호 : 010-4543-7174
+특기사항 : 
+-5개월 경력 있음, 하이페리온거주
+-매장 ppt 안내후 네이버 타석체험 스케줄 확인하시고 연락주신다함
+-퇴근후, 주말오전 겨울 레슨 받으시길 원함. 10타줄이기 프로젝트 상품 관심보이심.', 23, '2025-11-02T10:11:55', '2025-11-05T10:30:44', '상담기록', 867, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1849, '박경은', '핸드폰 예약 어플 업데이트가 안되어 데스크에서 레슨, 타석 잡아드림.
+타석14:45~15:45, 레슨 김주순p15:00~15:15
+그 동안은 데스크에서 예약 도와 드려야 함.', 23, '2025-11-02T11:43:24', '2025-11-02T11:44:39', '회원요청', 622, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1850, '락커 반납', '11월 1일 락커 차감 2만 크레딧 -> 2일 채널로 반납 요청으로 반납 처리 후 2만c 수동 적립함.', 19, '2025-11-02T14:18:26', '2025-11-02T14:18:26', '회원요청', 808, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1852, '정호영', '구분 : 방문상담
+고객명 : 정호영
+전화번호 : 010-3126-4220
+특기사항 : 
+-입문, 영업직으로 내년 3월 중순 회사 필드 대회 나가야함.
+-근처 거주하시며 매장 ppt, 투어 안내 드리고 등록 하심.
+-금, 일요일 오후 시간 레슨 원하셔서 김주순 프로님으로 매칭함.', 19, '2025-11-02T16:05:06', '2025-11-05T10:30:34', '상담기록', 865, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1853, '락커 반납', '락커 반납 요청으로 어제 차감된 2만c 수동 적립함.', 19, '2025-11-02T16:13:29', '2025-11-02T16:13:29', '회원요청', 531, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1854, '이은정', '구분 : 방문상담
+고객명 : 이은정
+전화번호 : 010-9541-9008
+특기사항 : 
+-구력 1년 초보, 평일 오후6시이후 +주말 레슨 원하심.
+-매장 ppt, 투어 안내함. 10줄타 관심 있으심.
+-11월10일 네이버 체험예약- 김주순p', 19, '2025-11-02T17:05:15', '2025-11-02T17:05:15', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1855, '락커 회수 처리 안내', '11월 락커 정산
+(1)박병욱님, (675)김동연님
+유선, 채널 연락 안됨.
+두분께 일주일 후 11월 9일 까지 회신 없으시면 락커 회수 처리 예정 안내함.
+채널 참조.', 19, '2025-11-02T18:00:21', '2025-11-02T20:39:26', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1856, '락커 반납', '육두수님 -4465c
+락커 비우시고 잔여 c 아내한테 양도 얘기 하시는데
+어제 차감된 -10000c 살리는거 없이 0으로 도와드리기로 하고 마무리함.', 19, '2025-11-02T18:35:46', '2025-11-02T18:35:46', '회원요청', 710, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1857, '김근호', '구분 : 방문상담
+고객명 : 김근호
+전화번호 : 010-3784-8569
+특기사항 : 
+-구력은 몇년 되신 초보로 레슨 필요하심.
+-아내분과 같이 오심. 아내분은 다른곳에서 레슨 배우고 계심.
+-매장ppt, 투어시켜드림.
+-인도어 연습장 이용중 이신데 추워서 실내 찾으심.
+-레슨시간 오후로 김선우p 말씀드리고 네이버 체험 생각해 보시고 하신다함. 10줄타 관심 있어하심.', 19, '2025-11-02T20:11:35', '2025-11-02T20:11:35', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1858, '주니어 레슨권 일반 레슨권으로 전환 절차', '주니어 레슨권 일반 레슨으로 전환 결정. 채널 참조
+기존 잔여 5회 2025/11/22 까지인 레슨권 있으심.
+*주니어 레슨 18회 전환한 레슨권은 취합하지 말고
+따로 레슨권 부여해 드려야 함.(대표님 승인, 회원님께 안내함)
+
+1) 레슨권 18회 부여 후 종료일 2026/01/30 조정 하기.(기존 레슨권과 분리)
+2) 레슨북 조윤서 주니어 전부 사용 처리.', 19, '2025-11-03T18:16:49', '2025-11-03T18:18:34', '회원요청', 812, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1859, '주니어 1개월 연장', '조혜리 주니어 최초 1회 1개월 연장 요청.
+레슨북 202/11/01->12/04 조정 완료.', 19, '2025-11-03T18:45:24', '2025-11-03T18:45:24', '회원요청', 203, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1860, '주니어 체험 레슨', '11월8일 자녀 이현정 이재윤 프로 주니어 체험 예약 후 등록 예정
+11월11일 17:00 미리 선예약 함
+등록 후 레슨권 1회 차감 필요.', 19, '2025-11-03T19:05:20', '2025-11-03T19:05:20', '회원요청', 683, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1861, '11월 8일 10:00 주니어 체험 관련', '박유미 회원님 (채널 참조)
+-11월 8일 토요일 자녀 (이현정) 10:00~10:30 이재윤 프로 체험 예약
+후 등록 예정.
+-11월 11일 화요일 17:00 미리 잡아 달라 하셔서 잡음.
+-추후 레슨권 등록 후 차감 필요.
+*등록 상담시
+이전 다리 부상으로 남편분께 양도하셨는데 이번 기회에 다리 괜찮아지셨다면
+골드패밀리(온가족 함께) 가입 추천 드려보면 어떨지요.', 19, '2025-11-03T19:07:11', '2025-11-03T19:08:40', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1862, '김연희', '카드 안가져오셔서 내일 예약방문시 부족크래딧 결제하신다함
+9번타석 티가 잘 안올라오고 먼지가 너무 많다고 불만표시하심
+타석은 확인하고 보수 해놓겠다고 하고 청소도 더 신경쓴다고 응대함', 23, '2025-11-04T11:18:11', '2025-11-04T11:20:35', '회원요청', 843, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1863, '정설아', '구분 : 전화상담
+고객명 : 정설아
+전화번호 : 010-
+특기사항 :
+-네이버로 상담온거 유선으로 상담해드림
+-오늘 저녁 7시 방문하신다함
+-레슨 원하심.
+-레슨 1개월, 집중레슨 다 안내함.
+-네이버 타석 체험은 생각해 보시고 예약 하신다고 함.', 23, '2025-11-04T13:08:59', '2025-11-04T13:08:59', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1864, '1개월 김주순 에브리 기간권 환불요청', '팔이 좋아지실때  기간 상관없이 언제든 시작 가능하다고 설득완료(대표님 상의),김주순프로님 내용확인 하심', 20, '2025-11-04T18:47:51', '2025-11-04T21:12:50', '회원요청', 189, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1865, '장윤아 지인 이벤트 50000C 수동 적립', '장윤아 지인 이벤트 50000C 수동 적립(양쪽)', 20, '2025-11-04T20:11:28', '2025-11-04T20:11:28', '회원요청', 868, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1866, '이지윤 지인 이벤트 50000C수동 적립', '이지윤,장윤아 두분 5만c씩 양쪽 적립, 15번 락커 상부장 이용, 하부장 대기 신청', 20, '2025-11-04T20:15:13', '2025-11-04T20:15:13', '회원요청', 866, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1867, '정설아', '구분 : 방문상담
+고객명 : 정설아
+전화번호 : 010-7304-5009
+특기사항 :
+-홍메니저 전화상담 온거 방문상담
+ 네이버 타석 체험 하시고 생각해 보겠다는거 매일 받는 김선우 프로님 1개월권 유도 등록 하심
+ 타석권 35만 구매하심', 20, '2025-11-04T20:28:30', '2025-11-05T10:30:05', '상담기록', 869, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1868, '이지윤', '구분 : 방문상담
+고객명 : 이지윤
+전화번호 : 010-8369-1237
+특기사항 : 10월 28일 매장에서 장윤아님과 함께 두분 다 방문상담받으시고 카드 안가져오셔서,  나중에 오신다고 하고   
+                     오늘 오셔서 등록 , 두분다 5만크레딧 지인 등록 해준다고 대표님과 28일 이야기 되서 오늘 두 분다 적립
+                     시켜드림                           ', 20, '2025-11-04T20:35:01', '2025-11-05T10:29:54', '상담기록', 868, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1869, '11월5일 레슨권,타석권 예약 확인 필요', ' 급한 약속으로 예약 확인 못해드림, 레슨은 5일 예약이신데-> 4일로 되어 있고,타석은 5일 저녁8시 잡혀 있지 않음. 채널로 알려드림(5일 레슨,타석 예약 확인요함). 남편분 한테 레슨 받는거 비밀로 하시는듯 해서 유선으로 연락 못함.
+25.11.04(등록일) ,25.11.05(레슨 시작일)', 20, '2025-11-04T20:44:57', '2025-11-04T20:47:47', '회원요청', 869, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1870, '레슨 차감 문의', '시작 안했는데 레슨권이 차감되고 있다고  매장 방문하셔서  불만하셔서  시작하는 시점에서 끝나는 시점 한달 맞춰서 늘려드린다고 설명 드림', 20, '2025-11-04T21:23:59', '2025-11-04T21:23:59', '회원요청', 857, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1871, '주니어 레슨 선 예약시', '주니어 레슨권 구매전 선 예약 요청시
+레슨북에 미래 스케줄 그냥 비워두면 다른 주니어 레슨 들어오므로 ***로 미리 막아두세요
+
+EX>이현정 주니어(박유미님 자녀) 화요일 선예약 잡아둔 상태인데 ***로 막아두지 않은면 다른 주니어들이 예약이 들어와 15분 퐁당퐁당 레슨 재안내 해야하므로 미리 막아두고 추후에 이현정 주니어 등록후 예약 입력 하시면 됩니다. 
+
+
+또한, 주니어 체험 예약시 레슨북에도 주니어 체험으로 스케줄 입력 해주세요. 30분 주니어 체험 예약 잡히면 다른 주니어 중복 예약 안됩니다. EX>16일 일요일 16시 김주순 프로 고시윤체험', 4, '2025-11-05T11:15:34', '2025-11-05T11:29:34', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1872, '크레딧 수동 적립 안내', '지인 이벤트, 네이버 리뷰, 룰렛 이벤트로  크레딧 수동 적립 시 채널로 안내해주세요.
+따로 자동 문자 발송이 안되므로 기록차 안내드리는게 좋습니다. 특히 지인 이벤트는 소개 받은사람 소개 해준사람 모두에게 문자 발송 해주세요. ', 4, '2025-11-05T11:40:09', '2025-11-05T11:40:09', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1873, '1번 타석 매트(구멍큼)불만으로 3번 타석 서비스15분 드림', '1번 타석 매트(구멍큼)불만으로 3번 타석으로 타석 변경후 ,서비스15분 더 드리는 과정에서 시스템 바꾸는 중이라 1~3분 시차가 있는데, 저도 그 부분을 정확히 안내받지 못해서 회원님께 미리 알려드리지 못해 엄청 화가 나셔서 가심,금일 이용금액 50%로 할인 적용하고,채널로 사과 안내문자 발송, 1번타석 매트 교체 완료 ', 20, '2025-11-05T18:59:04', '2025-11-05T19:02:08', '회원요청', 139, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1874, '김동민 주니어', '앞으로 연속 레슨 30분 후 연습 원하셔서 
+레슨북 이름 옆 문구 넣고 수정함.', 19, '2025-11-06T17:08:07', '2025-11-06T18:46:54', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1875, '고시윤 주니어 프로 변경', '-김은성 프로님 퇴사로 김주순 프로님 11월 16일 체험 후 프로 변경 예정.
+-프로님 체험 후 마음에 안들까 염려가 크셔서 체험 후 잘 안맞으시면 말씀 주시라함->7번째 재등록한 주니어라 김선우p님과도 무료 체험 진행 여부 대표님과 상의 필요함.', 19, '2025-11-06T18:09:37', '2025-11-06T18:09:37', '회원요청', 523, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1876, '고시윤 주니어 연장', '최초 1회 기간 연장 요청 2025/12/24->2026/01/04(+11일)', 19, '2025-11-06T18:10:52', '2025-11-06T18:10:52', '회원요청', 523, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1877, '이지영, 이예나 주니어', '구분 : 방문상담
+고객명 : 이지영, 이예나 주니어
+전화번호 : 010-9320-4201
+특기사항 : 
+-1년 미만 초보(필드3번나감), 본격적으로 제대로 배우고 싶고 딸도 레슨문의 하러 오심.
+-매장 ppt안내, 주니어 레슨도 상담.
+-네이버 무료 체험은 집가서 남편과 상의해서 연락 주신다고 함.
+-이예나 주니어 (초6, 입문)', 19, '2025-11-06T19:44:42', '2025-11-17T09:35:15', '상담기록', 871, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1878, '재등록 레슨권 부활', '2025/10/31까지 만료된 레슨권 10회 
+프렌즈 10 재등록 으로 살려 드림.
+취합하여 20회를 1개월 더드려 202/02/03에서->2026/03/03로 만료일 변경 적용 완료함.
+추후 재연장 원하시면 대표님 확인 필요함.', 19, '2025-11-06T20:47:38', '2025-11-06T20:48:34', '회원요청', 29, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1879, '만료 레슨권 취합', '9/21 만료된 잔여 레슨권 5회
+새 패키지 레슨권 18회 취합=23회 유효기간 4/5->5/17로 6주 연장.
+fms crm유효기간 조정 완료.', 4, '2025-11-07T13:08:51', '2025-11-07T13:09:17', '회원요청', 215, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1880, '긴급할인', '이용시 불편드려 ~% 할인해 드려야 할 경우
+할인 적용은 수동 적립이 아닌 "긴급 할인"으로 적용해 주세요.
+수동 적립은 공지가 안되기 때문에 회원님들이 헷갈리셔서 문의 주실수 있으니 유의해 주세요.
+(139.김보영님 채널 참조)', 19, '2025-11-07T18:13:23', '2025-11-07T18:13:23', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1881, '기간제 레슨권 시작일', '3개월 기간제 레슨권 등록 (김선우P)
+25/11/11시작 원하셔서 fms 만료일 2026/2/4->2026/2/8일로 적용 완료.', 19, '2025-11-07T18:21:46', '2025-11-07T18:21:46', '회원요청', 676, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1882, '신현배', '구분 : 방문상담
+고객명 : 신현배, 주니어
+전화번호 : 010-27507626
+특기사항 :
+-아빠와 아들도 레슨문의 하러 오심.
+-매장 ppt안내, 주니어 레슨도 상담.
+-네이버 무료 체험은 다음에 오늘은 타석 각각 이용(5,6번 잡아드림)만 원하심
+-주니어
+', 23, '2025-11-08T13:13:10', '2025-11-08T13:13:10', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1883, '강태욱', '구분 : 방문상담
+고객명 : 강태욱
+전화번호 : 010-9134-9773
+특기사항 :
+-매장 ppt안내
+-프렌즈40 99만원 관심보이심(레슨권과 타석 이용시 얼마나 쓸수 있는지 물어보셨음)
+-기존에 부인이 이용하셨다함(회원성함 여쭤봤는데 안알려주심)
+-평일 오후, 주말에 방문가능
+-네이버체험예약 안내해드림', 23, '2025-11-08T13:36:42', '2025-11-08T13:36:42', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1884, '수동 적립 이유', '오픈타석 예약하셨는데 비회원 5,6번 동시 잡아드리면서 9번 단독으로 변경하여 불편함 드려 수동 적립 2500c해 드림.', 19, '2025-11-08T14:17:05', '2025-11-08T14:17:05', '회원요청', 864, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1885, '레슨북 만료일 변경', '2025년 8월 주니어 레슨권 재등록 당시 시작일은 원하시는 날짜 말씀해 주시기로 하셨음으로,
+시작일을 2025월11월15일로 원하셔서 
+만료일 25/11/29->26/02/15 레슨북 변경 완료.', 19, '2025-11-08T16:04:02', '2025-11-08T19:40:29', '회원요청', 201, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1887, '주니어 관련', '신규 이현정 주니어
+예약된 11월11일,13일 레슨 후에는 연속 30분 레슨 후 연습 25분 요청하셔서 
+레슨북 이름 옆 문구 넣고 수정함.', 19, '2025-11-08T18:06:26', '2025-11-08T18:06:26', '회원요청', 683, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1888, '백 배송', '백 배송 서비스로 3천 크레딧 수동 차감& 채널안내 완료.', 19, '2025-11-08T21:25:50', '2025-11-08T21:25:50', '회원요청', 787, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1889, '이벤트 필드 레슨 문의', '이상문님이 김동민 주니어 50회 정도 레슨 등록한거 같은데, 이벤트 필드레슨 문의 하셨구요.이벤트 관리 보여드려서 더 받으신분 많은거 보고 알겠다고 가시긴 했습니다.  주니어도 레슨 포인트가 쌓인다 해도  필드레슨 성인이랑 갈 수 있나요? 가도 주니어끼리 가야 되지 않나요?', 20, '2025-11-09T09:36:57', '2025-11-09T09:36:57', '회원요청', 634, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1890, '긴급할인', '8번 타석 기기문제로 이용 못하셔서
+오늘 예약분에 대해 모두 긴급 할인 해드림.(대표님 승인)
+-22,320c에서 2원 남기고 긴급할인 후 수동 2원 적립 완료.', 19, '2025-11-09T13:58:25', '2025-11-09T13:58:25', '회원요청', 79, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1891, '기간제 레슨권', '김선우 프로님 기간제 레슨권 판매 종료 하였습니다.
+혹시 원하시는 분 있으시면 우선 프로님께 여쭤보시길 바랍니다.', 19, '2025-11-09T14:28:15', '2025-11-09T14:28:15', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1892, '8번 타석', '8번 타석 
+공이 안 올라오는 현상으로
+고무티 밑 센서 닦고 회전판 먼지제거 하여 복구됨.', 19, '2025-11-09T15:36:41', '2025-11-09T15:36:41', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1893, '락커배정', '락커 1개 더 배정. 와이프(이정민님) 사용. 네임택은 남편 닉네임 사용.', 19, '2025-11-09T16:00:42', '2025-11-09T16:00:42', '회원요청', 151, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1896, '우상민', '구분 : 방문상담
+고객명 : 우상민
+전화번호 : 010-4036-7640
+특기사항 : 
+-구력은 오래 되셨고 치신지 오래 되셔서 다시 새롭게 레슨 배워보고자 하심.
+-매장ppt안내해 드림. 주3회 정도 레슨+연습 가능하다 하셔서 나는 싱글 패키지 추천 드림.
+-네이버 체험은 본인이 스캐줄 확인 후 직접 하신다고 하심.', 19, '2025-11-09T17:30:59', '2025-11-09T17:30:59', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1897, '만료 레슨권 살려드림', '10줄타 재등록으로 만료 레슨권 12회 살려드림.
+18+12=30회로 취합, 만료일 2026/04/07에서->2026/06/07로 (2개월 연장 적용 완료함)', 19, '2025-11-09T18:15:42', '2025-11-09T18:15:42', '회원요청', 639, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1899, '4번 타석', '핸드폰 충전 케이블선 깨져서 교체.
+창고에 새 여분 없는데 
+추후 필요시 주문 하는게 나을거 같아 주문은 안넣음.', 19, '2025-11-09T19:03:48', '2025-11-09T19:03:48', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1900, '프로님 변경', '일요일 레슨 원하셔서 프로님 변경하심.
+김선우p-> 김주순p crm, fms 적용 완료.', 19, '2025-11-09T21:07:02', '2025-11-09T21:07:02', '회원요청', 867, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1901, '주니어 레슨권 등록 및 추가 타석 이용 등록 ', '1. 주니어만 등록하는 경우
+보호자 이름 신청서 작성(하단 주니어 정보기입) - 보호자 채널추가, 채널네임 "보호자이름(뒷번호)주니어이름" - 보호자crm등록 - 보호자이름으로 레슨북 어플 설치, 주니어 레슨권 등록
+2. 보호자와 주니어 동시 등록 하는 경우
+보호자 이름 신청서 작성(하단 주니어 정보기입) - 보호자 채널추가, 채널네임 "보호자이름(뒷번호)주니어이름" -보호자 fms등록 - 보호자crm등록, 주니어 추가 등록+주니어레슨권 결제등록 - 보호자이름으로 레슨북 어플 설치, 주니어 레슨권 등록
+3. 보호자 부모 모두 와 주니어 동시 등록 하는경우
+부모 두명 이름 신청서 작성(부모중 한명만 하단 주니어 정보기입) - 부모 모두 채널추가, 부모 모두 채널네임 "보호자이름(뒷번호)주니어이름" - 부모 모두 fms등록 - 부모 모두crm등록, 부모 모두 주니어 추가 등록, 부모중 한명만(신청서 작성한 사람)주니어레슨권 결제등록 - 보호자 한명만 이름으로 레슨북 어플 설치, 주니어 레슨권 등록
+4. 주니어만 등록하고 주니어가 기타 타석 추가 이용 원하는경우(주니어레슨권+크레딧 타석권이용)
+2번과 동일하게 처리하고 보호자에 크레딧 등록을 해놓고, 주니어 타석이용 원할 시 단독 타석으로 예약, 채널로 주니어 이용 연락 주면 매장에서 타석 열어드린다 안내. 
+(주니어의 경우만 타석이용시 "반드시 핸드폰qr 소지"의 예외가 됨. 다만 꼭 단독 타석 이용 혹은 부모와 5.6타석 동시이용)
+
+#상담신청서, crm과 fms는 모두 성인만 등록 하며 주니어는 보호자를 기반으로 추가만 합니다.
+
+#주말에 등록한 박유미님, 이현정 주니어의 경우 이현정 주니어 crm삭제 하였고 박유미님 크레딧으로 15만 적립, 예약 후 이현정 주니어 방문시 타석 열어드리는걸로 안내 완료. ', 4, '2025-11-10T10:27:01', '2025-11-10T10:47:45', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1902, '이현정 주니어 타석 이용시', '박유미님이 단독 타석 예약하시면 주니어 이용 할 수 있게 매장에 타석 열어드리기', 4, '2025-11-10T10:30:32', '2025-11-10T10:30:32', '회원요청', 683, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1903, '새 조조권 등록', '조조권 12개월 등록시 14개월 제공
+기존 조조권 11/15만료로 11/8에 등록한 새 조조권 11/16부터 실행 으로 유효기간 26/11/8->27/1/16로 변경 처리', 4, '2025-11-10T11:18:43', '2025-11-10T11:18:43', '회원요청', 539, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1904, '환불문의', '변선민 회원님 잔여 크레딧 환불 문의 하심.
+대표님과 2025/11/09일자 톡 채널 참조해 주세요.', 19, '2025-11-10T13:55:19', '2025-11-10T13:55:19', '회원요청', 691, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1905, '크레딧 부족', '729. 김소현님 당일 잔여 크레딧 부족으로 말씀 드렸으나
+12일 수요일 레슨 오실때 잔여 결제 하신다 하십니다.', 19, '2025-11-10T13:56:59', '2025-11-10T13:56:59', '회원요청', 729, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1906, '주니어 관련', '신규 이현정 주니어
+예약된 11월11일,13일 레슨 후에는 연속 30분 레슨 후 연습 25분 요청하셔서 
+레슨북 이름 옆 문구 넣고 수정함.', 19, '2025-11-10T13:58:40', '2025-11-10T13:58:40', '회원요청', 683, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1907, '박현숙', '구분 : 방문상담 
+고객명 : 박현숙
+전화번호 : 010-7114-8926
+특기사항 : 
+-구력 1년인 완전 초보(필드 경력X)
+-근처 회사, 주 2회 정도 레슨 가능, 시간대는 16:00 이전 가능
+-매장 ppt 안내해 드리고, 10 줄타 패키지 추천 드림.
+-네이버 체험 레슨 이재윤 프로님으로 12일 예약 잡음.', 19, '2025-11-10T14:09:42', '2025-11-10T14:09:42', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1908, '레슨권 홀드 관련', '2026월 3월까지 방문 못하신다고 남은 16회 홀드처리 원하셔서
+이미 1차례 5주 연장 처리 하였으나 홀드 처리해 드리기로함.(대표님 승인)
+채널 안내는 홀드 처리로 말씀 드렸으나
+실제 fms상 홀드 처리 할 수 없어서 추후 복구 원하시면 기간을 연장 처리 해야 함.(대표님과 논의 필요)', 19, '2025-11-10T17:09:26', '2025-11-10T17:09:26', '회원요청', 41, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1909, '만료 레슨권 부활과 프로 변경', '재등록으로 만료된 집중 레슨 21회 살려드림.(원래 2개씩 예약 짝수로 남아 있어야 하는데 홀수로 남아있었음)
+10줄타 재등록으로 18+기존21=39회로 취합하여 2개월 연장 2026/04/08에서->2026/06/08로 fms 적용 완료함.(잦은 출장과 일로 바쁘셔서 2개월 연장 조치함)
+회원님께는 기존 집중레슨 21회?에 대한 것은 10번은 2회씩 예약해 주셔야 한다고 대면으로 말씀드림.
+기존 이재윤 프로님에서 오전 시간 안되어 김주순 프로님으로 변경함.
+fms,crms 변경 적용 완료함.', 19, '2025-11-10T20:34:27', '2025-11-10T20:34:57', '회원요청', 644, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1910, '이전 배너 광고 보신분', '인포 쪽 출입구 계단 중간에 광고 배너 보신분 계실까요?
+기존 김선우 프로님 배너 전에 있었던거요.
+프로님이 창고에 두셨다고 하는데 찾을수가 없습니다.
+아시는분 찾으신분은 위치에 걸어 주시면 대단히 감사합니다.', 19, '2025-11-10T20:54:10', '2025-11-10T20:54:10', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1911, '레슨권 취합시', '레슨권 취합시 집중레슨권과 일반레슨권의 경우 분리가 맞으나 새 시스템 도입시 오류 발생 가능성이 있어 하나로 취합, 유효기간 연장은 기존처럼 진행합니다.
+다만 집중레슨권과 일반레슨은 예약 방법이 달라 집중레슨은 꼭 2회 이상씩 예약 일반레슨은 2회씩 예약 가능을 안내해주세요. 
+예: 집중레슨 10+일반레슨10의 경우 집중레슨 10개는 꼭 2개 이상씩 예약해서 소진, 일반레슨 10개는 1회씩 예약 하라고 안내', 4, '2025-11-11T10:08:03', '2025-11-11T10:08:03', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1912, '10타줄이기와 주니어 1:1등록 (주니어 레슨 시작일로 기간 맞춰 달라  하심)', ' 다음주 부터 주니어 레슨 시작, 주니어 레슨 시작일로 3개월 기간 맞춰 달라  하심', 20, '2025-11-11T20:58:41', '2025-11-11T21:17:08', '회원요청', 871, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1913, '한슬아', '구분 : 방문상담
+고객명 : 한슬아
+전화번호 : 010-9321-3121
+특기사항 : 구력1년반, 금액 부담스러워 하셔서 우선 15만 크레딧과 체험레슨3 등록 함', 20, '2025-11-11T21:14:24', '2025-11-12T09:39:41', '상담기록', 872, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1914, '이지영과 이예나 주니어 등록', '구분 : 방문상담
+고객명 : 이지영,이예나 주니어
+전화번호 : 010-9320-4201
+특기사항 : 전화로 체험레슨 잡아드리고( 이지영 어머님은 김선우프로님,이예나 주니어는 김주준 프로님으로),ppt안내와 가격안내 해드림.(10타줄이기와 주니어 1:1레슨 각자 체험레슨 받은 프로님으로 배정후 등록하심', 20, '2025-11-11T21:31:00', '2025-11-12T09:39:22', '상담기록', 871, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1915, 'fms회원권 미등록', '11/10 아내 강지수님이 황준식님 99패키지 결제 완료. 
+11/21 금 황준식님 방문 예정(필요시 강지수님 채널 참고)
+fms 10타줄이기 등록, 기존레슨권(잔여11회) 취합 후 유효기간 1개월 연장(최대 2개월정도), 프로지정(변경 예정), 기존 타석권 만료처리, crm 상품 등록은 완료했으나 프로 변경시 변경처리 및 fms 등록일에 맞춰서 변경된 레슨 유효기간 변경(11/21 시작으로 설정 원하심), 기타 메모사항 기록
+신청서 채널은 발송 완료.', 4, '2025-11-12T09:48:30', '2025-11-12T10:22:06', '회원요청', 645, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1918, '박현숙', '구분 : 방문 상담
+고객명 : 박현숙
+전화번호 : 010-7114-8926
+특기사항 : 이재윤프로님 체험레슨후,  ppt 설명후 10타줄이기 권유,(레슨비가 타 골프장 보다 비싸다 하셔서 저희 프로님들은 다르다 설명드리고, 3개월 기간제 타석권과 everyday 1개월 레슨권도 같이 상담해드림) 남편과 상의 하신다고 다시 방문하신다고 함
+
+', 20, '2025-11-12T17:52:07', '2025-11-12T17:52:07', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1919, '프렌즈10 2개월 기간 연장 해드림', '프렌즈10 기간을 3개월에서  5개월로 변경(2026.2.9->2026.4.9),20분 타석 보너스 드림(대표님 승인), 문화집행비인가..연말정산에서 골프 연습장이 소득공제  되냐고 물어 보시는데 몰라서 답변 못해드림(대표님 알고 계심)', 20, '2025-11-12T21:09:59', '2025-11-12T21:10:50', '회원요청', 729, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1920, '9번타석 시작-> otp(1111)나옴이 5번정도 (30프로 긴급할인)', '9번타석이  5번 정도   시작-> otp(1111)나옴.  (30프로 긴급할인 5580원)적용하고 전화드림,채널 발송.원인-> 냉장고 위 노트북 꺼지거나 움직임 없음 대표님께 연락해야함.', 20, '2025-11-12T21:31:44', '2025-11-12T21:34:03', '회원요청', 855, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1921, '긴급 할인+ 수동 적립', '5번 타석 이용 중 티 문제로 6번 으로 이동
+50% 할인 적용으로 긴급 할인으로 7500시킴(모르고 2원 못빼고함)
++
+회원님이 타석 예약 잘못 누르셔서 강제 종료 하였으나 시간이 넘어가 -500c 차감됨.
+이는 수동 500c로 적립해 드림.', 19, '2025-11-13T16:48:33', '2025-11-13T16:48:33', '회원요청', 284, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1922, '최초 1회 연장', '최초 1회 1개월 연장 요청.
+2025/11/19->2025/12/19 fms 조정 완료.
+전 김은성프로 회원님으로 김주순 프로로 변경 crm, fms 변경 완료.', 19, '2025-11-13T18:11:31', '2025-11-13T18:12:17', '회원요청', 35, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1923, '8번 타석 ', '8번 타석 티 올라오는 소리 쇠소리가 너무 심해서 윤화제 좀 뿌렸으나
+심한 괴음이 나서 AS연락하니 하단 센서 문제일 수 있다고 기사님 방문 접수함.
+내일 오후 경 방문예정이며 오시기 1시간 전에 연락 주신다 함.
+내일까지 8번 타석 막아 놓음. 고치면 풀기.', 19, '2025-11-13T18:25:41', '2025-11-13T18:25:41', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1924, '김동우', '구분 : 방문상담
+고객명 : 김동우
+전화번호 : 010-4728-0927
+특기사항 : 
+-입문, 30대 초반, 요식업(정육관련)하시는데 이전 테니스 치셨는데 손목이 아프고 다른 운동 배우고 싶어서 골프 선택.
+-매장 PPT, 투어 해 드리고 네이버 체험 김선우P 진행
+-체험 만족 하심 집가서 아내분과 상의해서 등록 예정, 나는 싱글, 퍼팩트 스윙 패키지 등록 가능성 높음.', 19, '2025-11-13T18:50:27', '2025-11-17T09:50:28', '상담기록', 873, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1925, '하프백 대여', '하프백 대여하심.
+아이패드 사진 찍어 놓음.
+반납시 댓글 작성 필요', 19, '2025-11-13T19:39:30', '2025-11-13T19:39:30', '회원요청', 848, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1926, '타석 이용료 ', '회원님이 타석 75분 예약에 대한 50% 할인 적용해 드림. 긴급할인 적용 완료.
+이유는 매번 멀리서 오시고 1시간씩 단독에서 레슨받으시는 분인데 
+이날은 잘못 예약 하셔서 1회만 잡으셔서 그냥 취소 없이 하시는걸로 했기 때문', 19, '2025-11-13T20:06:41', '2025-11-13T20:06:41', '회원요청', 821, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1927, '박현, 정세훈', '구분 : 방문상담
+고객명 : 박현, 정세훈
+전화번호 : 010-9490-5669, 010-4512-8011
+특기사항 : 
+-입문, 주2회~3회 오후 8:30~9:00 레슨가능
+-네이버 상담으로 PPT안내 및 매장투어함.
+-11월18일 김선우P 체험 후 등록 예정 (페펙트 스윙 추천)
+-같이 오신 남자친구는 구력 8개월로 레슨 필요 없으시고 인도어 이용중이신데
+더 추워지면 등록 의사 있으심. 타석 체험은 추후 하실때 말씀 주신다함.', 19, '2025-11-13T21:32:35', '2025-11-13T21:32:35', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1928, '프로변경', '김은성프로 퇴사로 김주순 프로 변경', 4, '2025-11-14T09:47:36', '2025-11-14T09:47:36', '회원요청', 109, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1929, '안내 완료', '퍼펙트 스윙 패키지 등록으로 2회 이상 레슨 예약 안내해 드림.', 19, '2025-11-14T16:23:11', '2025-11-14T16:23:11', '회원요청', 873, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1931, '임완수,임건서(주니어)', '구분 : 방문상담
+고객명 : 임완수, 임건서(주니어)
+전화번호 : 010-3601-4543
+특기사항 : 
+-구력 5년, 다시금 레슨이 필요하셔서 오심.
+-고샛별 회원님 남편분
+-네이버 체험 만족 하심(김선우P)
+-매장 PPT안내드림, 볼일로 급하게 마무리 했는데 긍정적이심.
+-아들 임건서, 초2, 입문 아이와 상의해서 체험 레슨 진행여부 결정 하신다함.
+-골프 패밀리 추천 드림, 본인 레슨이 적다고 하시면 싱글도 강추 드리면 좋을듯함.', 19, '2025-11-14T17:30:33', '2025-11-14T17:30:33', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1932, '프로 변경', '김은성 프로님 퇴사로 김선우 프로님 체험 후 변경.
+CRM, FMS 적용 완료.', 19, '2025-11-14T17:41:16', '2025-11-14T17:41:16', '회원요청', 584, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1933, '주니어 타석 고정 요청', '이라온 주니어 7번 단독 원하셔서 레슨북 이름 옆 메모 넣음.', 19, '2025-11-14T17:49:54', '2025-11-14T17:49:54', '회원요청', 863, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1934, '프로 변경', '전 김은성 프로-> 김주순 프로 체험 후 CRM, FMS 변경 완료.', 19, '2025-11-14T20:39:09', '2025-11-14T20:39:09', '회원요청', 725, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1935, '강구원 신규등록', '구분 : 방문상담
+고객명 : 강구원
+전화번호 : 010-2735-3191
+특기사항 : 
+-구력 있음, 퇴근후, 주말 레슨 원하심(김선우p 매칭해드림)
+-매장ppt안내, 투어
+-현장에서 즉시 체험레슨 잡아드림(김선우p)
+-페펙트 스윙으로 결제함 
+
+', 23, '2025-11-15T11:17:38', '2025-11-15T11:21:03', '상담기록', 874, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1936, '레슨 기간연장 2개월(2025.11.26->2026.1.25)', '레슨권5회 남으셨는데,딸 레슨 시간에 같이 맞춰오는거라 레슨 기간 맞추기 어렵다고 2개월 연장 요구,(대표님 승인), 추후 재등록시 잔여분 고려 추가연장 가능 ', 20, '2025-11-16T10:46:54', '2025-11-16T10:50:05', '회원요청', 708, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1937, '윤현지', '구분 : 방문상담
+고객명 : 윤현지
+전화번호 : 010-8596-3050
+특기사항 : 
+-구력2년, 레슨필요X
+-다른 연습장 기간 만료로 상담오심.
+-매장 ppt, 투어 안내드림
+-먼저 15만크레딧으로 이용해 보신다고 하시고 등록하심.', 19, '2025-11-16T16:50:48', '2025-11-17T09:48:34', '상담기록', 875, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1938, '상담 기록 작성시', '기존 방문 상담 이력이 있는지 이름 검색해보고 확인 후 상담 내용 작성 해주세요.
+작성해 주시면 제가 상담 내용 확인후 상담기록-회원 연결 하고 있습니다. 
+이지영님 -이예나 주니어 상담 기록 중복으로 작성 하셔서 매칭 오류 있었습니다. 
+박현숙님 또한 상담내용 중복 작성 되었습니다. 
+상담 기록은 최초 방문 상담 진행자 기준으로 매칭이 이루어 집니다. 
+상담과 등록이 같은날 진행 되지 않아 등록 시점에서 추가할 내용이 있으면 회원 메모나 기존 상담 이력 검색 후 댓글로 작성해 주세요
+저도 매월 말일에 정리하면서 여러번 체크 하고 있습니다만, 기록을 정확하게 해주셔야 처리가 빠르게 진행됩니다. ', 4, '2025-11-17T09:40:31', '2025-11-18T10:04:31', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1940, '김안나', '구분 : 방문상담
+고객명 : 김안나
+전화번호 : 010-8440-3740(이영국님 전화번호)
+특기사항 : 이영국 회원 아내분
+동반 이용하시다가 레슨에 관심이 있으셔서 상품 안내 해드림. 
+프로님 프로필, 근무 시간 안내 해드렸고 체험레슨도 안내해드림
+이영국 회원님도 현재 타석만 이용중이심. 
+추후 체험 레슨 예약 잡기로 함. 
+등록시 이영국님과 지인이벤트 적용해드리기로 함.', 4, '2025-11-17T11:59:45', '2025-11-17T11:59:45', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1941, '레슨권 연장 문의', '가슴뼈가 아프셔서 진료 중이라 레슨권 1개월정도 연장 원하신다고 문의 오심.
+기존 레슨권 취합 6개월 연장 드린 이력이 있으셔서 추가 연장은 진단서 안내 드림.
+조망간 진단서 가지고 방문하신다고 함.', 19, '2025-11-17T14:37:00', '2025-11-17T14:37:00', '회원요청', 501, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1942, '여성', '구분 : 전화상담
+고객명 : 010-7979-8910
+전화번호 : 여성분
+특기사항 : 
+-레슨 필요 없으시고 타석이용 비용만 물러 보셔서 간략 안내 드리고 
+-타석 무료 체험 안내, 내일 스케줄 보고 네이버나 전화로 예약 하신다함.', 19, '2025-11-17T20:41:17', '2025-11-17T20:41:17', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1943, '최주환님 지인이벤트', '최주환님 지인으로 등록
+11만 크레딧 각 추가 적립완료', 4, '2025-11-18T10:55:37', '2025-11-18T10:55:37', '회원요청', 876, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1944, '윤재은님 지인이벤트', '윤재은님 신규 등록으로 지인 이벤트 11만 크레딧 적립 완료', 4, '2025-11-18T10:57:48', '2025-11-18T10:57:48', '회원요청', 114, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1945, '긴급할인10프로', '7번타석 불만으로 8번 타석 옮겨 드림.긴급할인10프로만 해드림. 티높이가 게임할때 6센치에서 안내려 가고, 게임할때 공을 바닥에 두면 티에 공이 또 올라온다고 예전에 안그런데  넘 불편하다함. 점검해보니 괜찮음(어떤 상황인지 물어봤지만 손님이 짜증 내셔서 더 묻지 않음)', 20, '2025-11-18T19:28:02', '2025-11-18T19:30:54', '회원요청', 212, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1947, '박정현', '구분 : 방문상담
+고객명 : 010-5378-3423
+전화번호 : 박정현
+특기사항 : 
+-매장 ppt,투어 안내드림
+-전화로 타석 무료 체험 (김선우프로) 안내 금일 8시 30분잡아드림
+-집중레슨20+크레딧50 이나 퍼펙트스윙 둘 중 생각하고 등록하신다 하심
+-단기간에 좋아지시길 원하심
+
+', 20, '2025-11-18T21:16:38', '2025-11-25T11:57:01', '상담기록', 880, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1948, '권영재', ' 구분 : 방문상담
+고객명 : 010-8751-1724
+전화번호 : 권영재
+특기사항 : 
+-박정현 지인분(등록시 10프로 양쪽 적립 도와드리기로 함)
+- 오른쪽 어깨부상으로 당분간 못하신다고 하심
+-매장 ppt,투어 안내드림
+', 20, '2025-11-18T21:17:22', '2025-11-18T21:17:22', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1949, '긴급할인 관련 ', '11/5 공유사항에 보면 회원 불편 사항 발생시 수동적립이 아닌 긴급 할인 적용 으로 공지해 두었습니다(고민정 매니저님 글)
+
+긴급 할인은
+# 타석을 이용하고 안내문자가 발송되기전 즉시 할인을 설정하여 안내문자가 할인받은 금액으로 안내나가기 위함이며
+# 수동적립은 따로 문자 안내가 되지 않으므로 구두 혹은 채널로 별도 안내가 없으면 회원이 인지하기 어렵습니다
+
+긴급 할인 방법은 해당 회원은 타석이용 탭에서 긴급할인 적용(빨간버튼)을 눌러 할인에 해당하는 금액을 입력하면 시스템 한사이클 돌면 바로 적용됩니다.
+
+# 긴급할인 방법
+*타석이용료를 전체 할인할 때  : 타석이용료의 2원을 뺀 나머지 금액을 모두 긴급할인 적용에 입력. 2원 수동적립
+ex: 18000c이용이면 긴급할인 17998입력, 2원이 차감 예정이므로 2원 수동적립
+후에 회원께 할인 적용해드렸으나 2원은 시스템상 차감될 예정이므로 수동적립하겠다 안내.
+
+*타석이용료의 일부를 할인할 때 : 일부할인 금액 (10%든 50%든 해당금액 계산)을 긴급할인 적용에 입력.
+ex: 18000c이용인데 10% 할인 하기로 했다. 1800c 긴급할인 입력. 끝.
++회원님 타석이용이 불편하여 00분 연장 하기로 한 경우도 이 경우 처럼 계산합니다.
+ex: 18000c이용 후 매장에서 불편으로 타석이용 10분 연장(3000c 추가됨) 3000c긴급할인 끝
+후에 회원께 (해당할인 율 혹은 금액) 할인 해드렸다 내일 안내문자에 할인내역 확인 가능하시다 안내.
+
+해당내용 숙지하시고 할인적용시에 헷갈리시거나 모르시면 대표님께 여쭤보시고 정확히 처리해주시기 바랍니다.
+
+부득이하게 긴급할인을 하지못하고 수동적립한 경우에는 회원님께 분명하게 "내일 차감금액은 정상으로 발송 될 예정이라000c 적립해드렸다" 안내해주세요.
+긴급할인이라는 용어는 매장에서 처리하기 위한 수단과 용어이지 회원께 긴급할인이라고 안내해도 정확히 어떤걸 말하는건지 모릅니다. ', 4, '2025-11-19T11:38:56', '2025-11-19T11:48:10', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1950, '허리부상으로 연장', '채널로 연락, 허리부상으로 재연장 요청하심.
+진료비내역서 첨부하심.
+
+기간권 11/19~11/26 홀드 처리
+
+레슨권 유효기간 2025/12/22->2025/12/29 1주일 재연장
+
+허리부상으로 일주일 또다시 재연장.
+', 23, '2025-11-19T14:13:05', '2025-11-19T14:13:05', '회원요청', 719, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1951, '레슨권 재연장', '건강상 이유(허리통증)로 레슨권 40일 연장 원하심
+진료비내역서 첨부로 대표님 원하시는 만큼 해드리라함
+기존 2026.3.01---> 2026.04.10로 연장처리 해드림
+fms, crm 레슨권 연장 적용, 채널로도 안내함', 23, '2025-11-19T17:19:10', '2025-11-19T17:32:11', '회원요청', 501, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1952, '양승진', '구분 : 전화상담
+고객명 : 010-3274-8293
+전화번호 : 양승진
+특기사항 : 
+-권신오 지인분(등록시 10프로 양쪽 적립 도와드리기로 함)
+-35만 크레딧등록 매장 사용방법, 하이페리온 주차장 이용 방법 안내함
+-상부장 라커 이용금액, 사용법 안내함
+-내일 오후에 방문 등록 하시기로 함
+', 23, '2025-11-19T17:39:47', '2025-11-19T17:39:47', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1953, '상부장 153 락커 배정완료', '네임택 부착완료', 23, '2025-11-19T18:17:46', '2025-11-19T18:17:46', '회원요청', 676, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1954, '레슨북 한달 연장', '홍채운 주니어 레슨북 11/22까지어서 예약이 안된다 연락와서
+12/ 22일로 한달연장 해드림(대표님승인)
+', 23, '2025-11-20T12:19:15', '2025-11-20T12:19:15', '회원요청', 384, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1955, '전지유', '구분 : 전화상담
+고객명 : 010-9906-9107
+전화번호 : 전지유
+특기사항 : 
+-오래전 방문 이력 있으심
+-하이페리온 주차장 이용 방법 안내함
+-6개월 회원권과 20회 레슨 받길 원하심. 10타 줄이기 프로젝트 추천함
+-수일내 방문 등록 하시기로 함
+', 23, '2025-11-20T12:27:59', '2025-11-20T12:27:59', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1956, '렌치 보신분', '매장 골프 렌치 보신분 있으실까요?
+곽갑섭 회원님이 물어 보셔서요.
+그동안 채 닦는 테이블 옆에서 늘 봤었는데 오늘 보니 없습니다.', 19, '2025-11-20T19:53:42', '2025-11-20T19:55:45', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1958, '이승환', '구분 : 전화상담
+고객명 : 이승환
+전화번호 : 010-6293-7868
+특기사항 : 
+-구력 오래 되셨는데 다시금 레슨 받으실려고 알아보시는 중
+-레슨, 타석 이용방법 간단히 안내 드림.
+-11월21일 (김선우p)네이버 체험 예약', 19, '2025-11-20T21:13:17', '2025-11-20T21:13:17', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1959, '상담기록 및 체험예약', '하기에 말씀드린 방문상담 이력 확인 후 기록 하는 것처럼 체험도 가능하면 상담 이력 검색해보고 체험 하셨는지, 혹은 예약 잡기 전에 이전에 체험 이력 있으신지 물어보시고 예약 잡아주세요.
+18일 화요일 박정현님 8/22 김주순 프로님 체험 이력있으신데 18일 김선우 프로님께 또 체험 받았습니다.
+기간이 오래 되기는 하였으나 확인 해주시고, 필요 시 대표님과 상의 후 체험 예약 잡아주세요.
+', 4, '2025-11-21T09:45:03', '2025-11-21T09:45:03', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1960, '김선우 프로 에브리데이 기간제 레슨권 시작일 설정', '11/21~12/20로 종료일 설정 완료. fms적용 완료. 1일 1회 사용. 중복 사용 불가. 추가 레슨원할경우 프렌즈 상품 이용 채널로 안내', 4, '2025-11-21T10:59:55', '2025-11-21T10:59:55', '회원요청', 857, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1961, '최다인 주니어', '2025.10.05 등록 하신 레슨권에 대하여 최초 1회 1개월 요청으로 레슨북 2026/01/03->2026/02/03 변경 완료함.', 19, '2025-11-21T16:10:26', '2025-11-21T16:10:26', '회원요청', 708, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1962, '이승환', '구분 : 방문상담
+고객명 : 이승환
+전화번호 : 010-6293-7868
+특기사항 : 
+-어제 11월20일 전화 상담 하셨고 오늘 레슨 체험 진행함.
+-체험 만족하셨고 매장 PPT안내와 투어. 등록 하심.', 19, '2025-11-21T17:40:08', '2025-11-24T10:05:14', '상담기록', 877, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1963, '분실물 문의', '이상진 회원님(회원번호 49)
+IBK기업은행 시크리티 카드 분실 하셨는데 (잃어 버리신 장소 모르심)
+혹시 매장에서 발견하면 안내해 주세요.', 19, '2025-11-21T20:46:58', '2025-11-21T20:53:30', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1964, '레슨 기간 25.11.27->25.12.14까지 연장', '레슨 25.11.27->25.12.14까지 연장해드림 추후 재 연장 요청시 레슨권 재 등록해야한다고 알려드림', 20, '2025-11-22T11:38:39', '2025-11-22T12:55:41', '회원요청', 339, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1965, '센서 캐이블 전선 빠짐', '8번타석  수동으로만 공이 올라옴,a/s 모니터쪽 센서캐이블선 문제', 20, '2025-11-22T12:43:40', '2025-11-22T12:43:40', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1966, '레슨권 기간 1달 연장', '연말에 너무 바쁘셔서 1달 요청(25.12.29->26.1.28) 추후 재 등록하셔야 기간연장 가능하다고 말씀드림', 20, '2025-11-22T12:53:35', '2025-11-22T12:53:35', '회원요청', 222, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1967, '금세원', '구분 : 전화상담
+고객명 : 금세원
+전화번호 : 010-4650-6888
+특기사항 : 
+-구력3개월인 입문(엘보가 아파서 못치셨슴)
+-네이버 톡으로 문의 주셔서 유선 전화 드림
+-주말(금,토,일)만 레슨 가능하시다 하여 프로님들 시간, 레슨 가격 안내함
+-생각해 보시고 본인이 직접 네이버 예약 또는 매장 전화하신다함.', 19, '2025-11-22T17:27:18', '2025-11-22T17:27:18', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1968, '락커 이동', '락커 51번(상부장) 휴게실 의자로 불편하시다고 다른 상부장 이동 원하셔서 락커 151번 으로 crm이동 처리 및 네임택 교체함.', 19, '2025-11-22T17:29:34', '2025-11-22T17:29:34', '회원요청', 711, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1969, '최수복님 요구 사항', '최다인 주니어 앞타석 김동민 주니어 배정시 8번 타석으로 배정 원하심(김동민 주니어가 타석 종료시 준비해서 나가는 시간이 오래 걸리신다고  함)
+
+', 20, '2025-11-23T10:01:34', '2025-11-23T10:03:53', '회원요청', 708, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1971, '김희수,건휘수,백건휘', '구분 : 방문상담
+고객명 : 김희수,건휘수,백건휘
+전화번호 : 010-9064-1345, 010-9369-4129
+특기사항 : 
+-김캐디 예약하고 남편과 함께 방문
+-목동12단지 1221-1204
+-김희수님은 신한은행근무, 주민번호 앞자리860607
+-PPT안내 및 매장투어함.
+- 남편분과 같이 등록시 양쪽10프로 지인이벤트 적용(타석 크레딧 부분만) 안내해드림
+-주니어 등록시 부모 타석 할인부분 좋아하심.(아버님 성이랑 아이성이랑 다른거 물어보기 어려웠음)
+-백건휘(20181025) 계남초1학년 주니어 무료체험 레슨 (11월29일 토요일 11시30분 에약잡아드림)
+', 20, '2025-11-23T10:54:51', '2025-11-23T10:54:51', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1972, '주니어 레슨권 부모 혼합결제 문의', '이지수 주니어 1월30일에 미국으로 이민 가심.방학마다 이재윤 프로님 레슨 받으러 한국 온다고 하시는데, 우선은 가시기 전에 아버지 이병주님(384,288c)과 어머님 441.이해영 (105,310c )다 사용하고 가시고 싶다고 하시면서  두분 크레딧 합쳐서 잔액부분만 추가 결제하고 이지수 10회레슨권 살수있는지 알아봐 달라 함(대표님은  월래 혼합결제 안되는데 양쪽 5만 정도씩 남겨두고는 가능 하다고 답주심, 보너스로 나간 금액이 각20만은 된다 하심)', 20, '2025-11-23T12:21:32', '2025-11-23T12:23:56', '회원요청', 398, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1973, '차용호', '구분 : 방문상담
+고객명 : 차용호
+전화번호 : 010-2648-2668
+특기사항 : 
+-구력5년이시고 레슨 필요X.
+-당일 네이버 타석 무료체험 진행함.
+-매장PPT, 투어 안내, 등록하심.
+-주니어(아들 차현우) 레슨 관심 있으셔서 주니어 무료 체험 안내함.(골드 패밀리 추천)
+-본인이 매장 이용해 보고 추후 주니어 레슨 체험 생각해 보신다고함.
+-댁이 차로 15분 거리라 주차장 중요.', 19, '2025-11-23T14:13:29', '2025-11-23T14:13:29', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1974, '송준서', '구분 : 방문상담
+고객명 : 송준서
+전화번호 : 010-9155-4895
+특기사항 : 
+-입문
+-함께 방문하신 최정호님과 친구이신데 같이 배우실려고 하심
+-주 1회 레슨만 가능(주말)
+-목동 단지 거주, 두분이서 골프 알아보고 계심
+-매장PPT, 투어 안내함. 퍼팩트 스윙 추천 드림.
+-네이버 체험 레슨 12월6일 (김선우P) 잡음
+-두분이서 등록시 지인이벤트 적용 안내함', 19, '2025-11-23T15:26:00', '2025-11-23T15:26:00', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1975, '최정호', '구분 : 방문상담
+고객명 : 최정호
+전화번호 : 010-2967-3457
+특기사항 : 
+-입문
+-함께 방문하신 송준서님과 친구이시며 같이 배우실려고 알아보고 계심
+-주 1회(레슨)+ 1회 연습 가능
+-목동 8단지 거주
+-매장 PPT, 투어 안내함, 퍼팩트 스윙 추천 드림.
+-네이버 체험 레슨 12월6일 (김선우P) 잡음.
+-두분이서 등록시 지인이벤트 적용 안내함.', 19, '2025-11-23T15:34:58', '2025-11-23T15:34:58', '상담기록', 0, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1978, '레슨권 2개월 연장 ', '대학생이라 방학때만 레슨 가능하여 퍼팩트 패키지 하셔서 2개월 연장해 드림.
+만료일 2026.4.21->2026.6.21 FMS 적용 완료.', 19, '2025-11-23T17:49:37', '2025-11-23T17:49:37', '회원요청', 879, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1979, '이연준', '구분 : 방문상담
+고객명 : 이연준
+전화번호 : 010-3637-3484
+특기사항 : 
+-입문, 대학교 1학년
+-유미애 회원님 아드님
+-어머님 레슨권으로 1회 사용해보시고 신규 가입 원하셔서 상담오심.
+-매장PPT 안내와 가입 도와 드림.(퍼팩드 스윙으로 2개씩 예약 안내함)
+-크레딧만 등록 하신다고(레슨권은 어머님거 쓰시고..)하셨는데
+학생이라 방학때만 레슨 가능하다하셔서 2개월 기간 더드리는 걸로 하시고 등록하심.
+', 19, '2025-11-23T18:23:57', '2025-11-24T10:04:11', '상담기록', 879, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1980, '긴급할인', '티 문제로 타석 이동 불편 서비스로 15분 더 넣어드림. 3,750c 긴급할인 후 채널 안내 완료함.', 19, '2025-11-23T20:57:42', '2025-11-23T20:57:42', '회원요청', 750, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1981, '티 교체', '1번, 7번 타석 공이 더블로 나와 센서 닦고 티 교체함. ', 19, '2025-11-24T18:33:12', '2025-11-24T18:33:12', '기기문제', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1982, '안내 완료', '집중 레슨 20 등록하셔서 1회 레슨 예약시 30분 이상 예약 안내함.
+
+*등록 하실때 크레딧 서비스로 더 안주냐고 하셔서
+기존 무료 체험 2번 받으셔서(매장 누락으로) 이미 큰 혜택 받으신거라 안내함.', 19, '2025-11-24T20:34:24', '2025-11-24T20:39:47', '회원요청', 880, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1983, '이라온, 이예준 주니어 둘다 7번 타석 요청시', '두 주니어 모두 7번타석 요청자라서 간혹 스케줄이 겹치는 경우가 있습니다.
+가능한 번갈아 가면서 7번 타석을 이용 하도록 예약 예정이기는 하나
+선예약자가 있거나 매번 7번 고정이 어려울 수 있으므로 
+두 주니어 부모님께 방문 하셨을 때 
+"다른 주니어랑 겹치거나 선예약이 있고 추가 되는 경우 따로 연락 드리지 않더라도 7번이 아닌 다른 타석 이용 가능성과 가능하면 7번으로 배치하도록 하겠다. 
+특히 한 주니어와 스케줄이 중복 되는 경우 번갈아 가며 이용 하도록 하겠다." 안내 부탁드립니다.
+다른 주니어들도 특정 타석이나 스케줄 특별 요청이 있을 경우 가능한 맞춰드리나 매장 예약 상황에 맞추어 조금씩 변동 될 수 있다고 미리 안내해주세요.', 4, '2025-11-25T10:20:39', '2025-11-25T10:20:39', '일반', NULL, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1984, '기간제 수정', '타석 기간제
+2025-11-19~ 2025-11-26 홀드 하셨었는데
+오늘 부터 사용하셔서 종료일을 2025-11-24로 수정(대표님 진행)
+
+레슨 기간권은
+종료일 2026.01.02->2025.12.31 로 FMS조정 완료. ', 19, '2025-11-25T20:44:45', '2025-11-25T20:44:45', '회원요청', 719, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1985, '김시연', '구분 : 방문상담
+고객명 : 김시연
+전화번호 : 010-4164-2653
+특기사항 : 
+-입문
+-오늘 네이버 체험 진행(김주순P)
+-매장 ppt안내, 매장투어
+-체험 후 등록', 19, '2025-11-25T21:39:20', '2025-11-26T09:39:40', '상담기록', 881, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1986, '우산 빌려가심', '카카오 검정 우산 빌려가심 내일 반납예정', 23, '2025-11-27T10:38:54', '2025-11-27T10:38:54', '회원요청', 152, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1987, '2천크레딧 수동적립', '11/27 룰렛이벤트 2천크레딧 수동적립해드림', 23, '2025-11-27T10:47:24', '2025-11-27T10:48:02', '회원요청', 26, NULL);
+INSERT INTO `Board` (`board_id`, `title`, `content`, `staff_id`, `created_at`, `updated_at`, `board_type`, `member_id`, `branch_id`) VALUES (1988, '카카오 검정우산 대여', '이윤미님 카카오 검정우산 빌려드림. 내일(11/28) 오전 반납예정 확인 부탁 드립니다.', 23, '2025-11-27T10:59:39', '2025-11-27T10:59:39', '일반', NULL, NULL);
+
+SET FOREIGN_KEY_CHECKS=1;

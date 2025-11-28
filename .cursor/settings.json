@@ -9,6 +9,16 @@
       "env": {
         "NOTION_TOKEN": "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"
       }
+    },
+    "supabase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server-supabase@latest"
+      ],
+      "env": {
+        "SUPABASE_ACCESS_TOKEN": "sbp_acf5be44fbb3e07f953a200a25a8bbcfbeb95e27"
+      }
     }
   }
 }

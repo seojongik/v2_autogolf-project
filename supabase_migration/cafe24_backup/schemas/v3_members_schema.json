@@ -1,0 +1,167 @@
+{
+  "table_name": "v3_members",
+  "columns": [
+    {
+      "Field": "member_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": "auto_increment"
+    },
+    {
+      "Field": "member_no_branch",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_name",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_phone",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_type",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_password",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "1111",
+      "Extra": ""
+    },
+    {
+      "Field": "member_chn_keyword",
+      "Type": "varchar(30)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_nickname",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_gender",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_address",
+      "Type": "text",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_birthday",
+      "Type": "date",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_status_memo",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_register",
+      "Type": "timestamp",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_update",
+      "Type": "timestamp",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_phone_auth",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_phone_auth_timestamp",
+      "Type": "timestamp",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "chat_bookmark",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `v3_members` (\n  `member_id` int(11) NOT NULL AUTO_INCREMENT,\n  `member_no_branch` int(11) DEFAULT NULL,\n  `member_name` varchar(20) DEFAULT NULL,\n  `member_phone` varchar(20) DEFAULT NULL,\n  `member_type` varchar(10) DEFAULT NULL,\n  `member_password` varchar(100) DEFAULT '1111',\n  `member_chn_keyword` varchar(30) DEFAULT NULL,\n  `member_nickname` varchar(20) DEFAULT NULL,\n  `member_gender` varchar(10) DEFAULT NULL,\n  `member_address` text DEFAULT NULL,\n  `member_birthday` date DEFAULT NULL,\n  `member_status_memo` varchar(20) DEFAULT NULL,\n  `member_register` timestamp NULL DEFAULT NULL,\n  `member_update` timestamp NULL DEFAULT NULL,\n  `branch_id` varchar(20) DEFAULT NULL,\n  `member_phone_auth` varchar(100) DEFAULT NULL,\n  `member_phone_auth_timestamp` timestamp NULL DEFAULT NULL,\n  `chat_bookmark` varchar(10) DEFAULT NULL,\n  PRIMARY KEY (`member_id`)\n) ENGINE=InnoDB AUTO_INCREMENT=872 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [
+    {
+      "Table": "v3_members",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "member_id",
+      "Collation": "A",
+      "Cardinality": 978,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-28T21:46:36.025611"
+}

@@ -1,0 +1,95 @@
+{
+  "table_name": "v2_bill_games_group",
+  "columns": [
+    {
+      "Field": "group_play_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": "auto_increment"
+    },
+    {
+      "Field": "player1_member_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "player1_bill_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "player2_member_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "player2_bill_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "player3_member_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "player3_bill_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "player4_member_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "player4_bill_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `v2_bill_games_group` (\n  `group_play_id` int(11) NOT NULL AUTO_INCREMENT,\n  `player1_member_id` int(11) DEFAULT NULL,\n  `player1_bill_id` int(11) DEFAULT NULL,\n  `player2_member_id` int(11) DEFAULT NULL,\n  `player2_bill_id` int(11) DEFAULT NULL,\n  `player3_member_id` int(11) DEFAULT NULL,\n  `player3_bill_id` int(11) DEFAULT NULL,\n  `player4_member_id` int(11) DEFAULT NULL,\n  `player4_bill_id` int(11) DEFAULT NULL,\n  PRIMARY KEY (`group_play_id`)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [
+    {
+      "Table": "v2_bill_games_group",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "group_play_id",
+      "Collation": "A",
+      "Cardinality": 0,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-28T21:46:32.581036"
+}

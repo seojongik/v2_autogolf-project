@@ -1,0 +1,141 @@
+{
+  "table_name": "v2_board",
+  "columns": [
+    {
+      "Field": "board_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": "auto_increment"
+    },
+    {
+      "Field": "title",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "content",
+      "Type": "text",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "MUL",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_name",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "created_at",
+      "Type": "datetime",
+      "Null": "YES",
+      "Key": "",
+      "Default": "current_timestamp()",
+      "Extra": ""
+    },
+    {
+      "Field": "updated_at",
+      "Type": "datetime",
+      "Null": "YES",
+      "Key": "",
+      "Default": "current_timestamp()",
+      "Extra": "on update current_timestamp()"
+    },
+    {
+      "Field": "board_type",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "manager_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "manager_name",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "pro_id",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "pro_name",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `v2_board` (\n  `board_id` int(11) NOT NULL AUTO_INCREMENT,\n  `title` varchar(100) DEFAULT NULL,\n  `content` text DEFAULT NULL,\n  `member_id` int(11) DEFAULT NULL,\n  `member_name` varchar(100) DEFAULT NULL,\n  `created_at` datetime DEFAULT current_timestamp(),\n  `updated_at` datetime DEFAULT current_timestamp() ON UPDATE current_timestamp(),\n  `board_type` varchar(100) DEFAULT NULL,\n  `branch_id` varchar(20) DEFAULT NULL,\n  `manager_id` int(11) DEFAULT NULL,\n  `manager_name` varchar(100) DEFAULT NULL,\n  `pro_id` varchar(100) DEFAULT NULL,\n  `pro_name` varchar(100) DEFAULT NULL,\n  PRIMARY KEY (`board_id`),\n  KEY `staff_id` (`member_id`) USING BTREE\n) ENGINE=InnoDB AUTO_INCREMENT=1886 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [
+    {
+      "Table": "v2_board",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "board_id",
+      "Collation": "A",
+      "Cardinality": 1879,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    },
+    {
+      "Table": "v2_board",
+      "Non_unique": 1,
+      "Key_name": "staff_id",
+      "Seq_in_index": 1,
+      "Column_name": "member_id",
+      "Collation": "A",
+      "Cardinality": 1879,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "YES",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-28T21:46:33.705989"
+}

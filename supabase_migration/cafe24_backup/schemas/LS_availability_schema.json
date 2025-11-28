@@ -1,0 +1,79 @@
+{
+  "table_name": "LS_availability",
+  "columns": [
+    {
+      "Field": "LS_id",
+      "Type": "varchar(30)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "LS_order_source",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "LS_available_qty",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "LS_order_qty",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "LS_balance_qty",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "last_updated_at",
+      "Type": "timestamp",
+      "Null": "NO",
+      "Key": "",
+      "Default": "current_timestamp()",
+      "Extra": "on update current_timestamp()"
+    },
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `LS_availability` (\n  `LS_id` varchar(30) NOT NULL,\n  `LS_order_source` varchar(10) DEFAULT NULL,\n  `LS_available_qty` int(11) DEFAULT NULL,\n  `LS_order_qty` int(11) DEFAULT NULL,\n  `LS_balance_qty` int(11) DEFAULT NULL,\n  `last_updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),\n  `branch_id` varchar(20) DEFAULT NULL,\n  PRIMARY KEY (`LS_id`)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [
+    {
+      "Table": "LS_availability",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "LS_id",
+      "Collation": "A",
+      "Cardinality": 9268,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-27T21:08:12.831349"
+}

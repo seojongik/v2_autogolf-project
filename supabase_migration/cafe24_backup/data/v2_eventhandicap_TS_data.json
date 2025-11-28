@@ -1,0 +1,72 @@
+{
+  "table_name": "v2_eventhandicap_TS",
+  "row_count": 5,
+  "backup_timestamp": "2025-11-28T21:46:34.135403",
+  "data": [
+    {
+      "branch_id": "test",
+      "ts_date": "2025-09-06",
+      "ts_payment_method": "이벤트선정 차감",
+      "ts_status": "결제완료",
+      "member_id": 901,
+      "member_type": "웰빙클럽",
+      "member_name": "서종익",
+      "member_phone": "010-6250-7373",
+      "ts_min": 50,
+      "time_stamp": "2025-09-06T14:24:50",
+      "memo": "테스트"
+    },
+    {
+      "branch_id": "test",
+      "ts_date": "2025-09-06",
+      "ts_payment_method": "이벤트선정 차감",
+      "ts_status": "결제완료",
+      "member_id": 901,
+      "member_type": "웰빙클럽",
+      "member_name": "서종익",
+      "member_phone": "010-6250-7373",
+      "ts_min": -120,
+      "time_stamp": "2025-09-06T14:34:29",
+      "memo": "2차 이벤트"
+    },
+    {
+      "branch_id": "test",
+      "ts_date": "2025-09-06",
+      "ts_payment_method": "이벤트선정 차감",
+      "ts_status": "결제완료",
+      "member_id": 903,
+      "member_type": "주니어",
+      "member_name": "서재우",
+      "member_phone": "010-6565-0876",
+      "ts_min": -30,
+      "time_stamp": "2025-09-06T14:42:20",
+      "memo": "이벤트"
+    },
+    {
+      "branch_id": "test",
+      "ts_date": "2025-09-07",
+      "ts_payment_method": "이벤트선정 차감",
+      "ts_status": "결제완료",
+      "member_id": 901,
+      "member_type": "웰빙클럽",
+      "member_name": "서종익",
+      "member_phone": "010-6250-7373",
+      "ts_min": -50,
+      "time_stamp": "2025-09-07T21:41:40",
+      "memo": "차감"
+    },
+    {
+      "branch_id": "test",
+      "ts_date": "2025-09-07",
+      "ts_payment_method": "이벤트선정 보너스",
+      "ts_status": "결제완료",
+      "member_id": 901,
+      "member_type": "웰빙클럽",
+      "member_name": "서종익",
+      "member_phone": "010-6250-7373",
+      "ts_min": 120,
+      "time_stamp": "2025-09-07T21:48:05",
+      "memo": "12345"
+    }
+  ]
+}

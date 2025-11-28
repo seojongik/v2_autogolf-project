@@ -1,0 +1,135 @@
+{
+  "table_name": "LS_contracts",
+  "columns": [
+    {
+      "Field": "LS_contract_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": "auto_increment"
+    },
+    {
+      "Field": "member_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_name",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "LS_contract_qty",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "LS_contract_source",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "LS_contract_date",
+      "Type": "date",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "LS_contract_enddate",
+      "Type": "date",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "LS_expiry_date",
+      "Type": "date",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "updated_at",
+      "Type": "timestamp",
+      "Null": "NO",
+      "Key": "",
+      "Default": "current_timestamp()",
+      "Extra": "on update current_timestamp()"
+    },
+    {
+      "Field": "staff_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "LS_type",
+      "Type": "varchar(15)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "junior_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_history_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `LS_contracts` (\n  `LS_contract_id` int(11) NOT NULL AUTO_INCREMENT,\n  `member_id` int(11) DEFAULT NULL,\n  `member_name` varchar(20) DEFAULT NULL,\n  `LS_contract_qty` int(11) DEFAULT NULL,\n  `LS_contract_source` varchar(20) DEFAULT NULL,\n  `LS_contract_date` date DEFAULT NULL,\n  `LS_contract_enddate` date DEFAULT NULL,\n  `LS_expiry_date` date DEFAULT NULL,\n  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),\n  `staff_id` int(11) DEFAULT NULL,\n  `LS_type` varchar(15) DEFAULT NULL,\n  `junior_id` int(11) DEFAULT NULL,\n  `contract_history_id` int(11) DEFAULT NULL,\n  `branch_id` varchar(20) DEFAULT NULL,\n  PRIMARY KEY (`LS_contract_id`)\n) ENGINE=InnoDB AUTO_INCREMENT=842 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [
+    {
+      "Table": "LS_contracts",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "LS_contract_id",
+      "Collation": "A",
+      "Cardinality": 831,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-27T21:08:13.714554"
+}

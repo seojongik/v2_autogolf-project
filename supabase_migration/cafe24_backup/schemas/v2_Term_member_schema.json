@@ -1,0 +1,133 @@
+{
+  "table_name": "v2_Term_member",
+  "columns": [
+    {
+      "Field": "term_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": "auto_increment"
+    },
+    {
+      "Field": "term_type",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "term_period_month",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "term_startdate",
+      "Type": "date",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "term_enddate",
+      "Type": "date",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "term_expirydate",
+      "Type": "date",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "MUL",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_name",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "term_register",
+      "Type": "timestamp",
+      "Null": "YES",
+      "Key": "",
+      "Default": "current_timestamp()",
+      "Extra": "on update current_timestamp()"
+    },
+    {
+      "Field": "contract_id",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_history_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `v2_Term_member` (\n  `term_id` int(11) NOT NULL AUTO_INCREMENT,\n  `term_type` varchar(10) DEFAULT NULL,\n  `term_period_month` int(11) DEFAULT NULL,\n  `term_startdate` date DEFAULT NULL,\n  `term_enddate` date DEFAULT NULL,\n  `term_expirydate` date DEFAULT NULL,\n  `member_id` int(11) DEFAULT NULL,\n  `member_name` varchar(20) DEFAULT NULL,\n  `term_register` timestamp NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),\n  `contract_id` varchar(100) DEFAULT NULL,\n  `branch_id` varchar(20) DEFAULT NULL,\n  `contract_history_id` int(11) DEFAULT NULL,\n  PRIMARY KEY (`term_id`),\n  KEY `member_id` (`member_id`) USING BTREE\n) ENGINE=InnoDB AUTO_INCREMENT=90 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [
+    {
+      "Table": "v2_Term_member",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "term_id",
+      "Collation": "A",
+      "Cardinality": 82,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    },
+    {
+      "Table": "v2_Term_member",
+      "Non_unique": 1,
+      "Key_name": "member_id",
+      "Seq_in_index": 1,
+      "Column_name": "member_id",
+      "Collation": "A",
+      "Cardinality": 82,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "YES",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-28T21:46:32.482226"
+}

@@ -1,0 +1,111 @@
+{
+  "table_name": "CHN_message",
+  "columns": [
+    {
+      "Field": "CHN_msg_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": "auto_increment"
+    },
+    {
+      "Field": "CHN_msg_type",
+      "Type": "varchar(15)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "CHN_batch_id",
+      "Type": "varchar(15)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "CHN_msg",
+      "Type": "text",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_chn_keyword",
+      "Type": "varchar(30)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "CHN_msg_status",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "CHN_msg_sent_at",
+      "Type": "timestamp",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "CHN_msg_date",
+      "Type": "date",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "CHN_msg_plantime",
+      "Type": "time",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `CHN_message` (\n  `CHN_msg_id` int(11) NOT NULL AUTO_INCREMENT,\n  `CHN_msg_type` varchar(15) DEFAULT NULL,\n  `CHN_batch_id` varchar(15) DEFAULT NULL,\n  `CHN_msg` text DEFAULT NULL,\n  `member_id` int(11) DEFAULT NULL,\n  `member_chn_keyword` varchar(30) DEFAULT NULL,\n  `CHN_msg_status` varchar(10) DEFAULT NULL,\n  `CHN_msg_sent_at` timestamp NULL DEFAULT NULL,\n  `CHN_msg_date` date DEFAULT NULL,\n  `CHN_msg_plantime` time DEFAULT NULL,\n  `branch_id` varchar(20) DEFAULT NULL,\n  PRIMARY KEY (`CHN_msg_id`)\n) ENGINE=InnoDB AUTO_INCREMENT=41613 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [
+    {
+      "Table": "CHN_message",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "CHN_msg_id",
+      "Collation": "A",
+      "Cardinality": 49242,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-27T21:08:10.594463"
+}

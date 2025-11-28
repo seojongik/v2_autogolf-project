@@ -1,0 +1,56 @@
+{
+  "table_name": "v2_weekly_schedule_ts",
+  "columns": [
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "day_of_week",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "is_holiday",
+      "Type": "varchar(5)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "business_start",
+      "Type": "time",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "business_end",
+      "Type": "time",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "updated_at",
+      "Type": "timestamp",
+      "Null": "YES",
+      "Key": "",
+      "Default": "0000-00-00 00:00:00",
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `v2_weekly_schedule_ts` (\n  `branch_id` varchar(20) DEFAULT NULL,\n  `day_of_week` varchar(20) DEFAULT NULL,\n  `is_holiday` varchar(5) DEFAULT NULL,\n  `business_start` time DEFAULT NULL,\n  `business_end` time DEFAULT NULL,\n  `updated_at` timestamp NULL DEFAULT '0000-00-00 00:00:00'\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [],
+  "backup_timestamp": "2025-11-28T21:46:35.760988"
+}

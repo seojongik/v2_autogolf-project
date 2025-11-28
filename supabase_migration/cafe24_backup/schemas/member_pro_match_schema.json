@@ -1,0 +1,79 @@
+{
+  "table_name": "member_pro_match",
+  "columns": [
+    {
+      "Field": "member_pro_relation_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": "auto_increment"
+    },
+    {
+      "Field": "member_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "junior_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "staff_nickname",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "registered_at",
+      "Type": "timestamp",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "relation_status",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `member_pro_match` (\n  `member_pro_relation_id` int(11) NOT NULL AUTO_INCREMENT,\n  `member_id` int(11) DEFAULT NULL,\n  `junior_id` int(11) DEFAULT NULL,\n  `staff_nickname` varchar(10) DEFAULT NULL,\n  `registered_at` timestamp NULL DEFAULT NULL,\n  `relation_status` varchar(10) DEFAULT NULL,\n  `branch_id` varchar(20) DEFAULT NULL,\n  PRIMARY KEY (`member_pro_relation_id`)\n) ENGINE=InnoDB AUTO_INCREMENT=793 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [
+    {
+      "Table": "member_pro_match",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "member_pro_relation_id",
+      "Collation": "A",
+      "Cardinality": 764,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-27T21:08:17.252071"
+}

@@ -1,0 +1,282 @@
+{
+  "table_name": "v2_member_pro_match",
+  "row_count": 25,
+  "backup_timestamp": "2025-11-28T21:46:34.207339",
+  "data": [
+    {
+      "member_pro_relation_id": 1,
+      "member_id": 885,
+      "member_name": null,
+      "member_type": "주니어",
+      "pro_id": 6,
+      "pro_name": "이재윤",
+      "registered_at": "2025-06-12T02:16:23",
+      "relation_status": "만료",
+      "branch_id": "famd"
+    },
+    {
+      "member_pro_relation_id": 2,
+      "member_id": 885,
+      "member_name": "김프아",
+      "member_type": "주니어",
+      "pro_id": 6,
+      "pro_name": "이재윤",
+      "registered_at": "2025-06-12T02:21:00",
+      "relation_status": "만료",
+      "branch_id": "famd"
+    },
+    {
+      "member_pro_relation_id": 3,
+      "member_id": 885,
+      "member_name": "김프아",
+      "member_type": "주니어",
+      "pro_id": 6,
+      "pro_name": "이재윤",
+      "registered_at": "2025-06-12T02:25:46",
+      "relation_status": "만료",
+      "branch_id": "famd"
+    },
+    {
+      "member_pro_relation_id": 4,
+      "member_id": 885,
+      "member_name": "김프아",
+      "member_type": "주니어",
+      "pro_id": 6,
+      "pro_name": "이재윤",
+      "registered_at": "2025-06-12T02:44:57",
+      "relation_status": "만료",
+      "branch_id": "famd"
+    },
+    {
+      "member_pro_relation_id": 5,
+      "member_id": 885,
+      "member_name": "김프아",
+      "member_type": "주니어",
+      "pro_id": 7,
+      "pro_name": "김은성",
+      "registered_at": "2025-06-12T02:45:10",
+      "relation_status": "만료",
+      "branch_id": "famd"
+    },
+    {
+      "member_pro_relation_id": 6,
+      "member_id": 885,
+      "member_name": "김프아",
+      "member_type": "주니어",
+      "pro_id": 6,
+      "pro_name": "이재윤",
+      "registered_at": "2025-06-12T18:52:44",
+      "relation_status": "만료",
+      "branch_id": "famd"
+    },
+    {
+      "member_pro_relation_id": 7,
+      "member_id": 885,
+      "member_name": "김프아",
+      "member_type": "주니어",
+      "pro_id": 9,
+      "pro_name": "김주순",
+      "registered_at": "2025-06-12T18:53:31",
+      "relation_status": "만료",
+      "branch_id": "famd"
+    },
+    {
+      "member_pro_relation_id": 8,
+      "member_id": 885,
+      "member_name": "김프아",
+      "member_type": "주니어",
+      "pro_id": 6,
+      "pro_name": "이재윤",
+      "registered_at": "2025-06-12T18:57:58",
+      "relation_status": "만료",
+      "branch_id": "famd"
+    },
+    {
+      "member_pro_relation_id": 9,
+      "member_id": 885,
+      "member_name": "김프아",
+      "member_type": "주니어",
+      "pro_id": 6,
+      "pro_name": "이재윤",
+      "registered_at": "2025-06-12T19:17:35",
+      "relation_status": "유효",
+      "branch_id": "famd"
+    },
+    {
+      "member_pro_relation_id": 10,
+      "member_id": 901,
+      "member_name": "테스트",
+      "member_type": "일반",
+      "pro_id": 6,
+      "pro_name": "이재윤",
+      "registered_at": "2025-06-12T23:24:14",
+      "relation_status": "만료",
+      "branch_id": "famd"
+    },
+    {
+      "member_pro_relation_id": 11,
+      "member_id": 901,
+      "member_name": "테스트",
+      "member_type": "일반",
+      "pro_id": 9,
+      "pro_name": "김주순",
+      "registered_at": "2025-06-12T23:26:01",
+      "relation_status": "만료",
+      "branch_id": "famd"
+    },
+    {
+      "member_pro_relation_id": 12,
+      "member_id": 901,
+      "member_name": "테스트",
+      "member_type": "일반",
+      "pro_id": 9,
+      "pro_name": "김주순",
+      "registered_at": "2025-06-12T23:48:14",
+      "relation_status": "만료",
+      "branch_id": "famd"
+    },
+    {
+      "member_pro_relation_id": 13,
+      "member_id": 901,
+      "member_name": "테스트",
+      "member_type": "일반",
+      "pro_id": 9,
+      "pro_name": "김주순",
+      "registered_at": "2025-06-13T00:01:56",
+      "relation_status": "만료",
+      "branch_id": "famd"
+    },
+    {
+      "member_pro_relation_id": 14,
+      "member_id": 901,
+      "member_name": "테스트",
+      "member_type": "일반",
+      "pro_id": 9,
+      "pro_name": "김주순",
+      "registered_at": "2025-06-13T00:07:55",
+      "relation_status": "유효",
+      "branch_id": "famd"
+    },
+    {
+      "member_pro_relation_id": 15,
+      "member_id": 901,
+      "member_name": "서종익",
+      "member_type": "일반",
+      "pro_id": 2,
+      "pro_name": "원청서",
+      "registered_at": "2025-06-21T23:02:49",
+      "relation_status": "만료",
+      "branch_id": "test"
+    },
+    {
+      "member_pro_relation_id": 16,
+      "member_id": 901,
+      "member_name": "서종익",
+      "member_type": "일반",
+      "pro_id": 2,
+      "pro_name": "원청서",
+      "registered_at": "2025-06-22T01:25:34",
+      "relation_status": "만료",
+      "branch_id": "test"
+    },
+    {
+      "member_pro_relation_id": 17,
+      "member_id": 901,
+      "member_name": "서종익",
+      "member_type": "웰빙클럽",
+      "pro_id": 2,
+      "pro_name": "원청서",
+      "registered_at": "2025-06-27T21:57:04",
+      "relation_status": "만료",
+      "branch_id": "test"
+    },
+    {
+      "member_pro_relation_id": 18,
+      "member_id": 901,
+      "member_name": "서종익",
+      "member_type": "웰빙클럽",
+      "pro_id": 2,
+      "pro_name": "원청서",
+      "registered_at": "2025-06-27T22:08:33",
+      "relation_status": "만료",
+      "branch_id": "test"
+    },
+    {
+      "member_pro_relation_id": 19,
+      "member_id": 901,
+      "member_name": "서종익",
+      "member_type": "웰빙클럽",
+      "pro_id": 2,
+      "pro_name": "원청서",
+      "registered_at": "2025-06-27T22:20:58",
+      "relation_status": "만료",
+      "branch_id": "test"
+    },
+    {
+      "member_pro_relation_id": 20,
+      "member_id": 901,
+      "member_name": "서종익",
+      "member_type": "웰빙클럽",
+      "pro_id": 2,
+      "pro_name": "원청서",
+      "registered_at": "2025-06-27T23:23:52",
+      "relation_status": "만료",
+      "branch_id": "test"
+    },
+    {
+      "member_pro_relation_id": 21,
+      "member_id": 901,
+      "member_name": "서종익",
+      "member_type": "웰빙클럽",
+      "pro_id": 2,
+      "pro_name": "원청서",
+      "registered_at": "2025-07-07T21:11:36",
+      "relation_status": "만료",
+      "branch_id": "test"
+    },
+    {
+      "member_pro_relation_id": 22,
+      "member_id": 902,
+      "member_name": "조영주",
+      "member_type": "일반",
+      "pro_id": 2,
+      "pro_name": "원청서",
+      "registered_at": "2025-07-11T20:35:24",
+      "relation_status": "만료",
+      "branch_id": "test"
+    },
+    {
+      "member_pro_relation_id": 23,
+      "member_id": 901,
+      "member_name": "서종익",
+      "member_type": "웰빙클럽",
+      "pro_id": 2,
+      "pro_name": "원청서",
+      "registered_at": "2025-07-12T03:40:56",
+      "relation_status": "유효",
+      "branch_id": "test"
+    },
+    {
+      "member_pro_relation_id": 24,
+      "member_id": 902,
+      "member_name": "조영주",
+      "member_type": "일반",
+      "pro_id": 2,
+      "pro_name": "원청서",
+      "registered_at": "2025-07-12T04:07:28",
+      "relation_status": "만료",
+      "branch_id": "test"
+    },
+    {
+      "member_pro_relation_id": 25,
+      "member_id": 902,
+      "member_name": "조영주",
+      "member_type": "일반",
+      "pro_id": 2,
+      "pro_name": "원청서",
+      "registered_at": "2025-07-12T15:40:40",
+      "relation_status": "유효",
+      "branch_id": "test"
+    }
+  ]
+}

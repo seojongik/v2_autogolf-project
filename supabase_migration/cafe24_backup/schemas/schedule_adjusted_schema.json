@@ -1,0 +1,103 @@
+{
+  "table_name": "schedule_adjusted",
+  "columns": [
+    {
+      "Field": "scheduled_staff_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": "auto_increment"
+    },
+    {
+      "Field": "staff_nickname",
+      "Type": "varchar(5)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "scheduled_date",
+      "Type": "date",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "work_start",
+      "Type": "time",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "work_end",
+      "Type": "time",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "break_start",
+      "Type": "time",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "break_end",
+      "Type": "time",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "updated_at",
+      "Type": "timestamp",
+      "Null": "NO",
+      "Key": "",
+      "Default": "current_timestamp()",
+      "Extra": "on update current_timestamp()"
+    },
+    {
+      "Field": "is_day_off",
+      "Type": "varchar(5)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `schedule_adjusted` (\n  `scheduled_staff_id` int(11) NOT NULL AUTO_INCREMENT,\n  `staff_nickname` varchar(5) NOT NULL,\n  `scheduled_date` date NOT NULL,\n  `work_start` time NOT NULL,\n  `work_end` time NOT NULL,\n  `break_start` time NOT NULL,\n  `break_end` time NOT NULL,\n  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),\n  `is_day_off` varchar(5) NOT NULL,\n  `branch_id` varchar(20) DEFAULT NULL,\n  PRIMARY KEY (`scheduled_staff_id`)\n) ENGINE=InnoDB AUTO_INCREMENT=8759 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [
+    {
+      "Table": "schedule_adjusted",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "scheduled_staff_id",
+      "Collation": "A",
+      "Cardinality": 2828,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-27T21:08:17.341935"
+}

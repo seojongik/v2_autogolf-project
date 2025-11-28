@@ -1,0 +1,267 @@
+{
+  "table_name": "v3_contract_history",
+  "columns": [
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_history_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": "auto_increment"
+    },
+    {
+      "Field": "member_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "MUL",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_name",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_type",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_id",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "MUL",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_name",
+      "Type": "varchar(30)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_date",
+      "Type": "date",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_register",
+      "Type": "timestamp",
+      "Null": "YES",
+      "Key": "",
+      "Default": "current_timestamp()",
+      "Extra": "on update current_timestamp()"
+    },
+    {
+      "Field": "payment_type",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_history_status",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "price",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_credit",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_LS_min",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_games",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_TS_min",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_term_month",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_credit_expiry_date",
+      "Type": "date",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_LS_min_expiry_date",
+      "Type": "date",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_games_expiry_date",
+      "Type": "date",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_TS_min_expiry_date",
+      "Type": "date",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_term_month_expiry_date",
+      "Type": "date",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "bill_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "pro_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "pro_name",
+      "Type": "varchar(30)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "old_contract_history_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "portone_payment_id",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `v3_contract_history` (\n  `branch_id` varchar(20) DEFAULT NULL,\n  `contract_history_id` int(11) NOT NULL AUTO_INCREMENT,\n  `member_id` int(11) DEFAULT NULL,\n  `member_name` varchar(20) DEFAULT NULL,\n  `contract_type` varchar(20) DEFAULT NULL,\n  `contract_id` varchar(10) DEFAULT NULL,\n  `contract_name` varchar(30) DEFAULT NULL,\n  `contract_date` date DEFAULT NULL,\n  `contract_register` timestamp NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),\n  `payment_type` varchar(10) DEFAULT NULL,\n  `contract_history_status` varchar(100) DEFAULT NULL,\n  `price` int(11) DEFAULT NULL,\n  `contract_credit` int(11) DEFAULT NULL,\n  `contract_LS_min` int(11) DEFAULT NULL,\n  `contract_games` int(11) DEFAULT NULL,\n  `contract_TS_min` int(11) DEFAULT NULL,\n  `contract_term_month` varchar(100) DEFAULT NULL,\n  `contract_credit_expiry_date` date DEFAULT NULL,\n  `contract_LS_min_expiry_date` date DEFAULT NULL,\n  `contract_games_expiry_date` date DEFAULT NULL,\n  `contract_TS_min_expiry_date` date DEFAULT NULL,\n  `contract_term_month_expiry_date` date DEFAULT NULL,\n  `bill_id` int(11) DEFAULT NULL,\n  `pro_id` int(11) DEFAULT NULL,\n  `pro_name` varchar(30) DEFAULT NULL,\n  `old_contract_history_id` int(11) DEFAULT NULL,\n  `portone_payment_id` varchar(100) DEFAULT NULL,\n  PRIMARY KEY (`contract_history_id`),\n  KEY `contract_history_ibfk_1` (`contract_id`) USING BTREE,\n  KEY `member_id` (`member_id`) USING BTREE\n) ENGINE=InnoDB AUTO_INCREMENT=4528 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [
+    {
+      "Table": "v3_contract_history",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "contract_history_id",
+      "Collation": "A",
+      "Cardinality": 4318,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    },
+    {
+      "Table": "v3_contract_history",
+      "Non_unique": 1,
+      "Key_name": "contract_history_ibfk_1",
+      "Seq_in_index": 1,
+      "Column_name": "contract_id",
+      "Collation": "A",
+      "Cardinality": 143,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "YES",
+      "Index_type": "BTREE",
+      "Comment": ""
+    },
+    {
+      "Table": "v3_contract_history",
+      "Non_unique": 1,
+      "Key_name": "member_id",
+      "Seq_in_index": 1,
+      "Column_name": "member_id",
+      "Collation": "A",
+      "Cardinality": 2159,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "YES",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-28T21:46:35.880596"
+}

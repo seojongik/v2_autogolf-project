@@ -1,0 +1,80 @@
+{
+  "table_name": "contract_history_view",
+  "columns": [
+    {
+      "Field": "contract_history_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "",
+      "Default": "0",
+      "Extra": ""
+    },
+    {
+      "Field": "member_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_id",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_date",
+      "Type": "date",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_register",
+      "Type": "timestamp",
+      "Null": "NO",
+      "Key": "",
+      "Default": "current_timestamp()",
+      "Extra": ""
+    },
+    {
+      "Field": "contract_original_id",
+      "Type": "varchar(10)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_name",
+      "Type": "varchar(50)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_status",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_name",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE ALGORITHM=UNDEFINED DEFINER=`autofms`@`124.61.40.216` SQL SECURITY DEFINER VIEW `contract_history_view` AS select `ch`.`contract_history_id` AS `contract_history_id`,`ch`.`member_id` AS `member_id`,`ch`.`contract_id` AS `contract_id`,`ch`.`contract_date` AS `contract_date`,`ch`.`contract_register` AS `contract_register`,`c`.`contract_id` AS `contract_original_id`,`c`.`contract_name` AS `contract_name`,`c`.`contract_status` AS `contract_status`,`m`.`member_name` AS `member_name` from ((`contract_history` `ch` join `contracts` `c` on(`ch`.`contract_id` = `c`.`contract_id`)) join `members` `m` on(`ch`.`member_id` = `m`.`member_id`))",
+  "indexes": [],
+  "backup_timestamp": "2025-11-27T21:08:17.149611"
+}

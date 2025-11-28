@@ -1,0 +1,1114 @@
+{
+  "table_name": "v2_base_option_setting",
+  "row_count": 123,
+  "backup_timestamp": "2025-11-28T21:46:32.527480",
+  "data": [
+    {
+      "branch_id": "test",
+      "category": "타석종류",
+      "table_name": "v2_ts_info",
+      "field_name": "ts_type",
+      "option_value": "연습타석",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "타석종류",
+      "table_name": "v2_ts_info",
+      "field_name": "ts_type",
+      "option_value": "스크린",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "회원권 유형",
+      "table_name": "v2_contracts",
+      "field_name": "contract_type",
+      "option_value": "선불크레딧",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "회원권 유형",
+      "table_name": "v2_contracts",
+      "field_name": "contract_type",
+      "option_value": "기간권",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "회원권 유형",
+      "table_name": "v2_contracts",
+      "field_name": "contract_type",
+      "option_value": "주니어 골프",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "회원권 유형",
+      "table_name": "v2_contracts",
+      "field_name": "contract_type",
+      "option_value": "게임권",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "회원권 유형",
+      "table_name": "v2_contracts",
+      "field_name": "contract_type",
+      "option_value": "패키지",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "회원권 유형",
+      "table_name": "v2_contracts",
+      "field_name": "contract_type",
+      "option_value": "레슨권",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "매장설정",
+      "table_name": "최대타석예약",
+      "field_name": "max_ts_reservation",
+      "option_value": "15",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "기업복지",
+      "table_name": "시간제약",
+      "field_name": "웰빙클럽",
+      "option_value": "30",
+      "setting_status": null,
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "기업복지",
+      "table_name": "시간제약",
+      "field_name": "아이코젠",
+      "option_value": "30",
+      "setting_status": null,
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "기업복지",
+      "table_name": "시간제약",
+      "field_name": "리프레쉬",
+      "option_value": "90",
+      "setting_status": null,
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "회원유형",
+      "table_name": null,
+      "field_name": "member_type",
+      "option_value": "일반",
+      "setting_status": null,
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "회원유형",
+      "table_name": null,
+      "field_name": "member_type",
+      "option_value": "주니어",
+      "setting_status": null,
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "회원유형",
+      "table_name": null,
+      "field_name": "member_type",
+      "option_value": "웰빙클럽",
+      "setting_status": null,
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "회원유형",
+      "table_name": null,
+      "field_name": "member_type",
+      "option_value": "아이코젠",
+      "setting_status": null,
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "회원유형",
+      "table_name": null,
+      "field_name": "member_type",
+      "option_value": "리프레쉬",
+      "setting_status": null,
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "스크린골프",
+      "field_name": "program_id",
+      "option_value": "test_002",
+      "setting_status": "만료",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "스크린골프",
+      "field_name": "ts_min",
+      "option_value": "60",
+      "setting_status": "만료",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "스크린골프",
+      "field_name": "min_player_no",
+      "option_value": "1",
+      "setting_status": "만료",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "스크린골프",
+      "field_name": "max_player_no",
+      "option_value": "4",
+      "setting_status": "만료",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "스크린골프",
+      "field_name": "ls_break_min(1)",
+      "option_value": "60",
+      "setting_status": "만료",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어골프 테스트",
+      "field_name": "program_id",
+      "option_value": "test_003",
+      "setting_status": "만료",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어골프 테스트",
+      "field_name": "ts_min",
+      "option_value": "60",
+      "setting_status": "만료",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어골프 테스트",
+      "field_name": "min_player_no",
+      "option_value": "1",
+      "setting_status": "만료",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어골프 테스트",
+      "field_name": "max_player_no",
+      "option_value": "1",
+      "setting_status": "만료",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어골프 테스트",
+      "field_name": "ls_min(1)",
+      "option_value": "15",
+      "setting_status": "만료",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어골프 테스트",
+      "field_name": "ls_break_min(2)",
+      "option_value": "30",
+      "setting_status": "만료",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어골프 테스트",
+      "field_name": "ls_min(3)",
+      "option_value": "15",
+      "setting_status": "만료",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어골프",
+      "field_name": "program_id",
+      "option_value": "test_004",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어골프",
+      "field_name": "ts_min",
+      "option_value": "60",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어골프",
+      "field_name": "min_player_no",
+      "option_value": "1",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어골프",
+      "field_name": "max_player_no",
+      "option_value": "4",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어골프",
+      "field_name": "ls_min(1)",
+      "option_value": "15",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어골프",
+      "field_name": "ls_break_min(2)",
+      "option_value": "30",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어골프",
+      "field_name": "ls_min(3)",
+      "option_value": "15",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "2:1프로그램",
+      "field_name": "program_id",
+      "option_value": "test_005",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "2:1프로그램",
+      "field_name": "ts_min",
+      "option_value": "60",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "2:1프로그램",
+      "field_name": "min_player_no",
+      "option_value": "2",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "2:1프로그램",
+      "field_name": "max_player_no",
+      "option_value": "2",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "2:1프로그램",
+      "field_name": "ls_min(1)",
+      "option_value": "15",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "2:1프로그램",
+      "field_name": "ls_break_min(2)",
+      "option_value": "20",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "2:1프로그램",
+      "field_name": "ls_min(3)",
+      "option_value": "25",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "3:1프로그램",
+      "field_name": "program_id",
+      "option_value": "test_006",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "3:1프로그램",
+      "field_name": "ts_min",
+      "option_value": "50",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "3:1프로그램",
+      "field_name": "min_player_no",
+      "option_value": "3",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "3:1프로그램",
+      "field_name": "max_player_no",
+      "option_value": "3",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "3:1프로그램",
+      "field_name": "ls_min(1)",
+      "option_value": "15",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "3:1프로그램",
+      "field_name": "ls_break_min(2)",
+      "option_value": "15",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "3:1프로그램",
+      "field_name": "ls_min(3)",
+      "option_value": "15",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "3:1프로그램",
+      "field_name": "ls_break_min(4)",
+      "option_value": "5",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어",
+      "field_name": "program_id",
+      "option_value": "test_007",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어",
+      "field_name": "ts_min",
+      "option_value": "60",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어",
+      "field_name": "min_player_no",
+      "option_value": "1",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어",
+      "field_name": "max_player_no",
+      "option_value": "4",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어",
+      "field_name": "ls_min(1)",
+      "option_value": "15",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어",
+      "field_name": "ls_break_min(2)",
+      "option_value": "30",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어",
+      "field_name": "ls_min(3)",
+      "option_value": "15",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어 레슨",
+      "field_name": "program_id",
+      "option_value": "test_008",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어 레슨",
+      "field_name": "ts_min",
+      "option_value": "60",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어 레슨",
+      "field_name": "min_player_no",
+      "option_value": "1",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어 레슨",
+      "field_name": "max_player_no",
+      "option_value": "4",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어 레슨",
+      "field_name": "ls_min(1)",
+      "option_value": "15",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어 레슨",
+      "field_name": "ls_break_min(2)",
+      "option_value": "30",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어 레슨",
+      "field_name": "ls_min(3)",
+      "option_value": "15",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어테스2",
+      "field_name": "program_id",
+      "option_value": "test_009",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어테스2",
+      "field_name": "ts_min",
+      "option_value": "60",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어테스2",
+      "field_name": "min_player_no",
+      "option_value": "1",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어테스2",
+      "field_name": "max_player_no",
+      "option_value": "4",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어테스2",
+      "field_name": "ls_min(1)",
+      "option_value": "15",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어테스2",
+      "field_name": "ls_break_min(2)",
+      "option_value": "45",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "어린이레슨",
+      "field_name": "program_id",
+      "option_value": "test_010",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "어린이레슨",
+      "field_name": "ts_min",
+      "option_value": "60",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "어린이레슨",
+      "field_name": "min_player_no",
+      "option_value": "1",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "어린이레슨",
+      "field_name": "max_player_no",
+      "option_value": "4",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "어린이레슨",
+      "field_name": "ls_min(1)",
+      "option_value": "15",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "어린이레슨",
+      "field_name": "ls_break_min(2)",
+      "option_value": "30",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "어린이레슨",
+      "field_name": "ls_min(3)",
+      "option_value": "15",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "임시1231",
+      "field_name": "program_id",
+      "option_value": "test_011",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "임시1231",
+      "field_name": "ts_min",
+      "option_value": "20",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "임시1231",
+      "field_name": "min_player_no",
+      "option_value": "1",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "임시1231",
+      "field_name": "max_player_no",
+      "option_value": "4",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "임시1231",
+      "field_name": "ls_min(1)",
+      "option_value": "15",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "임시1231",
+      "field_name": "ls_break_min(2)",
+      "option_value": "5",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어 레슨",
+      "field_name": "program_id",
+      "option_value": "test_008",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어 레슨",
+      "field_name": "ts_min",
+      "option_value": "60",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어 레슨",
+      "field_name": "min_player_no",
+      "option_value": "1",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어 레슨",
+      "field_name": "max_player_no",
+      "option_value": "4",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어 레슨",
+      "field_name": "ls_min(1)",
+      "option_value": "15",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어 레슨",
+      "field_name": "ls_break_min(2)",
+      "option_value": "30",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어 레슨",
+      "field_name": "ls_min(3)",
+      "option_value": "15",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "락커설정",
+      "table_name": "v2_Locker_status",
+      "field_name": "locker_type",
+      "option_value": "상부장",
+      "setting_status": "20000",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "락커설정",
+      "table_name": "v2_Locker_status",
+      "field_name": "locker_type",
+      "option_value": "하부장",
+      "setting_status": "30000",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어1:1",
+      "field_name": "program_id",
+      "option_value": "test_012",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어1:1",
+      "field_name": "ts_min",
+      "option_value": "60",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어1:1",
+      "field_name": "min_player_no",
+      "option_value": "1",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어1:1",
+      "field_name": "max_player_no",
+      "option_value": "1",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어1:1",
+      "field_name": "ls_min(1)",
+      "option_value": "5",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "test",
+      "category": "특수타석예약",
+      "table_name": "주니어1:1",
+      "field_name": "ls_break_min(2)",
+      "option_value": "55",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "famd",
+      "category": "특수타석예약",
+      "table_name": "1:1 주니어골프스쿨",
+      "field_name": "program_id",
+      "option_value": "famd_001",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "famd",
+      "category": "특수타석예약",
+      "table_name": "1:1 주니어골프스쿨",
+      "field_name": "ts_min",
+      "option_value": "55",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "famd",
+      "category": "특수타석예약",
+      "table_name": "1:1 주니어골프스쿨",
+      "field_name": "min_player_no",
+      "option_value": "1",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "famd",
+      "category": "특수타석예약",
+      "table_name": "1:1 주니어골프스쿨",
+      "field_name": "max_player_no",
+      "option_value": "1",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "famd",
+      "category": "특수타석예약",
+      "table_name": "1:1 주니어골프스쿨",
+      "field_name": "ls_min(1)",
+      "option_value": "15",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "famd",
+      "category": "특수타석예약",
+      "table_name": "1:1 주니어골프스쿨",
+      "field_name": "ls_break_min(2)",
+      "option_value": "15",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "famd",
+      "category": "특수타석예약",
+      "table_name": "1:1 주니어골프스쿨",
+      "field_name": "ls_min(3)",
+      "option_value": "15",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "famd",
+      "category": "특수타석예약",
+      "table_name": "1:1 주니어골프스쿨",
+      "field_name": "ls_break_min(4)",
+      "option_value": "10",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "famd",
+      "category": "특수타석예약",
+      "table_name": "2:1 주니어골프",
+      "field_name": "program_id",
+      "option_value": "famd_002",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "famd",
+      "category": "특수타석예약",
+      "table_name": "2:1 주니어골프",
+      "field_name": "ts_min",
+      "option_value": "55",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "famd",
+      "category": "특수타석예약",
+      "table_name": "2:1 주니어골프",
+      "field_name": "min_player_no",
+      "option_value": "2",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "famd",
+      "category": "특수타석예약",
+      "table_name": "2:1 주니어골프",
+      "field_name": "max_player_no",
+      "option_value": "2",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "famd",
+      "category": "특수타석예약",
+      "table_name": "2:1 주니어골프",
+      "field_name": "ls_min(1)",
+      "option_value": "15",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "famd",
+      "category": "특수타석예약",
+      "table_name": "2:1 주니어골프",
+      "field_name": "ls_break_min(2)",
+      "option_value": "15",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "famd",
+      "category": "특수타석예약",
+      "table_name": "2:1 주니어골프",
+      "field_name": "ls_min(3)",
+      "option_value": "15",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "famd",
+      "category": "특수타석예약",
+      "table_name": "2:1 주니어골프",
+      "field_name": "ls_break_min(4)",
+      "option_value": "10",
+      "setting_status": "유효",
+      "option_sequence": null
+    },
+    {
+      "branch_id": "famd",
+      "category": "유형설정",
+      "table_name": "회원유형",
+      "field_name": "member_type",
+      "option_value": "일반",
+      "setting_status": "유효",
+      "option_sequence": 1
+    },
+    {
+      "branch_id": "famd",
+      "category": "유형설정",
+      "table_name": "회원유형",
+      "field_name": "member_type",
+      "option_value": "주니어",
+      "setting_status": "유효",
+      "option_sequence": 2
+    },
+    {
+      "branch_id": "famd",
+      "category": "유형설정",
+      "table_name": "회원권유형",
+      "field_name": "contract_type",
+      "option_value": "크레딧",
+      "setting_status": "유효",
+      "option_sequence": 1
+    },
+    {
+      "branch_id": "famd",
+      "category": "유형설정",
+      "table_name": "회원권유형",
+      "field_name": "contract_type",
+      "option_value": "레슨권",
+      "setting_status": "유효",
+      "option_sequence": 5
+    },
+    {
+      "branch_id": "famd",
+      "category": "유형설정",
+      "table_name": "회원권유형",
+      "field_name": "contract_type",
+      "option_value": "패키지",
+      "setting_status": "유효",
+      "option_sequence": 3
+    },
+    {
+      "branch_id": "famd",
+      "category": "유형설정",
+      "table_name": "회원권유형",
+      "field_name": "contract_type",
+      "option_value": "기간권",
+      "setting_status": "유효",
+      "option_sequence": 4
+    },
+    {
+      "branch_id": "famd",
+      "category": "유형설정",
+      "table_name": "회원권유형",
+      "field_name": "contract_type",
+      "option_value": "주니어",
+      "setting_status": "유효",
+      "option_sequence": 6
+    },
+    {
+      "branch_id": "famd",
+      "category": "유형설정",
+      "table_name": "회원권유형",
+      "field_name": "contract_type",
+      "option_value": "기타",
+      "setting_status": "유효",
+      "option_sequence": 2
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "table_name": "v2_staff_pro",
+  "columns": [
+    {
+      "Field": "pro_contract_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": "auto_increment"
+    },
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "pro_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "staff_type",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "pro_name",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "pro_phone",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "staff_access_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "staff_access_password",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "pro_gender",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "staff_status",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "pro_license",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "min_service_min",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "svc_time_unit",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "min_reservation_term",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "reservation_ahead_days",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "pro_contract_startdate",
+      "Type": "date",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "pro_contract_enddate",
+      "Type": "date",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "contract_type",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "pro_contract_status",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "severance_pay",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "salary_base",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "salary_hour",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "salary_per_lesson",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "salary_per_lesson_min",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "salary_per_event",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "salary_per_event_min",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "salary_per_promo",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "salary_per_promo_min",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "salalry_per_noshow",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "salary_per_noshow_min",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "pro_contract_round",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "updated_at",
+      "Type": "timestamp",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "pro_birthday",
+      "Type": "date",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `v2_staff_pro` (\n  `pro_contract_id` int(11) NOT NULL AUTO_INCREMENT,\n  `branch_id` varchar(20) DEFAULT NULL,\n  `pro_id` int(11) DEFAULT NULL,\n  `staff_type` varchar(10) DEFAULT NULL,\n  `pro_name` varchar(10) DEFAULT NULL,\n  `pro_phone` varchar(20) DEFAULT NULL,\n  `staff_access_id` varchar(20) DEFAULT NULL,\n  `staff_access_password` varchar(100) DEFAULT NULL,\n  `pro_gender` varchar(10) DEFAULT NULL,\n  `staff_status` varchar(10) DEFAULT NULL,\n  `pro_license` varchar(10) DEFAULT NULL,\n  `min_service_min` int(11) DEFAULT NULL,\n  `svc_time_unit` int(11) DEFAULT NULL,\n  `min_reservation_term` int(11) DEFAULT NULL,\n  `reservation_ahead_days` int(11) DEFAULT NULL,\n  `pro_contract_startdate` date DEFAULT NULL,\n  `pro_contract_enddate` date DEFAULT NULL,\n  `contract_type` varchar(20) DEFAULT NULL,\n  `pro_contract_status` varchar(20) DEFAULT NULL,\n  `severance_pay` varchar(20) DEFAULT NULL,\n  `salary_base` int(11) DEFAULT NULL,\n  `salary_hour` int(11) DEFAULT NULL,\n  `salary_per_lesson` int(11) DEFAULT NULL,\n  `salary_per_lesson_min` int(11) DEFAULT NULL,\n  `salary_per_event` int(11) DEFAULT NULL,\n  `salary_per_event_min` int(11) DEFAULT NULL,\n  `salary_per_promo` int(11) DEFAULT NULL,\n  `salary_per_promo_min` int(11) DEFAULT NULL,\n  `salalry_per_noshow` int(11) DEFAULT NULL,\n  `salary_per_noshow_min` int(11) DEFAULT NULL,\n  `pro_contract_round` int(11) DEFAULT NULL,\n  `updated_at` timestamp NULL DEFAULT NULL,\n  `pro_birthday` date DEFAULT NULL,\n  PRIMARY KEY (`pro_contract_id`)\n) ENGINE=InnoDB AUTO_INCREMENT=32 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [
+    {
+      "Table": "v2_staff_pro",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "pro_contract_id",
+      "Collation": "A",
+      "Cardinality": 8,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-28T21:46:35.596969"
+}

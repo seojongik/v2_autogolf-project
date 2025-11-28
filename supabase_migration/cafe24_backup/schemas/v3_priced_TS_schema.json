@@ -1,0 +1,288 @@
+{
+  "table_name": "v3_priced_TS",
+  "columns": [
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "reservation_id",
+      "Type": "varchar(50)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "ts_id",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "ts_date",
+      "Type": "date",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "ts_start",
+      "Type": "time",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "ts_end",
+      "Type": "time",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "ts_payment_method",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "ts_status",
+      "Type": "varchar(20)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_type",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_name",
+      "Type": "varchar(50)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_phone",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "total_amt",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "term_discount",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "coupon_discount",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "total_discount",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "net_amt",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "discount_min",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "normal_min",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "extracharge_min",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "ts_min",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "bill_min",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "time_stamp",
+      "Type": "datetime",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "day_of_week",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "bill_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "bill_min_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "bill_game_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "program_id",
+      "Type": "varchar(30)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "program_name",
+      "Type": "varchar(50)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "memo",
+      "Type": "text",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "bill_term_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "wol_timestamp",
+      "Type": "timestamp",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "finish_and_sleep",
+      "Type": "timestamp",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "login_timestamp",
+      "Type": "timestamp",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "login_otp",
+      "Type": "varchar(30)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `v3_priced_TS` (\n  `branch_id` varchar(20) NOT NULL,\n  `reservation_id` varchar(50) NOT NULL,\n  `ts_id` varchar(10) DEFAULT NULL,\n  `ts_date` date DEFAULT NULL,\n  `ts_start` time DEFAULT NULL,\n  `ts_end` time DEFAULT NULL,\n  `ts_payment_method` varchar(20) DEFAULT NULL,\n  `ts_status` varchar(20) NOT NULL,\n  `member_id` int(11) DEFAULT NULL,\n  `member_type` varchar(20) DEFAULT NULL,\n  `member_name` varchar(50) DEFAULT NULL,\n  `member_phone` varchar(20) DEFAULT NULL,\n  `total_amt` int(11) DEFAULT NULL,\n  `term_discount` int(11) DEFAULT NULL,\n  `coupon_discount` int(11) DEFAULT NULL,\n  `total_discount` int(11) DEFAULT NULL,\n  `net_amt` int(11) DEFAULT NULL,\n  `discount_min` int(11) DEFAULT NULL,\n  `normal_min` int(11) DEFAULT NULL,\n  `extracharge_min` int(11) DEFAULT NULL,\n  `ts_min` int(11) DEFAULT NULL,\n  `bill_min` int(11) DEFAULT NULL,\n  `time_stamp` datetime DEFAULT NULL,\n  `day_of_week` varchar(20) DEFAULT NULL,\n  `bill_id` varchar(20) DEFAULT NULL,\n  `bill_min_id` varchar(20) DEFAULT NULL,\n  `bill_game_id` varchar(20) DEFAULT NULL,\n  `program_id` varchar(30) DEFAULT NULL,\n  `program_name` varchar(50) DEFAULT NULL,\n  `memo` text DEFAULT NULL,\n  `bill_term_id` int(11) DEFAULT NULL,\n  `wol_timestamp` timestamp NULL DEFAULT NULL,\n  `finish_and_sleep` timestamp NULL DEFAULT NULL,\n  `login_timestamp` timestamp NULL DEFAULT NULL,\n  `login_otp` varchar(30) DEFAULT NULL\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [],
+  "backup_timestamp": "2025-11-28T21:46:36.075822"
+}

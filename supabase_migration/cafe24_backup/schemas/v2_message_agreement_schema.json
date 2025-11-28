@@ -1,0 +1,48 @@
+{
+  "table_name": "v2_message_agreement",
+  "columns": [
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_name",
+      "Type": "varchar(30)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "msg_type",
+      "Type": "varchar(15)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "push_agreement",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `v2_message_agreement` (\n  `branch_id` varchar(20) DEFAULT NULL,\n  `member_id` int(11) DEFAULT NULL,\n  `member_name` varchar(30) DEFAULT NULL,\n  `msg_type` varchar(15) DEFAULT NULL,\n  `push_agreement` varchar(10) DEFAULT NULL\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [],
+  "backup_timestamp": "2025-11-28T21:46:34.313884"
+}

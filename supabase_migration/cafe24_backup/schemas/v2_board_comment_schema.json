@@ -1,0 +1,109 @@
+{
+  "table_name": "v2_board_comment",
+  "columns": [
+    {
+      "Field": "comment_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": "auto_increment"
+    },
+    {
+      "Field": "board_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "MUL",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "content",
+      "Type": "text",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "created_at",
+      "Type": "datetime",
+      "Null": "YES",
+      "Key": "",
+      "Default": "current_timestamp()",
+      "Extra": ""
+    },
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "manager_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "manager_name",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "pro_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "pro_name",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `v2_board_comment` (\n  `comment_id` int(11) NOT NULL AUTO_INCREMENT,\n  `board_id` int(11) NOT NULL,\n  `content` text DEFAULT NULL,\n  `created_at` datetime DEFAULT current_timestamp(),\n  `branch_id` varchar(20) DEFAULT NULL,\n  `manager_id` int(11) DEFAULT NULL,\n  `manager_name` varchar(100) DEFAULT NULL,\n  `pro_id` int(11) DEFAULT NULL,\n  `pro_name` varchar(100) DEFAULT NULL,\n  PRIMARY KEY (`comment_id`),\n  KEY `board_id` (`board_id`) USING BTREE\n) ENGINE=InnoDB AUTO_INCREMENT=554 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [
+    {
+      "Table": "v2_board_comment",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "comment_id",
+      "Collation": "A",
+      "Cardinality": 377,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    },
+    {
+      "Table": "v2_board_comment",
+      "Non_unique": 1,
+      "Key_name": "board_id",
+      "Seq_in_index": 1,
+      "Column_name": "board_id",
+      "Collation": "A",
+      "Cardinality": 377,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-28T21:46:33.838759"
+}

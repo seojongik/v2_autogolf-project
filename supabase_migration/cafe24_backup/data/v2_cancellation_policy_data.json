@@ -1,0 +1,223 @@
+{
+  "table_name": "v2_cancellation_policy",
+  "row_count": 27,
+  "backup_timestamp": "2025-11-28T21:46:33.925862",
+  "data": [
+    {
+      "branch_id": "test",
+      "db_table": "v2_bills",
+      "service_category": "선불크레딧",
+      "apply_sequence": 3,
+      "_min_before_use": "360",
+      "penalty_percent": "50"
+    },
+    {
+      "branch_id": "test",
+      "db_table": "v2_bill_times",
+      "service_category": "시간권",
+      "apply_sequence": 3,
+      "_min_before_use": "60",
+      "penalty_percent": "30"
+    },
+    {
+      "branch_id": "test",
+      "db_table": "v2_bill_games",
+      "service_category": "게임권",
+      "apply_sequence": 3,
+      "_min_before_use": "180",
+      "penalty_percent": "10"
+    },
+    {
+      "branch_id": "test",
+      "db_table": "v2_LS_countings",
+      "service_category": "레슨권",
+      "apply_sequence": 1,
+      "_min_before_use": "0",
+      "penalty_percent": "100"
+    },
+    {
+      "branch_id": "test",
+      "db_table": "v2_program_settings",
+      "service_category": "프로그램",
+      "apply_sequence": 1,
+      "_min_before_use": "0",
+      "penalty_percent": "100"
+    },
+    {
+      "branch_id": "test",
+      "db_table": "v2_bills",
+      "service_category": "선불크레딧",
+      "apply_sequence": 4,
+      "_min_before_use": "1000",
+      "penalty_percent": "10"
+    },
+    {
+      "branch_id": "test",
+      "db_table": "v2_bills",
+      "service_category": "선불크레딧",
+      "apply_sequence": 2,
+      "_min_before_use": "180",
+      "penalty_percent": "80"
+    },
+    {
+      "branch_id": "test",
+      "db_table": "v2_bills",
+      "service_category": "선불크레딧",
+      "apply_sequence": 1,
+      "_min_before_use": "0",
+      "penalty_percent": "95"
+    },
+    {
+      "branch_id": "test",
+      "db_table": "v2_bill_times",
+      "service_category": "시간권",
+      "apply_sequence": 2,
+      "_min_before_use": "30",
+      "penalty_percent": "80"
+    },
+    {
+      "branch_id": "test",
+      "db_table": "v2_bill_times",
+      "service_category": "시간권",
+      "apply_sequence": 4,
+      "_min_before_use": "90",
+      "penalty_percent": "10"
+    },
+    {
+      "branch_id": "test",
+      "db_table": "v2_bill_times",
+      "service_category": "시간권",
+      "apply_sequence": 1,
+      "_min_before_use": "0",
+      "penalty_percent": "100"
+    },
+    {
+      "branch_id": "test",
+      "db_table": "v2_bill_games",
+      "service_category": "게임권",
+      "apply_sequence": 2,
+      "_min_before_use": "60",
+      "penalty_percent": "20"
+    },
+    {
+      "branch_id": "test",
+      "db_table": "v2_bill_games",
+      "service_category": "게임권",
+      "apply_sequence": 1,
+      "_min_before_use": "0",
+      "penalty_percent": "100"
+    },
+    {
+      "branch_id": "test",
+      "db_table": "v2_program_settings",
+      "service_category": "프로그램",
+      "apply_sequence": 2,
+      "_min_before_use": "120",
+      "penalty_percent": "50"
+    },
+    {
+      "branch_id": "famd",
+      "db_table": "v2_bill_times",
+      "service_category": "시간권",
+      "apply_sequence": 1,
+      "_min_before_use": "0",
+      "penalty_percent": "100"
+    },
+    {
+      "branch_id": "famd",
+      "db_table": "v2_bill_games",
+      "service_category": "게임권",
+      "apply_sequence": 1,
+      "_min_before_use": "0",
+      "penalty_percent": "100"
+    },
+    {
+      "branch_id": "famd",
+      "db_table": "v2_LS_contracts",
+      "service_category": "레슨권",
+      "apply_sequence": 1,
+      "_min_before_use": "0",
+      "penalty_percent": "100"
+    },
+    {
+      "branch_id": "famd",
+      "db_table": "v2_program_settings",
+      "service_category": "프로그램",
+      "apply_sequence": 1,
+      "_min_before_use": "0",
+      "penalty_percent": "100"
+    },
+    {
+      "branch_id": "famd",
+      "db_table": "v2_bill_times",
+      "service_category": "시간권",
+      "apply_sequence": 2,
+      "_min_before_use": "180",
+      "penalty_percent": "60"
+    },
+    {
+      "branch_id": "famd",
+      "db_table": "v2_bill_games",
+      "service_category": "게임권",
+      "apply_sequence": 2,
+      "_min_before_use": "180",
+      "penalty_percent": "50"
+    },
+    {
+      "branch_id": "famd",
+      "db_table": "v2_LS_contracts",
+      "service_category": "레슨권",
+      "apply_sequence": 2,
+      "_min_before_use": "180",
+      "penalty_percent": "50"
+    },
+    {
+      "branch_id": "famd",
+      "db_table": "v2_program_settings",
+      "service_category": "프로그램",
+      "apply_sequence": 2,
+      "_min_before_use": "180",
+      "penalty_percent": "50"
+    },
+    {
+      "branch_id": "famd",
+      "db_table": "v2_bills",
+      "service_category": "선불크레딧",
+      "apply_sequence": 1,
+      "_min_before_use": "0",
+      "penalty_percent": "100"
+    },
+    {
+      "branch_id": "famd",
+      "db_table": "v2_bill_times",
+      "service_category": "시간권",
+      "apply_sequence": 3,
+      "_min_before_use": "30",
+      "penalty_percent": "90"
+    },
+    {
+      "branch_id": "famd",
+      "db_table": "v2_bills",
+      "service_category": "선불크레딧",
+      "apply_sequence": 2,
+      "_min_before_use": "10",
+      "penalty_percent": "90"
+    },
+    {
+      "branch_id": "famd",
+      "db_table": "v2_bills",
+      "service_category": "선불크레딧",
+      "apply_sequence": 3,
+      "_min_before_use": "110",
+      "penalty_percent": "30"
+    },
+    {
+      "branch_id": "famd",
+      "db_table": "v2_bills",
+      "service_category": "선불크레딧",
+      "apply_sequence": 4,
+      "_min_before_use": "40",
+      "penalty_percent": "60"
+    }
+  ]
+}

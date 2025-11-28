@@ -1,0 +1,808 @@
+{
+  "table_name": "v2_ts_pricing_policy",
+  "row_count": 89,
+  "backup_timestamp": "2025-11-28T21:46:35.675457",
+  "data": [
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "수",
+      "policy_start_time": "0:00:00",
+      "policy_end_time": "6:00:00",
+      "policy_apply": "out_of_business",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "수",
+      "policy_start_time": "6:00:00",
+      "policy_end_time": "10:00:00",
+      "policy_apply": "discount_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "수",
+      "policy_start_time": "10:00:00",
+      "policy_end_time": "17:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "수",
+      "policy_start_time": "17:00:00",
+      "policy_end_time": "19:30:00",
+      "policy_apply": "extracharge_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "수",
+      "policy_start_time": "19:30:00",
+      "policy_end_time": "22:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "수",
+      "policy_start_time": "22:00:00",
+      "policy_end_time": "0:00:00",
+      "policy_apply": "discount_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "월",
+      "policy_start_time": "0:00:00",
+      "policy_end_time": "6:00:00",
+      "policy_apply": "out_of_business",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "월",
+      "policy_start_time": "6:00:00",
+      "policy_end_time": "10:00:00",
+      "policy_apply": "discount_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "월",
+      "policy_start_time": "10:00:00",
+      "policy_end_time": "17:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "월",
+      "policy_start_time": "17:00:00",
+      "policy_end_time": "19:30:00",
+      "policy_apply": "extracharge_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "월",
+      "policy_start_time": "19:30:00",
+      "policy_end_time": "22:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "월",
+      "policy_start_time": "22:00:00",
+      "policy_end_time": "0:00:00",
+      "policy_apply": "discount_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "금",
+      "policy_start_time": "0:00:00",
+      "policy_end_time": "6:00:00",
+      "policy_apply": "out_of_business",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "금",
+      "policy_start_time": "6:00:00",
+      "policy_end_time": "10:00:00",
+      "policy_apply": "discount_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "금",
+      "policy_start_time": "10:00:00",
+      "policy_end_time": "17:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "금",
+      "policy_start_time": "17:00:00",
+      "policy_end_time": "19:30:00",
+      "policy_apply": "extracharge_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "금",
+      "policy_start_time": "19:30:00",
+      "policy_end_time": "22:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "금",
+      "policy_start_time": "22:00:00",
+      "policy_end_time": "0:00:00",
+      "policy_apply": "discount_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "화",
+      "policy_start_time": "0:00:00",
+      "policy_end_time": "6:00:00",
+      "policy_apply": "out_of_business",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "화",
+      "policy_start_time": "6:00:00",
+      "policy_end_time": "10:00:00",
+      "policy_apply": "discount_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "화",
+      "policy_start_time": "10:00:00",
+      "policy_end_time": "17:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "화",
+      "policy_start_time": "17:00:00",
+      "policy_end_time": "19:30:00",
+      "policy_apply": "extracharge_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "화",
+      "policy_start_time": "19:30:00",
+      "policy_end_time": "22:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "화",
+      "policy_start_time": "22:00:00",
+      "policy_end_time": "0:00:00",
+      "policy_apply": "discount_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "목",
+      "policy_start_time": "0:00:00",
+      "policy_end_time": "6:00:00",
+      "policy_apply": "out_of_business",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "목",
+      "policy_start_time": "6:00:00",
+      "policy_end_time": "10:00:00",
+      "policy_apply": "discount_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "목",
+      "policy_start_time": "10:00:00",
+      "policy_end_time": "17:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "목",
+      "policy_start_time": "17:00:00",
+      "policy_end_time": "19:30:00",
+      "policy_apply": "extracharge_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "목",
+      "policy_start_time": "19:30:00",
+      "policy_end_time": "22:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 1,
+      "day_of_week": "목",
+      "policy_start_time": "22:00:00",
+      "policy_end_time": "0:00:00",
+      "policy_apply": "discount_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 2,
+      "day_of_week": "일",
+      "policy_start_time": "0:00:00",
+      "policy_end_time": "6:00:00",
+      "policy_apply": "out_of_business",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 2,
+      "day_of_week": "일",
+      "policy_start_time": "6:00:00",
+      "policy_end_time": "10:00:00",
+      "policy_apply": "discount_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 2,
+      "day_of_week": "일",
+      "policy_start_time": "10:00:00",
+      "policy_end_time": "17:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 2,
+      "day_of_week": "일",
+      "policy_start_time": "17:00:00",
+      "policy_end_time": "22:00:00",
+      "policy_apply": "extracharge_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 2,
+      "day_of_week": "일",
+      "policy_start_time": "22:00:00",
+      "policy_end_time": "0:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 2,
+      "day_of_week": "토",
+      "policy_start_time": "0:00:00",
+      "policy_end_time": "6:00:00",
+      "policy_apply": "out_of_business",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 2,
+      "day_of_week": "토",
+      "policy_start_time": "6:00:00",
+      "policy_end_time": "10:00:00",
+      "policy_apply": "discount_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 2,
+      "day_of_week": "토",
+      "policy_start_time": "10:00:00",
+      "policy_end_time": "17:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 2,
+      "day_of_week": "토",
+      "policy_start_time": "17:00:00",
+      "policy_end_time": "22:00:00",
+      "policy_apply": "extracharge_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 2,
+      "day_of_week": "토",
+      "policy_start_time": "22:00:00",
+      "policy_end_time": "0:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 2,
+      "day_of_week": "공휴일",
+      "policy_start_time": "0:00:00",
+      "policy_end_time": "6:00:00",
+      "policy_apply": "out_of_business",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 2,
+      "day_of_week": "공휴일",
+      "policy_start_time": "6:00:00",
+      "policy_end_time": "10:00:00",
+      "policy_apply": "discount_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 2,
+      "day_of_week": "공휴일",
+      "policy_start_time": "10:00:00",
+      "policy_end_time": "17:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 2,
+      "day_of_week": "공휴일",
+      "policy_start_time": "17:00:00",
+      "policy_end_time": "22:00:00",
+      "policy_apply": "extracharge_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "test",
+      "policy_category": 2,
+      "day_of_week": "공휴일",
+      "policy_start_time": "22:00:00",
+      "policy_end_time": "0:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-07-27T03:03:32"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "월",
+      "policy_start_time": "0:00:00",
+      "policy_end_time": "6:00:00",
+      "policy_apply": "out_of_business",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "월",
+      "policy_start_time": "6:00:00",
+      "policy_end_time": "10:00:00",
+      "policy_apply": "discount_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "월",
+      "policy_start_time": "10:00:00",
+      "policy_end_time": "17:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "월",
+      "policy_start_time": "17:00:00",
+      "policy_end_time": "22:00:00",
+      "policy_apply": "extracharge_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "월",
+      "policy_start_time": "22:00:00",
+      "policy_end_time": "23:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "월",
+      "policy_start_time": "23:00:00",
+      "policy_end_time": "1 day, 0:00:00",
+      "policy_apply": "discount_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "목",
+      "policy_start_time": "0:00:00",
+      "policy_end_time": "6:00:00",
+      "policy_apply": "out_of_business",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "목",
+      "policy_start_time": "6:00:00",
+      "policy_end_time": "10:00:00",
+      "policy_apply": "discount_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "목",
+      "policy_start_time": "10:00:00",
+      "policy_end_time": "17:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "목",
+      "policy_start_time": "17:00:00",
+      "policy_end_time": "22:00:00",
+      "policy_apply": "extracharge_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "목",
+      "policy_start_time": "22:00:00",
+      "policy_end_time": "23:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "목",
+      "policy_start_time": "23:00:00",
+      "policy_end_time": "1 day, 0:00:00",
+      "policy_apply": "discount_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "화",
+      "policy_start_time": "0:00:00",
+      "policy_end_time": "6:00:00",
+      "policy_apply": "out_of_business",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "화",
+      "policy_start_time": "6:00:00",
+      "policy_end_time": "10:00:00",
+      "policy_apply": "discount_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "화",
+      "policy_start_time": "10:00:00",
+      "policy_end_time": "17:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "화",
+      "policy_start_time": "17:00:00",
+      "policy_end_time": "22:00:00",
+      "policy_apply": "extracharge_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "화",
+      "policy_start_time": "22:00:00",
+      "policy_end_time": "23:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "화",
+      "policy_start_time": "23:00:00",
+      "policy_end_time": "1 day, 0:00:00",
+      "policy_apply": "discount_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "금",
+      "policy_start_time": "0:00:00",
+      "policy_end_time": "6:00:00",
+      "policy_apply": "out_of_business",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "금",
+      "policy_start_time": "6:00:00",
+      "policy_end_time": "10:00:00",
+      "policy_apply": "discount_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "금",
+      "policy_start_time": "10:00:00",
+      "policy_end_time": "17:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "금",
+      "policy_start_time": "17:00:00",
+      "policy_end_time": "22:00:00",
+      "policy_apply": "extracharge_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "금",
+      "policy_start_time": "22:00:00",
+      "policy_end_time": "23:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "금",
+      "policy_start_time": "23:00:00",
+      "policy_end_time": "1 day, 0:00:00",
+      "policy_apply": "discount_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "수",
+      "policy_start_time": "0:00:00",
+      "policy_end_time": "6:00:00",
+      "policy_apply": "out_of_business",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "수",
+      "policy_start_time": "6:00:00",
+      "policy_end_time": "10:00:00",
+      "policy_apply": "discount_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "수",
+      "policy_start_time": "10:00:00",
+      "policy_end_time": "17:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "수",
+      "policy_start_time": "17:00:00",
+      "policy_end_time": "22:00:00",
+      "policy_apply": "extracharge_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "수",
+      "policy_start_time": "22:00:00",
+      "policy_end_time": "23:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 1,
+      "day_of_week": "수",
+      "policy_start_time": "23:00:00",
+      "policy_end_time": "1 day, 0:00:00",
+      "policy_apply": "discount_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 2,
+      "day_of_week": "토",
+      "policy_start_time": "0:00:00",
+      "policy_end_time": "6:00:00",
+      "policy_apply": "out_of_business",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 2,
+      "day_of_week": "토",
+      "policy_start_time": "6:00:00",
+      "policy_end_time": "10:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 2,
+      "day_of_week": "토",
+      "policy_start_time": "10:00:00",
+      "policy_end_time": "18:00:00",
+      "policy_apply": "extracharge_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 2,
+      "day_of_week": "토",
+      "policy_start_time": "18:00:00",
+      "policy_end_time": "1 day, 0:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 3,
+      "day_of_week": "일",
+      "policy_start_time": "0:00:00",
+      "policy_end_time": "7:00:00",
+      "policy_apply": "out_of_business",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 3,
+      "day_of_week": "일",
+      "policy_start_time": "7:00:00",
+      "policy_end_time": "10:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 3,
+      "day_of_week": "일",
+      "policy_start_time": "10:00:00",
+      "policy_end_time": "18:00:00",
+      "policy_apply": "extracharge_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 3,
+      "day_of_week": "일",
+      "policy_start_time": "18:00:00",
+      "policy_end_time": "22:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 3,
+      "day_of_week": "일",
+      "policy_start_time": "22:00:00",
+      "policy_end_time": "0:00:00",
+      "policy_apply": "out_of_business",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 3,
+      "day_of_week": "공휴일",
+      "policy_start_time": "0:00:00",
+      "policy_end_time": "7:00:00",
+      "policy_apply": "out_of_business",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 3,
+      "day_of_week": "공휴일",
+      "policy_start_time": "7:00:00",
+      "policy_end_time": "10:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 3,
+      "day_of_week": "공휴일",
+      "policy_start_time": "10:00:00",
+      "policy_end_time": "18:00:00",
+      "policy_apply": "extracharge_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 3,
+      "day_of_week": "공휴일",
+      "policy_start_time": "18:00:00",
+      "policy_end_time": "22:00:00",
+      "policy_apply": "base_price",
+      "updated_at": "2025-11-20T21:53:20"
+    },
+    {
+      "branch_id": "famd",
+      "policy_category": 3,
+      "day_of_week": "공휴일",
+      "policy_start_time": "22:00:00",
+      "policy_end_time": "0:00:00",
+      "policy_apply": "out_of_business",
+      "updated_at": "2025-11-20T21:53:20"
+    }
+  ]
+}

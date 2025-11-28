@@ -1,0 +1,111 @@
+{
+  "table_name": "schedule_weekly_base",
+  "columns": [
+    {
+      "Field": "schedule_base_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": "auto_increment"
+    },
+    {
+      "Field": "day_of_week",
+      "Type": "varchar(2)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "work_or_break",
+      "Type": "varchar(5)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "schedule_base_status",
+      "Type": "varchar(5)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "staff_nickname",
+      "Type": "varchar(5)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "is_day_off",
+      "Type": "varchar(5)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "start_time",
+      "Type": "time",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "end_time",
+      "Type": "time",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "created_at",
+      "Type": "timestamp",
+      "Null": "NO",
+      "Key": "",
+      "Default": "current_timestamp()",
+      "Extra": "on update current_timestamp()"
+    },
+    {
+      "Field": "updated_at",
+      "Type": "timestamp",
+      "Null": "NO",
+      "Key": "",
+      "Default": "0000-00-00 00:00:00",
+      "Extra": ""
+    },
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `schedule_weekly_base` (\n  `schedule_base_id` int(11) NOT NULL AUTO_INCREMENT,\n  `day_of_week` varchar(2) NOT NULL,\n  `work_or_break` varchar(5) NOT NULL,\n  `schedule_base_status` varchar(5) NOT NULL,\n  `staff_nickname` varchar(5) NOT NULL,\n  `is_day_off` varchar(5) NOT NULL,\n  `start_time` time NOT NULL,\n  `end_time` time DEFAULT NULL,\n  `created_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),\n  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',\n  `branch_id` varchar(20) DEFAULT NULL,\n  PRIMARY KEY (`schedule_base_id`)\n) ENGINE=InnoDB AUTO_INCREMENT=1647 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [
+    {
+      "Table": "schedule_weekly_base",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "schedule_base_id",
+      "Collation": "A",
+      "Cardinality": 1387,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-27T21:08:17.436718"
+}

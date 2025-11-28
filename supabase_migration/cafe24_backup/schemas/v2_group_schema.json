@@ -1,0 +1,111 @@
+{
+  "table_name": "v2_group",
+  "columns": [
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "MUL",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_name",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_type",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_phone",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "relation",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "related_member_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "related_member_name",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "related_member_phone",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "_is_master",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "registered_at",
+      "Type": "timestamp",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `v2_group` (\n  `branch_id` varchar(20) DEFAULT NULL,\n  `member_id` int(11) DEFAULT NULL,\n  `member_name` varchar(20) DEFAULT NULL,\n  `member_type` varchar(20) DEFAULT NULL,\n  `member_phone` varchar(20) DEFAULT NULL,\n  `relation` varchar(10) DEFAULT NULL,\n  `related_member_id` int(11) DEFAULT NULL,\n  `related_member_name` varchar(20) DEFAULT NULL,\n  `related_member_phone` varchar(20) DEFAULT NULL,\n  `_is_master` varchar(10) DEFAULT NULL,\n  `registered_at` timestamp NULL DEFAULT NULL,\n  KEY `member_id` (`member_id`) USING BTREE\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [
+    {
+      "Table": "v2_group",
+      "Non_unique": 1,
+      "Key_name": "member_id",
+      "Seq_in_index": 1,
+      "Column_name": "member_id",
+      "Collation": "A",
+      "Cardinality": 299,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "YES",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-28T21:46:34.166908"
+}

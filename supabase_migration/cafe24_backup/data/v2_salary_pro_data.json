@@ -1,0 +1,35 @@
+{
+  "table_name": "v2_salary_pro",
+  "row_count": 1,
+  "backup_timestamp": "2025-11-28T21:46:35.256485",
+  "data": [
+    {
+      "branch_id": "test",
+      "pro_id": 2,
+      "pro_name": "원청서",
+      "year": 2025,
+      "month": "8",
+      "salary_status": "세무사검토",
+      "contract_type": "고용(4대보험)",
+      "salary_base": 0,
+      "salary_hour": 0,
+      "salary_per_lesson": 36000,
+      "salary_per_event": 0,
+      "salary_per_promo": 0,
+      "salalry_per_noshow": 18000,
+      "severance_pay": 0,
+      "salary_total": 54000,
+      "four_insure": 121,
+      "income_tax": 0,
+      "business_income_tax": 0,
+      "local_tax": 0,
+      "other_deduction": 0,
+      "deduction_sum": 121,
+      "salary_net": 53879,
+      "updated_at": "2025-08-31T18:43:18",
+      "tax_status": null,
+      "tax_office": "가나다 세무사1",
+      "tax_office_mail": "jongik.suh@gmail.com"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "table_name": "Staff",
+  "columns": [
+    {
+      "Field": "staff_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": "auto_increment"
+    },
+    {
+      "Field": "staff_type",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "staff_name",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "staff_phone",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "staff_access_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "staff_password",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "staff_status",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "staff_nickname",
+      "Type": "varchar(5)",
+      "Null": "YES",
+      "Key": "UNI",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "min_service_min",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "staff_svc_time",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "min_reservation_term",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "salary_base",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "salary_hour",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "salary_per_lesson",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "salary_per_event",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `Staff` (\n  `staff_id` int(11) NOT NULL AUTO_INCREMENT,\n  `staff_type` varchar(10) DEFAULT NULL,\n  `staff_name` varchar(10) DEFAULT NULL,\n  `staff_phone` varchar(20) DEFAULT NULL,\n  `staff_access_id` varchar(20) DEFAULT NULL,\n  `staff_password` varchar(20) DEFAULT NULL,\n  `staff_status` varchar(10) DEFAULT NULL,\n  `staff_nickname` varchar(5) DEFAULT NULL,\n  `min_service_min` int(11) DEFAULT NULL,\n  `staff_svc_time` int(11) DEFAULT NULL,\n  `min_reservation_term` int(11) DEFAULT NULL,\n  `salary_base` int(11) DEFAULT NULL,\n  `salary_hour` int(11) DEFAULT NULL,\n  `salary_per_lesson` int(11) DEFAULT NULL,\n  `salary_per_event` int(11) DEFAULT NULL,\n  `branch_id` varchar(20) DEFAULT NULL,\n  PRIMARY KEY (`staff_id`),\n  UNIQUE KEY `Staff_UNIQUE` (`staff_nickname`)\n) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [
+    {
+      "Table": "Staff",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "staff_id",
+      "Collation": "A",
+      "Cardinality": 11,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    },
+    {
+      "Table": "Staff",
+      "Non_unique": 0,
+      "Key_name": "Staff_UNIQUE",
+      "Seq_in_index": 1,
+      "Column_name": "staff_nickname",
+      "Collation": "A",
+      "Cardinality": 11,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "YES",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-27T21:08:15.948473"
+}

@@ -1,0 +1,26 @@
+# Supabase 키 정보 (민감한 정보)
+supabase_migration/supabase_keys.json
+
+# 환경 변수 파일
+.env
+.env.local
+.env.*.local
+
+# IDE 설정
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# 로그 파일
+*.log
+
+# 임시 파일
+*.tmp
+*.temp
+

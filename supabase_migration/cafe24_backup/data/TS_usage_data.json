@@ -1,0 +1,29 @@
+{
+  "table_name": "TS_usage",
+  "row_count": 1,
+  "backup_timestamp": "2025-11-27T21:08:16.017240",
+  "data": [
+    {
+      "ts_id": 2,
+      "member_id": 2,
+      "ts_date": "2025-08-01",
+      "ts_start": null,
+      "ts_end": null,
+      "ts_type": null,
+      "ts_min": null,
+      "morning_min": null,
+      "normal_min": null,
+      "peak_min": null,
+      "night_min": null,
+      "total_amt": null,
+      "term_discount": null,
+      "junior_discount": null,
+      "overtime_discount": null,
+      "revisit_discount_today": null,
+      "total_discount": null,
+      "net_amt": null,
+      "reservation_id": "250801_2_0900",
+      "branch_id": "test"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "table_name": "v2_weekly_schedule_pro",
+  "columns": [
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "pro_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "pro_name",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "day_of_week",
+      "Type": "varchar(2)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "is_day_off",
+      "Type": "varchar(5)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "start_time",
+      "Type": "time",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "end_time",
+      "Type": "time",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "updated_at",
+      "Type": "timestamp",
+      "Null": "NO",
+      "Key": "",
+      "Default": "0000-00-00 00:00:00",
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `v2_weekly_schedule_pro` (\n  `branch_id` varchar(20) DEFAULT NULL,\n  `pro_id` int(11) DEFAULT NULL,\n  `pro_name` varchar(10) DEFAULT NULL,\n  `day_of_week` varchar(2) NOT NULL,\n  `is_day_off` varchar(5) NOT NULL,\n  `start_time` time NOT NULL,\n  `end_time` time DEFAULT NULL,\n  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [],
+  "backup_timestamp": "2025-11-28T21:46:35.728557"
+}

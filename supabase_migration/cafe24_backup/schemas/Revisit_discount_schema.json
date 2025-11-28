@@ -1,0 +1,93 @@
+{
+  "table_name": "Revisit_discount",
+  "columns": [
+    {
+      "Field": "revisit_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": "auto_increment"
+    },
+    {
+      "Field": "revisit_registerdate",
+      "Type": "date",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "revisit_date",
+      "Type": "date",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "MUL",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "revisit_amt_normal",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "revisit_amt_peak",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `Revisit_discount` (\n  `revisit_id` int(11) NOT NULL AUTO_INCREMENT,\n  `revisit_registerdate` date DEFAULT NULL,\n  `revisit_date` date DEFAULT NULL,\n  `member_id` int(11) DEFAULT NULL,\n  `revisit_amt_normal` int(11) DEFAULT NULL,\n  `revisit_amt_peak` int(11) DEFAULT NULL,\n  `branch_id` varchar(20) DEFAULT NULL,\n  PRIMARY KEY (`revisit_id`),\n  KEY `member_id` (`member_id`),\n  CONSTRAINT `Revisit_discount_ibfk_1` FOREIGN KEY (`member_id`) REFERENCES `members` (`member_id`)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [
+    {
+      "Table": "Revisit_discount",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "revisit_id",
+      "Collation": "A",
+      "Cardinality": 0,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    },
+    {
+      "Table": "Revisit_discount",
+      "Non_unique": 1,
+      "Key_name": "member_id",
+      "Seq_in_index": 1,
+      "Column_name": "member_id",
+      "Collation": "A",
+      "Cardinality": 0,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "YES",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-27T21:08:15.919085"
+}

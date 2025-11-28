@@ -1,0 +1,343 @@
+{
+  "table_name": "v2_message_agreement",
+  "row_count": 48,
+  "backup_timestamp": "2025-11-28T21:46:34.320685",
+  "data": [
+    {
+      "branch_id": "test",
+      "member_id": 901,
+      "member_name": "서종익",
+      "msg_type": "회원권 등록/취소",
+      "push_agreement": "수신"
+    },
+    {
+      "branch_id": "test",
+      "member_id": 901,
+      "member_name": "서종익",
+      "msg_type": "크레딧 적립/차감",
+      "push_agreement": "수신"
+    },
+    {
+      "branch_id": "test",
+      "member_id": 901,
+      "member_name": "서종익",
+      "msg_type": "예약 접수/취소",
+      "push_agreement": "수신"
+    },
+    {
+      "branch_id": "test",
+      "member_id": 901,
+      "member_name": "서종익",
+      "msg_type": "그룹활동 초대",
+      "push_agreement": "수신"
+    },
+    {
+      "branch_id": "test",
+      "member_id": 901,
+      "member_name": "서종익",
+      "msg_type": "1:1메시지",
+      "push_agreement": "수신"
+    },
+    {
+      "branch_id": "test",
+      "member_id": 901,
+      "member_name": "서종익",
+      "msg_type": "할인권 등록/사용",
+      "push_agreement": "수신거부"
+    },
+    {
+      "branch_id": "test",
+      "member_id": 901,
+      "member_name": "서종익",
+      "msg_type": "공지사항",
+      "push_agreement": "수신"
+    },
+    {
+      "branch_id": "test",
+      "member_id": 901,
+      "member_name": "서종익",
+      "msg_type": "일반안내",
+      "push_agreement": "수신"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 15,
+      "member_name": "회원",
+      "msg_type": "회원권 등록/취소",
+      "push_agreement": "수신"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 15,
+      "member_name": "회원",
+      "msg_type": "크레딧 적립/차감",
+      "push_agreement": "수신"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 15,
+      "member_name": "회원",
+      "msg_type": "예약 접수/취소",
+      "push_agreement": "수신"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 15,
+      "member_name": "회원",
+      "msg_type": "그룹활동 초대",
+      "push_agreement": "수신거부"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 15,
+      "member_name": "회원",
+      "msg_type": "1:1메시지",
+      "push_agreement": "수신"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 15,
+      "member_name": "회원",
+      "msg_type": "할인권 등록/사용",
+      "push_agreement": null
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 15,
+      "member_name": "회원",
+      "msg_type": "공지사항",
+      "push_agreement": null
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 15,
+      "member_name": "회원",
+      "msg_type": "일반안내",
+      "push_agreement": null
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 44,
+      "member_name": "회원",
+      "msg_type": "회원권 등록/취소",
+      "push_agreement": "수신"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 44,
+      "member_name": "회원",
+      "msg_type": "크레딧 적립/차감",
+      "push_agreement": "수신"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 44,
+      "member_name": "회원",
+      "msg_type": "예약 접수/취소",
+      "push_agreement": "수신"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 44,
+      "member_name": "회원",
+      "msg_type": "그룹활동 초대",
+      "push_agreement": "수신"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 44,
+      "member_name": "회원",
+      "msg_type": "1:1메시지",
+      "push_agreement": "수신"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 44,
+      "member_name": "회원",
+      "msg_type": "할인권 등록/사용",
+      "push_agreement": "수신"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 44,
+      "member_name": "회원",
+      "msg_type": "공지사항",
+      "push_agreement": "수신"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 44,
+      "member_name": "회원",
+      "msg_type": "일반안내",
+      "push_agreement": "수신거부"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 246,
+      "member_name": "회원",
+      "msg_type": "회원권 등록/취소",
+      "push_agreement": "수신"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 246,
+      "member_name": "회원",
+      "msg_type": "크레딧 적립/차감",
+      "push_agreement": "수신"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 246,
+      "member_name": "회원",
+      "msg_type": "예약 접수/취소",
+      "push_agreement": "수신"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 246,
+      "member_name": "회원",
+      "msg_type": "그룹활동 초대",
+      "push_agreement": "수신"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 246,
+      "member_name": "회원",
+      "msg_type": "1:1메시지",
+      "push_agreement": "수신"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 246,
+      "member_name": "회원",
+      "msg_type": "할인권 등록/사용",
+      "push_agreement": "수신거부"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 246,
+      "member_name": "회원",
+      "msg_type": "공지사항",
+      "push_agreement": "수신거부"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 246,
+      "member_name": "회원",
+      "msg_type": "일반안내",
+      "push_agreement": "수신거부"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 293,
+      "member_name": "회원",
+      "msg_type": "회원권 등록/취소",
+      "push_agreement": "수신거부"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 293,
+      "member_name": "회원",
+      "msg_type": "크레딧 적립/차감",
+      "push_agreement": "수신거부"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 293,
+      "member_name": "회원",
+      "msg_type": "예약 접수/취소",
+      "push_agreement": "수신거부"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 293,
+      "member_name": "회원",
+      "msg_type": "그룹활동 초대",
+      "push_agreement": "수신거부"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 293,
+      "member_name": "회원",
+      "msg_type": "1:1메시지",
+      "push_agreement": "수신거부"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 293,
+      "member_name": "회원",
+      "msg_type": "할인권 등록/사용",
+      "push_agreement": "수신거부"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 293,
+      "member_name": "회원",
+      "msg_type": "공지사항",
+      "push_agreement": "수신거부"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 293,
+      "member_name": "회원",
+      "msg_type": "일반안내",
+      "push_agreement": "수신거부"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 871,
+      "member_name": "회원",
+      "msg_type": "회원권 등록/취소",
+      "push_agreement": "수신거부"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 871,
+      "member_name": "회원",
+      "msg_type": "크레딧 적립/차감",
+      "push_agreement": "수신거부"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 871,
+      "member_name": "회원",
+      "msg_type": "예약 접수/취소",
+      "push_agreement": "수신거부"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 871,
+      "member_name": "회원",
+      "msg_type": "그룹활동 초대",
+      "push_agreement": "수신거부"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 871,
+      "member_name": "회원",
+      "msg_type": "1:1메시지",
+      "push_agreement": "수신거부"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 871,
+      "member_name": "회원",
+      "msg_type": "할인권 등록/사용",
+      "push_agreement": "수신거부"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 871,
+      "member_name": "회원",
+      "msg_type": "공지사항",
+      "push_agreement": "수신거부"
+    },
+    {
+      "branch_id": "famd",
+      "member_id": 871,
+      "member_name": "회원",
+      "msg_type": "일반안내",
+      "push_agreement": "수신거부"
+    }
+  ]
+}

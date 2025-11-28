@@ -1,0 +1,115 @@
+{
+  "table_name": "LS_availability_register",
+  "columns": [
+    {
+      "Field": "LS_id",
+      "Type": "varchar(20)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "LS_date",
+      "Type": "date",
+      "Null": "NO",
+      "Key": "MUL",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "staff_nickname",
+      "Type": "varchar(5)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "LS_available_qty",
+      "Type": "int(10)",
+      "Null": "NO",
+      "Key": "",
+      "Default": "1",
+      "Extra": ""
+    },
+    {
+      "Field": "updated_at",
+      "Type": "timestamp",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "LS_starttime",
+      "Type": "time",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "LS_endtime",
+      "Type": "time",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `LS_availability_register` (\n  `LS_id` varchar(20) NOT NULL,\n  `LS_date` date NOT NULL,\n  `staff_nickname` varchar(5) NOT NULL,\n  `LS_available_qty` int(10) NOT NULL DEFAULT 1,\n  `updated_at` timestamp NULL DEFAULT NULL,\n  `LS_starttime` time NOT NULL,\n  `LS_endtime` time NOT NULL,\n  `branch_id` varchar(20) DEFAULT NULL,\n  PRIMARY KEY (`LS_id`),\n  KEY `LS_availability_register_LS_date_IDX` (`LS_date`,`staff_nickname`) USING BTREE\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [
+    {
+      "Table": "LS_availability_register",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "LS_id",
+      "Collation": "A",
+      "Cardinality": 31890,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    },
+    {
+      "Table": "LS_availability_register",
+      "Non_unique": 1,
+      "Key_name": "LS_availability_register_LS_date_IDX",
+      "Seq_in_index": 1,
+      "Column_name": "LS_date",
+      "Collation": "A",
+      "Cardinality": 579,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    },
+    {
+      "Table": "LS_availability_register",
+      "Non_unique": 1,
+      "Key_name": "LS_availability_register_LS_date_IDX",
+      "Seq_in_index": 2,
+      "Column_name": "staff_nickname",
+      "Collation": "A",
+      "Cardinality": 1678,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-27T21:08:12.963452"
+}

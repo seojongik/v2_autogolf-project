@@ -1,0 +1,364 @@
+{
+  "table_name": "LS_feedback",
+  "row_count": 51,
+  "backup_timestamp": "2025-11-27T21:08:14.024271",
+  "data": [
+    {
+      "LS_feedback_id": 20,
+      "LS_feedback_type": "잘한 점",
+      "LS_feedback_category": "1. 연습태도",
+      "LS_feedback_contents": "집중력",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 21,
+      "LS_feedback_type": "잘한 점",
+      "LS_feedback_category": "1. 연습태도",
+      "LS_feedback_contents": "성실한 연습",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 22,
+      "LS_feedback_type": "잘한 점",
+      "LS_feedback_category": "1. 연습태도",
+      "LS_feedback_contents": "꾸준한 발전의지",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 23,
+      "LS_feedback_type": "잘한 점",
+      "LS_feedback_category": "2. 스윙셋업",
+      "LS_feedback_contents": "그립",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 24,
+      "LS_feedback_type": "잘한 점",
+      "LS_feedback_category": "2. 스윙셋업",
+      "LS_feedback_contents": "어드레스",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 25,
+      "LS_feedback_type": "잘한 점",
+      "LS_feedback_category": "2. 스윙셋업",
+      "LS_feedback_contents": "테이크어웨이",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 26,
+      "LS_feedback_type": "잘한 점",
+      "LS_feedback_category": "2. 스윙셋업",
+      "LS_feedback_contents": "볼 포지션",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 27,
+      "LS_feedback_type": "잘한 점",
+      "LS_feedback_category": "3. 백스윙/트랜지션",
+      "LS_feedback_contents": "일관된 백스윙",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 28,
+      "LS_feedback_type": "잘한 점",
+      "LS_feedback_category": "3. 백스윙/트랜지션",
+      "LS_feedback_contents": "상하체 시퀀스",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 29,
+      "LS_feedback_type": "잘한 점",
+      "LS_feedback_category": "3. 백스윙/트랜지션",
+      "LS_feedback_contents": "스윙축 유지",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 30,
+      "LS_feedback_type": "잘한 점",
+      "LS_feedback_category": "3. 백스윙/트랜지션",
+      "LS_feedback_contents": "코킹",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 31,
+      "LS_feedback_type": "잘한 점",
+      "LS_feedback_category": "3. 백스윙/트랜지션",
+      "LS_feedback_contents": "트랜지션",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 32,
+      "LS_feedback_type": "잘한 점",
+      "LS_feedback_category": "4. 다운스윙/임팩트",
+      "LS_feedback_contents": "하체리드",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 33,
+      "LS_feedback_type": "잘한 점",
+      "LS_feedback_category": "4. 다운스윙/임팩트",
+      "LS_feedback_contents": "임팩트",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 34,
+      "LS_feedback_type": "잘한 점",
+      "LS_feedback_category": "4. 다운스윙/임팩트",
+      "LS_feedback_contents": "체중이동",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 35,
+      "LS_feedback_type": "잘한 점",
+      "LS_feedback_category": "4. 다운스윙/임팩트",
+      "LS_feedback_contents": "딜레이히트",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 36,
+      "LS_feedback_type": "잘한 점",
+      "LS_feedback_category": "4. 다운스윙/임팩트",
+      "LS_feedback_contents": "스윙 플레인",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 37,
+      "LS_feedback_type": "잘한 점",
+      "LS_feedback_category": "4. 다운스윙/임팩트",
+      "LS_feedback_contents": "클럽페이스 컨트롤",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 38,
+      "LS_feedback_type": "잘한 점",
+      "LS_feedback_category": "5. 피니쉬/리듬",
+      "LS_feedback_contents": "팔로우스루",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 39,
+      "LS_feedback_type": "잘한 점",
+      "LS_feedback_category": "5. 피니쉬/리듬",
+      "LS_feedback_contents": "리듬감",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 40,
+      "LS_feedback_type": "잘한 점",
+      "LS_feedback_category": "5. 피니쉬/리듬",
+      "LS_feedback_contents": "안정적 스윙 템포",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 44,
+      "LS_feedback_type": "숙제",
+      "LS_feedback_category": "1. 빈스윙 미션",
+      "LS_feedback_contents": "아이언 빈스윙 30번",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 45,
+      "LS_feedback_type": "숙제",
+      "LS_feedback_category": "1. 빈스윙 미션",
+      "LS_feedback_contents": "드라이버 빈스윙 30번",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 46,
+      "LS_feedback_type": "숙제",
+      "LS_feedback_category": "2. 게임미션",
+      "LS_feedback_contents": "9홀 게임 2회",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 47,
+      "LS_feedback_type": "숙제",
+      "LS_feedback_category": "3. 숏게임 미션",
+      "LS_feedback_contents": "50m 홀인미션",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 48,
+      "LS_feedback_type": "숙제",
+      "LS_feedback_category": "3. 숏게임 미션",
+      "LS_feedback_contents": "30m 홀인미션",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 49,
+      "LS_feedback_type": "숙제",
+      "LS_feedback_category": "3. 숏게임 미션",
+      "LS_feedback_contents": "10m 퍼팅 10회성공",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 50,
+      "LS_feedback_type": "다음레슨예고",
+      "LS_feedback_category": "1. 스윙셋업",
+      "LS_feedback_contents": "그립",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 51,
+      "LS_feedback_type": "다음레슨예고",
+      "LS_feedback_category": "1. 스윙셋업",
+      "LS_feedback_contents": "어드레스",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 52,
+      "LS_feedback_type": "다음레슨예고",
+      "LS_feedback_category": "1. 스윙셋업",
+      "LS_feedback_contents": "테이크어웨이",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 53,
+      "LS_feedback_type": "다음레슨예고",
+      "LS_feedback_category": "1. 스윙셋업",
+      "LS_feedback_contents": "볼 포지션",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 54,
+      "LS_feedback_type": "다음레슨예고",
+      "LS_feedback_category": "2. 백스윙/트랜지션",
+      "LS_feedback_contents": "일관된 백스윙",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 55,
+      "LS_feedback_type": "다음레슨예고",
+      "LS_feedback_category": "2. 백스윙/트랜지션",
+      "LS_feedback_contents": "상하체 시퀀스",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 56,
+      "LS_feedback_type": "다음레슨예고",
+      "LS_feedback_category": "2. 백스윙/트랜지션",
+      "LS_feedback_contents": "스윙축 유지",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 57,
+      "LS_feedback_type": "다음레슨예고",
+      "LS_feedback_category": "2. 백스윙/트랜지션",
+      "LS_feedback_contents": "코킹",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 58,
+      "LS_feedback_type": "다음레슨예고",
+      "LS_feedback_category": "2. 백스윙/트랜지션",
+      "LS_feedback_contents": "트랜지션",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 59,
+      "LS_feedback_type": "다음레슨예고",
+      "LS_feedback_category": "3. 다운스윙/임팩트",
+      "LS_feedback_contents": "하체리드",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 60,
+      "LS_feedback_type": "다음레슨예고",
+      "LS_feedback_category": "3. 다운스윙/임팩트",
+      "LS_feedback_contents": "임팩트",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 61,
+      "LS_feedback_type": "다음레슨예고",
+      "LS_feedback_category": "3. 다운스윙/임팩트",
+      "LS_feedback_contents": "체중이동",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 62,
+      "LS_feedback_type": "다음레슨예고",
+      "LS_feedback_category": "3. 다운스윙/임팩트",
+      "LS_feedback_contents": "딜레이히트",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 63,
+      "LS_feedback_type": "다음레슨예고",
+      "LS_feedback_category": "3. 다운스윙/임팩트",
+      "LS_feedback_contents": "스윙 플레인",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 64,
+      "LS_feedback_type": "다음레슨예고",
+      "LS_feedback_category": "3. 다운스윙/임팩트",
+      "LS_feedback_contents": "클럽페이스 컨트롤",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 65,
+      "LS_feedback_type": "다음레슨예고",
+      "LS_feedback_category": "4. 피니쉬/리듬",
+      "LS_feedback_contents": "팔로우스루",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 66,
+      "LS_feedback_type": "다음레슨예고",
+      "LS_feedback_category": "4. 피니쉬/리듬",
+      "LS_feedback_contents": "리듬감",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 67,
+      "LS_feedback_type": "다음레슨예고",
+      "LS_feedback_category": "4. 피니쉬/리듬",
+      "LS_feedback_contents": "안정적 스윙 템포",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 68,
+      "LS_feedback_type": "다음레슨예고",
+      "LS_feedback_category": "5. 마인드/기타",
+      "LS_feedback_contents": "마인드컨트롤",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 69,
+      "LS_feedback_type": "다음레슨예고",
+      "LS_feedback_category": "5. 마인드/기타",
+      "LS_feedback_contents": "코스 매니지먼트",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 70,
+      "LS_feedback_type": "다음레슨예고",
+      "LS_feedback_category": "5. 마인드/기타",
+      "LS_feedback_contents": "숏게임 터치감",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 71,
+      "LS_feedback_type": "피드백제외",
+      "LS_feedback_category": "피드백제외",
+      "LS_feedback_contents": "메시지 발송 과다",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 72,
+      "LS_feedback_type": "피드백제외",
+      "LS_feedback_category": "피드백제외",
+      "LS_feedback_contents": "피드백 수신거부",
+      "branch_id": "famd"
+    },
+    {
+      "LS_feedback_id": 73,
+      "LS_feedback_type": "피드백제외",
+      "LS_feedback_category": "피드백제외",
+      "LS_feedback_contents": "기타사유",
+      "branch_id": "famd"
+    }
+  ]
+}

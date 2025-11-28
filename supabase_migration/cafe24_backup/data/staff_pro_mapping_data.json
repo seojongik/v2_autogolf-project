@@ -1,0 +1,31 @@
+{
+  "table_name": "staff_pro_mapping",
+  "row_count": 6,
+  "backup_timestamp": "2025-11-27T21:08:17.510979",
+  "data": [
+    {
+      "staff_nickname": "es",
+      "pro_id": 3
+    },
+    {
+      "staff_nickname": "js",
+      "pro_id": 2
+    },
+    {
+      "staff_nickname": "jy",
+      "pro_id": 1
+    },
+    {
+      "staff_nickname": "kb",
+      "pro_id": 5
+    },
+    {
+      "staff_nickname": "sw",
+      "pro_id": 4
+    },
+    {
+      "staff_nickname": "ty",
+      "pro_id": 6
+    }
+  ]
+}

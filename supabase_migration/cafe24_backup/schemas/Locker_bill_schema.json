@@ -1,0 +1,127 @@
+{
+  "table_name": "Locker_bill",
+  "columns": [
+    {
+      "Field": "locker_bill_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": "auto_increment"
+    },
+    {
+      "Field": "locker_bill_type",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "locker_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "locker_bill_month",
+      "Type": "varchar(15)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "last_month_TS_min",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "locker_discount_apply_ratio",
+      "Type": "decimal(10,2)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "locker_bill_total_amt",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "locker_bill_deduction",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "locker_bill_netamt",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "locker_remark",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "locker_bill_remark",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `Locker_bill` (\n  `locker_bill_id` int(11) NOT NULL AUTO_INCREMENT,\n  `locker_bill_type` varchar(100) DEFAULT NULL,\n  `locker_id` int(11) DEFAULT NULL,\n  `locker_bill_month` varchar(15) DEFAULT NULL,\n  `member_id` int(11) DEFAULT NULL,\n  `last_month_TS_min` int(11) DEFAULT NULL,\n  `locker_discount_apply_ratio` decimal(10,2) DEFAULT NULL,\n  `locker_bill_total_amt` int(11) DEFAULT NULL,\n  `locker_bill_deduction` int(11) DEFAULT NULL,\n  `locker_bill_netamt` int(11) DEFAULT NULL,\n  `locker_remark` varchar(100) DEFAULT NULL,\n  `locker_bill_remark` varchar(20) DEFAULT NULL,\n  `branch_id` varchar(20) DEFAULT NULL,\n  PRIMARY KEY (`locker_bill_id`)\n) ENGINE=InnoDB AUTO_INCREMENT=1305 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [
+    {
+      "Table": "Locker_bill",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "locker_bill_id",
+      "Collation": "A",
+      "Cardinality": 1003,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-27T21:08:14.727615"
+}

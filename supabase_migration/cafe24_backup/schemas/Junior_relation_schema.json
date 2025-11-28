@@ -1,0 +1,91 @@
+{
+  "table_name": "Junior_relation",
+  "columns": [
+    {
+      "Field": "relation_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": "auto_increment"
+    },
+    {
+      "Field": "junior_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "MUL",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "MUL",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "relation",
+      "Type": "enum('부','모','조부','조모')",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `Junior_relation` (\n  `relation_id` int(11) NOT NULL AUTO_INCREMENT,\n  `junior_id` int(11) DEFAULT NULL,\n  `member_id` int(11) DEFAULT NULL,\n  `relation` enum('부','모','조부','조모') DEFAULT NULL,\n  `branch_id` varchar(20) DEFAULT NULL,\n  PRIMARY KEY (`relation_id`),\n  KEY `junior_id` (`junior_id`),\n  KEY `member_id` (`member_id`),\n  CONSTRAINT `Junior_relation_ibfk_1` FOREIGN KEY (`junior_id`) REFERENCES `Junior` (`junior_id`),\n  CONSTRAINT `Junior_relation_ibfk_2` FOREIGN KEY (`member_id`) REFERENCES `members` (`member_id`)\n) ENGINE=InnoDB AUTO_INCREMENT=202 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [
+    {
+      "Table": "Junior_relation",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "relation_id",
+      "Collation": "A",
+      "Cardinality": 194,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    },
+    {
+      "Table": "Junior_relation",
+      "Non_unique": 1,
+      "Key_name": "junior_id",
+      "Seq_in_index": 1,
+      "Column_name": "junior_id",
+      "Collation": "A",
+      "Cardinality": 194,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "YES",
+      "Index_type": "BTREE",
+      "Comment": ""
+    },
+    {
+      "Table": "Junior_relation",
+      "Non_unique": 1,
+      "Key_name": "member_id",
+      "Seq_in_index": 1,
+      "Column_name": "member_id",
+      "Collation": "A",
+      "Cardinality": 194,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "YES",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-27T21:08:12.798674"
+}

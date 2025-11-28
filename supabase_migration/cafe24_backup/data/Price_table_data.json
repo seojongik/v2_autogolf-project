@@ -1,0 +1,79 @@
+{
+  "table_name": "Price_table",
+  "row_count": 9,
+  "backup_timestamp": "2025-11-27T21:08:14.824222",
+  "data": [
+    {
+      "ts_id": 1,
+      "ts_price_morning": 200,
+      "ts_price_normal": 250,
+      "ts_price_peak": 310,
+      "ts_price_night": 200,
+      "branch_id": "famd"
+    },
+    {
+      "ts_id": 2,
+      "ts_price_morning": 200,
+      "ts_price_normal": 250,
+      "ts_price_peak": 310,
+      "ts_price_night": 200,
+      "branch_id": "famd"
+    },
+    {
+      "ts_id": 3,
+      "ts_price_morning": 200,
+      "ts_price_normal": 250,
+      "ts_price_peak": 310,
+      "ts_price_night": 200,
+      "branch_id": "famd"
+    },
+    {
+      "ts_id": 4,
+      "ts_price_morning": 200,
+      "ts_price_normal": 250,
+      "ts_price_peak": 310,
+      "ts_price_night": 200,
+      "branch_id": "famd"
+    },
+    {
+      "ts_id": 5,
+      "ts_price_morning": 200,
+      "ts_price_normal": 250,
+      "ts_price_peak": 310,
+      "ts_price_night": 200,
+      "branch_id": "famd"
+    },
+    {
+      "ts_id": 6,
+      "ts_price_morning": 200,
+      "ts_price_normal": 250,
+      "ts_price_peak": 310,
+      "ts_price_night": 200,
+      "branch_id": "famd"
+    },
+    {
+      "ts_id": 7,
+      "ts_price_morning": 250,
+      "ts_price_normal": 300,
+      "ts_price_peak": 360,
+      "ts_price_night": 250,
+      "branch_id": "famd"
+    },
+    {
+      "ts_id": 8,
+      "ts_price_morning": 250,
+      "ts_price_normal": 300,
+      "ts_price_peak": 360,
+      "ts_price_night": 250,
+      "branch_id": "famd"
+    },
+    {
+      "ts_id": 9,
+      "ts_price_morning": 250,
+      "ts_price_normal": 300,
+      "ts_price_peak": 360,
+      "ts_price_night": 250,
+      "branch_id": "famd"
+    }
+  ]
+}

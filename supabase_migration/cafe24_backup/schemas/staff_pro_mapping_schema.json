@@ -1,0 +1,39 @@
+{
+  "table_name": "staff_pro_mapping",
+  "columns": [
+    {
+      "Field": "staff_nickname",
+      "Type": "varchar(10)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "pro_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `staff_pro_mapping` (\n  `staff_nickname` varchar(10) NOT NULL,\n  `pro_id` int(11) DEFAULT NULL,\n  PRIMARY KEY (`staff_nickname`)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [
+    {
+      "Table": "staff_pro_mapping",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "staff_nickname",
+      "Collation": "A",
+      "Cardinality": 6,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-27T21:08:17.503738"
+}

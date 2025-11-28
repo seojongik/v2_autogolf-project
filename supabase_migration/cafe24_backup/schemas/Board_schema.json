@@ -1,0 +1,109 @@
+{
+  "table_name": "Board",
+  "columns": [
+    {
+      "Field": "board_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": "auto_increment"
+    },
+    {
+      "Field": "title",
+      "Type": "varchar(100)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "content",
+      "Type": "text",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "staff_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "MUL",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "created_at",
+      "Type": "datetime",
+      "Null": "YES",
+      "Key": "",
+      "Default": "current_timestamp()",
+      "Extra": ""
+    },
+    {
+      "Field": "updated_at",
+      "Type": "datetime",
+      "Null": "YES",
+      "Key": "",
+      "Default": "current_timestamp()",
+      "Extra": "on update current_timestamp()"
+    },
+    {
+      "Field": "board_type",
+      "Type": "varchar(100)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "branch_id",
+      "Type": "varchar(20)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `Board` (\n  `board_id` int(11) NOT NULL AUTO_INCREMENT,\n  `title` varchar(100) NOT NULL,\n  `content` text NOT NULL,\n  `staff_id` int(11) NOT NULL,\n  `created_at` datetime DEFAULT current_timestamp(),\n  `updated_at` datetime DEFAULT current_timestamp() ON UPDATE current_timestamp(),\n  `board_type` varchar(100) NOT NULL,\n  `member_id` int(11) DEFAULT NULL,\n  `branch_id` varchar(20) DEFAULT NULL,\n  PRIMARY KEY (`board_id`),\n  KEY `staff_id` (`staff_id`),\n  CONSTRAINT `Board_ibfk_1` FOREIGN KEY (`staff_id`) REFERENCES `Staff` (`staff_id`)\n) ENGINE=InnoDB AUTO_INCREMENT=1989 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+  "indexes": [
+    {
+      "Table": "Board",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "board_id",
+      "Collation": "A",
+      "Cardinality": 1824,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    },
+    {
+      "Table": "Board",
+      "Non_unique": 1,
+      "Key_name": "staff_id",
+      "Seq_in_index": 1,
+      "Column_name": "staff_id",
+      "Collation": "A",
+      "Cardinality": 36,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-27T21:08:10.439723"
+}

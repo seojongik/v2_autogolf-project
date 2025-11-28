@@ -1,0 +1,135 @@
+{
+  "table_name": "v2_weekly_schedule_ts",
+  "row_count": 16,
+  "backup_timestamp": "2025-11-28T21:46:35.769177",
+  "data": [
+    {
+      "branch_id": "test",
+      "day_of_week": "일요일",
+      "is_holiday": "open",
+      "business_start": "9:00:00",
+      "business_end": "22:00:00",
+      "updated_at": "2025-08-02T19:56:42"
+    },
+    {
+      "branch_id": "test",
+      "day_of_week": "월요일",
+      "is_holiday": "close",
+      "business_start": null,
+      "business_end": null,
+      "updated_at": "2025-08-02T19:56:42"
+    },
+    {
+      "branch_id": "test",
+      "day_of_week": "화요일",
+      "is_holiday": "open",
+      "business_start": "9:00:00",
+      "business_end": "22:00:00",
+      "updated_at": "2025-08-02T19:56:42"
+    },
+    {
+      "branch_id": "test",
+      "day_of_week": "수요일",
+      "is_holiday": "close",
+      "business_start": null,
+      "business_end": null,
+      "updated_at": "2025-08-02T19:56:42"
+    },
+    {
+      "branch_id": "test",
+      "day_of_week": "목요일",
+      "is_holiday": "open",
+      "business_start": "9:00:00",
+      "business_end": "22:00:00",
+      "updated_at": "2025-08-02T19:56:42"
+    },
+    {
+      "branch_id": "test",
+      "day_of_week": "금요일",
+      "is_holiday": "open",
+      "business_start": "9:00:00",
+      "business_end": "22:00:00",
+      "updated_at": "2025-08-02T19:56:42"
+    },
+    {
+      "branch_id": "test",
+      "day_of_week": "토요일",
+      "is_holiday": "open",
+      "business_start": "9:00:00",
+      "business_end": "22:00:00",
+      "updated_at": "2025-08-02T19:56:42"
+    },
+    {
+      "branch_id": "test",
+      "day_of_week": "공휴일",
+      "is_holiday": "open",
+      "business_start": "9:00:00",
+      "business_end": "22:00:00",
+      "updated_at": "2025-08-02T19:56:42"
+    },
+    {
+      "branch_id": "famd",
+      "day_of_week": "일요일",
+      "is_holiday": "open",
+      "business_start": "7:00:00",
+      "business_end": "22:00:00",
+      "updated_at": "2025-09-23T22:43:16"
+    },
+    {
+      "branch_id": "famd",
+      "day_of_week": "월요일",
+      "is_holiday": "open",
+      "business_start": "6:00:00",
+      "business_end": "0:00:00",
+      "updated_at": "2025-09-23T22:43:16"
+    },
+    {
+      "branch_id": "famd",
+      "day_of_week": "화요일",
+      "is_holiday": "open",
+      "business_start": "6:00:00",
+      "business_end": "0:00:00",
+      "updated_at": "2025-09-23T22:43:16"
+    },
+    {
+      "branch_id": "famd",
+      "day_of_week": "수요일",
+      "is_holiday": "open",
+      "business_start": "6:00:00",
+      "business_end": "0:00:00",
+      "updated_at": "2025-09-23T22:43:16"
+    },
+    {
+      "branch_id": "famd",
+      "day_of_week": "목요일",
+      "is_holiday": "open",
+      "business_start": "6:00:00",
+      "business_end": "0:00:00",
+      "updated_at": "2025-09-23T22:43:17"
+    },
+    {
+      "branch_id": "famd",
+      "day_of_week": "금요일",
+      "is_holiday": "open",
+      "business_start": "6:00:00",
+      "business_end": "0:00:00",
+      "updated_at": "2025-09-23T22:43:17"
+    },
+    {
+      "branch_id": "famd",
+      "day_of_week": "토요일",
+      "is_holiday": "open",
+      "business_start": "6:00:00",
+      "business_end": "0:00:00",
+      "updated_at": "2025-09-23T22:43:17"
+    },
+    {
+      "branch_id": "famd",
+      "day_of_week": "공휴일",
+      "is_holiday": "open",
+      "business_start": "7:00:00",
+      "business_end": "22:00:00",
+      "updated_at": "2025-09-23T22:43:17"
+    }
+  ]
+}

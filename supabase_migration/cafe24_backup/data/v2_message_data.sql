@@ -1,0 +1,40 @@
+-- Table: v2_message
+-- Backup Date: 2025-11-27T21:08:20.573191
+-- Row Count: 19
+
+SET FOREIGN_KEY_CHECKS=0;
+
+TRUNCATE TABLE `v2_message`;
+
+INSERT INTO `v2_message` (`branch_id`, `msg_id`, `msg_type`, `member_id`, `member_name`, `member_phone`, `msg`, `msg_status`, `msg_sent_at`, `message_read_at`, `msg_date`, `msg_plantime`, `push_status`, `push_timestamp`, `push_agreement`, `msg_registered_at`) VALUES ('test', 1, '예약알림', 901, '서종익', '010-6250-7373', '안녕하세요? 예약완료 알림입니다.', '읽음확인', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `v2_message` (`branch_id`, `msg_id`, `msg_type`, `member_id`, `member_name`, `member_phone`, `msg`, `msg_status`, `msg_sent_at`, `message_read_at`, `msg_date`, `msg_plantime`, `push_status`, `push_timestamp`, `push_agreement`, `msg_registered_at`) VALUES ('test', 2, '쿠폰발행', 901, '서종익', '010-3225-0876', NULL, '발송대기', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `v2_message` (`branch_id`, `msg_id`, `msg_type`, `member_id`, `member_name`, `member_phone`, `msg`, `msg_status`, `msg_sent_at`, `message_read_at`, `msg_date`, `msg_plantime`, `push_status`, `push_timestamp`, `push_agreement`, `msg_registered_at`) VALUES ('test', 3, '일반안내', 901, '서종익', '010-2364-3612', '안녕하세요? 휴무안내입니다.', '발송완료', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `v2_message` (`branch_id`, `msg_id`, `msg_type`, `member_id`, `member_name`, `member_phone`, `msg`, `msg_status`, `msg_sent_at`, `message_read_at`, `msg_date`, `msg_plantime`, `push_status`, `push_timestamp`, `push_agreement`, `msg_registered_at`) VALUES ('test', 4, '일반안내', 903, '서재우', '010-6565-0876', '12312', '발송완료', NULL, NULL, '2025-08-15', NULL, NULL, NULL, 'Y', '2025-08-15T15:09:15');
+INSERT INTO `v2_message` (`branch_id`, `msg_id`, `msg_type`, `member_id`, `member_name`, `member_phone`, `msg`, `msg_status`, `msg_sent_at`, `message_read_at`, `msg_date`, `msg_plantime`, `push_status`, `push_timestamp`, `push_agreement`, `msg_registered_at`) VALUES ('test', 5, '일반안내', 901, '서종익', '010-6250-7373', '12312', '발송완료', NULL, NULL, '2025-08-15', NULL, NULL, NULL, 'Y', '2025-08-15T15:09:15');
+INSERT INTO `v2_message` (`branch_id`, `msg_id`, `msg_type`, `member_id`, `member_name`, `member_phone`, `msg`, `msg_status`, `msg_sent_at`, `message_read_at`, `msg_date`, `msg_plantime`, `push_status`, `push_timestamp`, `push_agreement`, `msg_registered_at`) VALUES ('test', 6, '일반안내', 903, '서재우', '010-6565-0876', '테스트 메시지 입니다.
+두번째줄
+세번째줄
+네번째줄', '발송완료', NULL, NULL, '2025-08-15', NULL, NULL, NULL, 'Y', '2025-08-15T15:44:42');
+INSERT INTO `v2_message` (`branch_id`, `msg_id`, `msg_type`, `member_id`, `member_name`, `member_phone`, `msg`, `msg_status`, `msg_sent_at`, `message_read_at`, `msg_date`, `msg_plantime`, `push_status`, `push_timestamp`, `push_agreement`, `msg_registered_at`) VALUES ('test', 7, '일반안내', 901, '서종익', '010-6250-7373', '테스트 메시지 입니다.
+두번째줄
+세번째줄
+네번째줄', '발송완료', NULL, NULL, '2025-08-15', NULL, NULL, NULL, 'Y', '2025-08-15T15:44:42');
+INSERT INTO `v2_message` (`branch_id`, `msg_id`, `msg_type`, `member_id`, `member_name`, `member_phone`, `msg`, `msg_status`, `msg_sent_at`, `message_read_at`, `msg_date`, `msg_plantime`, `push_status`, `push_timestamp`, `push_agreement`, `msg_registered_at`) VALUES ('test', 8, '일반안내', 904, '서지원', '010-6396-0876', '321321', '발송완료', NULL, NULL, '2025-08-15', NULL, NULL, NULL, '수신', '2025-08-15T16:25:45');
+INSERT INTO `v2_message` (`branch_id`, `msg_id`, `msg_type`, `member_id`, `member_name`, `member_phone`, `msg`, `msg_status`, `msg_sent_at`, `message_read_at`, `msg_date`, `msg_plantime`, `push_status`, `push_timestamp`, `push_agreement`, `msg_registered_at`) VALUES ('test', 9, '일반안내', 901, '서종익', '010-6250-7373', '321321', '발송완료', NULL, NULL, '2025-08-15', NULL, NULL, NULL, '수신', '2025-08-15T16:25:45');
+INSERT INTO `v2_message` (`branch_id`, `msg_id`, `msg_type`, `member_id`, `member_name`, `member_phone`, `msg`, `msg_status`, `msg_sent_at`, `message_read_at`, `msg_date`, `msg_plantime`, `push_status`, `push_timestamp`, `push_agreement`, `msg_registered_at`) VALUES ('test', 10, '일반안내', 903, '서재우', '010-6565-0876', '123123', '발송완료', NULL, NULL, '2025-08-15', NULL, NULL, NULL, '미확인', '2025-08-15T16:28:26');
+INSERT INTO `v2_message` (`branch_id`, `msg_id`, `msg_type`, `member_id`, `member_name`, `member_phone`, `msg`, `msg_status`, `msg_sent_at`, `message_read_at`, `msg_date`, `msg_plantime`, `push_status`, `push_timestamp`, `push_agreement`, `msg_registered_at`) VALUES ('test', 11, '일반안내', 901, '서종익', '010-6250-7373', '123123', '발송완료', NULL, NULL, '2025-08-15', NULL, NULL, NULL, '수신', '2025-08-15T16:28:26');
+INSERT INTO `v2_message` (`branch_id`, `msg_id`, `msg_type`, `member_id`, `member_name`, `member_phone`, `msg`, `msg_status`, `msg_sent_at`, `message_read_at`, `msg_date`, `msg_plantime`, `push_status`, `push_timestamp`, `push_agreement`, `msg_registered_at`) VALUES ('test', 12, '일반안내', 904, '서지원', '010-6396-0876', '123123', '발송완료', NULL, NULL, '2025-08-15', NULL, NULL, NULL, '미확인', '2025-08-15T16:28:26');
+INSERT INTO `v2_message` (`branch_id`, `msg_id`, `msg_type`, `member_id`, `member_name`, `member_phone`, `msg`, `msg_status`, `msg_sent_at`, `message_read_at`, `msg_date`, `msg_plantime`, `push_status`, `push_timestamp`, `push_agreement`, `msg_registered_at`) VALUES ('test', 13, '일반안내', 903, '서재우', '010-6565-0876', 'ㅁㄴㅇㄹㅁㄴㅇ', '발송완료', '2025-08-15T20:06:09', NULL, '2025-08-15', NULL, NULL, NULL, '미확인', '2025-08-15T20:06:09');
+INSERT INTO `v2_message` (`branch_id`, `msg_id`, `msg_type`, `member_id`, `member_name`, `member_phone`, `msg`, `msg_status`, `msg_sent_at`, `message_read_at`, `msg_date`, `msg_plantime`, `push_status`, `push_timestamp`, `push_agreement`, `msg_registered_at`) VALUES ('test', 14, '일반안내', 901, '서종익', '010-6250-7373', 'ㅁㄴㅇㄹㅁㄴㅇ', '발송완료', '2025-08-15T20:06:09', NULL, '2025-08-15', NULL, NULL, NULL, '수신', '2025-08-15T20:06:09');
+INSERT INTO `v2_message` (`branch_id`, `msg_id`, `msg_type`, `member_id`, `member_name`, `member_phone`, `msg`, `msg_status`, `msg_sent_at`, `message_read_at`, `msg_date`, `msg_plantime`, `push_status`, `push_timestamp`, `push_agreement`, `msg_registered_at`) VALUES ('test', 15, '일반안내', 903, '서재우', '010-6565-0876', '대량전송 테스트', '발송완료', '2025-08-17T18:27:02', NULL, '2025-08-17', NULL, NULL, NULL, '미확인', '2025-08-17T18:27:02');
+INSERT INTO `v2_message` (`branch_id`, `msg_id`, `msg_type`, `member_id`, `member_name`, `member_phone`, `msg`, `msg_status`, `msg_sent_at`, `message_read_at`, `msg_date`, `msg_plantime`, `push_status`, `push_timestamp`, `push_agreement`, `msg_registered_at`) VALUES ('test', 16, '일반안내', 901, '서종익', '010-6250-7373', '대량전송 테스트', '발송완료', '2025-08-17T18:27:02', NULL, '2025-08-17', NULL, NULL, NULL, '수신', '2025-08-17T18:27:02');
+INSERT INTO `v2_message` (`branch_id`, `msg_id`, `msg_type`, `member_id`, `member_name`, `member_phone`, `msg`, `msg_status`, `msg_sent_at`, `message_read_at`, `msg_date`, `msg_plantime`, `push_status`, `push_timestamp`, `push_agreement`, `msg_registered_at`) VALUES ('test', 17, '일반안내', 904, '서지원', '010-6396-0876', '대량전송 테스트', '발송완료', '2025-08-17T18:27:02', NULL, '2025-08-17', NULL, NULL, NULL, '미확인', '2025-08-17T18:27:02');
+INSERT INTO `v2_message` (`branch_id`, `msg_id`, `msg_type`, `member_id`, `member_name`, `member_phone`, `msg`, `msg_status`, `msg_sent_at`, `message_read_at`, `msg_date`, `msg_plantime`, `push_status`, `push_timestamp`, `push_agreement`, `msg_registered_at`) VALUES ('test', 18, '일반안내', 902, '조영주', '010-3225-0876', '대량전송 테스트', '발송완료', '2025-08-17T18:27:02', NULL, '2025-08-17', NULL, NULL, NULL, '미확인', '2025-08-17T18:27:02');
+INSERT INTO `v2_message` (`branch_id`, `msg_id`, `msg_type`, `member_id`, `member_name`, `member_phone`, `msg`, `msg_status`, `msg_sent_at`, `message_read_at`, `msg_date`, `msg_plantime`, `push_status`, `push_timestamp`, `push_agreement`, `msg_registered_at`) VALUES ('famd', 19, '일반안내', 44, '김현우', '010-6250-7373', '안녕하세요, 
+프렌즈아카데미 목동프리미엄점 입니다.
+
+채널을 대체하는 새로운 메시지 수단이 등록되었습니다.
+
+많은 이용 바랍니다.', '발송완료', '2025-11-03T02:14:39', NULL, '2025-11-03', NULL, NULL, NULL, '미확인', '2025-11-03T02:14:39');
+
+SET FOREIGN_KEY_CHECKS=1;

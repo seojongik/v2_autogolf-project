@@ -1,0 +1,1358 @@
+{
+  "table_name": "Junior_relation",
+  "row_count": 193,
+  "backup_timestamp": "2025-11-27T21:08:12.807396",
+  "data": [
+    {
+      "relation_id": 1,
+      "junior_id": 1,
+      "member_id": 103,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 2,
+      "junior_id": 2,
+      "member_id": 107,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 3,
+      "junior_id": 1,
+      "member_id": 127,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 4,
+      "junior_id": 3,
+      "member_id": 15,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 5,
+      "junior_id": 4,
+      "member_id": 15,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 6,
+      "junior_id": 5,
+      "member_id": 182,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 7,
+      "junior_id": 6,
+      "member_id": 182,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 8,
+      "junior_id": 7,
+      "member_id": 183,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 9,
+      "junior_id": 8,
+      "member_id": 183,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 10,
+      "junior_id": 9,
+      "member_id": 200,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 11,
+      "junior_id": 10,
+      "member_id": 201,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 12,
+      "junior_id": 11,
+      "member_id": 203,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 13,
+      "junior_id": 12,
+      "member_id": 204,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 14,
+      "junior_id": 13,
+      "member_id": 213,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 15,
+      "junior_id": 14,
+      "member_id": 214,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 16,
+      "junior_id": 15,
+      "member_id": 216,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 17,
+      "junior_id": 16,
+      "member_id": 219,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 18,
+      "junior_id": 17,
+      "member_id": 219,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 19,
+      "junior_id": 18,
+      "member_id": 221,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 20,
+      "junior_id": 12,
+      "member_id": 224,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 21,
+      "junior_id": 19,
+      "member_id": 225,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 22,
+      "junior_id": 20,
+      "member_id": 226,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 23,
+      "junior_id": 21,
+      "member_id": 231,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 24,
+      "junior_id": 22,
+      "member_id": 232,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 25,
+      "junior_id": 23,
+      "member_id": 238,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 26,
+      "junior_id": 24,
+      "member_id": 240,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 27,
+      "junior_id": 25,
+      "member_id": 246,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 28,
+      "junior_id": 26,
+      "member_id": 247,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 29,
+      "junior_id": 27,
+      "member_id": 247,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 30,
+      "junior_id": 28,
+      "member_id": 248,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 31,
+      "junior_id": 29,
+      "member_id": 253,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 32,
+      "junior_id": 30,
+      "member_id": 259,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 33,
+      "junior_id": 31,
+      "member_id": 259,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 34,
+      "junior_id": 31,
+      "member_id": 260,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 35,
+      "junior_id": 30,
+      "member_id": 260,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 36,
+      "junior_id": 32,
+      "member_id": 264,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 37,
+      "junior_id": 33,
+      "member_id": 264,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 38,
+      "junior_id": 34,
+      "member_id": 267,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 39,
+      "junior_id": 35,
+      "member_id": 268,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 40,
+      "junior_id": 36,
+      "member_id": 275,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 41,
+      "junior_id": 37,
+      "member_id": 276,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 42,
+      "junior_id": 38,
+      "member_id": 280,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 43,
+      "junior_id": 39,
+      "member_id": 290,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 44,
+      "junior_id": 40,
+      "member_id": 294,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 45,
+      "junior_id": 41,
+      "member_id": 297,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 46,
+      "junior_id": 42,
+      "member_id": 300,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 47,
+      "junior_id": 43,
+      "member_id": 301,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 48,
+      "junior_id": 44,
+      "member_id": 303,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 49,
+      "junior_id": 23,
+      "member_id": 309,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 50,
+      "junior_id": 45,
+      "member_id": 310,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 51,
+      "junior_id": 46,
+      "member_id": 314,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 52,
+      "junior_id": 47,
+      "member_id": 315,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 53,
+      "junior_id": 48,
+      "member_id": 317,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 54,
+      "junior_id": 49,
+      "member_id": 323,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 55,
+      "junior_id": 50,
+      "member_id": 324,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 56,
+      "junior_id": 51,
+      "member_id": 334,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 57,
+      "junior_id": 11,
+      "member_id": 339,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 58,
+      "junior_id": 52,
+      "member_id": 347,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 59,
+      "junior_id": 53,
+      "member_id": 350,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 60,
+      "junior_id": 54,
+      "member_id": 355,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 61,
+      "junior_id": 55,
+      "member_id": 358,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 62,
+      "junior_id": 56,
+      "member_id": 360,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 63,
+      "junior_id": 57,
+      "member_id": 372,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 64,
+      "junior_id": 58,
+      "member_id": 390,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 65,
+      "junior_id": 59,
+      "member_id": 392,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 66,
+      "junior_id": 60,
+      "member_id": 398,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 67,
+      "junior_id": 47,
+      "member_id": 407,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 68,
+      "junior_id": 61,
+      "member_id": 409,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 69,
+      "junior_id": 62,
+      "member_id": 411,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 70,
+      "junior_id": 63,
+      "member_id": 421,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 71,
+      "junior_id": 49,
+      "member_id": 422,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 72,
+      "junior_id": 64,
+      "member_id": 423,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 73,
+      "junior_id": 65,
+      "member_id": 423,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 74,
+      "junior_id": 66,
+      "member_id": 426,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 75,
+      "junior_id": 67,
+      "member_id": 435,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 77,
+      "junior_id": 60,
+      "member_id": 441,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 78,
+      "junior_id": 69,
+      "member_id": 444,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 79,
+      "junior_id": 70,
+      "member_id": 446,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 80,
+      "junior_id": 71,
+      "member_id": 446,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 81,
+      "junior_id": 72,
+      "member_id": 459,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 82,
+      "junior_id": 73,
+      "member_id": 46,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 83,
+      "junior_id": 74,
+      "member_id": 460,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 84,
+      "junior_id": 75,
+      "member_id": 468,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 85,
+      "junior_id": 76,
+      "member_id": 473,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 86,
+      "junior_id": 77,
+      "member_id": 480,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 87,
+      "junior_id": 39,
+      "member_id": 484,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 88,
+      "junior_id": 78,
+      "member_id": 485,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 89,
+      "junior_id": 79,
+      "member_id": 49,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 90,
+      "junior_id": 80,
+      "member_id": 490,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 91,
+      "junior_id": 81,
+      "member_id": 494,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 92,
+      "junior_id": 82,
+      "member_id": 495,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 93,
+      "junior_id": 83,
+      "member_id": 497,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 94,
+      "junior_id": 84,
+      "member_id": 498,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 95,
+      "junior_id": 40,
+      "member_id": 501,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 96,
+      "junior_id": 85,
+      "member_id": 502,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 97,
+      "junior_id": 86,
+      "member_id": 502,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 98,
+      "junior_id": 87,
+      "member_id": 503,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 99,
+      "junior_id": 88,
+      "member_id": 506,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 100,
+      "junior_id": 89,
+      "member_id": 507,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 101,
+      "junior_id": 90,
+      "member_id": 508,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 102,
+      "junior_id": 91,
+      "member_id": 509,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 103,
+      "junior_id": 92,
+      "member_id": 509,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 104,
+      "junior_id": 93,
+      "member_id": 515,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 105,
+      "junior_id": 94,
+      "member_id": 516,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 106,
+      "junior_id": 95,
+      "member_id": 517,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 107,
+      "junior_id": 96,
+      "member_id": 519,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 108,
+      "junior_id": 97,
+      "member_id": 519,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 109,
+      "junior_id": 98,
+      "member_id": 523,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 110,
+      "junior_id": 99,
+      "member_id": 529,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 111,
+      "junior_id": 100,
+      "member_id": 529,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 112,
+      "junior_id": 98,
+      "member_id": 530,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 113,
+      "junior_id": 101,
+      "member_id": 532,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 114,
+      "junior_id": 102,
+      "member_id": 535,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 115,
+      "junior_id": 103,
+      "member_id": 540,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 116,
+      "junior_id": 104,
+      "member_id": 540,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 117,
+      "junior_id": 102,
+      "member_id": 541,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 118,
+      "junior_id": 105,
+      "member_id": 542,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 119,
+      "junior_id": 106,
+      "member_id": 543,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 120,
+      "junior_id": 107,
+      "member_id": 543,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 121,
+      "junior_id": 108,
+      "member_id": 544,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 122,
+      "junior_id": 109,
+      "member_id": 545,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 123,
+      "junior_id": 106,
+      "member_id": 550,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 124,
+      "junior_id": 107,
+      "member_id": 550,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 125,
+      "junior_id": 91,
+      "member_id": 551,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 126,
+      "junior_id": 92,
+      "member_id": 551,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 127,
+      "junior_id": 110,
+      "member_id": 554,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 128,
+      "junior_id": 111,
+      "member_id": 556,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 129,
+      "junior_id": 112,
+      "member_id": 561,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 130,
+      "junior_id": 113,
+      "member_id": 568,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 131,
+      "junior_id": 105,
+      "member_id": 569,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 132,
+      "junior_id": 114,
+      "member_id": 574,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 133,
+      "junior_id": 115,
+      "member_id": 583,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 134,
+      "junior_id": 116,
+      "member_id": 591,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 135,
+      "junior_id": 115,
+      "member_id": 599,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 136,
+      "junior_id": 117,
+      "member_id": 603,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 137,
+      "junior_id": 118,
+      "member_id": 607,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 138,
+      "junior_id": 119,
+      "member_id": 613,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 139,
+      "junior_id": 120,
+      "member_id": 614,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 140,
+      "junior_id": 121,
+      "member_id": 621,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 141,
+      "junior_id": 122,
+      "member_id": 627,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 142,
+      "junior_id": 123,
+      "member_id": 629,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 143,
+      "junior_id": 123,
+      "member_id": 630,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 144,
+      "junior_id": 124,
+      "member_id": 633,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 145,
+      "junior_id": 125,
+      "member_id": 634,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 146,
+      "junior_id": 126,
+      "member_id": 637,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 147,
+      "junior_id": 127,
+      "member_id": 638,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 148,
+      "junior_id": 128,
+      "member_id": 640,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 149,
+      "junior_id": 129,
+      "member_id": 643,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 150,
+      "junior_id": 130,
+      "member_id": 646,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 151,
+      "junior_id": 131,
+      "member_id": 648,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 152,
+      "junior_id": 132,
+      "member_id": 649,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 153,
+      "junior_id": 133,
+      "member_id": 86,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 154,
+      "junior_id": 134,
+      "member_id": 675,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 156,
+      "junior_id": 136,
+      "member_id": 678,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 158,
+      "junior_id": 138,
+      "member_id": 44,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 159,
+      "junior_id": 139,
+      "member_id": 688,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 160,
+      "junior_id": 140,
+      "member_id": 690,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 161,
+      "junior_id": 141,
+      "member_id": 691,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 165,
+      "junior_id": 145,
+      "member_id": 708,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 166,
+      "junior_id": 146,
+      "member_id": 44,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 167,
+      "junior_id": 152,
+      "member_id": 718,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 168,
+      "junior_id": 153,
+      "member_id": 724,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 169,
+      "junior_id": 154,
+      "member_id": 726,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 170,
+      "junior_id": 155,
+      "member_id": 686,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 171,
+      "junior_id": 156,
+      "member_id": 737,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 172,
+      "junior_id": 157,
+      "member_id": 384,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 173,
+      "junior_id": 158,
+      "member_id": 738,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 174,
+      "junior_id": 159,
+      "member_id": 406,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 175,
+      "junior_id": 160,
+      "member_id": 744,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 176,
+      "junior_id": 161,
+      "member_id": 751,
+      "relation": "모",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 177,
+      "junior_id": 162,
+      "member_id": 752,
+      "relation": "부",
+      "branch_id": "famd"
+    },
+    {
+      "relation_id": 178,
+      "junior_id": 163,
+      "member_id": 754,
+      "relation": "모",
+      "branch_id": null
+    },
+    {
+      "relation_id": 179,
+      "junior_id": 164,
+      "member_id": 755,
+      "relation": "부",
+      "branch_id": null
+    },
+    {
+      "relation_id": 180,
+      "junior_id": 165,
+      "member_id": 756,
+      "relation": "모",
+      "branch_id": null
+    },
+    {
+      "relation_id": 181,
+      "junior_id": 166,
+      "member_id": 758,
+      "relation": "모",
+      "branch_id": null
+    },
+    {
+      "relation_id": 182,
+      "junior_id": 167,
+      "member_id": 764,
+      "relation": "부",
+      "branch_id": null
+    },
+    {
+      "relation_id": 183,
+      "junior_id": 168,
+      "member_id": 417,
+      "relation": "부",
+      "branch_id": null
+    },
+    {
+      "relation_id": 184,
+      "junior_id": 169,
+      "member_id": 385,
+      "relation": "부",
+      "branch_id": null
+    },
+    {
+      "relation_id": 185,
+      "junior_id": 170,
+      "member_id": 772,
+      "relation": "모",
+      "branch_id": null
+    },
+    {
+      "relation_id": 186,
+      "junior_id": 171,
+      "member_id": 773,
+      "relation": "부",
+      "branch_id": null
+    },
+    {
+      "relation_id": 187,
+      "junior_id": 172,
+      "member_id": 774,
+      "relation": "모",
+      "branch_id": null
+    },
+    {
+      "relation_id": 188,
+      "junior_id": 173,
+      "member_id": 379,
+      "relation": "모",
+      "branch_id": null
+    },
+    {
+      "relation_id": 189,
+      "junior_id": 174,
+      "member_id": 791,
+      "relation": "모",
+      "branch_id": null
+    },
+    {
+      "relation_id": 190,
+      "junior_id": 175,
+      "member_id": 812,
+      "relation": "모",
+      "branch_id": null
+    },
+    {
+      "relation_id": 191,
+      "junior_id": 176,
+      "member_id": 815,
+      "relation": "모",
+      "branch_id": null
+    },
+    {
+      "relation_id": 192,
+      "junior_id": 177,
+      "member_id": 825,
+      "relation": "모",
+      "branch_id": null
+    },
+    {
+      "relation_id": 193,
+      "junior_id": 178,
+      "member_id": 847,
+      "relation": "부",
+      "branch_id": null
+    },
+    {
+      "relation_id": 194,
+      "junior_id": 179,
+      "member_id": 851,
+      "relation": "모",
+      "branch_id": null
+    },
+    {
+      "relation_id": 195,
+      "junior_id": 180,
+      "member_id": 859,
+      "relation": "모",
+      "branch_id": null
+    },
+    {
+      "relation_id": 197,
+      "junior_id": 182,
+      "member_id": 863,
+      "relation": "모",
+      "branch_id": null
+    },
+    {
+      "relation_id": 199,
+      "junior_id": 182,
+      "member_id": 862,
+      "relation": "부",
+      "branch_id": null
+    },
+    {
+      "relation_id": 200,
+      "junior_id": 185,
+      "member_id": 683,
+      "relation": "모",
+      "branch_id": null
+    },
+    {
+      "relation_id": 201,
+      "junior_id": 186,
+      "member_id": 871,
+      "relation": "모",
+      "branch_id": null
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "table_name": "v2_portone_payments",
+  "columns": [
+    {
+      "Field": "portone_payment_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": "auto_increment"
+    },
+    {
+      "Field": "contract_history_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "member_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "branch_id",
+      "Type": "varchar(50)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "portone_payment_uid",
+      "Type": "varchar(100)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "portone_tx_id",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "portone_store_id",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "portone_channel_key",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "payment_amount",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "payment_currency",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "KRW",
+      "Extra": ""
+    },
+    {
+      "Field": "payment_method",
+      "Type": "varchar(50)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "payment_provider",
+      "Type": "varchar(50)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "order_name",
+      "Type": "varchar(200)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "payment_status",
+      "Type": "varchar(50)",
+      "Null": "NO",
+      "Key": "",
+      "Default": "READY",
+      "Extra": ""
+    },
+    {
+      "Field": "payment_status_message",
+      "Type": "varchar(500)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "payment_requested_at",
+      "Type": "datetime",
+      "Null": "YES",
+      "Key": "MUL",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "payment_paid_at",
+      "Type": "datetime",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "payment_failed_at",
+      "Type": "datetime",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "payment_cancelled_at",
+      "Type": "datetime",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "cancel_reason",
+      "Type": "varchar(500)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "cancel_amount",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "custom_data",
+      "Type": "text",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "metadata",
+      "Type": "text",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    },
+    {
+      "Field": "created_at",
+      "Type": "timestamp",
+      "Null": "NO",
+      "Key": "",
+      "Default": "current_timestamp()",
+      "Extra": ""
+    },
+    {
+      "Field": "updated_at",
+      "Type": "timestamp",
+      "Null": "NO",
+      "Key": "",
+      "Default": "current_timestamp()",
+      "Extra": "on update current_timestamp()"
+    },
+    {
+      "Field": "channel_key_type",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": null,
+      "Extra": ""
+    }
+  ],
+  "create_statement": "CREATE TABLE `v2_portone_payments` (\n  `portone_payment_id` int(11) NOT NULL AUTO_INCREMENT COMMENT '포트원 결제 ID (자동증가)',\n  `contract_history_id` int(11) DEFAULT NULL COMMENT '계약 히스토리 ID (v3_contract_history와 연결)',\n  `member_id` int(11) NOT NULL COMMENT '회원 ID',\n  `branch_id` varchar(50) DEFAULT NULL COMMENT '지점 ID',\n  `portone_payment_uid` varchar(100) NOT NULL COMMENT '포트원 결제 고유 ID (paymentId)',\n  `portone_tx_id` varchar(100) DEFAULT NULL COMMENT '포트원 거래 ID (txId)',\n  `portone_store_id` varchar(100) DEFAULT NULL COMMENT '포트원 상점 ID',\n  `portone_channel_key` varchar(100) DEFAULT NULL COMMENT '포트원 채널 키',\n  `payment_amount` int(11) NOT NULL COMMENT '결제 금액',\n  `payment_currency` varchar(10) DEFAULT 'KRW' COMMENT '결제 통화',\n  `payment_method` varchar(50) DEFAULT NULL COMMENT '결제 수단 (CARD, EASY_PAY, VIRTUAL_ACCOUNT 등)',\n  `payment_provider` varchar(50) DEFAULT NULL COMMENT 'PG사 (TOSSPAYMENTS, KAKAOPAY, INICIS_V2 등)',\n  `order_name` varchar(200) DEFAULT NULL COMMENT '주문명',\n  `payment_status` varchar(50) NOT NULL DEFAULT 'READY' COMMENT '결제 상태 (READY, PENDING, PAID, FAILED, CANCELLED)',\n  `payment_status_message` varchar(500) DEFAULT NULL COMMENT '결제 상태 메시지',\n  `payment_requested_at` datetime DEFAULT NULL COMMENT '결제 요청 시간',\n  `payment_paid_at` datetime DEFAULT NULL COMMENT '결제 완료 시간',\n  `payment_failed_at` datetime DEFAULT NULL COMMENT '결제 실패 시간',\n  `payment_cancelled_at` datetime DEFAULT NULL COMMENT '결제 취소 시간',\n  `cancel_reason` varchar(500) DEFAULT NULL COMMENT '취소 사유',\n  `cancel_amount` int(11) DEFAULT NULL COMMENT '취소 금액',\n  `custom_data` text DEFAULT NULL COMMENT '커스텀 데이터 (JSON 형식)',\n  `metadata` text DEFAULT NULL COMMENT '메타데이터 (JSON 형식)',\n  `created_at` timestamp NOT NULL DEFAULT current_timestamp() COMMENT '생성 시간',\n  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp() COMMENT '수정 시간',\n  `channel_key_type` varchar(100) DEFAULT NULL,\n  PRIMARY KEY (`portone_payment_id`),\n  KEY `idx_payment_requested_at` (`payment_requested_at`)\n) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='포트원 결제 정보 테이블'",
+  "indexes": [
+    {
+      "Table": "v2_portone_payments",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "portone_payment_id",
+      "Collation": "A",
+      "Cardinality": 29,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": ""
+    },
+    {
+      "Table": "v2_portone_payments",
+      "Non_unique": 1,
+      "Key_name": "idx_payment_requested_at",
+      "Seq_in_index": 1,
+      "Column_name": "payment_requested_at",
+      "Collation": "A",
+      "Cardinality": 29,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "YES",
+      "Index_type": "BTREE",
+      "Comment": ""
+    }
+  ],
+  "backup_timestamp": "2025-11-28T21:46:34.343189"
+}
