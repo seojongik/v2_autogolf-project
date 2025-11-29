@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-MyXPlanner Flutter 앱 테스트 실행 스크립트
+CRM Lite Pro Flutter 앱 테스트 실행 스크립트
 
 사용법:
-    python test_run_myxplanner.py [옵션]
+    python test_run_crm_lite_pro.py [옵션]
 
 옵션:
     --web       : 웹 브라우저에서 실행 (기본값)
@@ -21,12 +21,13 @@ import subprocess
 import argparse
 
 # 프로젝트 경로 설정
-PROJECT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'myxplanner')
+PROJECT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'crm_lite_pro')
 
 # Android SDK 경로
 ANDROID_SDK = os.path.expanduser('~/Library/Android/sdk')
 EMULATOR_PATH = os.path.join(ANDROID_SDK, 'emulator', 'emulator')
 AVD_NAME = 'Pixel_6_API_34'
+
 
 def run_command(cmd, cwd=None):
     """명령어 실행"""
@@ -35,21 +36,25 @@ def run_command(cmd, cwd=None):
     result = subprocess.run(cmd, cwd=cwd or PROJECT_DIR)
     return result.returncode
 
+
 def check_flutter():
     """Flutter 설치 확인"""
     try:
-        result = subprocess.run(['flutter', '--version'], 
-                              capture_output=True, 
-                              text=True)
+        result = subprocess.run(
+            ['flutter', '--version'],
+            capture_output=True,
+            text=True,
+        )
         if result.returncode == 0:
             print("✅ Flutter가 설치되어 있습니다.\n")
             return True
     except FileNotFoundError:
         pass
-    
+
     print("❌ Flutter가 설치되어 있지 않습니다.")
     print("   https://flutter.dev/docs/get-started/install 에서 설치하세요.")
     return False
+
 
 def flutter_clean():
     """Flutter 클린"""
@@ -94,15 +99,18 @@ def flutter_pub_get():
     print("📦 Flutter 패키지를 다운로드합니다...")
     return run_command(['flutter', 'pub', 'get'])
 
+
 def flutter_run_web():
     """웹에서 실행"""
-    print("🌐 웹 브라우저에서 MyXPlanner 앱을 실행합니다...")
-    return run_command(['flutter', 'run', '-d', 'chrome', '--web-port=8081'])
+    print("🌐 웹 브라우저에서 CRM Lite Pro 앱을 실행합니다...")
+    return run_command(['flutter', 'run', '-d', 'chrome', '--web-port=8082'])
+
 
 def flutter_run_mobile():
     """모바일 디바이스에서 실행"""
-    print("📱 연결된 디바이스에서 MyXPlanner 앱을 실행합니다...")
+    print("📱 연결된 디바이스에서 CRM Lite Pro 앱을 실행합니다...")
     return run_command(['flutter', 'run'])
+
 
 def get_ios_device_id():
     """실행 중인 iOS 시뮬레이터의 디바이스 ID 반환"""
@@ -116,6 +124,59 @@ def get_ios_device_id():
                 return device_id
     return None
 
+
+def start_ios_simulator():
+    """iOS 시뮬레이터 시작"""
+    import time
+
+    # 이미 실행 중인지 확인 (simulator라는 단어가 있으면 실행 중)
+    result = subprocess.run(['flutter', 'devices'], capture_output=True, text=True, cwd=PROJECT_DIR)
+    if 'simulator' in result.stdout.lower():
+        print("✅ iOS 시뮬레이터가 이미 실행 중입니다.")
+        return True
+
+    print("🍎 iOS 시뮬레이터 시작 중...")
+
+    # 사용 가능한 시뮬레이터 찾기
+    sim_result = subprocess.run(
+        ['xcrun', 'simctl', 'list', 'devices', 'available', '-j'],
+        capture_output=True, text=True
+    )
+
+    try:
+        import json
+        devices = json.loads(sim_result.stdout)
+        # iPhone 시뮬레이터 찾기
+        for runtime, device_list in devices.get('devices', {}).items():
+            if 'iOS' in runtime:
+                for device in device_list:
+                    if 'iPhone' in device.get('name', '') and device.get('isAvailable', False):
+                        udid = device['udid']
+                        name = device['name']
+                        print(f"   📱 {name} 부팅 중...")
+                        subprocess.run(['xcrun', 'simctl', 'boot', udid], capture_output=True)
+                        subprocess.run(['open', '-a', 'Simulator'])
+                        break
+                break
+    except:
+        # JSON 파싱 실패 시 그냥 Simulator 앱 열기
+        subprocess.run(['open', '-a', 'Simulator'])
+
+    # 시뮬레이터가 준비될 때까지 대기
+    print("⏳ 시뮬레이터 부팅 대기 중...")
+    for i in range(30):  # 최대 60초 대기
+        time.sleep(2)
+        result = subprocess.run(['flutter', 'devices'], capture_output=True, text=True, cwd=PROJECT_DIR)
+        if 'simulator' in result.stdout.lower():
+            print("✅ iOS 시뮬레이터가 준비되었습니다.")
+            return True
+        if i % 5 == 0:
+            print(f"   {i*2}초 경과...")
+
+    print("❌ 시뮬레이터 시작 시간 초과")
+    return False
+
+
 def flutter_run_ios():
     """iOS 시뮬레이터에서 실행"""
     if not start_ios_simulator():
@@ -123,11 +184,12 @@ def flutter_run_ios():
 
     device_id = get_ios_device_id()
     if device_id:
-        print(f"🍎 iOS 시뮬레이터 ({device_id})에서 MyXPlanner 앱을 실행합니다...")
+        print(f"🍎 iOS 시뮬레이터 ({device_id})에서 CRM Lite Pro 앱을 실행합니다...")
         return run_command(['flutter', 'run', '-d', device_id])
     else:
         print("❌ iOS 시뮬레이터 디바이스 ID를 찾을 수 없습니다.")
         return 1
+
 
 def start_android_emulator():
     """Android 에뮬레이터 시작"""
@@ -187,56 +249,6 @@ def start_android_emulator():
     print("❌ 에뮬레이터 시작 시간 초과")
     return False
 
-def start_ios_simulator():
-    """iOS 시뮬레이터 시작"""
-    import time
-
-    # 이미 실행 중인지 확인 (simulator라는 단어가 있으면 실행 중)
-    result = subprocess.run(['flutter', 'devices'], capture_output=True, text=True, cwd=PROJECT_DIR)
-    if 'simulator' in result.stdout.lower():
-        print("✅ iOS 시뮬레이터가 이미 실행 중입니다.")
-        return True
-
-    print("🍎 iOS 시뮬레이터 시작 중...")
-
-    # 사용 가능한 시뮬레이터 찾기
-    sim_result = subprocess.run(
-        ['xcrun', 'simctl', 'list', 'devices', 'available', '-j'],
-        capture_output=True, text=True
-    )
-
-    try:
-        import json
-        devices = json.loads(sim_result.stdout)
-        # iPhone 시뮬레이터 찾기
-        for runtime, device_list in devices.get('devices', {}).items():
-            if 'iOS' in runtime:
-                for device in device_list:
-                    if 'iPhone' in device.get('name', '') and device.get('isAvailable', False):
-                        udid = device['udid']
-                        name = device['name']
-                        print(f"   📱 {name} 부팅 중...")
-                        subprocess.run(['xcrun', 'simctl', 'boot', udid], capture_output=True)
-                        subprocess.run(['open', '-a', 'Simulator'])
-                        break
-                break
-    except:
-        # JSON 파싱 실패 시 그냥 Simulator 앱 열기
-        subprocess.run(['open', '-a', 'Simulator'])
-
-    # 시뮬레이터가 준비될 때까지 대기
-    print("⏳ 시뮬레이터 부팅 대기 중...")
-    for i in range(30):  # 최대 60초 대기
-        time.sleep(2)
-        result = subprocess.run(['flutter', 'devices'], capture_output=True, text=True, cwd=PROJECT_DIR)
-        if 'simulator' in result.stdout.lower():
-            print("✅ iOS 시뮬레이터가 준비되었습니다.")
-            return True
-        if i % 5 == 0:
-            print(f"   {i*2}초 경과...")
-
-    print("❌ 시뮬레이터 시작 시간 초과")
-    return False
 
 def get_android_device_id():
     """실행 중인 Android 에뮬레이터의 디바이스 ID 반환"""
@@ -250,6 +262,7 @@ def get_android_device_id():
                 return device_id
     return None
 
+
 def flutter_run_android():
     """Android 에뮬레이터에서 실행"""
     if not start_android_emulator():
@@ -257,26 +270,29 @@ def flutter_run_android():
 
     device_id = get_android_device_id()
     if device_id:
-        print(f"🤖 Android 에뮬레이터 ({device_id})에서 MyXPlanner 앱을 실행합니다...")
+        print(f"🤖 Android 에뮬레이터 ({device_id})에서 CRM Lite Pro 앱을 실행합니다...")
         return run_command(['flutter', 'run', '-d', device_id])
     else:
         print("❌ Android 에뮬레이터 디바이스 ID를 찾을 수 없습니다.")
         return 1
 
+
 def flutter_build():
     """빌드만 수행"""
-    print("🔨 MyXPlanner 앱을 빌드합니다...")
+    print("🔨 CRM Lite Pro 앱을 빌드합니다...")
     return run_command(['flutter', 'build', 'web'])
+
 
 def list_devices():
     """사용 가능한 디바이스 목록 표시"""
     print("📱 사용 가능한 디바이스 목록:\n")
     run_command(['flutter', 'devices'])
 
+
 def check_firebase():
     """Firebase 설정 확인"""
     firebase_options = os.path.join(PROJECT_DIR, 'lib', 'firebase_options.dart')
-    
+
     print("\n🔥 Firebase 설정 확인:")
     if os.path.exists(firebase_options):
         print(f"  ✅ firebase_options.dart 파일이 존재합니다.")
@@ -284,13 +300,17 @@ def check_firebase():
         print(f"  ⚠️  firebase_options.dart 파일이 없습니다.")
         print(f"     Firebase CLI로 설정을 생성하세요:")
         print(f"     flutterfire configure")
-    
+
     # Firebase 설정 파일 확인
     firebase_json = os.path.join(PROJECT_DIR, 'firebase.json')
+    firebase_json_alt = os.path.join(PROJECT_DIR, 'firebase', 'firebase.json')
     if os.path.exists(firebase_json):
         print(f"  ✅ firebase.json 파일이 존재합니다.")
+    elif os.path.exists(firebase_json_alt):
+        print(f"  ✅ firebase/firebase.json 파일이 존재합니다.")
     else:
         print(f"  ℹ️  firebase.json 파일이 없습니다. (선택사항)")
+
 
 def interactive_select():
     """대화형 디바이스 선택"""
@@ -309,20 +329,20 @@ def interactive_select():
     except EOFError:
         return '0'
 
+
 def main():
     parser = argparse.ArgumentParser(
-        description='MyXPlanner Flutter 앱 테스트 실행 스크립트',
+        description='CRM Lite Pro Flutter 앱 테스트 실행 스크립트',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 예제:
-    python test_run_myxplanner.py              # 대화형 선택
-    python test_run_myxplanner.py --web        # 웹에서 실행
-    python test_run_myxplanner.py --mobile     # 모바일에서 실행
-    python test_run_myxplanner.py --ios        # iOS에서 실행
-    python test_run_myxplanner.py --clean      # 클린 후 실행
-    python test_run_myxplanner.py --deep-clean # 강력 클린 후 실행
-    python test_run_myxplanner.py --check      # Firebase 설정 확인
-        """
+    python test_run_crm_lite_pro.py              # 대화형 선택
+    python test_run_crm_lite_pro.py --web        # 웹에서 실행
+    python test_run_crm_lite_pro.py --mobile     # 모바일에서 실행
+    python test_run_crm_lite_pro.py --ios        # iOS에서 실행
+    python test_run_crm_lite_pro.py --clean      # 클린 후 실행
+    python test_run_crm_lite_pro.py --check      # Firebase 설정 확인
+        """,
     )
 
     parser.add_argument('--web', action='store_true',
@@ -347,7 +367,7 @@ def main():
     args = parser.parse_args()
 
     print("=" * 60)
-    print("📅 MyXPlanner Flutter 앱 테스트 실행")
+    print("🏌️ CRM Lite Pro Flutter 앱 테스트 실행")
     print("=" * 60)
 
     # Flutter 설치 확인
@@ -356,7 +376,7 @@ def main():
 
     # 프로젝트 디렉토리 확인
     if not os.path.exists(PROJECT_DIR):
-        print(f"❌ MyXPlanner 프로젝트 디렉토리를 찾을 수 없습니다: {PROJECT_DIR}")
+        print(f"❌ CRM Lite Pro 프로젝트 디렉토리를 찾을 수 없습니다: {PROJECT_DIR}")
         return 1
 
     # Firebase 설정 확인
@@ -424,11 +444,11 @@ def main():
     else:  # 기본값: web
         return flutter_run_web()
 
+
 if __name__ == '__main__':
     try:
         sys.exit(main())
     except KeyboardInterrupt:
         print("\n\n⚠️  사용자에 의해 중단되었습니다.")
         sys.exit(0)
-
 
